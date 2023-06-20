@@ -1,5 +1,5 @@
-Open Nederlands Wegenbestand (OpenNWB)
-======================================
+![](logo.svg) Open Nederlands Wegenbestand (OpenNWB)
+====================================================
 
 Auteur: [dr.ir. Jeroen van der Gun](https://jeroenvandergun.nl/) ([Fileradar](http://fileradar.nl/))
 
