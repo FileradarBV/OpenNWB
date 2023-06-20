@@ -6,7 +6,7 @@
 	"contact_name": "dr.ir. Jeroen van der Gun (Fileradar)",
 	"contact_email": "jeroen@fileradar.nl",
 	"project_url": "https://github.com/FileradarBV/OpenNWB",
-	"icon_url": "logo.svg"},
+	"icon_url": "https://raw.githubusercontent.com/FileradarBV/OpenNWB/master/logo.svg"},
 "tags": [
 	{"key": "area", "value": "yes", "object_types": ["way"], "description": "Geen wegas"},
 	{"key": "highway", "value": "motorway", "object_types": ["way"], "description": "Rijbaan, autosnelweg (ASW)"},

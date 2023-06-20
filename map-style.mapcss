@@ -3,7 +3,7 @@ meta {
 	description: "Interactieve kaartstijl met wegkenmerken voor het Europese deel van Nederland";
 	author: "dr.ir. Jeroen van der Gun (Fileradar)";
 	link: "https://github.com/FileradarBV/OpenNWB";
-	icon: "logo.svg";
+	icon: "https://raw.githubusercontent.com/FileradarBV/OpenNWB/master/logo.svg";
 }
 setting::opennwb_operator {
 	type: boolean;
@@ -12,7 +12,7 @@ setting::opennwb_operator {
 }
 setting::opennwb_highway {
 	type: boolean;
-	label: "RVV verkeersregels";
+	label: "RVV wegcategorie";
 	default: false;
 }
 setting::opennwb_zone {
