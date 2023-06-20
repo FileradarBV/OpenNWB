@@ -1,0 +1,3526 @@
+meta {
+	title: "Open Nederlands Wegenbestand (OpenNWB)";
+	description: "Interactieve kaartstijl met wegkenmerken voor het Europese deel van Nederland";
+	author: "dr.ir. Jeroen van der Gun (Fileradar)";
+	link: "https://github.com/FileradarBV/OpenNWB";
+	icon: "logo.svg";
+}
+setting::opennwb_operator {
+	type: boolean;
+	label: "Wegbeheerder";
+	default: true;
+}
+setting::opennwb_highway {
+	type: boolean;
+	label: "RVV verkeersregels";
+	default: false;
+}
+setting::opennwb_zone {
+	type: boolean;
+	label: "RVV bebouwde kom";
+	default: false;
+}
+setting::opennwb_maxspeed {
+	type: boolean;
+	label: "RVV maximumsnelheid";
+	default: false;
+}
+setting::opennwb_surface {
+	type: boolean;
+	label: "Verharding";
+	default: false;
+}
+setting::opennwb_int {
+	type: boolean;
+	label: "Wegnummer internationaal";
+	default: false;
+}
+setting::opennwb_authority {
+	type: boolean;
+	label: "Wegnummer administratief";
+	default: false;
+}
+setting::opennwb_ref {
+	type: boolean;
+	label: "Wegnummer";
+	default: true;
+}
+setting::opennwb_carriageway {
+	type: boolean;
+	label: "Rijbaanaanduiding";
+	default: true;
+}
+way {
+	width: 1;
+	opacity: 0.25;
+}
+way|z16- {
+	width: 2;
+}
+way|z18- {
+	width: 4;
+}
+node {
+	symbol-size: 1;
+	symbol-shape: circle;
+	symbol-fill-color: #2a2d2f;
+	symbol-fill-opacity: 0.25;
+}
+node|z16- {
+	symbol-size: 2;
+}
+node|z18- {
+	symbol-size: 4;
+}
+way["area"!="yes"]["highway"="motorway"],
+way["area"!="yes"]["highway"="motorway_link"],
+way["area"!="yes"]["highway"="living_street"],
+way["area"!="yes"]["highway"="trunk"],
+way["area"!="yes"]["highway"="trunk_link"],
+way["area"!="yes"]["highway"="primary"],
+way["area"!="yes"]["highway"="primary_link"],
+way["area"!="yes"]["highway"="secondary"],
+way["area"!="yes"]["highway"="secondary_link"],
+way["area"!="yes"]["highway"="tertiary"],
+way["area"!="yes"]["highway"="tertiary_link"],
+way["area"!="yes"]["highway"="unclassified"],
+way["area"!="yes"]["highway"="residential"],
+way["area"!="yes"]["highway"="service"],
+way["area"!="yes"]["highway"="track"],
+way["area"!="yes"]["highway"="busway"],
+way["area"!="yes"]["highway"="road"] {
+	opennwb-info: "";
+	opennwb-wide: true;
+}
+way["area"!="yes"]["highway"="footway"],
+way["area"!="yes"]["highway"="pedestrian"],
+way["area"!="yes"]["highway"="bridleway"],
+way["area"!="yes"]["highway"="steps"],
+way["area"!="yes"]["highway"="corridor"],
+way["area"!="yes"]["highway"="path"],
+way["area"!="yes"]["highway"="via_ferrata"],
+way["area"!="yes"]["highway"="cycleway"] {
+	opennwb-info: "";
+}
+way[is_prop_set("opennwb-info")] {
+	opacity: 0.75;
+	color: #8f9695;
+	text-color: #4e5451;
+	font-weight: normal;
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: true;
+	opennwb-operator-color: #8f9695;
+	opennwb-operator-text-color: #4e5451;
+	opennwb-highway-color: #8f9695;
+	opennwb-highway-code-color: #4e5451;
+	opennwb-zone-color: #8f9695;
+	opennwb-zone-code-color: #4e5451;
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "15";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "15";
+	opennwb-maxspeed-forward: "";
+	opennwb-maxspeed-backward: "";
+	opennwb-maxspeed-color: #8f9695;
+	opennwb-maxspeed-any-color: #8f9695;
+	opennwb-maxspeed-code-color: #4e5451;
+	opennwb-surface-color: #8f9695;
+	opennwb-surface-code-color: #4e5451;
+	opennwb-int-color: #8f9695;
+	opennwb-int-code-color: #4e5451;
+	opennwb-authority-color: #8f9695;
+	opennwb-authority-code-color: #4e5451;
+	opennwb-ref-color: #8f9695;
+	opennwb-ref-code-color: #4e5451;
+	opennwb-carriageway-color: #8f9695;
+	opennwb-carriageway-code-color: #4e5451;
+}
+way[is_prop_set("opennwb-info")]["name"] {
+	opennwb-street-right: tag("name");
+	opennwb-street-left: tag("name");
+}
+way[is_prop_set("opennwb-info")]["name:right"] {
+	opennwb-street-right: tag("name:right");
+}
+way[is_prop_set("opennwb-info")]["name:left"] {
+	opennwb-street-left: tag("name:left");
+}
+way[is_prop_set("opennwb-info")]["official_name"] {
+	opennwb-street-right: tag("official_name");
+	opennwb-street-left: tag("official_name");
+}
+way[is_prop_set("opennwb-info")]["official_name:right"] {
+	opennwb-street-right: tag("official_name:right");
+}
+way[is_prop_set("opennwb-info")]["official_name:left"] {
+	opennwb-street-left: tag("official_name:left");
+}
+way[is_prop_set("opennwb-street-right")],
+way[is_prop_set("opennwb-street-left")] {
+	opennwb-street-text: concat(prop("opennwb-street-left"), "|", prop("opennwb-street-right"));
+	color: #0e518d;
+	text-color: #f7fbf5;
+}
+way[prop("opennwb-street-left")=prop("opennwb-street-right")] {
+	opennwb-street-text: prop("opennwb-street-right");
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="NL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"] {
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"] {
+	opennwb-operator-dutch: false;
+	opennwb-operator-belgian: true;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"] {
+	opennwb-operator-dutch: false;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: true;
+}
+way[is_prop_set("opennwb-info")]["operator"] {
+	opennwb-operator-color: #b30ffe;
+	opennwb-operator-text-color: #ffffff;
+	opennwb-operator-text: tag("operator");
+}
+way[is_prop_set("opennwb-info")]["operator"="Agentschap Wegen en Verkeer"] {
+	opennwb-operator-code: "AWV";
+	opennwb-operator-dutch: false;
+	opennwb-operator-belgian: true;
+	opennwb-operator-german: false;
+	opennwb-maxspeed-forward-default: "70";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-backward-default: "70";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Bruxelles Mobilité - Brussel Mobiliteit"] {
+	opennwb-operator-code: "BM";
+	opennwb-operator-dutch: false;
+	opennwb-operator-belgian: true;
+	opennwb-operator-german: false;
+	opennwb-maxspeed-forward-default: "70";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urban: "30";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-backward-default: "70";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urban: "30";
+	opennwb-maxspeed-backward-livingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Service public de Wallonie"] {
+	opennwb-operator-code: "SPW";
+	opennwb-operator-dutch: false;
+	opennwb-operator-belgian: true;
+	opennwb-operator-german: false;
+	opennwb-maxspeed-forward-default: "90";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-backward-default: "90";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Die Autobahn GmbH des Bundes"] {
+	opennwb-operator-code: "A";
+	opennwb-operator-dutch: false;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: true;
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "15";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "15";
+}
+way[is_prop_set("opennwb-info")]["operator"="Land Niedersachsen"] {
+	opennwb-operator-code: "NI";
+	opennwb-operator-dutch: false;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: true;
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "15";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "15";
+}
+way[is_prop_set("opennwb-info")]["operator"="Land Nordrhein-Westfalen"] {
+	opennwb-operator-code: "NW";
+	opennwb-operator-dutch: false;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: true;
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "15";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "15";
+}
+way[is_prop_set("opennwb-info")]["operator"="Rijkswaterstaat"] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "RWS";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Drenthe"] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DR";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Flevoland"] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "FL";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Fryslân"] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "FR";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Gelderland"] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "GD";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Groningen"] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "GR";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Limburg"] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "LB";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Noord-Brabant"] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "NB";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Noord-Holland"] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "NH";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Overijssel"] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "OV";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Utrecht"] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "UT";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Zeeland"] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "ZL";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Zuid-Holland"] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "ZH";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Hoogheemraadschap De Stichtse Rijnlanden"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "De Stichtse Rijnlanden";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Hoogheemraadschap Hollands Noorderkwartier"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Hollands Noorderkwartier";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Hoogheemraadschap van Delfland"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Delfland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Hoogheemraadschap van Rijnland"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Rijnland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Hoogheemraadschap van Schieland en de Krimpenerwaard"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Schieland en de Krimpenerwaard";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Aa en Maas"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Aa en Maas";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Amstel, Gooi en Vecht"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Amstel, Gooi en Vecht";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Brabantse Delta"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Brabantse Delta";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap De Dommel"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "De Dommel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Drents Overijsselse Delta"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Drents Overijsselse Delta";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Hollandse Delta"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Hollandse Delta";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Hunze en Aa's"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Hunze en Aa's";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Limburg"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Limburg";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Noorderzijlvest"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Noorderzijlvest";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Rijn en IJssel"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Rijn en IJssel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Rivierenland"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Rivierenland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Scheldestromen"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Scheldestromen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Vallei en Veluwe"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Vallei en Veluwe";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Vechtstromen"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Vechtstromen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Waterschap Zuiderzeeland"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Zuiderzeeland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Wetterskip Fryslân"] {
+	opennwb-operator-color: #00c5ff;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Fryslân";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente 's-Hertogenbosch"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "'s-Hertogenbosch";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Aa en Hunze"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Aa en Hunze";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Aalsmeer"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Aalsmeer";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Aalten"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Aalten";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Achtkarspelen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Achtkarspelen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Alblasserdam"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Alblasserdam";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Albrandswaard"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Albrandswaard";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Alkmaar"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Alkmaar";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Almelo"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Almelo";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Almere"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Almere";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Alphen aan den Rijn"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Alphen aan den Rijn";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Alphen-Chaam"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Alphen-Chaam";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Altena"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Altena";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Ameland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Ameland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Amersfoort"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Amersfoort";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Amstelveen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Amstelveen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Amsterdam"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Amsterdam";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Apeldoorn"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Apeldoorn";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Arnhem"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Arnhem";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Assen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Assen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Asten"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Asten";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Baarle-Nassau"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Baarle-Nassau";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Baarn"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Baarn";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Barendrecht"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Barendrecht";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Barneveld"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Barneveld";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Beek"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Beek";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Beekdaelen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Beekdaelen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Beesel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Beesel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Berg en Dal"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Berg en Dal";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Bergeijk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bergeijk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Bergen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bergen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Bergen op Zoom"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bergen op Zoom";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Berkelland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Berkelland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Bernheze"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bernheze";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Best"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Best";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Beuningen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Beuningen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Beverwijk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Beverwijk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Bladel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bladel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Blaricum"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Blaricum";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Bloemendaal"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bloemendaal";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Bodegraven-Reeuwijk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bodegraven-Reeuwijk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Boekel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Boekel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Borger-Odoorn"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Borger-Odoorn";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Borne"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Borne";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Borsele"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Borsele";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Boxtel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Boxtel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Breda"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Breda";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Bronckhorst"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bronckhorst";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Brummen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Brummen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Brunssum"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Brunssum";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Bunnik"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bunnik";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Bunschoten"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bunschoten";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Buren"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Buren";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Capelle aan den IJssel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Capelle aan den IJssel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Castricum"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Castricum";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Coevorden"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Coevorden";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Cranendonck"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Cranendonck";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Culemborg"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Culemborg";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Dalfsen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Dalfsen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Dantumadiel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Dantumadiel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente De Bilt"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "De Bilt";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente De Fryske Marren"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "De Fryske Marren";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente De Ronde Venen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "De Ronde Venen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente De Wolden"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "De Wolden";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Delft"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Delft";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Den Haag"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "'s-Gravenhage";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Den Helder"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Den Helder";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Deurne"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Deurne";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Deventer"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Deventer";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Diemen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Diemen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Dijk en Waard"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Dijk en Waard";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Dinkelland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Dinkelland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Doesburg"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Doesburg";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Doetinchem"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Doetinchem";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Dongen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Dongen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Dordrecht"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Dordrecht";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Drechterland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Drechterland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Drimmelen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Drimmelen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Dronten"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Dronten";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Druten"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Druten";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Duiven"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Duiven";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Echt-Susteren"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Echt-Susteren";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Edam-Volendam"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Edam-Volendam";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Ede"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Ede";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Eemnes"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Eemnes";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Eemsdelta"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Eemsdelta";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Eersel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Eersel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Eijsden-Margraten"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Eijsden-Margraten";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Eindhoven"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Eindhoven";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Elburg"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Elburg";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Emmen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Emmen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Enkhuizen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Enkhuizen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Enschede"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Enschede";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Epe"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Epe";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Ermelo"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Ermelo";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Etten-Leur"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Etten-Leur";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Geertruidenberg"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Geertruidenberg";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Geldrop-Mierlo"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Geldrop-Mierlo";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Gemert-Bakel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Gemert-Bakel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Gennep"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Gennep";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Gilze en Rijen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Gilze en Rijen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Goeree-Overflakkee"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Goeree-Overflakkee";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Goes"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Goes";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Goirle"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Goirle";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Gooise Meren"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Gooise Meren";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Gorinchem"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Gorinchem";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Gouda"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Gouda";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Groningen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Groningen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Gulpen-Wittem"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Gulpen-Wittem";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Haaksbergen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Haaksbergen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Haarlem"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Haarlem";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Haarlemmermeer"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Haarlemmermeer";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Halderberge"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Halderberge";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hardenberg"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hardenberg";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Harderwijk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Harderwijk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hardinxveld-Giessendam"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hardinxveld-Giessendam";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Harlingen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Harlingen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hattem"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hattem";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Heemskerk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Heemskerk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Heemstede"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Heemstede";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Heerde"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Heerde";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Heerenveen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Heerenveen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Heerlen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Heerlen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Heeze-Leende"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Heeze-Leende";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Heiloo"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Heiloo";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hellendoorn"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hellendoorn";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Helmond"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Helmond";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hendrik-Ido-Ambacht"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hendrik-Ido-Ambacht";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hengelo"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hengelo (O)";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Het Hogeland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Het Hogeland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Heumen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Heumen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Heusden"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Heusden";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hillegom"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hillegom";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hilvarenbeek"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hilvarenbeek";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hilversum"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hilversum";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hoeksche Waard"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hoeksche Waard";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hof van Twente"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hof van Twente";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hollands Kroon"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hollands Kroon";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hoogeveen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hoogeveen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hoorn"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hoorn";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Horst aan de Maas"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Horst aan de Maas";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Houten"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Houten";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Huizen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Huizen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Hulst"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hulst";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente IJsselstein"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "IJsselstein";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Kaag en Braassem"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Kaag en Braassem";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Kampen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Kampen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Kapelle"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Kapelle";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Katwijk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Katwijk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Kerkrade"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Kerkrade";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Koggenland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Koggenland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Krimpen aan den IJssel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Krimpen aan den IJssel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Krimpenerwaard"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Krimpenerwaard";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Laarbeek"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Laarbeek";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Land van Cuijk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Land van Cuijk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Landgraaf"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Landgraaf";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Landsmeer"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Landsmeer";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Lansingerland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Lansingerland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Laren"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Laren";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Leeuwarden"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Leeuwarden";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Leiden"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Leiden";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Leiderdorp"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Leiderdorp";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Leidschendam-Voorburg"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Leidschendam-Voorburg";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Lelystad"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Lelystad";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Leudal"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Leudal";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Leusden"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Leusden";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Lingewaard"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Lingewaard";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Lisse"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Lisse";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Lochem"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Lochem";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Loon op Zand"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Loon op Zand";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Lopik"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Lopik";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Losser"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Losser";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Maasdriel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Maasdriel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Maasgouw"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Maasgouw";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Maashorst"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Maashorst";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Maassluis"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Maassluis";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Maastricht"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Maastricht";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Medemblik"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Medemblik";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Meerssen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Meerssen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Meierijstad"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Meierijstad";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Meppel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Meppel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Middelburg"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Middelburg";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Midden-Delfland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Midden-Delfland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Midden-Drenthe"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Midden-Drenthe";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Midden-Groningen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Midden-Groningen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Moerdijk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Moerdijk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Molenlanden"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Molenlanden";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Montferland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Montferland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Montfoort"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Montfoort";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Mook en Middelaar"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Mook en Middelaar";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Neder-Betuwe"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Neder-Betuwe";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Nederweert"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Nederweert";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Nieuwegein"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Nieuwegein";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Nieuwkoop"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Nieuwkoop";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Nijkerk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Nijkerk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Nijmegen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Nijmegen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Nissewaard"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Nissewaard";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Noardeast-Fryslân"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Noardeast-Fryslân";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Noord-Beveland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Noord-Beveland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Noordenveld"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Noordenveld";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Noordoostpolder"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Noordoostpolder";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Noordwijk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Noordwijk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Nuenen c.a."] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Nuenen, Gerwen en Nederwetten";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Nunspeet"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Nunspeet";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Oegstgeest"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oegstgeest";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Oirschot"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oirschot";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Oisterwijk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oisterwijk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Oldambt"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oldambt";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Oldebroek"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oldebroek";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Oldenzaal"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oldenzaal";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Olst-Wijhe"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Olst-Wijhe";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Ommen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Ommen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Oost Gelre"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oost Gelre";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Oosterhout"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oosterhout";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Ooststellingwerf"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Ooststellingwerf";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Oostzaan"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oostzaan";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Opmeer"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Opmeer";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Opsterland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Opsterland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Oss"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oss";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Oude IJsselstreek"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oude IJsselstreek";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Ouder-Amstel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Ouder-Amstel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Oudewater"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oudewater";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Overbetuwe"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Overbetuwe";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Papendrecht"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Papendrecht";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Peel en Maas"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Peel en Maas";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Pekela"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Pekela";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Pijnacker-Nootdorp"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Pijnacker-Nootdorp";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Purmerend"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Purmerend";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Putten"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Putten";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Raalte"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Raalte";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Reimerswaal"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Reimerswaal";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Renkum"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Renkum";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Renswoude"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Renswoude";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Reusel-De Mierden"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Reusel-De Mierden";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Rheden"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Rheden";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Rhenen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Rhenen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Ridderkerk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Ridderkerk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Rijssen-Holten"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Rijssen-Holten";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Rijswijk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Rijswijk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Roerdalen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Roerdalen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Roermond"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Roermond";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Roosendaal"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Roosendaal";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Rotterdam"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Rotterdam";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Rozendaal"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Rozendaal";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Rucphen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Rucphen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Schagen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Schagen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Scherpenzeel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Scherpenzeel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Schiedam"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Schiedam";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Schiermonnikoog"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Schiermonnikoog";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Schouwen-Duiveland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Schouwen-Duiveland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Simpelveld"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Simpelveld";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Sint-Michielsgestel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Sint-Michielsgestel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Sittard-Geleen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Sittard-Geleen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Sliedrecht"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Sliedrecht";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Sluis"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Sluis";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Smallingerland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Smallingerland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Soest"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Soest";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Someren"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Someren";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Son en Breugel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Son en Breugel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Stadskanaal"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Stadskanaal";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Staphorst"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Staphorst";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Stede Broec"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Stede Broec";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Steenbergen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Steenbergen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Steenwijkerland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Steenwijkerland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Stein"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Stein";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Stichtse Vecht"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Stichtse Vecht";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Súdwest-Fryslân"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Súdwest-Fryslân";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Terneuzen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Terneuzen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Terschelling"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Terschelling";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Texel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Texel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Teylingen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Teylingen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Tholen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Tholen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Tiel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Tiel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Tilburg"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Tilburg";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Tubbergen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Tubbergen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Twenterand"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Twenterand";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Tynaarlo"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Tynaarlo";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Tytsjerksteradiel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Tytsjerksteradiel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Uitgeest"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Uitgeest";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Uithoorn"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Uithoorn";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Urk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Urk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Utrecht"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Utrecht";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Utrechtse Heuvelrug"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Utrechtse Heuvelrug";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Vaals"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Vaals";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Valkenburg aan de Geul"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Valkenburg aan de Geul";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Valkenswaard"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Valkenswaard";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Veendam"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Veendam";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Veenendaal"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Veenendaal";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Veere"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Veere";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Veldhoven"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Veldhoven";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Velsen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Velsen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Venlo"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Venlo";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Venray"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Venray";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Vijfheerenlanden"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Vijfheerenlanden";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Vlaardingen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Vlaardingen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Vlieland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Vlieland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Vlissingen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Vlissingen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Voerendaal"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Voerendaal";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Voorne aan Zee"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Voorne aan Zee";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Voorschoten"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Voorschoten";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Voorst"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Voorst";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Vught"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Vught";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Waadhoeke"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Waadhoeke";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Waalre"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Waalre";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Waalwijk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Waalwijk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Waddinxveen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Waddinxveen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Wageningen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Wageningen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Wassenaar"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Wassenaar";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Waterland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Waterland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Weert"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Weert";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente West Betuwe"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "West Betuwe";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente West Maas en Waal"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "West Maas en Waal";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Westerkwartier"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Westerkwartier";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Westerveld"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Westerveld";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Westervoort"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Westervoort";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Westerwolde"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Westerwolde";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Westland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Westland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Weststellingwerf"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Weststellingwerf";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Wierden"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Wierden";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Wijchen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Wijchen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Wijdemeren"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Wijdemeren";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Wijk bij Duurstede"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Wijk bij Duurstede";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Winterswijk"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Winterswijk";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Woensdrecht"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Woensdrecht";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Woerden"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Woerden";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Wormerland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Wormerland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Woudenberg"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Woudenberg";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zaanstad"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zaanstad";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zaltbommel"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zaltbommel";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zandvoort"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zandvoort";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zeewolde"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zeewolde";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zeist"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zeist";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zevenaar"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zevenaar";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zoetermeer"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zoetermeer";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zoeterwoude"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zoeterwoude";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zuidplas"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zuidplas";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zundert"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zundert";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zutphen"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zutphen";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zwartewaterland"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zwartewaterland";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zwijndrecht"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zwijndrecht";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Zwolle"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zwolle";
+	opennwb-operator-dutch: true;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="NL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="NL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="NL:urban"] {
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "15";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="NL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:urban"] {
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "15";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-VLG:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-VLG:urban"] {
+	opennwb-maxspeed-forward-default: "70";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-VLG:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-VLG:urban"] {
+	opennwb-maxspeed-backward-default: "70";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:urban"] {
+	opennwb-maxspeed-forward-default: "70";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urban: "30";
+	opennwb-maxspeed-forward-livingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:urban"] {
+	opennwb-maxspeed-backward-default: "70";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urban: "30";
+	opennwb-maxspeed-backward-livingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-WAL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-WAL:urban"] {
+	opennwb-maxspeed-forward-default: "90";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-WAL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-WAL:urban"] {
+	opennwb-maxspeed-backward-default: "90";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:urban"] {
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "15";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:urban"] {
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "15";
+}
+way[is_prop_set("opennwb-info")]["living_street"="yes"],
+way[is_prop_set("opennwb-info")]["highway"="living_street"] {
+	opennwb-highway-code: "erf";
+}
+way[is_prop_set("opennwb-info")]["highway"="motorway_link"]["motorway"!="no"]["motorroad"!="no"] {
+	opennwb-highway-code: "ASW";
+}
+way[is_prop_set("opennwb-info")]["motorroad"="yes"] {
+	opennwb-highway-code: "AW";
+}
+way[is_prop_set("opennwb-info")]["motorway"="yes"],
+way[is_prop_set("opennwb-info")]["highway"="motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:motorway"] {
+	opennwb-highway-code: "ASW";
+}
+way[prop("opennwb-highway-code")="ASW"] {
+	opennwb-highway-color: #006e3c;
+	opennwb-highway-code-color: #ffffff;
+	opennwb-maxspeed-forward-default: prop("opennwb-maxspeed-forward-motorway");
+	opennwb-maxspeed-backward-default: prop("opennwb-maxspeed-backward-motorway");
+}
+way[prop("opennwb-highway-code")="AW"] {
+	opennwb-highway-color: #003c82;
+	opennwb-highway-code-color: #ffffff;
+	opennwb-maxspeed-forward-default: prop("opennwb-maxspeed-forward-motorroad");
+	opennwb-maxspeed-backward-default: prop("opennwb-maxspeed-backward-motorroad");
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-VLG:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-WAL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:urban"] {
+	opennwb-zone-right: "bibeko";
+	opennwb-maxspeed-forward-default: prop("opennwb-maxspeed-forward-urban");
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-VLG:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-WAL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:urban"] {
+	opennwb-zone-left: "bibeko";
+	opennwb-maxspeed-backward-default: prop("opennwb-maxspeed-backward-urban");
+}
+way[is_prop_set("opennwb-zone-right")],
+way[is_prop_set("opennwb-zone-left")] {
+	opennwb-zone-code: concat(prop("opennwb-zone-left"), "|", prop("opennwb-zone-right"));
+	opennwb-zone-color: #ffffff;
+	opennwb-zone-code-color: #000000;
+}
+way[prop("opennwb-zone-left")=prop("opennwb-zone-right")] {
+	opennwb-zone-code: prop("opennwb-zone-right");
+}
+way[prop("opennwb-highway-code")="erf"] {
+	opennwb-highway-color: #fad20a;
+	opennwb-highway-code-color: #000000;
+	opennwb-maxspeed-forward-default: prop("opennwb-maxspeed-forward-livingstreet");
+	opennwb-maxspeed-backward-default: prop("opennwb-maxspeed-backward-livingstreet");
+}
+way[is_prop_set("opennwb-info")]["maxspeed"=~/^[1-9]\d*$/] {
+	opennwb-maxspeed-forward: tag("maxspeed");
+	opennwb-maxspeed-backward: tag("maxspeed");
+}
+way[is_prop_set("opennwb-info")]["maxspeed"="none"] {
+	opennwb-maxspeed-forward: "∞";
+	opennwb-maxspeed-backward: "∞";
+}
+way[is_prop_set("opennwb-info")]["maxspeed"="walk"] {
+	opennwb-maxspeed-forward: "15";
+	opennwb-maxspeed-backward: "15";
+}
+way[is_prop_set("opennwb-info")]["maxspeed:forward"=~/^[1-9]\d*$/] {
+	opennwb-maxspeed-forward: tag("maxspeed:forward");
+}
+way[is_prop_set("opennwb-info")]["maxspeed:forward"="none"] {
+	opennwb-maxspeed-forward: "∞";
+}
+way[is_prop_set("opennwb-info")]["maxspeed:forward"="walk"] {
+	opennwb-maxspeed-forward: "15";
+}
+way[is_prop_set("opennwb-info")]["maxspeed:backward"=~/^[1-9]\d*$/] {
+	opennwb-maxspeed-backward: tag("maxspeed:backward");
+}
+way[is_prop_set("opennwb-info")]["maxspeed:backward"="none"] {
+	opennwb-maxspeed-backward: "∞";
+}
+way[is_prop_set("opennwb-info")]["maxspeed:backward"="walk"] {
+	opennwb-maxspeed-backward: "15";
+}
+way[prop("opennwb-maxspeed-forward")=prop("opennwb-maxspeed-forward-default")] {
+	opennwb-maxspeed-forward: "";
+}
+way[prop("opennwb-maxspeed-backward")=prop("opennwb-maxspeed-backward-default")] {
+	opennwb-maxspeed-backward: "";
+}
+way[prop("opennwb-maxspeed-forward")!=""],
+way[prop("opennwb-maxspeed-backward")!=""] {
+	opennwb-maxspeed-code: concat(prop("opennwb-maxspeed-backward"), "|", prop("opennwb-maxspeed-forward"));
+	opennwb-maxspeed-color: #4d4d4d;
+	opennwb-maxspeed-any-color: #4d4d4d;
+	opennwb-maxspeed-code-color: #ffffff;
+}
+way[prop("opennwb-maxspeed-backward")=prop("opennwb-maxspeed-forward")] {
+	opennwb-maxspeed-code: prop("opennwb-maxspeed-forward");
+}
+way[prop("opennwb-maxspeed-code")="30"] {
+	opennwb-maxspeed-color: #ffbebe;
+}
+way[prop("opennwb-maxspeed-code")="50"] {
+	opennwb-maxspeed-color: #00a9e6;
+}
+way[prop("opennwb-maxspeed-code")="60"] {
+	opennwb-maxspeed-color: #00ffc5;
+}
+way[prop("opennwb-maxspeed-code")="70"] {
+	opennwb-maxspeed-color: #4ceb00;
+}
+way[prop("opennwb-maxspeed-code")="80"] {
+	opennwb-maxspeed-color: #ffff00;
+}
+way[prop("opennwb-maxspeed-code")="90"] {
+	opennwb-maxspeed-color: #ffd37f;
+}
+way[prop("opennwb-maxspeed-code")="100"] {
+	opennwb-maxspeed-color: #e69800;
+}
+way[prop("opennwb-maxspeed-code")="120"] {
+	opennwb-maxspeed-color: #ff0000;
+}
+way[prop("opennwb-maxspeed-code")="130"] {
+	opennwb-maxspeed-color: #000000;
+}
+way[is_prop_set("opennwb-info")]["surface"="asphalt"],
+way[is_prop_set("opennwb-info")]["surface:forward"="asphalt"] {
+	opennwb-surface-forward: "AB";
+}
+way[is_prop_set("opennwb-info")]["surface"="asphalt"],
+way[is_prop_set("opennwb-info")]["surface:backward"="asphalt"] {
+	opennwb-surface-backward: "AB";
+}
+way[prop("opennwb-surface-forward")="AB"]["asphalt:type"="dense"],
+way[prop("opennwb-surface-forward")="AB"]["asphalt:type:forward"="dense"] {
+	opennwb-surface-forward: "DAB";
+}
+way[prop("opennwb-surface-backward")="AB"]["asphalt:type"="dense"],
+way[prop("opennwb-surface-backward")="AB"]["asphalt:type:backward"="dense"] {
+	opennwb-surface-backward: "DAB";
+}
+way[prop("opennwb-surface-forward")="AB"]["asphalt:type"="porous"],
+way[prop("opennwb-surface-forward")="AB"]["asphalt:type:forward"="porous"] {
+	opennwb-surface-forward: "ZOAB";
+}
+way[prop("opennwb-surface-backward")="AB"]["asphalt:type"="porous"],
+way[prop("opennwb-surface-backward")="AB"]["asphalt:type:backward"="porous"] {
+	opennwb-surface-backward: "ZOAB";
+}
+way[prop("opennwb-surface-forward")="AB"]["asphalt:type"="porous:double"],
+way[prop("opennwb-surface-forward")="AB"]["asphalt:type:forward"="porous:double"] {
+	opennwb-surface-forward: "TZOAB";
+}
+way[prop("opennwb-surface-backward")="AB"]["asphalt:type"="porous:double"],
+way[prop("opennwb-surface-backward")="AB"]["asphalt:type:backward"="porous:double"] {
+	opennwb-surface-backward: "TZOAB";
+}
+way[prop("opennwb-surface-forward")="AB"]["asphalt:type"="stone_mastic"],
+way[prop("opennwb-surface-forward")="AB"]["asphalt:type:forward"="stone_mastic"] {
+	opennwb-surface-forward: "SMA";
+}
+way[prop("opennwb-surface-backward")="AB"]["asphalt:type"="stone_mastic"],
+way[prop("opennwb-surface-backward")="AB"]["asphalt:type:backward"="stone_mastic"] {
+	opennwb-surface-backward: "SMA";
+}
+way[prop("opennwb-surface-forward")="AB"]["asphalt:type"="thin_surface_layer"],
+way[prop("opennwb-surface-forward")="AB"]["asphalt:type:forward"="thin_surface_layer"] {
+	opennwb-surface-forward: "DAD";
+}
+way[prop("opennwb-surface-backward")="AB"]["asphalt:type"="thin_surface_layer"],
+way[prop("opennwb-surface-backward")="AB"]["asphalt:type:backward"="thin_surface_layer"] {
+	opennwb-surface-backward: "DAD";
+}
+way[is_prop_set("opennwb-info")]["surface"="concrete"],
+way[is_prop_set("opennwb-info")]["surface"="concrete:lanes"],
+way[is_prop_set("opennwb-info")]["surface"="concrete:plates"],
+way[is_prop_set("opennwb-info")]["surface:forward"="concrete"],
+way[is_prop_set("opennwb-info")]["surface:forward"="concrete:lanes"],
+way[is_prop_set("opennwb-info")]["surface:forward"="concrete:plates"] {
+	opennwb-surface-forward: "CB";
+}
+way[is_prop_set("opennwb-info")]["surface"="concrete"],
+way[is_prop_set("opennwb-info")]["surface"="concrete:lanes"],
+way[is_prop_set("opennwb-info")]["surface"="concrete:plates"],
+way[is_prop_set("opennwb-info")]["surface:backward"="concrete"],
+way[is_prop_set("opennwb-info")]["surface:backward"="concrete:lanes"],
+way[is_prop_set("opennwb-info")]["surface:backward"="concrete:plates"] {
+	opennwb-surface-backward: "CB";
+}
+way[is_prop_set("opennwb-info")]["surface"="chipseal"],
+way[is_prop_set("opennwb-info")]["surface:forward"="chipseal"] {
+	opennwb-surface-forward: "OB";
+}
+way[is_prop_set("opennwb-info")]["surface"="chipseal"],
+way[is_prop_set("opennwb-info")]["surface:backward"="chipseal"] {
+	opennwb-surface-backward: "OB";
+}
+way[is_prop_set("opennwb-info")]["surface"="paving_stones"],
+way[is_prop_set("opennwb-info")]["surface:forward"="paving_stones"] {
+	opennwb-surface-forward: "klinkers";
+}
+way[is_prop_set("opennwb-info")]["surface"="paving_stones"],
+way[is_prop_set("opennwb-info")]["surface:backward"="paving_stones"] {
+	opennwb-surface-backward: "klinkers";
+}
+way[is_prop_set("opennwb-surface-forward")],
+way[is_prop_set("opennwb-surface-backward")] {
+	opennwb-surface-code: concat(prop("opennwb-surface-backward"), "|", prop("opennwb-surface-forward"));
+}
+way[prop("opennwb-surface-backward")=prop("opennwb-surface-forward")] {
+	opennwb-surface-code: prop("opennwb-surface-forward");
+}
+way[prop("opennwb-surface-code")="DAB"] {
+	opennwb-surface-color: #616069;
+	opennwb-surface-code-color: #ffffff;
+}
+way[prop("opennwb-surface-code")="ZOAB"] {
+	opennwb-surface-color: #202020;
+	opennwb-surface-code-color: #ffffff;
+}
+way[prop("opennwb-surface-code")="TZOAB"] {
+	opennwb-surface-color: #101010;
+	opennwb-surface-code-color: #ffffff;
+}
+way[prop("opennwb-surface-code")="SMA"] {
+	opennwb-surface-color: #4d6778;
+	opennwb-surface-code-color: #ffffff;
+}
+way[prop("opennwb-surface-code")="DAD"] {
+	opennwb-surface-color: #534e4b;
+	opennwb-surface-code-color: #ffffff;
+}
+way[prop("opennwb-surface-code")="CB"] {
+	opennwb-surface-color: #acafa8;
+	opennwb-surface-code-color: #000000;
+}
+way[prop("opennwb-surface-code")="OB"] {
+	opennwb-surface-color: #374050;
+	opennwb-surface-code-color: #ffffff;
+}
+way[prop("opennwb-surface-code")="klinkers"] {
+	opennwb-surface-color: #895346;
+	opennwb-surface-code-color: #ffffff;
+}
+way[is_prop_set("opennwb-info")]["int_ref"=~/^E \d/] {
+	opennwb-int-code: replace(replace(tag("int_ref"), " ", ""), ";", "/");
+	opennwb-int-color: #008754;
+	opennwb-int-code-color: #f7fbf5;
+}
+way[is_prop_set("opennwb-info")]["ref"] {
+	opennwb-ref-code: tag("ref");
+}
+way[is_prop_set("opennwb-info")]["nat_ref"] {
+	opennwb-ref-code: tag("nat_ref");
+}
+way[is_prop_set("opennwb-info")]["official_ref"] {
+	opennwb-ref-code: tag("official_ref");
+}
+way[is_prop_set("opennwb-info")]["operator"!="Rijkswaterstaat"]["highway_authority_ref"] {
+	opennwb-authority-code: tag("highway_authority_ref");
+}
+way[is_prop_set("opennwb-info")]["operator"="Rijkswaterstaat"]["highway_authority_ref"=~/^Rijksweg [1-9]/] {
+	opennwb-authority-code: concat("RW", substring(tag("highway_authority_ref"), 9));
+}
+way["operator"="Rijkswaterstaat"][!"highway_authority_ref"][regexp_test("[AN][1-9]\\d?", prop("opennwb-ref-code"))] {
+	opennwb-authority-code: concat("RW", substring(prop("opennwb-ref-code"), 1));
+}
+way[prop("opennwb-operator-dutch")][regexp_test("A[1-9].*", prop("opennwb-ref-code"))] {
+	opennwb-ref-color: #c1121c;
+	opennwb-ref-code-color: #f7fbf5;
+}
+way[prop("opennwb-operator-dutch")][regexp_test("(N[1-9]|R[2-9]\\d\\d).*", prop("opennwb-ref-code"))],
+way[prop("opennwb-operator-german")][regexp_test("B [1-9].*", prop("opennwb-ref-code"))] {
+	opennwb-ref-color: #f0ca00;
+	opennwb-ref-code-color: #2a2d2f;
+}
+way[prop("opennwb-operator-dutch")][regexp_test("(S[1-9]|RING).*", prop("opennwb-ref-code"))],
+way[prop("opennwb-operator-belgian")][regexp_test("([AB][1-9]|R\\d).*", prop("opennwb-ref-code"))],
+way[prop("opennwb-operator-german")][regexp_test("[LK] [1-9].*", prop("opennwb-ref-code"))] {
+	opennwb-ref-color: #f7fbf5;
+	opennwb-ref-code-color: #2a2d2f;
+}
+way[prop("opennwb-operator-dutch")][regexp_test("R1\\d\\d.*", prop("opennwb-ref-code"))] {
+	opennwb-ref-color: #8f4e35;
+	opennwb-ref-code-color: #f7fbf5;
+}
+way[prop("opennwb-operator-belgian")][regexp_test("N[1-9].*", prop("opennwb-ref-code"))],
+way[prop("opennwb-operator-german")][regexp_test("A [1-9].*", prop("opennwb-ref-code"))] {
+	opennwb-ref-color: #0e518d;
+	opennwb-ref-code-color: #f7fbf5;
+}
+way[is_prop_set("opennwb-ref-code")] {
+	opennwb-ref-code: replace(replace(prop("opennwb-ref-code"), " ", ""), ";", "/");
+}
+way[is_prop_set("opennwb-authority-code")],
+way[is_prop_set("opennwb-ref-code")] {
+	opennwb-authority-color: prop("opennwb-operator-color");
+	opennwb-authority-code-color: prop("opennwb-operator-text-color");
+}
+way[prop("opennwb-operator-dutch")][is_prop_set("opennwb-authority-code")][!is_prop_set("opennwb-ref-code")] {
+	opennwb-ref-color: #008754;
+	opennwb-ref-code-color: #f7fbf5;
+}
+way[is_prop_set("opennwb-info")]["carriageway_ref"] {
+	opennwb-carriageway-right: tag("carriageway_ref");
+	opennwb-carriageway-left: tag("carriageway_ref");
+}
+way[is_prop_set("opennwb-info")]["carriageway_ref:right"] {
+	opennwb-carriageway-right: tag("carriageway_ref:right");
+}
+way[is_prop_set("opennwb-info")]["carriageway_ref:left"] {
+	opennwb-carriageway-left: tag("carriageway_ref:left");
+}
+way[is_prop_set("opennwb-carriageway-right")],
+way[is_prop_set("opennwb-carriageway-left")] {
+	opennwb-carriageway-code: concat(prop("opennwb-carriageway-left"), "|", prop("opennwb-carriageway-right"));
+}
+way[prop("opennwb-carriageway-left")=prop("opennwb-carriageway-right")] {
+	opennwb-carriageway-code: prop("opennwb-carriageway-right");
+}
+way[prop("opennwb-operator-dutch")][is_prop_set("opennwb-carriageway-code")] {
+	opennwb-carriageway-color: #f0ca00;
+	opennwb-carriageway-code-color: #2a2d2f;
+}
+way[prop("opennwb-operator-dutch")][regexp_test("(Re|Li)(\\|(Re|Li))?", prop("opennwb-carriageway-code"))],
+way[prop("opennwb-operator-belgian")][is_prop_set("opennwb-carriageway-code")][prop("opennwb-ref-color")=#f7fbf5] {
+	opennwb-carriageway-color: #008754;
+	opennwb-carriageway-code-color: #f7fbf5;
+}
+way[prop("opennwb-operator-belgian")][is_prop_set("opennwb-carriageway-code")][prop("opennwb-ref-color")=#0e518d] {
+	opennwb-carriageway-color: #0e518d;
+	opennwb-carriageway-code-color: #f7fbf5;
+}
+way[is_prop_set("opennwb-street-text")][!setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_zone")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
+	opennwb-info: concat(prop("opennwb-street-text"), " ");
+}
+way[is_prop_set("opennwb-operator-text")][setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_zone")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
+	opennwb-info: concat(prop("opennwb-operator-text"), " ");
+}
+way[is_prop_set("opennwb-operator-code")][setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_zone")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
+	opennwb-info: concat(prop("opennwb-operator-code"), " ");
+	font-weight: bold;
+}
+way[is_prop_set("opennwb-surface-code")][setting("opennwb_surface")] {
+	opennwb-info: concat(prop("opennwb-surface-code"), " ");
+	font-weight: bold;
+}
+way[is_prop_set("opennwb-highway-code")][setting("opennwb_highway")] {
+	opennwb-info: concat(prop("opennwb-info"), prop("opennwb-highway-code"), " ");
+	font-weight: bold;
+}
+way[is_prop_set("opennwb-maxspeed-code")][setting("opennwb_maxspeed")] {
+	opennwb-info: concat(prop("opennwb-info"), prop("opennwb-maxspeed-code"), " ");
+	font-weight: bold;
+}
+way[is_prop_set("opennwb-zone-code")][setting("opennwb_zone")] {
+	opennwb-info: concat(prop("opennwb-info"), prop("opennwb-zone-code"), " ");
+	font-weight: bold;
+}
+way[is_prop_set("opennwb-int-code")][setting("opennwb_int")] {
+	opennwb-info: concat(prop("opennwb-info"), prop("opennwb-int-code"), " ");
+	font-weight: bold;
+}
+way[is_prop_set("opennwb-authority-code")][setting("opennwb_authority")],
+way[is_prop_set("opennwb-authority-code")][setting("opennwb_ref")][!is_prop_set("opennwb-ref-code")] {
+	opennwb-info: concat(prop("opennwb-info"), prop("opennwb-authority-code"), " ");
+	font-weight: bold;
+}
+way[is_prop_set("opennwb-ref-code")][setting("opennwb_ref")],
+way[is_prop_set("opennwb-ref-code")][setting("opennwb_authority")][!is_prop_set("opennwb-authority-code")] {
+	opennwb-info: concat(prop("opennwb-info"), prop("opennwb-ref-code"), " ");
+	font-weight: bold;
+}
+way[is_prop_set("opennwb-carriageway-code")][setting("opennwb_carriageway")] {
+	opennwb-info: concat(prop("opennwb-info"), prop("opennwb-carriageway-code"), " ");
+	font-weight: bold;
+}
+way[is_prop_set("opennwb-info")][setting("opennwb_maxspeed")] {
+	color: prop("opennwb-maxspeed-any-color");
+	text-color: prop("opennwb-maxspeed-code-color");
+}
+way[is_prop_set("opennwb-info")][setting("opennwb_maxspeed")][!setting("opennwb_highway")][!setting("opennwb_zone")] {
+	color: prop("opennwb-maxspeed-color");
+}
+way[is_prop_set("opennwb-info")][setting("opennwb_highway")][!setting("opennwb_maxspeed")],
+way[is_prop_set("opennwb-info")][setting("opennwb_highway")][is_prop_set("opennwb-highway-code")] {
+	color: prop("opennwb-highway-color");
+	text-color: prop("opennwb-highway-code-color");
+}
+way[is_prop_set("opennwb-info")][setting("opennwb_zone")][!setting("opennwb_maxspeed")][!setting("opennwb_highway")],
+way[is_prop_set("opennwb-info")][setting("opennwb_zone")][is_prop_set("opennwb-zone-code")] {
+	color: prop("opennwb-zone-color");
+	text-color: prop("opennwb-zone-code-color");
+}
+way[is_prop_set("opennwb-info")][setting("opennwb_zone")][setting("opennwb_highway")][is_prop_set("opennwb-zone-code")][is_prop_set("opennwb-highway-code")] {
+	text-color: prop("opennwb-highway-color");
+}
+way[is_prop_set("opennwb-info")][setting("opennwb_highway")][prop("opennwb-highway-code")="erf"] {
+	color: prop("opennwb-highway-color");
+	text-color: prop("opennwb-highway-code-color");
+}
+way[is_prop_set("opennwb-info")][setting("opennwb_surface")] {
+	color: prop("opennwb-surface-color");
+	text-color: prop("opennwb-surface-code-color");
+}
+way[is_prop_set("opennwb-info")][setting("opennwb_int")] {
+	color: prop("opennwb-int-color");
+	text-color: prop("opennwb-int-code-color");
+}
+way[is_prop_set("opennwb-info")][setting("opennwb_authority")] {
+	color: prop("opennwb-authority-color");
+	text-color: prop("opennwb-authority-code-color");
+}
+way[is_prop_set("opennwb-info")][setting("opennwb_ref")] {
+	color: prop("opennwb-ref-color");
+	text-color: prop("opennwb-ref-code-color");
+}
+way[is_prop_set("opennwb-info")][setting("opennwb_carriageway")] {
+	color: prop("opennwb-carriageway-color");
+	text-color: prop("opennwb-carriageway-code-color");
+}
+way[is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	color: prop("opennwb-operator-color");
+	text-color: prop("opennwb-operator-text-color");
+}
+way[is_prop_set("opennwb-info")] {
+	width: 2;
+}
+way[is_prop_set("opennwb-wide")],
+way|z16-[is_prop_set("opennwb-info")] {
+	width: 4;
+}
+way|z16-[is_prop_set("opennwb-wide")],
+way|z18-[is_prop_set("opennwb-info")] {
+	width: 8;
+	font-size: 9;
+	text-halo-radius: 1;
+	text: substring(prop("opennwb-info"), 0, length(prop("opennwb-info")) - 1);
+	text-halo-color: prop("color");
+}
+way|z18-[is_prop_set("opennwb-wide")] {
+	width: 16;
+	font-size: 12;
+	text-halo-radius: 2;
+}
