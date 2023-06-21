@@ -26,6 +26,18 @@ De gewenste informatie kan worden gekozen in de kaartstijlinstellingen. Straatna
 
 Ten behoeve van rendering in het grensgebied heeft OpenNWB ook ondersteuning voor België, Nedersaksen en Noordrijn-Westfalen.
 
+Installatie
+-----------
+
+OpenNWB is opgenomen in de in [JOSM](https://josm.openstreetmap.de/wiki/Nl%3AWikiStart) ingebouwde lijst van [beschikbare stijlen](https://josm.openstreetmap.de/wiki/Nl%3AStyles).
+
+U kunt OpenNWB activeren vanuit het tabblad [Kaarttekenstijlen](https://josm.openstreetmap.de/wiki/Nl%3AHelp/Preferences/MapPaintPreference) van het dialoogvenster [Voorkeuren](https://josm.openstreetmap.de/wiki/Nl%3AHelp/Action/Preferences).
+
+Sleutels en tags
+----------------
+
+U kunt de door OpenNWB ondersteunde sleutels en tags [bekijken in Taginfo](https://taginfo.openstreetmap.org/projects/opennwb#tags).
+
 Licentie
 --------
 
