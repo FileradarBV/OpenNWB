@@ -1465,7 +1465,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hendrik-Ido-Ambacht"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hengelo"] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Hengelo (O)";
+	opennwb-operator-text: "Hengelo";
 	opennwb-operator-dutch: true;
 	opennwb-operator-belgian: false;
 	opennwb-operator-german: false;

@@ -246,7 +246,7 @@
 	{"key": "operator", "value": "Gemeente Hellendoorn", "object_types": ["way"], "description": "Wegbeheerder: Nederlandse gemeente Hellendoorn"},
 	{"key": "operator", "value": "Gemeente Helmond", "object_types": ["way"], "description": "Wegbeheerder: Nederlandse gemeente Helmond"},
 	{"key": "operator", "value": "Gemeente Hendrik-Ido-Ambacht", "object_types": ["way"], "description": "Wegbeheerder: Nederlandse gemeente Hendrik-Ido-Ambacht"},
-	{"key": "operator", "value": "Gemeente Hengelo", "object_types": ["way"], "description": "Wegbeheerder: Nederlandse gemeente Hengelo (O)"},
+	{"key": "operator", "value": "Gemeente Hengelo", "object_types": ["way"], "description": "Wegbeheerder: Nederlandse gemeente Hengelo"},
 	{"key": "operator", "value": "Gemeente Het Hogeland", "object_types": ["way"], "description": "Wegbeheerder: Nederlandse gemeente Het Hogeland"},
 	{"key": "operator", "value": "Gemeente Heumen", "object_types": ["way"], "description": "Wegbeheerder: Nederlandse gemeente Heumen"},
 	{"key": "operator", "value": "Gemeente Heusden", "object_types": ["way"], "description": "Wegbeheerder: Nederlandse gemeente Heusden"},
