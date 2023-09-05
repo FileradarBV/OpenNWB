@@ -118,12 +118,16 @@ way[is_prop_set("opennwb-info")] {
 	opennwb-zone-code-color: #4e5451;
 	opennwb-maxspeed-forward-default: "80";
 	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
 	opennwb-maxspeed-forward-livingstreet: "15";
 	opennwb-maxspeed-backward-default: "80";
 	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "15";
 	opennwb-maxspeed-forward: "";
@@ -206,12 +210,16 @@ way[is_prop_set("opennwb-info")]["operator"="Agentschap Wegen en Verkeer"] {
 	opennwb-operator-german: false;
 	opennwb-maxspeed-forward-default: "70";
 	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-backward-default: "70";
 	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "20";
 }
@@ -222,12 +230,16 @@ way[is_prop_set("opennwb-info")]["operator"="Bruxelles Mobilité - Brussel Mobil
 	opennwb-operator-german: false;
 	opennwb-maxspeed-forward-default: "70";
 	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "30";
 	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-urban: "30";
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-backward-default: "70";
 	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "30";
 	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-urban: "30";
 	opennwb-maxspeed-backward-livingstreet: "20";
 }
@@ -238,12 +250,16 @@ way[is_prop_set("opennwb-info")]["operator"="Service public de Wallonie"] {
 	opennwb-operator-german: false;
 	opennwb-maxspeed-forward-default: "90";
 	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-backward-default: "90";
 	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "20";
 }
@@ -254,12 +270,16 @@ way[is_prop_set("opennwb-info")]["operator"="Die Autobahn GmbH des Bundes"] {
 	opennwb-operator-german: true;
 	opennwb-maxspeed-forward-default: "100";
 	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
 	opennwb-maxspeed-forward-livingstreet: "15";
 	opennwb-maxspeed-backward-default: "100";
 	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
 	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "15";
 }
@@ -270,12 +290,16 @@ way[is_prop_set("opennwb-info")]["operator"="Land Niedersachsen"] {
 	opennwb-operator-german: true;
 	opennwb-maxspeed-forward-default: "100";
 	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
 	opennwb-maxspeed-forward-livingstreet: "15";
 	opennwb-maxspeed-backward-default: "100";
 	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
 	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "15";
 }
@@ -286,12 +310,16 @@ way[is_prop_set("opennwb-info")]["operator"="Land Nordrhein-Westfalen"] {
 	opennwb-operator-german: true;
 	opennwb-maxspeed-forward-default: "100";
 	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
 	opennwb-maxspeed-forward-livingstreet: "15";
 	opennwb-maxspeed-backward-default: "100";
 	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
 	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "15";
 }
@@ -2960,7 +2988,9 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="NL:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="NL:urban"] {
 	opennwb-maxspeed-forward-default: "80";
 	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
 	opennwb-maxspeed-forward-livingstreet: "15";
 }
@@ -2970,7 +3000,9 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:urban"] {
 	opennwb-maxspeed-backward-default: "80";
 	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "15";
 }
@@ -2980,7 +3012,9 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-VLG:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-VLG:urban"] {
 	opennwb-maxspeed-forward-default: "70";
 	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
 	opennwb-maxspeed-forward-livingstreet: "20";
 }
@@ -2990,7 +3024,9 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-VLG:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-VLG:urban"] {
 	opennwb-maxspeed-backward-default: "70";
 	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "20";
 }
@@ -3002,7 +3038,9 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:urban"] {
 	opennwb-maxspeed-forward-default: "70";
 	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "30";
 	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-urban: "30";
 	opennwb-maxspeed-forward-livingstreet: "20";
 }
@@ -3014,7 +3052,9 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:urban"] {
 	opennwb-maxspeed-backward-default: "70";
 	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "30";
 	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-urban: "30";
 	opennwb-maxspeed-backward-livingstreet: "20";
 }
@@ -3024,7 +3064,9 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-WAL:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-WAL:urban"] {
 	opennwb-maxspeed-forward-default: "90";
 	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
 	opennwb-maxspeed-forward-livingstreet: "20";
 }
@@ -3034,7 +3076,9 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-WAL:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-WAL:urban"] {
 	opennwb-maxspeed-backward-default: "90";
 	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "20";
 }
@@ -3046,7 +3090,9 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:urban"] {
 	opennwb-maxspeed-forward-default: "100";
 	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
 	opennwb-maxspeed-forward-livingstreet: "15";
 }
@@ -3058,7 +3104,9 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:urban"] {
 	opennwb-maxspeed-backward-default: "100";
 	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
 	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "15";
 }
@@ -3083,12 +3131,16 @@ way[prop("opennwb-highway-code")="ASW"] {
 	opennwb-highway-code-color: #ffffff;
 	opennwb-maxspeed-forward-default: prop("opennwb-maxspeed-forward-motorway");
 	opennwb-maxspeed-backward-default: prop("opennwb-maxspeed-backward-motorway");
+	opennwb-maxspeed-forward-urban: prop("opennwb-maxspeed-forward-urbanmotorway");
+	opennwb-maxspeed-backward-urban: prop("opennwb-maxspeed-backward-urbanmotorway");
 }
 way[prop("opennwb-highway-code")="AW"] {
 	opennwb-highway-color: #003c82;
 	opennwb-highway-code-color: #ffffff;
 	opennwb-maxspeed-forward-default: prop("opennwb-maxspeed-forward-motorroad");
 	opennwb-maxspeed-backward-default: prop("opennwb-maxspeed-backward-motorroad");
+	opennwb-maxspeed-forward-urban: prop("opennwb-maxspeed-forward-urbanmotorroad");
+	opennwb-maxspeed-backward-urban: prop("opennwb-maxspeed-backward-urbanmotorroad");
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
@@ -3099,7 +3151,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="NL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-VLG:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-WAL:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:urban"] {
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:urban"],
+way[is_prop_set("opennwb-info")]["urban:right"="yes"] {
 	opennwb-zone-right: "bibeko";
 	opennwb-maxspeed-forward-default: prop("opennwb-maxspeed-forward-urban");
 }
@@ -3112,7 +3165,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-VLG:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-WAL:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:urban"] {
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:urban"],
+way[is_prop_set("opennwb-info")]["urban:left"="yes"] {
 	opennwb-zone-left: "bibeko";
 	opennwb-maxspeed-backward-default: prop("opennwb-maxspeed-backward-urban");
 }
