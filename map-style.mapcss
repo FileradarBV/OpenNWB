@@ -8250,6 +8250,16 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:urban"] {
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "15";
 }
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE:motorway"] {
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-livingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE:motorway"] {
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-livingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-VLG:rural"],
@@ -8274,10 +8284,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-VLG:urban"] {
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "20";
 }
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE:motorway"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE:motorway"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:urban"] {
 	opennwb-maxspeed-forward-default: "70";
@@ -8288,10 +8296,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:urban"] {
 	opennwb-maxspeed-forward-urban: "30";
 	opennwb-maxspeed-forward-livingstreet: "20";
 }
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE:motorway"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE:motorway"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:urban"] {
 	opennwb-maxspeed-backward-default: "70";
