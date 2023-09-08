@@ -8362,7 +8362,7 @@ way[is_prop_set("opennwb-info")]["living_street"="yes"],
 way[is_prop_set("opennwb-info")]["highway"="living_street"] {
 	opennwb-highway-code: "erf";
 }
-way[is_prop_set("opennwb-info")]["highway"="motorway_link"]["motorway"!="no"]["motorroad"!="no"] {
+way[is_prop_set("opennwb-info")]["highway"="motorway_link"]["motorway"!="no"]["motorroad"!="no"]["zone:traffic"!="BE-VLG:rural"]["zone:traffic"!="BE-VLG:urban"]["zone:traffic"!="BE-BRU:rural"]["zone:traffic"!="BE-BRU:urban"]["zone:traffic"!="BE-WAL:rural"]["zone:traffic"!="BE-WAL:urban"]["zone:traffic"!="DE:rural"]["zone:traffic"!="DE:urban"] {
 	opennwb-highway-code: "ASW";
 }
 way[is_prop_set("opennwb-info")]["motorroad"="yes"] {
