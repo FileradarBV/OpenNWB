@@ -1,6 +1,6 @@
 meta {
 	title: "Open Nederlands Wegenbestand (OpenNWB)";
-	description: "Interactieve kaartstijl met wegkenmerken voor het Europese deel van Nederland";
+	description: "Interactieve kaartstijl met wegkenmerken voor Nederland";
 	author: "dr.ir. Jeroen van der Gun (Fileradar)";
 	link: "https://github.com/FileradarBV/OpenNWB";
 	icon: "https://raw.githubusercontent.com/FileradarBV/OpenNWB/master/logo.svg";
@@ -177,6 +177,16 @@ way[prop("opennwb-street-left")=prop("opennwb-street-right")] {
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"] {
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"] {
+	opennwb-operator-dutch: false;
 	opennwb-operator-belgian: false;
 	opennwb-operator-german: false;
 }
@@ -8226,6 +8236,39 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zwolle"] {
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "15";
 }
+way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Bonaire"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bonaire";
+	opennwb-operator-dutch: false;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+	opennwb-maxspeed-forward-default: "60";
+	opennwb-maxspeed-forward-urban: "40";
+	opennwb-maxspeed-backward-default: "60";
+	opennwb-maxspeed-backward-urban: "40";
+}
+way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Sint Eustatius"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Sint Eustatius";
+	opennwb-operator-dutch: false;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+	opennwb-maxspeed-forward-default: "60";
+	opennwb-maxspeed-forward-urban: "40";
+	opennwb-maxspeed-backward-default: "60";
+	opennwb-maxspeed-backward-urban: "40";
+}
+way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Saba"] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Saba";
+	opennwb-operator-dutch: false;
+	opennwb-operator-belgian: false;
+	opennwb-operator-german: false;
+	opennwb-maxspeed-forward-default: "60";
+	opennwb-maxspeed-forward-urban: "30";
+	opennwb-maxspeed-backward-default: "60";
+	opennwb-maxspeed-backward-urban: "30";
+}
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="NL:rural"],
@@ -8249,6 +8292,48 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:urban"] {
 	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "15";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-BO:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-BO:urban"] {
+	opennwb-maxspeed-forward-default: "60";
+	opennwb-maxspeed-forward-urban: "40";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-BO:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-BO:urban"] {
+	opennwb-maxspeed-backward-default: "60";
+	opennwb-maxspeed-backward-urban: "40";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SE:urban"] {
+	opennwb-maxspeed-forward-default: "60";
+	opennwb-maxspeed-forward-urban: "40";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SE:urban"] {
+	opennwb-maxspeed-backward-default: "60";
+	opennwb-maxspeed-backward-urban: "40";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SA:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SA:urban"] {
+	opennwb-maxspeed-forward-default: "60";
+	opennwb-maxspeed-forward-urban: "30";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SA:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SA:urban"] {
+	opennwb-maxspeed-backward-default: "60";
+	opennwb-maxspeed-backward-urban: "30";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE:motorway"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE:motorway"] {
@@ -8391,12 +8476,18 @@ way[prop("opennwb-highway-code")="AW"] {
 	opennwb-maxspeed-backward-urban: prop("opennwb-maxspeed-backward-urbanmotorroad");
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
 way[is_prop_set("opennwb-info")]["urban"="yes"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-BO:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SA:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-VLG:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-WAL:urban"],
@@ -8406,12 +8497,18 @@ way[is_prop_set("opennwb-info")]["urban:right"="yes"] {
 	opennwb-maxspeed-forward-default: prop("opennwb-maxspeed-forward-urban");
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
 way[is_prop_set("opennwb-info")]["urban"="yes"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-BO:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SA:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-VLG:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-WAL:urban"],
