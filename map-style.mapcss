@@ -274,14 +274,12 @@ way[is_prop_set("opennwb-info")]["operator"="Die Autobahn GmbH des Bundes"] {
 	opennwb-maxspeed-forward-motorroad: "100";
 	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "15";
 	opennwb-maxspeed-backward-default: "100";
 	opennwb-maxspeed-backward-motorway: "∞";
 	opennwb-maxspeed-backward-urbanmotorway: "∞";
 	opennwb-maxspeed-backward-motorroad: "100";
 	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "15";
 }
 way[is_prop_set("opennwb-info")]["operator"="Land Niedersachsen"] {
 	opennwb-operator-code: "NI";
@@ -294,14 +292,12 @@ way[is_prop_set("opennwb-info")]["operator"="Land Niedersachsen"] {
 	opennwb-maxspeed-forward-motorroad: "100";
 	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "15";
 	opennwb-maxspeed-backward-default: "100";
 	opennwb-maxspeed-backward-motorway: "∞";
 	opennwb-maxspeed-backward-urbanmotorway: "∞";
 	opennwb-maxspeed-backward-motorroad: "100";
 	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "15";
 }
 way[is_prop_set("opennwb-info")]["operator"="Land Nordrhein-Westfalen"] {
 	opennwb-operator-code: "NW";
@@ -314,14 +310,12 @@ way[is_prop_set("opennwb-info")]["operator"="Land Nordrhein-Westfalen"] {
 	opennwb-maxspeed-forward-motorroad: "100";
 	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "15";
 	opennwb-maxspeed-backward-default: "100";
 	opennwb-maxspeed-backward-motorway: "∞";
 	opennwb-maxspeed-backward-urbanmotorway: "∞";
 	opennwb-maxspeed-backward-motorroad: "100";
 	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "15";
 }
 way[is_prop_set("opennwb-info")]["operator"="Rijkswaterstaat"] {
 	opennwb-operator-color: #ff0000;
@@ -8344,7 +8338,6 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:urban"] {
 	opennwb-maxspeed-forward-motorroad: "100";
 	opennwb-maxspeed-forward-urbanmotorroad: "50";
 	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "15";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:motorway"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:rural"],
@@ -8358,7 +8351,6 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:urban"] {
 	opennwb-maxspeed-backward-motorroad: "100";
 	opennwb-maxspeed-backward-urbanmotorroad: "50";
 	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "15";
 }
 way[is_prop_set("opennwb-info")]["living_street"="yes"],
 way[is_prop_set("opennwb-info")]["highway"="living_street"] {
@@ -8445,27 +8437,17 @@ way[is_prop_set("opennwb-info")]["maxspeed"="none"] {
 	opennwb-maxspeed-forward: "∞";
 	opennwb-maxspeed-backward: "∞";
 }
-way[is_prop_set("opennwb-info")]["maxspeed"="walk"] {
-	opennwb-maxspeed-forward: "15";
-	opennwb-maxspeed-backward: "15";
-}
 way[is_prop_set("opennwb-info")]["maxspeed:forward"=~/^[1-9]\d*$/] {
 	opennwb-maxspeed-forward: tag("maxspeed:forward");
 }
 way[is_prop_set("opennwb-info")]["maxspeed:forward"="none"] {
 	opennwb-maxspeed-forward: "∞";
 }
-way[is_prop_set("opennwb-info")]["maxspeed:forward"="walk"] {
-	opennwb-maxspeed-forward: "15";
-}
 way[is_prop_set("opennwb-info")]["maxspeed:backward"=~/^[1-9]\d*$/] {
 	opennwb-maxspeed-backward: tag("maxspeed:backward");
 }
 way[is_prop_set("opennwb-info")]["maxspeed:backward"="none"] {
 	opennwb-maxspeed-backward: "∞";
-}
-way[is_prop_set("opennwb-info")]["maxspeed:backward"="walk"] {
-	opennwb-maxspeed-backward: "15";
 }
 way[prop("opennwb-maxspeed-forward")=prop("opennwb-maxspeed-forward-default")] {
 	opennwb-maxspeed-forward: "";
