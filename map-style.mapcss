@@ -273,6 +273,26 @@ way[is_prop_set("opennwb-info")]["operator"="Service public de Wallonie"] {
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "20";
 }
+way[is_prop_set("opennwb-info")]["operator"="Société wallonne de financement complémentaire des infrastructures"] {
+	opennwb-operator-code: "SOFICO";
+	opennwb-operator-dutch: false;
+	opennwb-operator-belgian: true;
+	opennwb-operator-german: false;
+	opennwb-maxspeed-forward-default: "90";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-backward-default: "90";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["operator"="Die Autobahn GmbH des Bundes"] {
 	opennwb-operator-code: "A";
 	opennwb-operator-dutch: false;

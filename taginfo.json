@@ -99,6 +99,7 @@
 	{"key": "operator", "value": "Agentschap Wegen en Verkeer", "object_types": ["way"], "description": "Wegbeheerder: Vlaams Agentschap Wegen en Verkeer (AWV)"},
 	{"key": "operator", "value": "Bruxelles Mobilité - Brussel Mobiliteit", "object_types": ["way"], "description": "Wegbeheerder: Brussel Mobiliteit (BM)"},
 	{"key": "operator", "value": "Service public de Wallonie", "object_types": ["way"], "description": "Wegbeheerder: Overheidsdienst van Wallonië (SPW)"},
+	{"key": "operator", "value": "Société wallonne de financement complémentaire des infrastructures", "object_types": ["way"], "description": "Wegbeheerder: Waalse Maatschappij voor de Aanvullende Financiering van de Infrastructuren (SOFICO)"},
 	{"key": "operator", "value": "Die Autobahn GmbH des Bundes", "object_types": ["way"], "description": "Wegbeheerder: Duitse Autobahn (A)"},
 	{"key": "operator", "value": "Land Niedersachsen", "object_types": ["way"], "description": "Wegbeheerder: Duitse deelstaat Nedersaksen (NI)"},
 	{"key": "operator", "value": "Land Nordrhein-Westfalen", "object_types": ["way"], "description": "Wegbeheerder: Duitse deelstaat Noordrijn-Westfalen (NW)"},
