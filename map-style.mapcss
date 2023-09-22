@@ -273,7 +273,7 @@ way[is_prop_set("opennwb-info")]["operator"="Service public de Wallonie"] {
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "20";
 }
-way[is_prop_set("opennwb-info")]["operator"="Société wallonne de financement complémentaire des infrastructures"] {
+way[is_prop_set("opennwb-info")]["operator"="Société wallonne de Financement complémentaire des Infrastructures"] {
 	opennwb-operator-code: "SOFICO";
 	opennwb-operator-dutch: false;
 	opennwb-operator-belgian: true;
