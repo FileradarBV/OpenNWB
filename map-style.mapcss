@@ -8258,7 +8258,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zwolle"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Bonaire"] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Bonaire";
+	opennwb-operator-code: "OLB";
 	opennwb-operator-dutch: false;
 	opennwb-operator-belgian: false;
 	opennwb-operator-german: false;
@@ -8269,7 +8269,7 @@ way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Bonaire"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Sint Eustatius"] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Sint Eustatius";
+	opennwb-operator-code: "OLSE";
 	opennwb-operator-dutch: false;
 	opennwb-operator-belgian: false;
 	opennwb-operator-german: false;
@@ -8280,7 +8280,7 @@ way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Sint Eustatius"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Saba"] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Saba";
+	opennwb-operator-code: "OLS";
 	opennwb-operator-dutch: false;
 	opennwb-operator-belgian: false;
 	opennwb-operator-german: false;
