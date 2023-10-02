@@ -8794,21 +8794,27 @@ way[prop("opennwb-operator-dutch")][is_prop_set("opennwb-authority-code")][!is_p
 	opennwb-ref-code-color: #f7fbf5;
 }
 way[is_prop_set("opennwb-info")]["carriageway_ref"] {
-	opennwb-carriageway-right: tag("carriageway_ref");
-	opennwb-carriageway-left: tag("carriageway_ref");
+	opennwb-carriageway-forward: tag("carriageway_ref");
+	opennwb-carriageway-backward: tag("carriageway_ref");
 }
 way[is_prop_set("opennwb-info")]["carriageway_ref:right"] {
-	opennwb-carriageway-right: tag("carriageway_ref:right");
+	opennwb-carriageway-forward: tag("carriageway_ref:right");
 }
 way[is_prop_set("opennwb-info")]["carriageway_ref:left"] {
-	opennwb-carriageway-left: tag("carriageway_ref:left");
+	opennwb-carriageway-backward: tag("carriageway_ref:left");
 }
-way[is_prop_set("opennwb-carriageway-right")],
-way[is_prop_set("opennwb-carriageway-left")] {
-	opennwb-carriageway-code: concat(prop("opennwb-carriageway-left"), "|", prop("opennwb-carriageway-right"));
+way[is_prop_set("opennwb-info")]["carriageway_ref:forward"] {
+	opennwb-carriageway-forward: tag("carriageway_ref:forward");
 }
-way[prop("opennwb-carriageway-left")=prop("opennwb-carriageway-right")] {
-	opennwb-carriageway-code: prop("opennwb-carriageway-right");
+way[is_prop_set("opennwb-info")]["carriageway_ref:backward"] {
+	opennwb-carriageway-backward: tag("carriageway_ref:backward");
+}
+way[is_prop_set("opennwb-carriageway-forward")],
+way[is_prop_set("opennwb-carriageway-backward")] {
+	opennwb-carriageway-code: concat(prop("opennwb-carriageway-backward"), "|", prop("opennwb-carriageway-forward"));
+}
+way[prop("opennwb-carriageway-backward")=prop("opennwb-carriageway-forward")] {
+	opennwb-carriageway-code: prop("opennwb-carriageway-forward");
 }
 way[prop("opennwb-operator-dutch")][is_prop_set("opennwb-carriageway-code")] {
 	opennwb-carriageway-color: #f0ca00;

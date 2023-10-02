@@ -534,5 +534,7 @@
 	{"key": "official_ref", "object_types": ["way"], "description": "Wegnummer"},
 	{"key": "highway_authority_ref", "object_types": ["way"], "description": "Administratief wegnummer"},
 	{"key": "carriageway_ref", "object_types": ["way"], "description": "Rijbaanaanduiding"},
+	{"key": "carriageway_ref:forward", "object_types": ["way"], "description": "Rijbaanaanduiding"},
+	{"key": "carriageway_ref:backward", "object_types": ["way"], "description": "Rijbaanaanduiding"},
 	{"key": "carriageway_ref:left", "object_types": ["way"], "description": "Rijbaanaanduiding"},
 	{"key": "carriageway_ref:right", "object_types": ["way"], "description": "Rijbaanaanduiding"}]}
