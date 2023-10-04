@@ -483,7 +483,7 @@
 	{"key": "operator", "value": "Openbaar Lichaam Saba", "object_types": ["way"], "description": "Wegbeheerder: bijzondere Nederlandse gemeente Saba (OLS)"},
 	{"key": "living_street", "value": "yes", "object_types": ["way"], "description": "Erf"},
 	{"key": "motorway", "value": "no", "object_types": ["way"], "description": "Niet-autosnelweg"},
-	{"key": "motorroad", "value": "no", "object_types": ["way"], "description": "Niet-autoweg"},
+	{"key": "motorroad", "value": "no", "object_types": ["way"], "description": "Niet-autoweg, standaard niet-autosnelweg"},
 	{"key": "motorroad", "value": "yes", "object_types": ["way"], "description": "Autoweg (AW)"},
 	{"key": "motorway", "value": "yes", "object_types": ["way"], "description": "Autosnelweg (ASW)"},
 	{"key": "urban", "value": "yes", "object_types": ["way"], "description": "Binnen de bebouwde kom (bibeko)"},
