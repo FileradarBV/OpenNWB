@@ -24,7 +24,7 @@ OpenNWB kan de volgende informatie uit OpenStreetMap weergeven:
 
 De gewenste informatie kan worden gekozen in de kaartstijlinstellingen. Straatnamen worden getoond als alle andere informatie is uitgeschakeld.
 
-OpenNWB is geschikt voor zowel het Europese als het Caribische deel van Nederland. Ten behoeve van rendering in het grensgebied heeft OpenNWB ook ondersteuning voor België, Nedersaksen en Noordrijn-Westfalen.
+OpenNWB is geschikt voor zowel het Europese als het Caribische deel van Nederland. Ten behoeve van rendering in het grensgebied heeft OpenNWB ook ondersteuning voor België en Duitsland.
 
 Installatie
 -----------
