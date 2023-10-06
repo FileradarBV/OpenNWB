@@ -15,7 +15,7 @@ setting::opennwb_highway {
 	label: "RVV wegcategorie";
 	default: false;
 }
-setting::opennwb_zone {
+setting::opennwb_urban {
 	type: boolean;
 	label: "RVV bebouwde kom";
 	default: false;
@@ -113,8 +113,8 @@ way[is_prop_set("opennwb-info")] {
 	opennwb-operator-text-color: #4e5451;
 	opennwb-highway-color: #8f9695;
 	opennwb-highway-code-color: #4e5451;
-	opennwb-zone-color: #8f9695;
-	opennwb-zone-code-color: #4e5451;
+	opennwb-urban-color: #8f9695;
+	opennwb-urban-code-color: #4e5451;
 	opennwb-maxspeed-forward-motorway: "";
 	opennwb-maxspeed-forward-urbanmotorway: "";
 	opennwb-maxspeed-forward-motorroad: "";
@@ -9208,7 +9208,7 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-WAL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:urban"],
 way[is_prop_set("opennwb-info")]["urban:right"="yes"] {
-	opennwb-zone-right: "bibeko";
+	opennwb-urban-right: "bibeko";
 	opennwb-maxspeed-forward-default: prop("opennwb-maxspeed-forward-urban");
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
@@ -9229,17 +9229,17 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-WAL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:urban"],
 way[is_prop_set("opennwb-info")]["urban:left"="yes"] {
-	opennwb-zone-left: "bibeko";
+	opennwb-urban-left: "bibeko";
 	opennwb-maxspeed-backward-default: prop("opennwb-maxspeed-backward-urban");
 }
-way[is_prop_set("opennwb-zone-right")],
-way[is_prop_set("opennwb-zone-left")] {
-	opennwb-zone-code: concat(prop("opennwb-zone-left"), "|", prop("opennwb-zone-right"));
-	opennwb-zone-color: #ffffff;
-	opennwb-zone-code-color: #000000;
+way[is_prop_set("opennwb-urban-right")],
+way[is_prop_set("opennwb-urban-left")] {
+	opennwb-urban-code: concat(prop("opennwb-urban-left"), "|", prop("opennwb-urban-right"));
+	opennwb-urban-color: #ffffff;
+	opennwb-urban-code-color: #000000;
 }
-way[prop("opennwb-zone-left")=prop("opennwb-zone-right")] {
-	opennwb-zone-code: prop("opennwb-zone-right");
+way[prop("opennwb-urban-left")=prop("opennwb-urban-right")] {
+	opennwb-urban-code: prop("opennwb-urban-right");
 }
 way[prop("opennwb-highway-code")="erf"] {
 	opennwb-highway-color: #fad20a;
@@ -9521,13 +9521,13 @@ way[regexp_test("(Re|Li)(\\|(Re|Li))?", prop("opennwb-carriageway-code"))] {
 	opennwb-carriageway-color: #008754;
 	opennwb-carriageway-code-color: #f7fbf5;
 }
-way[is_prop_set("opennwb-street-text")][!setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_zone")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
+way[is_prop_set("opennwb-street-text")][!setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_urban")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
 	opennwb-info: concat(prop("opennwb-street-text"), " ");
 }
-way[is_prop_set("opennwb-operator-text")][setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_zone")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
+way[is_prop_set("opennwb-operator-text")][setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_urban")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
 	opennwb-info: concat(prop("opennwb-operator-text"), " ");
 }
-way[is_prop_set("opennwb-operator-code")][setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_zone")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
+way[is_prop_set("opennwb-operator-code")][setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_urban")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
 	opennwb-info: concat(prop("opennwb-operator-code"), " ");
 	font-weight: bold;
 }
@@ -9543,8 +9543,8 @@ way[is_prop_set("opennwb-maxspeed-code")][setting("opennwb_maxspeed")] {
 	opennwb-info: concat(prop("opennwb-info"), prop("opennwb-maxspeed-code"), " ");
 	font-weight: bold;
 }
-way[is_prop_set("opennwb-zone-code")][setting("opennwb_zone")] {
-	opennwb-info: concat(prop("opennwb-info"), prop("opennwb-zone-code"), " ");
+way[is_prop_set("opennwb-urban-code")][setting("opennwb_urban")] {
+	opennwb-info: concat(prop("opennwb-info"), prop("opennwb-urban-code"), " ");
 	font-weight: bold;
 }
 way[is_prop_set("opennwb-int-code")][setting("opennwb_int")] {
@@ -9569,7 +9569,7 @@ way[is_prop_set("opennwb-info")][setting("opennwb_maxspeed")] {
 	color: prop("opennwb-maxspeed-any-color");
 	text-color: prop("opennwb-maxspeed-code-color");
 }
-way[is_prop_set("opennwb-info")][setting("opennwb_maxspeed")][!setting("opennwb_highway")][!setting("opennwb_zone")] {
+way[is_prop_set("opennwb-info")][setting("opennwb_maxspeed")][!setting("opennwb_highway")][!setting("opennwb_urban")] {
 	color: prop("opennwb-maxspeed-color");
 }
 way[is_prop_set("opennwb-info")][setting("opennwb_highway")][!setting("opennwb_maxspeed")],
@@ -9577,12 +9577,12 @@ way[is_prop_set("opennwb-info")][setting("opennwb_highway")][is_prop_set("opennw
 	color: prop("opennwb-highway-color");
 	text-color: prop("opennwb-highway-code-color");
 }
-way[is_prop_set("opennwb-info")][setting("opennwb_zone")][!setting("opennwb_maxspeed")][!setting("opennwb_highway")],
-way[is_prop_set("opennwb-info")][setting("opennwb_zone")][is_prop_set("opennwb-zone-code")] {
-	color: prop("opennwb-zone-color");
-	text-color: prop("opennwb-zone-code-color");
+way[is_prop_set("opennwb-info")][setting("opennwb_urban")][!setting("opennwb_maxspeed")][!setting("opennwb_highway")],
+way[is_prop_set("opennwb-info")][setting("opennwb_urban")][is_prop_set("opennwb-urban-code")] {
+	color: prop("opennwb-urban-color");
+	text-color: prop("opennwb-urban-code-color");
 }
-way[is_prop_set("opennwb-info")][setting("opennwb_zone")][setting("opennwb_highway")][is_prop_set("opennwb-zone-code")][is_prop_set("opennwb-highway-code")] {
+way[is_prop_set("opennwb-info")][setting("opennwb_urban")][setting("opennwb_highway")][is_prop_set("opennwb-urban-code")][is_prop_set("opennwb-highway-code")] {
 	text-color: prop("opennwb-highway-color");
 }
 way[is_prop_set("opennwb-info")][setting("opennwb_highway")][prop("opennwb-highway-code")="erf"] {
