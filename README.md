@@ -6,12 +6,12 @@ Auteur: [dr.ir. Jeroen van der Gun](https://jeroenvandergun.nl/) ([Fileradar](ht
 Introductie
 -----------
 
-OpenNWB is een interactieve kaartstijl voor [OpenStreetMap](https://www.openstreetmap.org/) met wegkenmerken voor Nederland.
+OpenNWB is een interactieve kaartstijl voor [OpenStreetMap](https://www.openstreetmap.org/) met wegkenmerken voor de Lage Landen.
 
 OpenNWB kan de volgende informatie uit OpenStreetMap weergeven:
 
 * Straatnaam (naam openbare ruimte)
-* Wegbeheerder (rijk, provincie, waterschap, gemeente en overig)
+* Wegbeheerder (Rijkswaterstaat, Nederlandse provincie, Nederlands waterschap, Nederlandse gemeente en overig)
 * Verkeersregels
   - Wegcategorie (autosnelweg, autoweg en erf)
   - Bebouwde kom
@@ -24,7 +24,13 @@ OpenNWB kan de volgende informatie uit OpenStreetMap weergeven:
 
 De gewenste informatie kan worden gekozen in de kaartstijlinstellingen. Straatnamen worden getoond als alle andere informatie is uitgeschakeld.
 
-OpenNWB is geschikt voor zowel het Europese als het Caribische deel van Nederland. Ten behoeve van rendering in het grensgebied heeft OpenNWB ook ondersteuning voor België en Duitsland.
+OpenNWB is bruikbaar in de volgende landen:
+
+* 🇳🇱 Nederland, 🇦🇼 Aruba, 🇨🇼 Curaçao en 🇸🇽 Sint Maarten
+* 🇧🇪 België
+* 🇱🇺 Luxemburg
+* 🇫🇷 Frankrijk
+* 🇩🇪 Duitsland
 
 Installatie
 -----------
