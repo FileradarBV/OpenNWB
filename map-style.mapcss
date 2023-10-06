@@ -107,8 +107,7 @@ way[is_prop_set("opennwb-info")] {
 	color: #8f9695;
 	text-color: #4e5451;
 	font-weight: normal;
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "";
 	opennwb-operator-color: #8f9695;
 	opennwb-operator-text-color: #4e5451;
 	opennwb-highway-color: #8f9695;
@@ -177,13 +176,28 @@ way[prop("opennwb-street-left")=prop("opennwb-street-right")] {
 	opennwb-street-text: prop("opennwb-street-right");
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"] {
-	opennwb-operator-dutch: true;
+way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"] {
+	opennwb-operator-country: "🇳🇱";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"] {
+	opennwb-operator-country: "🇧🇪";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:motorway"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"] {
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 }
 way[is_prop_set("opennwb-info")]["operator"] {
 	opennwb-operator-color: #b30ffe;
@@ -192,8 +206,7 @@ way[is_prop_set("opennwb-info")]["operator"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Agentschap Wegen en Verkeer"] {
 	opennwb-operator-code: "AWV";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
@@ -213,8 +226,7 @@ way[is_prop_set("opennwb-info")]["operator"="Agentschap Wegen en Verkeer"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Bruxelles Mobilité - Brussel Mobiliteit"] {
 	opennwb-operator-code: "BM";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "30";
 	opennwb-maxspeed-forward-motorroad: "70";
@@ -234,8 +246,7 @@ way[is_prop_set("opennwb-info")]["operator"="Bruxelles Mobilité - Brussel Mobil
 }
 way[is_prop_set("opennwb-info")]["operator"="Service public de Wallonie"] {
 	opennwb-operator-code: "SPW";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "90";
@@ -255,8 +266,7 @@ way[is_prop_set("opennwb-info")]["operator"="Service public de Wallonie"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Société wallonne de Financement complémentaire des Infrastructures"] {
 	opennwb-operator-code: "SOFICO";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "90";
@@ -276,8 +286,7 @@ way[is_prop_set("opennwb-info")]["operator"="Société wallonne de Financement c
 }
 way[is_prop_set("opennwb-info")]["operator"="Die Autobahn GmbH des Bundes"] {
 	opennwb-operator-code: "A";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -297,8 +306,7 @@ way[is_prop_set("opennwb-info")]["operator"="Die Autobahn GmbH des Bundes"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Land Baden-Württemberg"] {
 	opennwb-operator-code: "BW";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -318,8 +326,7 @@ way[is_prop_set("opennwb-info")]["operator"="Land Baden-Württemberg"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Freistaat Bayern"] {
 	opennwb-operator-code: "BY";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -339,8 +346,7 @@ way[is_prop_set("opennwb-info")]["operator"="Freistaat Bayern"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Land Brandenburg"] {
 	opennwb-operator-code: "BB";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -360,8 +366,7 @@ way[is_prop_set("opennwb-info")]["operator"="Land Brandenburg"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Land Hessen"] {
 	opennwb-operator-code: "HE";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -381,8 +386,7 @@ way[is_prop_set("opennwb-info")]["operator"="Land Hessen"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Land Mecklenburg-Vorpommern"] {
 	opennwb-operator-code: "MV";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -402,8 +406,7 @@ way[is_prop_set("opennwb-info")]["operator"="Land Mecklenburg-Vorpommern"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Land Niedersachsen"] {
 	opennwb-operator-code: "NI";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -423,8 +426,7 @@ way[is_prop_set("opennwb-info")]["operator"="Land Niedersachsen"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Land Nordrhein-Westfalen"] {
 	opennwb-operator-code: "NW";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -444,8 +446,7 @@ way[is_prop_set("opennwb-info")]["operator"="Land Nordrhein-Westfalen"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Land Rheinland-Pfalz"] {
 	opennwb-operator-code: "RP";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -465,8 +466,7 @@ way[is_prop_set("opennwb-info")]["operator"="Land Rheinland-Pfalz"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Saarland"] {
 	opennwb-operator-code: "SL";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -486,8 +486,7 @@ way[is_prop_set("opennwb-info")]["operator"="Saarland"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Freistaat Sachsen"] {
 	opennwb-operator-code: "SN";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -507,8 +506,7 @@ way[is_prop_set("opennwb-info")]["operator"="Freistaat Sachsen"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Land Sachsen-Anhalt"] {
 	opennwb-operator-code: "ST";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -528,8 +526,7 @@ way[is_prop_set("opennwb-info")]["operator"="Land Sachsen-Anhalt"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Land Schleswig-Holstein"] {
 	opennwb-operator-code: "SH";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -549,8 +546,7 @@ way[is_prop_set("opennwb-info")]["operator"="Land Schleswig-Holstein"] {
 }
 way[is_prop_set("opennwb-info")]["operator"="Freistaat Thüringen"] {
 	opennwb-operator-code: "TH";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: true;
+	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -572,8 +568,7 @@ way[is_prop_set("opennwb-info")]["operator"="Rijkswaterstaat"] {
 	opennwb-operator-color: #ff0000;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-code: "RWS";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -595,8 +590,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Drenthe"] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-code: "DR";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -618,8 +612,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Flevoland"] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-code: "FL";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -641,8 +634,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Fryslân"] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-code: "FR";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -664,8 +656,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Gelderland"] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-code: "GD";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -687,8 +678,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Groningen"] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-code: "GR";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -710,8 +700,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Limburg"] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-code: "LB";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -733,8 +722,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Noord-Brabant"] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-code: "NB";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -756,8 +744,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Noord-Holland"] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-code: "NH";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -779,8 +766,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Overijssel"] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-code: "OV";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -802,8 +788,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Utrecht"] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-code: "UT";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -825,8 +810,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Zeeland"] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-code: "ZL";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -848,8 +832,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Zuid-Holland"] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-code: "ZH";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -871,8 +854,7 @@ way[is_prop_set("opennwb-info")]["operator"="Hoogheemraadschap De Stichtse Rijnl
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "De Stichtse Rijnlanden";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -894,8 +876,7 @@ way[is_prop_set("opennwb-info")]["operator"="Hoogheemraadschap Hollands Noorderk
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Hollands Noorderkwartier";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -917,8 +898,7 @@ way[is_prop_set("opennwb-info")]["operator"="Hoogheemraadschap van Delfland"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Delfland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -940,8 +920,7 @@ way[is_prop_set("opennwb-info")]["operator"="Hoogheemraadschap van Rijnland"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Rijnland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -963,8 +942,7 @@ way[is_prop_set("opennwb-info")]["operator"="Hoogheemraadschap van Schieland en 
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Schieland en de Krimpenerwaard";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -986,8 +964,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Aa en Maas"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Aa en Maas";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1009,8 +986,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Amstel, Gooi en Vecht"] 
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Amstel, Gooi en Vecht";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1032,8 +1008,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Brabantse Delta"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Brabantse Delta";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1055,8 +1030,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap De Dommel"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "De Dommel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1078,8 +1052,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Drents Overijsselse Delt
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Drents Overijsselse Delta";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1101,8 +1074,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Hollandse Delta"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Hollandse Delta";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1124,8 +1096,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Hunze en Aa's"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Hunze en Aa's";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1147,8 +1118,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Limburg"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Limburg";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1170,8 +1140,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Noorderzijlvest"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Noorderzijlvest";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1193,8 +1162,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Rijn en IJssel"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Rijn en IJssel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1216,8 +1184,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Rivierenland"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Rivierenland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1239,8 +1206,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Scheldestromen"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Scheldestromen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1262,8 +1228,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Vallei en Veluwe"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Vallei en Veluwe";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1285,8 +1250,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Vechtstromen"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Vechtstromen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1308,8 +1272,7 @@ way[is_prop_set("opennwb-info")]["operator"="Waterschap Zuiderzeeland"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Zuiderzeeland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1331,8 +1294,7 @@ way[is_prop_set("opennwb-info")]["operator"="Wetterskip Fryslân"] {
 	opennwb-operator-color: #00c5ff;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Fryslân";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1353,8 +1315,7 @@ way[is_prop_set("opennwb-info")]["operator"="Wetterskip Fryslân"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente 's-Hertogenbosch"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "'s-Hertogenbosch";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1375,8 +1336,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente 's-Hertogenbosch"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Aa en Hunze"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Aa en Hunze";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1397,8 +1357,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Aa en Hunze"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Aalsmeer"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Aalsmeer";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1419,8 +1378,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Aalsmeer"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Aalten"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Aalten";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1441,8 +1399,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Aalten"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Achtkarspelen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Achtkarspelen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1463,8 +1420,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Achtkarspelen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Alblasserdam"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Alblasserdam";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1485,8 +1441,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Alblasserdam"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Albrandswaard"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Albrandswaard";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1507,8 +1462,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Albrandswaard"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Alkmaar"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Alkmaar";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1529,8 +1483,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Alkmaar"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Almelo"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Almelo";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1551,8 +1504,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Almelo"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Almere"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Almere";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1573,8 +1525,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Almere"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Alphen aan den Rijn"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Alphen aan den Rijn";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1595,8 +1546,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Alphen aan den Rijn"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Alphen-Chaam"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Alphen-Chaam";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1617,8 +1567,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Alphen-Chaam"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Altena"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Altena";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1639,8 +1588,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Altena"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Ameland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Ameland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1661,8 +1609,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Ameland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Amersfoort"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Amersfoort";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1683,8 +1630,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Amersfoort"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Amstelveen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Amstelveen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1705,8 +1651,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Amstelveen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Amsterdam"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Amsterdam";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1727,8 +1672,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Amsterdam"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Apeldoorn"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Apeldoorn";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1749,8 +1693,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Apeldoorn"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Arnhem"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Arnhem";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1771,8 +1714,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Arnhem"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Assen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Assen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1793,8 +1735,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Assen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Asten"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Asten";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1815,8 +1756,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Asten"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Baarle-Nassau"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Baarle-Nassau";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1837,8 +1777,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Baarle-Nassau"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Baarn"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Baarn";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1859,8 +1798,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Baarn"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Barendrecht"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Barendrecht";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1881,8 +1819,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Barendrecht"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Barneveld"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Barneveld";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1903,8 +1840,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Barneveld"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Beek"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Beek";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1925,8 +1861,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Beek"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Beekdaelen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Beekdaelen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1947,8 +1882,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Beekdaelen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Beesel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Beesel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1969,8 +1903,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Beesel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Berg en Dal"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Berg en Dal";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -1991,8 +1924,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Berg en Dal"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Bergeijk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Bergeijk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2013,8 +1945,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Bergeijk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Bergen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Bergen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2035,8 +1966,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Bergen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Bergen op Zoom"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Bergen op Zoom";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2057,8 +1987,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Bergen op Zoom"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Berkelland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Berkelland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2079,8 +2008,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Berkelland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Bernheze"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Bernheze";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2101,8 +2029,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Bernheze"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Best"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Best";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2123,8 +2050,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Best"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Beuningen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Beuningen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2145,8 +2071,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Beuningen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Beverwijk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Beverwijk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2167,8 +2092,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Beverwijk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Bladel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Bladel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2189,8 +2113,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Bladel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Blaricum"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Blaricum";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2211,8 +2134,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Blaricum"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Bloemendaal"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Bloemendaal";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2233,8 +2155,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Bloemendaal"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Bodegraven-Reeuwijk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Bodegraven-Reeuwijk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2255,8 +2176,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Bodegraven-Reeuwijk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Boekel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Boekel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2277,8 +2197,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Boekel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Borger-Odoorn"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Borger-Odoorn";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2299,8 +2218,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Borger-Odoorn"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Borne"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Borne";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2321,8 +2239,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Borne"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Borsele"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Borsele";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2343,8 +2260,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Borsele"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Boxtel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Boxtel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2365,8 +2281,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Boxtel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Breda"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Breda";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2387,8 +2302,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Breda"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Bronckhorst"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Bronckhorst";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2409,8 +2323,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Bronckhorst"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Brummen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Brummen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2431,8 +2344,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Brummen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Brunssum"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Brunssum";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2453,8 +2365,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Brunssum"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Bunnik"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Bunnik";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2475,8 +2386,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Bunnik"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Bunschoten"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Bunschoten";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2497,8 +2407,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Bunschoten"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Buren"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Buren";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2519,8 +2428,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Buren"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Capelle aan den IJssel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Capelle aan den IJssel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2541,8 +2449,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Capelle aan den IJssel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Castricum"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Castricum";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2563,8 +2470,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Castricum"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Coevorden"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Coevorden";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2585,8 +2491,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Coevorden"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Cranendonck"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Cranendonck";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2607,8 +2512,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Cranendonck"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Culemborg"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Culemborg";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2629,8 +2533,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Culemborg"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Dalfsen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Dalfsen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2651,8 +2554,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Dalfsen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Dantumadiel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Dantumadiel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2673,8 +2575,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Dantumadiel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente De Bilt"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "De Bilt";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2695,8 +2596,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente De Bilt"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente De Fryske Marren"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "De Fryske Marren";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2717,8 +2617,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente De Fryske Marren"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente De Ronde Venen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "De Ronde Venen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2739,8 +2638,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente De Ronde Venen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente De Wolden"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "De Wolden";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2761,8 +2659,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente De Wolden"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Delft"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Delft";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2783,8 +2680,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Delft"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Den Haag"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "'s-Gravenhage";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2805,8 +2701,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Den Haag"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Den Helder"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Den Helder";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2827,8 +2722,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Den Helder"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Deurne"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Deurne";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2849,8 +2743,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Deurne"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Deventer"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Deventer";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2871,8 +2764,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Deventer"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Diemen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Diemen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2893,8 +2785,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Diemen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Dijk en Waard"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Dijk en Waard";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2915,8 +2806,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Dijk en Waard"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Dinkelland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Dinkelland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2937,8 +2827,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Dinkelland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Doesburg"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Doesburg";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2959,8 +2848,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Doesburg"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Doetinchem"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Doetinchem";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -2981,8 +2869,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Doetinchem"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Dongen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Dongen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3003,8 +2890,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Dongen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Dordrecht"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Dordrecht";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3025,8 +2911,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Dordrecht"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Drechterland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Drechterland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3047,8 +2932,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Drechterland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Drimmelen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Drimmelen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3069,8 +2953,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Drimmelen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Dronten"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Dronten";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3091,8 +2974,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Dronten"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Druten"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Druten";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3113,8 +2995,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Druten"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Duiven"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Duiven";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3135,8 +3016,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Duiven"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Echt-Susteren"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Echt-Susteren";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3157,8 +3037,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Echt-Susteren"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Edam-Volendam"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Edam-Volendam";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3179,8 +3058,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Edam-Volendam"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Ede"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Ede";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3201,8 +3079,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Ede"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Eemnes"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Eemnes";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3223,8 +3100,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Eemnes"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Eemsdelta"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Eemsdelta";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3245,8 +3121,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Eemsdelta"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Eersel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Eersel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3267,8 +3142,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Eersel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Eijsden-Margraten"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Eijsden-Margraten";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3289,8 +3163,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Eijsden-Margraten"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Eindhoven"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Eindhoven";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3311,8 +3184,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Eindhoven"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Elburg"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Elburg";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3333,8 +3205,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Elburg"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Emmen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Emmen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3355,8 +3226,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Emmen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Enkhuizen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Enkhuizen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3377,8 +3247,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Enkhuizen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Enschede"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Enschede";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3399,8 +3268,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Enschede"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Epe"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Epe";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3421,8 +3289,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Epe"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Ermelo"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Ermelo";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3443,8 +3310,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Ermelo"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Etten-Leur"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Etten-Leur";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3465,8 +3331,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Etten-Leur"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Geertruidenberg"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Geertruidenberg";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3487,8 +3352,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Geertruidenberg"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Geldrop-Mierlo"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Geldrop-Mierlo";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3509,8 +3373,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Geldrop-Mierlo"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Gemert-Bakel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Gemert-Bakel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3531,8 +3394,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Gemert-Bakel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Gennep"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Gennep";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3553,8 +3415,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Gennep"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Gilze en Rijen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Gilze en Rijen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3575,8 +3436,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Gilze en Rijen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Goeree-Overflakkee"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Goeree-Overflakkee";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3597,8 +3457,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Goeree-Overflakkee"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Goes"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Goes";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3619,8 +3478,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Goes"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Goirle"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Goirle";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3641,8 +3499,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Goirle"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Gooise Meren"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Gooise Meren";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3663,8 +3520,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Gooise Meren"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Gorinchem"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Gorinchem";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3685,8 +3541,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Gorinchem"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Gouda"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Gouda";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3707,8 +3562,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Gouda"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Groningen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Groningen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3729,8 +3583,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Groningen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Gulpen-Wittem"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Gulpen-Wittem";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3751,8 +3604,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Gulpen-Wittem"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Haaksbergen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Haaksbergen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3773,8 +3625,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Haaksbergen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Haarlem"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Haarlem";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3795,8 +3646,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Haarlem"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Haarlemmermeer"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Haarlemmermeer";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3817,8 +3667,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Haarlemmermeer"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Halderberge"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Halderberge";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3839,8 +3688,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Halderberge"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hardenberg"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hardenberg";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3861,8 +3709,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hardenberg"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Harderwijk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Harderwijk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3883,8 +3730,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Harderwijk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hardinxveld-Giessendam"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hardinxveld-Giessendam";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3905,8 +3751,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hardinxveld-Giessendam"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Harlingen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Harlingen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3927,8 +3772,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Harlingen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hattem"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hattem";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3949,8 +3793,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hattem"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Heemskerk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Heemskerk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3971,8 +3814,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Heemskerk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Heemstede"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Heemstede";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -3993,8 +3835,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Heemstede"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Heerde"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Heerde";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4015,8 +3856,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Heerde"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Heerenveen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Heerenveen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4037,8 +3877,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Heerenveen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Heerlen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Heerlen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4059,8 +3898,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Heerlen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Heeze-Leende"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Heeze-Leende";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4081,8 +3919,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Heeze-Leende"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Heiloo"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Heiloo";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4103,8 +3940,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Heiloo"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hellendoorn"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hellendoorn";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4125,8 +3961,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hellendoorn"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Helmond"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Helmond";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4147,8 +3982,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Helmond"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hendrik-Ido-Ambacht"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hendrik-Ido-Ambacht";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4169,8 +4003,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hendrik-Ido-Ambacht"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hengelo"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hengelo";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4191,8 +4024,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hengelo"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Het Hogeland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Het Hogeland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4213,8 +4045,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Het Hogeland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Heumen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Heumen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4235,8 +4066,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Heumen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Heusden"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Heusden";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4257,8 +4087,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Heusden"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hillegom"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hillegom";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4279,8 +4108,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hillegom"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hilvarenbeek"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hilvarenbeek";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4301,8 +4129,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hilvarenbeek"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hilversum"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hilversum";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4323,8 +4150,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hilversum"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hoeksche Waard"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hoeksche Waard";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4345,8 +4171,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hoeksche Waard"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hof van Twente"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hof van Twente";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4367,8 +4192,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hof van Twente"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hollands Kroon"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hollands Kroon";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4389,8 +4213,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hollands Kroon"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hoogeveen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hoogeveen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4411,8 +4234,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hoogeveen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hoorn"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hoorn";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4433,8 +4255,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hoorn"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Horst aan de Maas"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Horst aan de Maas";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4455,8 +4276,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Horst aan de Maas"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Houten"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Houten";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4477,8 +4297,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Houten"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Huizen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Huizen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4499,8 +4318,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Huizen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Hulst"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Hulst";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4521,8 +4339,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Hulst"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente IJsselstein"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "IJsselstein";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4543,8 +4360,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente IJsselstein"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Kaag en Braassem"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Kaag en Braassem";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4565,8 +4381,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Kaag en Braassem"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Kampen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Kampen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4587,8 +4402,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Kampen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Kapelle"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Kapelle";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4609,8 +4423,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Kapelle"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Katwijk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Katwijk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4631,8 +4444,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Katwijk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Kerkrade"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Kerkrade";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4653,8 +4465,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Kerkrade"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Koggenland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Koggenland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4675,8 +4486,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Koggenland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Krimpen aan den IJssel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Krimpen aan den IJssel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4697,8 +4507,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Krimpen aan den IJssel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Krimpenerwaard"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Krimpenerwaard";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4719,8 +4528,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Krimpenerwaard"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Laarbeek"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Laarbeek";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4741,8 +4549,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Laarbeek"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Land van Cuijk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Land van Cuijk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4763,8 +4570,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Land van Cuijk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Landgraaf"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Landgraaf";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4785,8 +4591,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Landgraaf"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Landsmeer"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Landsmeer";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4807,8 +4612,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Landsmeer"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Lansingerland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Lansingerland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4829,8 +4633,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Lansingerland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Laren"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Laren";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4851,8 +4654,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Laren"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Leeuwarden"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Leeuwarden";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4873,8 +4675,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Leeuwarden"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Leiden"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Leiden";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4895,8 +4696,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Leiden"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Leiderdorp"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Leiderdorp";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4917,8 +4717,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Leiderdorp"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Leidschendam-Voorburg"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Leidschendam-Voorburg";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4939,8 +4738,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Leidschendam-Voorburg"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Lelystad"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Lelystad";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4961,8 +4759,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Lelystad"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Leudal"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Leudal";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -4983,8 +4780,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Leudal"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Leusden"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Leusden";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5005,8 +4801,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Leusden"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Lingewaard"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Lingewaard";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5027,8 +4822,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Lingewaard"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Lisse"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Lisse";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5049,8 +4843,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Lisse"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Lochem"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Lochem";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5071,8 +4864,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Lochem"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Loon op Zand"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Loon op Zand";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5093,8 +4885,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Loon op Zand"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Lopik"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Lopik";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5115,8 +4906,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Lopik"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Losser"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Losser";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5137,8 +4927,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Losser"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Maasdriel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Maasdriel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5159,8 +4948,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Maasdriel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Maasgouw"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Maasgouw";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5181,8 +4969,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Maasgouw"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Maashorst"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Maashorst";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5203,8 +4990,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Maashorst"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Maassluis"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Maassluis";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5225,8 +5011,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Maassluis"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Maastricht"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Maastricht";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5247,8 +5032,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Maastricht"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Medemblik"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Medemblik";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5269,8 +5053,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Medemblik"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Meerssen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Meerssen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5291,8 +5074,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Meerssen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Meierijstad"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Meierijstad";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5313,8 +5095,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Meierijstad"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Meppel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Meppel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5335,8 +5116,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Meppel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Middelburg"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Middelburg";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5357,8 +5137,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Middelburg"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Midden-Delfland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Midden-Delfland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5379,8 +5158,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Midden-Delfland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Midden-Drenthe"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Midden-Drenthe";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5401,8 +5179,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Midden-Drenthe"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Midden-Groningen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Midden-Groningen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5423,8 +5200,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Midden-Groningen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Moerdijk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Moerdijk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5445,8 +5221,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Moerdijk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Molenlanden"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Molenlanden";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5467,8 +5242,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Molenlanden"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Montferland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Montferland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5489,8 +5263,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Montferland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Montfoort"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Montfoort";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5511,8 +5284,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Montfoort"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Mook en Middelaar"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Mook en Middelaar";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5533,8 +5305,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Mook en Middelaar"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Neder-Betuwe"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Neder-Betuwe";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5555,8 +5326,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Neder-Betuwe"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Nederweert"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Nederweert";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5577,8 +5347,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Nederweert"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Nieuwegein"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Nieuwegein";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5599,8 +5368,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Nieuwegein"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Nieuwkoop"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Nieuwkoop";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5621,8 +5389,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Nieuwkoop"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Nijkerk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Nijkerk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5643,8 +5410,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Nijkerk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Nijmegen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Nijmegen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5665,8 +5431,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Nijmegen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Nissewaard"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Nissewaard";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5687,8 +5452,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Nissewaard"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Noardeast-Fryslân"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Noardeast-Fryslân";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5709,8 +5473,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Noardeast-Fryslân"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Noord-Beveland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Noord-Beveland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5731,8 +5494,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Noord-Beveland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Noordenveld"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Noordenveld";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5753,8 +5515,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Noordenveld"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Noordoostpolder"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Noordoostpolder";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5775,8 +5536,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Noordoostpolder"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Noordwijk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Noordwijk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5797,8 +5557,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Noordwijk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Nuenen c.a."] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Nuenen, Gerwen en Nederwetten";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5819,8 +5578,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Nuenen c.a."] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Nunspeet"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Nunspeet";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5841,8 +5599,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Nunspeet"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Oegstgeest"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Oegstgeest";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5863,8 +5620,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Oegstgeest"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Oirschot"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Oirschot";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5885,8 +5641,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Oirschot"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Oisterwijk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Oisterwijk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5907,8 +5662,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Oisterwijk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Oldambt"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Oldambt";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5929,8 +5683,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Oldambt"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Oldebroek"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Oldebroek";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5951,8 +5704,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Oldebroek"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Oldenzaal"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Oldenzaal";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5973,8 +5725,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Oldenzaal"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Olst-Wijhe"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Olst-Wijhe";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -5995,8 +5746,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Olst-Wijhe"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Ommen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Ommen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6017,8 +5767,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Ommen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Oost Gelre"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Oost Gelre";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6039,8 +5788,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Oost Gelre"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Oosterhout"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Oosterhout";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6061,8 +5809,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Oosterhout"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Ooststellingwerf"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Ooststellingwerf";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6083,8 +5830,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Ooststellingwerf"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Oostzaan"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Oostzaan";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6105,8 +5851,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Oostzaan"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Opmeer"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Opmeer";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6127,8 +5872,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Opmeer"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Opsterland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Opsterland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6149,8 +5893,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Opsterland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Oss"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Oss";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6171,8 +5914,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Oss"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Oude IJsselstreek"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Oude IJsselstreek";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6193,8 +5935,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Oude IJsselstreek"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Ouder-Amstel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Ouder-Amstel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6215,8 +5956,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Ouder-Amstel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Oudewater"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Oudewater";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6237,8 +5977,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Oudewater"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Overbetuwe"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Overbetuwe";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6259,8 +5998,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Overbetuwe"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Papendrecht"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Papendrecht";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6281,8 +6019,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Papendrecht"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Peel en Maas"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Peel en Maas";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6303,8 +6040,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Peel en Maas"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Pekela"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Pekela";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6325,8 +6061,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Pekela"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Pijnacker-Nootdorp"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Pijnacker-Nootdorp";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6347,8 +6082,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Pijnacker-Nootdorp"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Purmerend"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Purmerend";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6369,8 +6103,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Purmerend"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Putten"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Putten";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6391,8 +6124,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Putten"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Raalte"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Raalte";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6413,8 +6145,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Raalte"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Reimerswaal"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Reimerswaal";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6435,8 +6166,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Reimerswaal"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Renkum"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Renkum";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6457,8 +6187,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Renkum"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Renswoude"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Renswoude";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6479,8 +6208,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Renswoude"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Reusel-De Mierden"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Reusel-De Mierden";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6501,8 +6229,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Reusel-De Mierden"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Rheden"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Rheden";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6523,8 +6250,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Rheden"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Rhenen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Rhenen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6545,8 +6271,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Rhenen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Ridderkerk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Ridderkerk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6567,8 +6292,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Ridderkerk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Rijssen-Holten"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Rijssen-Holten";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6589,8 +6313,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Rijssen-Holten"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Rijswijk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Rijswijk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6611,8 +6334,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Rijswijk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Roerdalen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Roerdalen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6633,8 +6355,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Roerdalen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Roermond"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Roermond";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6655,8 +6376,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Roermond"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Roosendaal"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Roosendaal";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6677,8 +6397,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Roosendaal"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Rotterdam"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Rotterdam";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6699,8 +6418,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Rotterdam"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Rozendaal"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Rozendaal";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6721,8 +6439,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Rozendaal"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Rucphen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Rucphen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6743,8 +6460,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Rucphen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Schagen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Schagen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6765,8 +6481,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Schagen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Scherpenzeel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Scherpenzeel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6787,8 +6502,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Scherpenzeel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Schiedam"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Schiedam";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6809,8 +6523,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Schiedam"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Schiermonnikoog"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Schiermonnikoog";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6831,8 +6544,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Schiermonnikoog"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Schouwen-Duiveland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Schouwen-Duiveland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6853,8 +6565,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Schouwen-Duiveland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Simpelveld"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Simpelveld";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6875,8 +6586,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Simpelveld"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Sint-Michielsgestel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Sint-Michielsgestel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6897,8 +6607,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Sint-Michielsgestel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Sittard-Geleen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Sittard-Geleen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6919,8 +6628,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Sittard-Geleen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Sliedrecht"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Sliedrecht";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6941,8 +6649,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Sliedrecht"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Sluis"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Sluis";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6963,8 +6670,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Sluis"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Smallingerland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Smallingerland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -6985,8 +6691,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Smallingerland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Soest"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Soest";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7007,8 +6712,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Soest"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Someren"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Someren";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7029,8 +6733,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Someren"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Son en Breugel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Son en Breugel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7051,8 +6754,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Son en Breugel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Stadskanaal"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Stadskanaal";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7073,8 +6775,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Stadskanaal"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Staphorst"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Staphorst";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7095,8 +6796,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Staphorst"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Stede Broec"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Stede Broec";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7117,8 +6817,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Stede Broec"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Steenbergen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Steenbergen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7139,8 +6838,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Steenbergen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Steenwijkerland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Steenwijkerland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7161,8 +6859,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Steenwijkerland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Stein"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Stein";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7183,8 +6880,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Stein"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Stichtse Vecht"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Stichtse Vecht";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7205,8 +6901,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Stichtse Vecht"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Súdwest-Fryslân"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Súdwest-Fryslân";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7227,8 +6922,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Súdwest-Fryslân"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Terneuzen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Terneuzen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7249,8 +6943,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Terneuzen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Terschelling"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Terschelling";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7271,8 +6964,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Terschelling"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Texel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Texel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7293,8 +6985,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Texel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Teylingen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Teylingen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7315,8 +7006,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Teylingen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Tholen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Tholen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7337,8 +7027,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Tholen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Tiel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Tiel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7359,8 +7048,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Tiel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Tilburg"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Tilburg";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7381,8 +7069,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Tilburg"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Tubbergen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Tubbergen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7403,8 +7090,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Tubbergen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Twenterand"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Twenterand";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7425,8 +7111,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Twenterand"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Tynaarlo"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Tynaarlo";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7447,8 +7132,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Tynaarlo"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Tytsjerksteradiel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Tytsjerksteradiel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7469,8 +7153,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Tytsjerksteradiel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Uitgeest"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Uitgeest";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7491,8 +7174,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Uitgeest"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Uithoorn"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Uithoorn";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7513,8 +7195,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Uithoorn"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Urk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Urk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7535,8 +7216,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Urk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Utrecht"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Utrecht";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7557,8 +7237,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Utrecht"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Utrechtse Heuvelrug"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Utrechtse Heuvelrug";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7579,8 +7258,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Utrechtse Heuvelrug"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Vaals"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Vaals";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7601,8 +7279,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Vaals"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Valkenburg aan de Geul"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Valkenburg aan de Geul";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7623,8 +7300,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Valkenburg aan de Geul"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Valkenswaard"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Valkenswaard";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7645,8 +7321,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Valkenswaard"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Veendam"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Veendam";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7667,8 +7342,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Veendam"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Veenendaal"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Veenendaal";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7689,8 +7363,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Veenendaal"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Veere"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Veere";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7711,8 +7384,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Veere"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Veldhoven"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Veldhoven";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7733,8 +7405,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Veldhoven"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Velsen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Velsen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7755,8 +7426,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Velsen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Venlo"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Venlo";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7777,8 +7447,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Venlo"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Venray"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Venray";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7799,8 +7468,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Venray"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Vijfheerenlanden"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Vijfheerenlanden";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7821,8 +7489,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Vijfheerenlanden"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Vlaardingen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Vlaardingen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7843,8 +7510,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Vlaardingen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Vlieland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Vlieland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7865,8 +7531,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Vlieland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Vlissingen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Vlissingen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7887,8 +7552,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Vlissingen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Voerendaal"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Voerendaal";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7909,8 +7573,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Voerendaal"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Voorne aan Zee"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Voorne aan Zee";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7931,8 +7594,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Voorne aan Zee"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Voorschoten"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Voorschoten";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7953,8 +7615,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Voorschoten"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Voorst"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Voorst";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7975,8 +7636,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Voorst"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Vught"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Vught";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -7997,8 +7657,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Vught"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Waadhoeke"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Waadhoeke";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8019,8 +7678,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Waadhoeke"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Waalre"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Waalre";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8041,8 +7699,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Waalre"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Waalwijk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Waalwijk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8063,8 +7720,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Waalwijk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Waddinxveen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Waddinxveen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8085,8 +7741,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Waddinxveen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Wageningen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Wageningen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8107,8 +7762,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Wageningen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Wassenaar"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Wassenaar";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8129,8 +7783,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Wassenaar"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Waterland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Waterland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8151,8 +7804,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Waterland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Weert"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Weert";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8173,8 +7825,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Weert"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente West Betuwe"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "West Betuwe";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8195,8 +7846,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente West Betuwe"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente West Maas en Waal"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "West Maas en Waal";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8217,8 +7867,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente West Maas en Waal"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Westerkwartier"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Westerkwartier";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8239,8 +7888,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Westerkwartier"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Westerveld"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Westerveld";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8261,8 +7909,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Westerveld"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Westervoort"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Westervoort";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8283,8 +7930,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Westervoort"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Westerwolde"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Westerwolde";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8305,8 +7951,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Westerwolde"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Westland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Westland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8327,8 +7972,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Westland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Weststellingwerf"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Weststellingwerf";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8349,8 +7993,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Weststellingwerf"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Wierden"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Wierden";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8371,8 +8014,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Wierden"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Wijchen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Wijchen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8393,8 +8035,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Wijchen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Wijdemeren"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Wijdemeren";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8415,8 +8056,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Wijdemeren"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Wijk bij Duurstede"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Wijk bij Duurstede";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8437,8 +8077,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Wijk bij Duurstede"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Winterswijk"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Winterswijk";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8459,8 +8098,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Winterswijk"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Woensdrecht"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Woensdrecht";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8481,8 +8119,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Woensdrecht"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Woerden"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Woerden";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8503,8 +8140,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Woerden"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Wormerland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Wormerland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8525,8 +8161,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Wormerland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Woudenberg"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Woudenberg";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8547,8 +8182,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Woudenberg"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zaanstad"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zaanstad";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8569,8 +8203,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zaanstad"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zaltbommel"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zaltbommel";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8591,8 +8224,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zaltbommel"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zandvoort"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zandvoort";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8613,8 +8245,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zandvoort"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zeewolde"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zeewolde";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8635,8 +8266,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zeewolde"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zeist"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zeist";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8657,8 +8287,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zeist"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zevenaar"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zevenaar";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8679,8 +8308,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zevenaar"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zoetermeer"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zoetermeer";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8701,8 +8329,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zoetermeer"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zoeterwoude"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zoeterwoude";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8723,8 +8350,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zoeterwoude"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zuidplas"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zuidplas";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8745,8 +8371,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zuidplas"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zundert"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zundert";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8767,8 +8392,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zundert"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zutphen"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zutphen";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8789,8 +8413,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zutphen"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zwartewaterland"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zwartewaterland";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8811,8 +8434,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zwartewaterland"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zwijndrecht"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zwijndrecht";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8833,8 +8455,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zwijndrecht"] {
 way[is_prop_set("opennwb-info")]["operator"="Gemeente Zwolle"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Zwolle";
-	opennwb-operator-dutch: true;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -8855,8 +8476,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zwolle"] {
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Bonaire"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-code: "OLB";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "60";
 	opennwb-maxspeed-forward-urbanmotorway: "40";
 	opennwb-maxspeed-forward-motorroad: "60";
@@ -8877,8 +8497,7 @@ way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Bonaire"] {
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Sint Eustatius"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-code: "OLSE";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "60";
 	opennwb-maxspeed-forward-urbanmotorway: "40";
 	opennwb-maxspeed-forward-motorroad: "60";
@@ -8899,8 +8518,7 @@ way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Sint Eustatius"] {
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Saba"] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-code: "OLS";
-	opennwb-operator-dutch: false;
-	opennwb-operator-german: false;
+	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "60";
 	opennwb-maxspeed-forward-urbanmotorway: "30";
 	opennwb-maxspeed-forward-motorroad: "60";
@@ -9459,13 +9077,13 @@ way[regexp_test("(A |B |M |N)[1-9].*", prop("opennwb-ref-code"))] {
 	opennwb-ref-code-color: #f7fbf5;
 }
 way[regexp_test("(|CR |D )[1-9].*|(R[2-9]\\d\\d).*", prop("opennwb-ref-code"))],
-way[prop("opennwb-operator-dutch")][regexp_test("N[1-9].*", prop("opennwb-ref-code"))],
-way[prop("opennwb-operator-german")][regexp_test("B [1-9].*", prop("opennwb-ref-code"))] {
+way[prop("opennwb-operator-country")="🇳🇱"][regexp_test("N[1-9].*", prop("opennwb-ref-code"))],
+way[prop("opennwb-operator-country")="🇩🇪"][regexp_test("B [1-9].*", prop("opennwb-ref-code"))] {
 	opennwb-ref-color: #f0ca00;
 	opennwb-ref-code-color: #2a2d2f;
 }
 way[regexp_test("N [1-9].*", prop("opennwb-ref-code"))],
-way[prop("opennwb-operator-dutch")][regexp_test("A[1-9].*", prop("opennwb-ref-code"))] {
+way[prop("opennwb-operator-country")="🇳🇱"][regexp_test("A[1-9].*", prop("opennwb-ref-code"))] {
 	opennwb-ref-color: #c1121c;
 	opennwb-ref-code-color: #f7fbf5;
 }
@@ -9481,7 +9099,7 @@ way[is_prop_set("opennwb-ref-code")] {
 	opennwb-authority-color: prop("opennwb-operator-color");
 	opennwb-authority-code-color: prop("opennwb-operator-text-color");
 }
-way[prop("opennwb-operator-dutch")][is_prop_set("opennwb-authority-code")][!is_prop_set("opennwb-ref-code")] {
+way[prop("opennwb-operator-country")="🇳🇱"][is_prop_set("opennwb-authority-code")][!is_prop_set("opennwb-ref-code")] {
 	opennwb-ref-color: #008754;
 	opennwb-ref-code-color: #f7fbf5;
 }
@@ -9512,7 +9130,7 @@ way[is_prop_set("opennwb-carriageway-code")] {
 	opennwb-carriageway-color: prop("opennwb-ref-color");
 	opennwb-carriageway-code-color: #f7fbf5;
 }
-way[prop("opennwb-operator-dutch")][is_prop_set("opennwb-carriageway-code")] {
+way[prop("opennwb-operator-country")="🇳🇱"][is_prop_set("opennwb-carriageway-code")] {
 	opennwb-carriageway-color: #f0ca00;
 	opennwb-carriageway-code-color: #2a2d2f;
 }
