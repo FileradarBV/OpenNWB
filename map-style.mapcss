@@ -9324,15 +9324,18 @@ way[prop("opennwb-carriageway-backward")=prop("opennwb-carriageway-forward")] {
 	opennwb-carriageway-code: prop("opennwb-carriageway-forward");
 }
 way[is_prop_set("opennwb-carriageway-code")] {
-	opennwb-carriageway-color: prop("opennwb-ref-color");
+	opennwb-carriageway-color: #0e518d;
 	opennwb-carriageway-code-color: #f7fbf5;
 }
 way[prop("opennwb-operator-country")="🇳🇱"][is_prop_set("opennwb-carriageway-code")] {
 	opennwb-carriageway-color: #f0ca00;
 	opennwb-carriageway-code-color: #2a2d2f;
 }
-way[is_prop_set("opennwb-carriageway-code")][prop("opennwb-ref-color")=#f7fbf5],
-way[regexp_test("(Re|Li)(\\|(Re|Li))?", prop("opennwb-carriageway-code"))] {
+way[prop("opennwb-carriageway-forward")="Re"],
+way[prop("opennwb-carriageway-forward")="Li"],
+way[prop("opennwb-carriageway-backward")="Re"],
+way[prop("opennwb-carriageway-backward")="Li"],
+way[prop("opennwb-operator-country")="🇧🇪"][is_prop_set("opennwb-carriageway-code")][regexp_test("(A|R)[1-9].*|R0", prop("opennwb-ref-code"))] {
 	opennwb-carriageway-color: #008754;
 	opennwb-carriageway-code-color: #f7fbf5;
 }
