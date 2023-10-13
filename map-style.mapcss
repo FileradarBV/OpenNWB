@@ -9255,15 +9255,6 @@ way[is_prop_set("opennwb-info")]["nat_ref"] {
 way[is_prop_set("opennwb-info")]["official_ref"] {
 	opennwb-ref-code: tag("official_ref");
 }
-way[is_prop_set("opennwb-info")]["operator"!="Rijkswaterstaat"]["highway_authority_ref"] {
-	opennwb-authority-code: tag("highway_authority_ref");
-}
-way[is_prop_set("opennwb-info")]["operator"="Rijkswaterstaat"]["highway_authority_ref"=~/^Rijksweg [1-9]/] {
-	opennwb-authority-code: concat("RW", substring(tag("highway_authority_ref"), 9));
-}
-way["operator"="Rijkswaterstaat"][!"highway_authority_ref"][regexp_test("[AN][1-9]\\d?", prop("opennwb-ref-code"))] {
-	opennwb-authority-code: concat("RW", substring(prop("opennwb-ref-code"), 1));
-}
 way[regexp_test("(A|B|K |L |R|S)[1-9].*|R0|RING", prop("opennwb-ref-code"))] {
 	opennwb-ref-color: #f7fbf5;
 	opennwb-ref-code-color: #2a2d2f;
@@ -9291,12 +9282,21 @@ way[regexp_test("R1\\d\\d.*", prop("opennwb-ref-code"))] {
 way[is_prop_set("opennwb-ref-code")] {
 	opennwb-ref-code: replace(replace(prop("opennwb-ref-code"), " ", ""), ";", "/");
 }
+way[is_prop_set("opennwb-info")]["operator"!="Rijkswaterstaat"]["highway_authority_ref"] {
+	opennwb-authority-code: tag("highway_authority_ref");
+}
+way[is_prop_set("opennwb-info")]["operator"="Rijkswaterstaat"]["highway_authority_ref"=~/^Rijksweg [1-9]/] {
+	opennwb-authority-code: concat("RW", substring(tag("highway_authority_ref"), 9));
+}
+way["operator"="Rijkswaterstaat"][!"highway_authority_ref"][regexp_test("[AN][1-9]\\d?", prop("opennwb-ref-code"))] {
+	opennwb-authority-code: concat("RW", substring(prop("opennwb-ref-code"), 1));
+}
 way[is_prop_set("opennwb-authority-code")],
 way[is_prop_set("opennwb-ref-code")] {
 	opennwb-authority-color: prop("opennwb-operator-color");
 	opennwb-authority-code-color: prop("opennwb-operator-text-color");
 }
-way[prop("opennwb-operator-country")="🇳🇱"][is_prop_set("opennwb-authority-code")][!is_prop_set("opennwb-ref-code")] {
+way[is_prop_set("opennwb-authority-code")][!is_prop_set("opennwb-ref-code")] {
 	opennwb-ref-color: #008754;
 	opennwb-ref-code-color: #f7fbf5;
 }
