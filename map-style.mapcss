@@ -9248,12 +9248,36 @@ way[is_prop_set("opennwb-info")]["int_ref"=~/^E \d/] {
 }
 way[is_prop_set("opennwb-info")]["ref"] {
 	opennwb-ref-code: tag("ref");
+	opennwb-ref-forward: tag("ref");
+	opennwb-ref-backward: tag("ref");
+}
+way[is_prop_set("opennwb-info")]["ref:forward"] {
+	opennwb-ref-forward: tag("ref:forward");
+}
+way[is_prop_set("opennwb-info")]["ref:backward"] {
+	opennwb-ref-backward: tag("ref:backward");
 }
 way[is_prop_set("opennwb-info")]["nat_ref"] {
 	opennwb-ref-code: tag("nat_ref");
+	opennwb-ref-forward: tag("nat_ref");
+	opennwb-ref-backward: tag("nat_ref");
+}
+way[is_prop_set("opennwb-info")]["nat_ref:forward"] {
+	opennwb-ref-forward: tag("nat_ref:forward");
+}
+way[is_prop_set("opennwb-info")]["nat_ref:backward"] {
+	opennwb-ref-backward: tag("nat_ref:backward");
 }
 way[is_prop_set("opennwb-info")]["official_ref"] {
 	opennwb-ref-code: tag("official_ref");
+	opennwb-ref-forward: tag("official_ref");
+	opennwb-ref-backward: tag("official_ref");
+}
+way[is_prop_set("opennwb-info")]["official_ref:forward"] {
+	opennwb-ref-forward: tag("official_ref:forward");
+}
+way[is_prop_set("opennwb-info")]["official_ref:backward"] {
+	opennwb-ref-backward: tag("official_ref:backward");
 }
 way[regexp_test("(A|B|K |L |R|S)[1-9].*|R0|RING", prop("opennwb-ref-code"))] {
 	opennwb-ref-color: #f7fbf5;
@@ -9278,6 +9302,10 @@ way[prop("opennwb-operator-country")="🇫🇷"][regexp_test("A [1-9].*", prop("
 way[regexp_test("R1\\d\\d.*", prop("opennwb-ref-code"))] {
 	opennwb-ref-color: #8f4e35;
 	opennwb-ref-code-color: #f7fbf5;
+}
+way[prop("opennwb-ref-code")!=prop("opennwb-ref-forward")],
+way[prop("opennwb-ref-code")!=prop("opennwb-ref-backward")] {
+	opennwb-ref-code: concat(prop("opennwb-ref-backward"), "|", prop("opennwb-ref-forward"));
 }
 way[is_prop_set("opennwb-ref-code")] {
 	opennwb-ref-code: replace(replace(prop("opennwb-ref-code"), " ", ""), ";", "/");
