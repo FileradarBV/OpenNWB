@@ -8317,8 +8317,8 @@ way[is_prop_set("opennwb-info")]["operator"="Die Autobahn GmbH des Bundes"] {
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
-way[is_prop_set("opennwb-info")]["operator"="Land Baden-Württemberg"] {
-	opennwb-operator-code: "BW";
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenwesen Brandenburg"] {
+	opennwb-operator-code: "LS";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -8337,8 +8337,8 @@ way[is_prop_set("opennwb-info")]["operator"="Land Baden-Württemberg"] {
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
-way[is_prop_set("opennwb-info")]["operator"="Freistaat Bayern"] {
-	opennwb-operator-code: "BY";
+way[is_prop_set("opennwb-info")]["operator"="Hessen Mobil"] {
+	opennwb-operator-code: "HM";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -8357,8 +8357,8 @@ way[is_prop_set("opennwb-info")]["operator"="Freistaat Bayern"] {
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
-way[is_prop_set("opennwb-info")]["operator"="Land Brandenburg"] {
-	opennwb-operator-code: "BB";
+way[is_prop_set("opennwb-info")]["operator"="Landesamt für Straßenbau und Verkehr Mecklenburg-Vorpommern"] {
+	opennwb-operator-code: "LSMV";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -8377,8 +8377,8 @@ way[is_prop_set("opennwb-info")]["operator"="Land Brandenburg"] {
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
-way[is_prop_set("opennwb-info")]["operator"="Land Hessen"] {
-	opennwb-operator-code: "HE";
+way[is_prop_set("opennwb-info")]["operator"="Niedersächsische Landesbehörde für Straßenbau und Verkehr"] {
+	opennwb-operator-code: "NLSTBV";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -8397,8 +8397,8 @@ way[is_prop_set("opennwb-info")]["operator"="Land Hessen"] {
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
-way[is_prop_set("opennwb-info")]["operator"="Land Mecklenburg-Vorpommern"] {
-	opennwb-operator-code: "MV";
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenbau Nordrhein-Westfalen"] {
+	opennwb-operator-code: "SNRW";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -8417,8 +8417,8 @@ way[is_prop_set("opennwb-info")]["operator"="Land Mecklenburg-Vorpommern"] {
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
-way[is_prop_set("opennwb-info")]["operator"="Land Niedersachsen"] {
-	opennwb-operator-code: "NI";
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Mobilität Rheinland-Pfalz"] {
+	opennwb-operator-code: "LBM";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -8437,8 +8437,8 @@ way[is_prop_set("opennwb-info")]["operator"="Land Niedersachsen"] {
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
-way[is_prop_set("opennwb-info")]["operator"="Land Nordrhein-Westfalen"] {
-	opennwb-operator-code: "NW";
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb für Straßenbau"] {
+	opennwb-operator-code: "LFS";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -8457,8 +8457,8 @@ way[is_prop_set("opennwb-info")]["operator"="Land Nordrhein-Westfalen"] {
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
-way[is_prop_set("opennwb-info")]["operator"="Land Rheinland-Pfalz"] {
-	opennwb-operator-code: "RP";
+way[is_prop_set("opennwb-info")]["operator"="Landesamt für Straßenbau und Verkehr"] {
+	opennwb-operator-code: "LASUV";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -8477,8 +8477,8 @@ way[is_prop_set("opennwb-info")]["operator"="Land Rheinland-Pfalz"] {
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
-way[is_prop_set("opennwb-info")]["operator"="Saarland"] {
-	opennwb-operator-code: "SL";
+way[is_prop_set("opennwb-info")]["operator"="Landesstraßenbaubehörde Sachsen-Anhalt"] {
+	opennwb-operator-code: "LSBB";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -8497,8 +8497,8 @@ way[is_prop_set("opennwb-info")]["operator"="Saarland"] {
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
-way[is_prop_set("opennwb-info")]["operator"="Freistaat Sachsen"] {
-	opennwb-operator-code: "SN";
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenbau und Verkehr Schleswig-Holstein"] {
+	opennwb-operator-code: "LBVSH";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -8517,48 +8517,8 @@ way[is_prop_set("opennwb-info")]["operator"="Freistaat Sachsen"] {
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
-way[is_prop_set("opennwb-info")]["operator"="Land Sachsen-Anhalt"] {
-	opennwb-operator-code: "ST";
-	opennwb-operator-country: "🇩🇪";
-	opennwb-maxspeed-forward-motorway: "∞";
-	opennwb-maxspeed-forward-urbanmotorway: "∞";
-	opennwb-maxspeed-forward-motorroad: "100";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "100";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "";
-	opennwb-maxspeed-forward-urbanlivingstreet: "";
-	opennwb-maxspeed-backward-motorway: "∞";
-	opennwb-maxspeed-backward-urbanmotorway: "∞";
-	opennwb-maxspeed-backward-motorroad: "100";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "100";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "";
-	opennwb-maxspeed-backward-urbanlivingstreet: "";
-}
-way[is_prop_set("opennwb-info")]["operator"="Land Schleswig-Holstein"] {
-	opennwb-operator-code: "SH";
-	opennwb-operator-country: "🇩🇪";
-	opennwb-maxspeed-forward-motorway: "∞";
-	opennwb-maxspeed-forward-urbanmotorway: "∞";
-	opennwb-maxspeed-forward-motorroad: "100";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "100";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "";
-	opennwb-maxspeed-forward-urbanlivingstreet: "";
-	opennwb-maxspeed-backward-motorway: "∞";
-	opennwb-maxspeed-backward-urbanmotorway: "∞";
-	opennwb-maxspeed-backward-motorroad: "100";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "100";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "";
-	opennwb-maxspeed-backward-urbanlivingstreet: "";
-}
-way[is_prop_set("opennwb-info")]["operator"="Freistaat Thüringen"] {
-	opennwb-operator-code: "TH";
+way[is_prop_set("opennwb-info")]["operator"="Thüringer Landesamt für Bau und Verkehr"] {
+	opennwb-operator-code: "TLBV";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
