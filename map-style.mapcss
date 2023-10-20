@@ -8538,8 +8538,8 @@ way[is_prop_set("opennwb-info")]["operator"="Thüringer Landesamt für Bau und V
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="NL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="NL:urban"] {
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -8551,8 +8551,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="NL:urban"] {
 	opennwb-maxspeed-forward-urbanlivingstreet: "15";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:urban"] {
 	opennwb-maxspeed-backward-motorway: "130";
 	opennwb-maxspeed-backward-urbanmotorway: "50";
@@ -8564,8 +8564,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:urban"] {
 	opennwb-maxspeed-backward-urbanlivingstreet: "15";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-BO:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-BO:urban"] {
 	opennwb-maxspeed-forward-motorway: "60";
 	opennwb-maxspeed-forward-urbanmotorway: "40";
@@ -8577,8 +8577,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-BO:urban"] {
 	opennwb-maxspeed-forward-urbanlivingstreet: "40";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-BO:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-BO:urban"] {
 	opennwb-maxspeed-backward-motorway: "60";
 	opennwb-maxspeed-backward-urbanmotorway: "40";
@@ -8590,8 +8590,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-BO:urban"] {
 	opennwb-maxspeed-backward-urbanlivingstreet: "40";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SE:urban"] {
 	opennwb-maxspeed-forward-motorway: "60";
 	opennwb-maxspeed-forward-urbanmotorway: "40";
@@ -8603,8 +8603,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SE:urban"] {
 	opennwb-maxspeed-forward-urbanlivingstreet: "40";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SE:urban"] {
 	opennwb-maxspeed-backward-motorway: "60";
 	opennwb-maxspeed-backward-urbanmotorway: "40";
@@ -8616,8 +8616,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SE:urban"] {
 	opennwb-maxspeed-backward-urbanlivingstreet: "40";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SA:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SA:urban"] {
 	opennwb-maxspeed-forward-motorway: "60";
 	opennwb-maxspeed-forward-urbanmotorway: "30";
@@ -8629,8 +8629,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SA:urban"] {
 	opennwb-maxspeed-forward-urbanlivingstreet: "30";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SA:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SA:urban"] {
 	opennwb-maxspeed-backward-motorway: "60";
 	opennwb-maxspeed-backward-urbanmotorway: "30";
@@ -8642,8 +8642,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SA:urban"] {
 	opennwb-maxspeed-backward-urbanlivingstreet: "30";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="AW:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="AW:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="AW:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="AW:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="AW:urban"] {
 	opennwb-maxspeed-forward-motorway: "80";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -8655,8 +8655,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="AW:urban"] {
 	opennwb-maxspeed-forward-urbanlivingstreet: "50";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="AW:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="AW:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="AW:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="AW:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="AW:urban"] {
 	opennwb-maxspeed-backward-motorway: "80";
 	opennwb-maxspeed-backward-urbanmotorway: "50";
@@ -8668,8 +8668,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="AW:urban"] {
 	opennwb-maxspeed-backward-urbanlivingstreet: "50";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="CW:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="CW:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="CW:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="CW:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="CW:urban"] {
 	opennwb-maxspeed-forward-motorway: "80";
 	opennwb-maxspeed-forward-urbanmotorway: "80";
@@ -8681,8 +8681,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="CW:urban"] {
 	opennwb-maxspeed-forward-urbanlivingstreet: "40";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="CW:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="CW:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="CW:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="CW:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="CW:urban"] {
 	opennwb-maxspeed-backward-motorway: "80";
 	opennwb-maxspeed-backward-urbanmotorway: "80";
@@ -8694,8 +8694,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="CW:urban"] {
 	opennwb-maxspeed-backward-urbanlivingstreet: "40";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="SX:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="SX:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="SX:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="SX:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="SX:urban"] {
 	opennwb-maxspeed-forward-motorway: "50";
 	opennwb-maxspeed-forward-urbanmotorway: "30";
@@ -8707,8 +8707,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="SX:urban"] {
 	opennwb-maxspeed-forward-urbanlivingstreet: "30";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="SX:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="SX:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="SX:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="SX:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="SX:urban"] {
 	opennwb-maxspeed-backward-motorway: "50";
 	opennwb-maxspeed-backward-urbanmotorway: "30";
@@ -8742,8 +8742,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE:motorway"] {
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-VLG:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-VLG:urban"] {
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -8755,8 +8755,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-VLG:urban"] {
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-VLG:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-VLG:urban"] {
 	opennwb-maxspeed-backward-motorway: "120";
 	opennwb-maxspeed-backward-urbanmotorway: "50";
@@ -8768,8 +8768,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-VLG:urban"] {
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:urban"] {
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "30";
@@ -8781,8 +8781,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:urban"] {
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:urban"] {
 	opennwb-maxspeed-backward-motorway: "120";
 	opennwb-maxspeed-backward-urbanmotorway: "30";
@@ -8794,8 +8794,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:urban"] {
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-WAL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-WAL:urban"] {
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -8807,8 +8807,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-WAL:urban"] {
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-WAL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-WAL:urban"] {
 	opennwb-maxspeed-backward-motorway: "120";
 	opennwb-maxspeed-backward-urbanmotorway: "50";
@@ -8820,10 +8820,10 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-WAL:urban"] {
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="LU:motorway"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="LU:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="LU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="LU:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="LU:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="LU:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="LU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="LU:urban"] {
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "130";
@@ -8835,10 +8835,10 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="LU:urban"] {
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="LU:motorway"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="LU:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="LU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="LU:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="LU:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="LU:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="LU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="LU:urban"] {
 	opennwb-maxspeed-backward-motorway: "130";
 	opennwb-maxspeed-backward-urbanmotorway: "130";
@@ -8850,8 +8850,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="LU:urban"] {
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="FR:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="FR:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="FR:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="FR:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="FR:urban"] {
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -8863,8 +8863,8 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="FR:urban"] {
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="FR:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="FR:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="FR:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="FR:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="FR:urban"] {
 	opennwb-maxspeed-backward-motorway: "130";
 	opennwb-maxspeed-backward-urbanmotorway: "50";
@@ -8876,10 +8876,10 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="FR:urban"] {
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:motorway"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="DE:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:urban"] {
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -8891,10 +8891,10 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:urban"] {
 	opennwb-maxspeed-forward-urbanlivingstreet: "";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:motorway"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="DE:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:motorway"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:urban"] {
 	opennwb-maxspeed-backward-motorway: "∞";
 	opennwb-maxspeed-backward-urbanmotorway: "∞";
@@ -8945,63 +8945,63 @@ way[prop("opennwb-highway-code")="erf"] {
 	opennwb-maxspeed-backward-urban: prop("opennwb-maxspeed-backward-urbanlivingstreet");
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="AW:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="CW:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="SX:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="LU:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="FR:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
-way[is_prop_set("opennwb-info")]["urban"="yes"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-BO:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BQ-SA:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="AW:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="AW:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="CW:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="CW:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="SX:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="SX:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-VLG:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-WAL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="LU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="LU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="FR:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="FR:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:urban"],
+way[is_prop_set("opennwb-info")]["urban"="yes"],
 way[is_prop_set("opennwb-info")]["urban:right"="yes"] {
 	opennwb-urban-right: "bibeko";
 	opennwb-maxspeed-forward-default: prop("opennwb-maxspeed-forward-urban");
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="AW:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="CW:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="SX:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="LU:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="FR:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
-way[is_prop_set("opennwb-info")]["urban"="yes"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-BO:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BQ-SA:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="AW:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="AW:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="CW:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="CW:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="SX:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="SX:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-VLG:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-WAL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="LU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="LU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="FR:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="FR:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:urban"],
+way[is_prop_set("opennwb-info")]["urban"="yes"],
 way[is_prop_set("opennwb-info")]["urban:left"="yes"] {
 	opennwb-urban-left: "bibeko";
 	opennwb-maxspeed-backward-default: prop("opennwb-maxspeed-backward-urban");
