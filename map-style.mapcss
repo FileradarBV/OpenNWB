@@ -73,7 +73,11 @@ node|z18- {
 	symbol-size: 4;
 }
 way["area"!="yes"]["highway"="motorway"],
-way["area"!="yes"]["highway"="motorway_link"],
+way["area"!="yes"]["highway"="motorway_link"] {
+	opennwb-info: "";
+	opennwb-wide: true;
+	opennwb-highway-code: "ASW";
+}
 way["area"!="yes"]["highway"="living_street"],
 way["area"!="yes"]["highway"="trunk"],
 way["area"!="yes"]["highway"="trunk_link"],
@@ -9337,18 +9341,28 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:urban"] {
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
-way[is_prop_set("opennwb-info")]["living_street"="yes"],
-way[is_prop_set("opennwb-info")]["highway"="living_street"] {
-	opennwb-highway-code: "erf";
+way[is_prop_set("opennwb-info")]["motorway"="no"],
+way[is_prop_set("opennwb-info")]["motorroad"="no"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BE-WAL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="LU:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="LU:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"] {
+	opennwb-highway-code: "";
 }
-way[is_prop_set("opennwb-info")]["highway"="motorway_link"]["motorway"!="no"]["motorroad"!="no"]["zone:traffic"!="BE-VLG:rural"]["zone:traffic"!="BE-VLG:urban"]["zone:traffic"!="BE-BRU:rural"]["zone:traffic"!="BE-BRU:urban"]["zone:traffic"!="BE-WAL:rural"]["zone:traffic"!="BE-WAL:urban"]["zone:traffic"!="LU:rural"]["zone:traffic"!="LU:urban"]["zone:traffic"!="DE:rural"]["zone:traffic"!="DE:urban"] {
-	opennwb-highway-code: "ASW";
+way[is_prop_set("opennwb-info")]["highway"="living_street"],
+way[is_prop_set("opennwb-info")]["living_street"="yes"] {
+	opennwb-highway-code: "erf";
 }
 way[is_prop_set("opennwb-info")]["motorroad"="yes"] {
 	opennwb-highway-code: "AW";
 }
 way[is_prop_set("opennwb-info")]["motorway"="yes"],
-way[is_prop_set("opennwb-info")]["highway"="motorway"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE:motorway"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="LU:motorway"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:motorway"] {
@@ -9376,6 +9390,8 @@ way[prop("opennwb-highway-code")="erf"] {
 	opennwb-maxspeed-forward-urban: prop("opennwb-maxspeed-forward-urbanlivingstreet");
 	opennwb-maxspeed-backward-urban: prop("opennwb-maxspeed-backward-urbanlivingstreet");
 }
+way[is_prop_set("opennwb-info")]["urban"="yes"],
+way[is_prop_set("opennwb-info")]["urban:right"="yes"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="NL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
@@ -9401,12 +9417,12 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="LU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="FR:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="FR:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:urban"],
-way[is_prop_set("opennwb-info")]["urban"="yes"],
-way[is_prop_set("opennwb-info")]["urban:right"="yes"] {
+way[is_prop_set("opennwb-info")]["zone:traffic:right"="DE:urban"] {
 	opennwb-urban-right: "bibeko";
 	opennwb-maxspeed-forward-default: prop("opennwb-maxspeed-forward-urban");
 }
+way[is_prop_set("opennwb-info")]["urban"="yes"],
+way[is_prop_set("opennwb-info")]["urban:left"="yes"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="NL:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
@@ -9432,9 +9448,7 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="LU:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="FR:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="FR:urban"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:urban"],
-way[is_prop_set("opennwb-info")]["urban"="yes"],
-way[is_prop_set("opennwb-info")]["urban:left"="yes"] {
+way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:urban"] {
 	opennwb-urban-left: "bibeko";
 	opennwb-maxspeed-backward-default: prop("opennwb-maxspeed-backward-urban");
 }
@@ -9773,7 +9787,7 @@ way[is_prop_set("opennwb-surface-code")][setting("opennwb_surface")] {
 	opennwb-info: concat(prop("opennwb-surface-code"), " ");
 	font-weight: bold;
 }
-way[is_prop_set("opennwb-highway-code")][setting("opennwb_highway")] {
+way[prop("opennwb-highway-code")!=""][setting("opennwb_highway")] {
 	opennwb-info: concat(prop("opennwb-info"), prop("opennwb-highway-code"), " ");
 	font-weight: bold;
 }
@@ -9811,7 +9825,7 @@ way[is_prop_set("opennwb-info")][setting("opennwb_maxspeed")][!setting("opennwb_
 	color: prop("opennwb-maxspeed-color");
 }
 way[is_prop_set("opennwb-info")][setting("opennwb_highway")][!setting("opennwb_maxspeed")],
-way[is_prop_set("opennwb-info")][setting("opennwb_highway")][is_prop_set("opennwb-highway-code")] {
+way[is_prop_set("opennwb-info")][setting("opennwb_highway")][prop("opennwb-highway-code")!=""] {
 	color: prop("opennwb-highway-color");
 	text-color: prop("opennwb-highway-code-color");
 }
@@ -9820,7 +9834,7 @@ way[is_prop_set("opennwb-info")][setting("opennwb_urban")][is_prop_set("opennwb-
 	color: prop("opennwb-urban-color");
 	text-color: prop("opennwb-urban-code-color");
 }
-way[is_prop_set("opennwb-info")][setting("opennwb_urban")][setting("opennwb_highway")][is_prop_set("opennwb-urban-code")][is_prop_set("opennwb-highway-code")] {
+way[is_prop_set("opennwb-info")][setting("opennwb_urban")][setting("opennwb_highway")][is_prop_set("opennwb-urban-code")][prop("opennwb-highway-code")!=""] {
 	text-color: prop("opennwb-highway-color");
 }
 way[is_prop_set("opennwb-info")][setting("opennwb_highway")][prop("opennwb-highway-code")="erf"] {
