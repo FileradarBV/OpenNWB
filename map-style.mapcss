@@ -75,8 +75,8 @@ node|z18- {
 way["area"!="yes"]["highway"="motorway"],
 way["area"!="yes"]["highway"="motorway_link"] {
 	opennwb-info: "";
-	opennwb-wide: true;
 	opennwb-highway-code: "ASW";
+	opennwb-wide: true;
 }
 way["area"!="yes"]["highway"="living_street"],
 way["area"!="yes"]["highway"="trunk"],
@@ -94,6 +94,7 @@ way["area"!="yes"]["highway"="track"],
 way["area"!="yes"]["highway"="busway"],
 way["area"!="yes"]["highway"="road"] {
 	opennwb-info: "";
+	opennwb-highway-code: "";
 	opennwb-wide: true;
 }
 way["area"!="yes"]["highway"="footway"],
@@ -105,6 +106,7 @@ way["area"!="yes"]["highway"="path"],
 way["area"!="yes"]["highway"="via_ferrata"],
 way["area"!="yes"]["highway"="cycleway"] {
 	opennwb-info: "";
+	opennwb-highway-code: "";
 }
 way[is_prop_set("opennwb-info")] {
 	opacity: 0.75;
