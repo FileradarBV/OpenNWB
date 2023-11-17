@@ -35,6 +35,7 @@
 	{"object_types": ["way"], "key": "highway", "value": "path", "description": "Verkeersregels: pad"},
 	{"object_types": ["way"], "key": "highway", "value": "via_ferrata", "description": "Verkeersregels: pad"},
 	{"object_types": ["way"], "key": "highway", "value": "cycleway", "description": "Verkeersregels: pad"},
+	{"object_types": ["way"], "key": "layer", "description": "Z-index"},
 	{"object_types": ["way"], "key": "name", "description": "Straatnaam"},
 	{"object_types": ["way"], "key": "name:left", "description": "Straatnaam"},
 	{"object_types": ["way"], "key": "name:right", "description": "Straatnaam"},

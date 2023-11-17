@@ -151,6 +151,10 @@ way[is_prop_set("opennwb-info")] {
 	opennwb-ref-code-color: #4e5451;
 	opennwb-carriageway-color: #8f9695;
 	opennwb-carriageway-code-color: #4e5451;
+	z-index: 0;
+}
+way[is_prop_set("opennwb-info")]["layer"=~/^-?[1-9]\d*$/] {
+	z-index: tag("layer");
 }
 way[is_prop_set("opennwb-info")]["name"] {
 	opennwb-street-right: tag("name");
