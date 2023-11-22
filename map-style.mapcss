@@ -10,45 +10,57 @@ setting::opennwb_operator {
 	label: "Wegbeheerder";
 	default: true;
 }
+settings::opennwb_traffic {
+	label: "Verkeersregels";
+}
 setting::opennwb_highway {
 	type: boolean;
-	label: "RVV wegcategorie";
+	label: "Wegcategorie";
 	default: false;
+	group: "opennwb_traffic";
 }
 setting::opennwb_urban {
 	type: boolean;
-	label: "RVV bebouwde kom";
+	label: "Bebouwde kom";
 	default: false;
+	group: "opennwb_traffic";
 }
 setting::opennwb_maxspeed {
 	type: boolean;
-	label: "RVV maximumsnelheid";
+	label: "Maximumsnelheid";
 	default: false;
+	group: "opennwb_traffic";
 }
 setting::opennwb_surface {
 	type: boolean;
 	label: "Verharding";
 	default: false;
 }
-setting::opennwb_int {
-	type: boolean;
-	label: "Wegnummer internationaal";
-	default: false;
+settings::opennwb_place {
+	label: "Plaatsaanduiding";
 }
 setting::opennwb_authority {
 	type: boolean;
-	label: "Wegnummer administratief";
+	label: "Administratief wegnummer";
 	default: false;
+	group: "opennwb_place";
 }
 setting::opennwb_ref {
 	type: boolean;
 	label: "Wegnummer";
 	default: true;
+	group: "opennwb_place";
 }
 setting::opennwb_carriageway {
 	type: boolean;
 	label: "Rijbaanaanduiding";
 	default: true;
+	group: "opennwb_place";
+}
+setting::opennwb_int {
+	type: boolean;
+	label: "Internationaal E-wegnummer";
+	default: false;
 }
 way {
 	width: 1;
