@@ -9387,7 +9387,7 @@ way[is_prop_set("opennwb-info")]["zone:traffic"="DE:motorway"] {
 	opennwb-highway-code: "ASW";
 }
 way[prop("opennwb-highway-code")="ASW"] {
-	opennwb-highway-color: #006e3c;
+	opennwb-highway-color: #003c82;
 	opennwb-highway-code-color: #ffffff;
 	opennwb-maxspeed-forward-default: prop("opennwb-maxspeed-forward-motorway");
 	opennwb-maxspeed-backward-default: prop("opennwb-maxspeed-backward-motorway");
@@ -9395,7 +9395,7 @@ way[prop("opennwb-highway-code")="ASW"] {
 	opennwb-maxspeed-backward-urban: prop("opennwb-maxspeed-backward-urbanmotorway");
 }
 way[prop("opennwb-highway-code")="AW"] {
-	opennwb-highway-color: #003c82;
+	opennwb-highway-color: #006e3c;
 	opennwb-highway-code-color: #ffffff;
 	opennwb-maxspeed-forward-default: prop("opennwb-maxspeed-forward-motorroad");
 	opennwb-maxspeed-backward-default: prop("opennwb-maxspeed-backward-motorroad");
