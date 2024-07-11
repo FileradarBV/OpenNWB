@@ -314,7 +314,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Drenthe"][prop("opennwb-o
 way[is_prop_set("opennwb-info")]["operator"="Provincie Drenthe"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "DR";
+	opennwb-operator-text: "Drenthe";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -337,7 +337,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Flevoland"][prop("opennwb
 way[is_prop_set("opennwb-info")]["operator"="Provincie Flevoland"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "FL";
+	opennwb-operator-text: "Flevoland";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -360,7 +360,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Fryslân"][prop("opennwb-
 way[is_prop_set("opennwb-info")]["operator"="Provincie Fryslân"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "FR";
+	opennwb-operator-text: "Fryslân";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -383,7 +383,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Gelderland"][prop("opennw
 way[is_prop_set("opennwb-info")]["operator"="Provincie Gelderland"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "GD";
+	opennwb-operator-text: "Gelderland";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -406,7 +406,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Groningen"][prop("opennwb
 way[is_prop_set("opennwb-info")]["operator"="Provincie Groningen"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "GR";
+	opennwb-operator-text: "Groningen";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -429,7 +429,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Limburg"][prop("opennwb-o
 way[is_prop_set("opennwb-info")]["operator"="Provincie Limburg"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "LB";
+	opennwb-operator-text: "Limburg";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -452,7 +452,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Noord-Brabant"][prop("ope
 way[is_prop_set("opennwb-info")]["operator"="Provincie Noord-Brabant"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "NB";
+	opennwb-operator-text: "Noord-Brabant";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -475,7 +475,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Noord-Holland"][prop("ope
 way[is_prop_set("opennwb-info")]["operator"="Provincie Noord-Holland"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "NH";
+	opennwb-operator-text: "Noord-Holland";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -498,7 +498,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Overijssel"][prop("opennw
 way[is_prop_set("opennwb-info")]["operator"="Provincie Overijssel"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "OV";
+	opennwb-operator-text: "Overijssel";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -521,7 +521,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Utrecht"][prop("opennwb-o
 way[is_prop_set("opennwb-info")]["operator"="Provincie Utrecht"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "UT";
+	opennwb-operator-text: "Utrecht";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -544,7 +544,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Zeeland"][prop("opennwb-o
 way[is_prop_set("opennwb-info")]["operator"="Provincie Zeeland"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "ZL";
+	opennwb-operator-text: "Zeeland";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -567,7 +567,7 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Zuid-Holland"][prop("open
 way[is_prop_set("opennwb-info")]["operator"="Provincie Zuid-Holland"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "ZH";
+	opennwb-operator-text: "Zuid-Holland";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
