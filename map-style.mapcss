@@ -8574,7 +8574,7 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Zwolle"][prop("opennwb-ope
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Bonaire"][prop("opennwb-operator-country")="🇳🇱"],
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Bonaire"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-code: "OLB";
+	opennwb-operator-text: "Bonaire";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "60";
 	opennwb-maxspeed-forward-urbanmotorway: "40";
@@ -8596,7 +8596,7 @@ way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Bonaire"][prop("op
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Sint Eustatius"][prop("opennwb-operator-country")="🇳🇱"],
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Sint Eustatius"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-code: "OLSE";
+	opennwb-operator-text: "Sint Eustatius";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "60";
 	opennwb-maxspeed-forward-urbanmotorway: "40";
@@ -8618,7 +8618,7 @@ way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Sint Eustatius"][p
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Saba"][prop("opennwb-operator-country")="🇳🇱"],
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Saba"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-code: "OLS";
+	opennwb-operator-text: "Saba";
 	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "60";
 	opennwb-maxspeed-forward-urbanmotorway: "30";
