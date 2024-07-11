@@ -8593,28 +8593,6 @@ way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Bonaire"][prop("op
 	opennwb-maxspeed-backward-livingstreet: "60";
 	opennwb-maxspeed-backward-urbanlivingstreet: "40";
 }
-way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Sint Eustatius"][prop("opennwb-operator-country")="🇳🇱"],
-way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Sint Eustatius"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Sint Eustatius";
-	opennwb-operator-country: "🇳🇱";
-	opennwb-maxspeed-forward-motorway: "60";
-	opennwb-maxspeed-forward-urbanmotorway: "40";
-	opennwb-maxspeed-forward-motorroad: "60";
-	opennwb-maxspeed-forward-urbanmotorroad: "40";
-	opennwb-maxspeed-forward-default: "60";
-	opennwb-maxspeed-forward-urban: "40";
-	opennwb-maxspeed-forward-livingstreet: "60";
-	opennwb-maxspeed-forward-urbanlivingstreet: "40";
-	opennwb-maxspeed-backward-motorway: "60";
-	opennwb-maxspeed-backward-urbanmotorway: "40";
-	opennwb-maxspeed-backward-motorroad: "60";
-	opennwb-maxspeed-backward-urbanmotorroad: "40";
-	opennwb-maxspeed-backward-default: "60";
-	opennwb-maxspeed-backward-urban: "40";
-	opennwb-maxspeed-backward-livingstreet: "60";
-	opennwb-maxspeed-backward-urbanlivingstreet: "40";
-}
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Saba"][prop("opennwb-operator-country")="🇳🇱"],
 way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Saba"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
@@ -8636,6 +8614,28 @@ way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Saba"][prop("openn
 	opennwb-maxspeed-backward-urban: "30";
 	opennwb-maxspeed-backward-livingstreet: "60";
 	opennwb-maxspeed-backward-urbanlivingstreet: "30";
+}
+way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Sint Eustatius"][prop("opennwb-operator-country")="🇳🇱"],
+way[is_prop_set("opennwb-info")]["operator"="Openbaar Lichaam Sint Eustatius"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Sint Eustatius";
+	opennwb-operator-country: "🇳🇱";
+	opennwb-maxspeed-forward-motorway: "60";
+	opennwb-maxspeed-forward-urbanmotorway: "40";
+	opennwb-maxspeed-forward-motorroad: "60";
+	opennwb-maxspeed-forward-urbanmotorroad: "40";
+	opennwb-maxspeed-forward-default: "60";
+	opennwb-maxspeed-forward-urban: "40";
+	opennwb-maxspeed-forward-livingstreet: "60";
+	opennwb-maxspeed-forward-urbanlivingstreet: "40";
+	opennwb-maxspeed-backward-motorway: "60";
+	opennwb-maxspeed-backward-urbanmotorway: "40";
+	opennwb-maxspeed-backward-motorroad: "60";
+	opennwb-maxspeed-backward-urbanmotorroad: "40";
+	opennwb-maxspeed-backward-default: "60";
+	opennwb-maxspeed-backward-urban: "40";
+	opennwb-maxspeed-backward-livingstreet: "60";
+	opennwb-maxspeed-backward-urbanlivingstreet: "40";
 }
 way[is_prop_set("opennwb-info")]["operator"="Agentschap Wegen en Verkeer"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Agentschap Wegen en Verkeer"][prop("opennwb-operator-country")=""] {
