@@ -52,6 +52,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm0377 | Nederlandse gemeente | [Bloemendaal](https://www.openstreetmap.org/relation/47542) | `Gemeente Bloemendaal` |
 | 🇳🇱 gm1901 | Nederlandse gemeente | [Bodegraven-Reeuwijk](https://www.openstreetmap.org/relation/1357938) | `Gemeente Bodegraven-Reeuwijk` |
 | 🇳🇱 gm0755 | Nederlandse gemeente | [Boekel](https://www.openstreetmap.org/relation/300674) | `Gemeente Boekel` |
+| 🇳🇱 col01 | bijzondere Nederlandse gemeente | [Bonaire](https://www.openstreetmap.org/relation/2324450) | `Openbaar Lichaam Bonaire` |
 | 🇳🇱 gm1681 | Nederlandse gemeente | [Borger-Odoorn](https://www.openstreetmap.org/relation/413426) | `Gemeente Borger-Odoorn` |
 | 🇳🇱 gm0147 | Nederlandse gemeente | [Borne](https://www.openstreetmap.org/relation/415526) | `Gemeente Borne` |
 | 🇳🇱 gm0654 | Nederlandse gemeente | [Borsele](https://www.openstreetmap.org/relation/296229) | `Gemeente Borsele` |
@@ -256,12 +257,14 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm0599 | Nederlandse gemeente | [Rotterdam](https://www.openstreetmap.org/relation/324431) | `Gemeente Rotterdam` |
 | 🇳🇱 gm0277 | Nederlandse gemeente | [Rozendaal](https://www.openstreetmap.org/relation/418417) | `Gemeente Rozendaal` |
 | 🇳🇱 gm0840 | Nederlandse gemeente | [Rucphen](https://www.openstreetmap.org/relation/2078299) | `Gemeente Rucphen` |
+| 🇳🇱 col03 | bijzondere Nederlandse gemeente | [Saba](https://www.openstreetmap.org/relation/2324451) | `Openbaar Lichaam Saba` |
 | 🇳🇱 gm0441 | Nederlandse gemeente | [Schagen](https://www.openstreetmap.org/relation/2672878) | `Gemeente Schagen` |
 | 🇳🇱 gm0279 | Nederlandse gemeente | [Scherpenzeel](https://www.openstreetmap.org/relation/419028) | `Gemeente Scherpenzeel` |
 | 🇳🇱 gm0606 | Nederlandse gemeente | [Schiedam](https://www.openstreetmap.org/relation/324296) | `Gemeente Schiedam` |
 | 🇳🇱 gm0088 | Nederlandse gemeente | [Schiermonnikoog](https://www.openstreetmap.org/relation/384538) | `Gemeente Schiermonnikoog` |
 | 🇳🇱 gm1676 | Nederlandse gemeente | [Schouwen-Duiveland](https://www.openstreetmap.org/relation/296493) | `Gemeente Schouwen-Duiveland` |
 | 🇳🇱 gm0965 | Nederlandse gemeente | [Simpelveld](https://www.openstreetmap.org/relation/406428) | `Gemeente Simpelveld` |
+| 🇳🇱 col02 | bijzondere Nederlandse gemeente | [Sint Eustatius](https://www.openstreetmap.org/relation/2324452) | `Openbaar Lichaam Sint Eustatius` |
 | 🇳🇱 gm0845 | Nederlandse gemeente | [Sint-Michielsgestel](https://www.openstreetmap.org/relation/299991) | `Gemeente Sint-Michielsgestel` |
 | 🇳🇱 gm1883 | Nederlandse gemeente | [Sittard-Geleen](https://www.openstreetmap.org/relation/405681) | `Gemeente Sittard-Geleen` |
 | 🇳🇱 gm0610 | Nederlandse gemeente | [Sliedrecht](https://www.openstreetmap.org/relation/309444) | `Gemeente Sliedrecht` |
@@ -352,9 +355,6 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm1896 | Nederlandse gemeente | [Zwartewaterland](https://www.openstreetmap.org/relation/414656) | `Gemeente Zwartewaterland` |
 | 🇳🇱 gm0642 | Nederlandse gemeente | [Zwijndrecht](https://www.openstreetmap.org/relation/308722) | `Gemeente Zwijndrecht` |
 | 🇳🇱 gm0193 | Nederlandse gemeente | [Zwolle](https://www.openstreetmap.org/relation/414720) | `Gemeente Zwolle` |
-| 🇳🇱 col01 | bijzondere Nederlandse gemeente | [Bonaire](https://www.openstreetmap.org/relation/2324450) | `Openbaar Lichaam Bonaire` |
-| 🇳🇱 col02 | bijzondere Nederlandse gemeente | [Sint Eustatius](https://www.openstreetmap.org/relation/2324452) | `Openbaar Lichaam Sint Eustatius` |
-| 🇳🇱 col03 | bijzondere Nederlandse gemeente | [Saba](https://www.openstreetmap.org/relation/2324451) | `Openbaar Lichaam Saba` |
 
 ---
 
