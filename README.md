@@ -11,7 +11,7 @@ OpenNWB is een interactieve kaartstijl voor [OpenStreetMap](https://www.openstre
 OpenNWB kan de volgende informatie uit OpenStreetMap weergeven:
 
 * Straatnaam (naam openbare ruimte)
-* Wegbeheerder (Rijkswaterstaat, Nederlandse provincie, Nederlands waterschap, Nederlandse gemeente of overig)
+* Wegbeheerder (Rijkswaterstaat, Nederlandse [provincie](road-operators/provincies.md), Nederlands [waterschap](road-operators/waterschappen.md), Nederlandse [gemeente](road-operators/gemeenten.md) of overig)
 * Plaatsaanduiding
   - Wegnummer (bijvoorbeeld A- of N-wegnummer)
   - Administratief wegnummer (bijvoorbeeld Rijkswegnummer)
