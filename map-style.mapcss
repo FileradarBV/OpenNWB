@@ -310,6 +310,144 @@ way[is_prop_set("opennwb-info")]["operator"="Rijkswaterstaat"][prop("opennwb-ope
 	opennwb-maxspeed-backward-livingstreet: "15";
 	opennwb-maxspeed-backward-urbanlivingstreet: "15";
 }
+way[is_prop_set("opennwb-info")]["operator"="Province de Hainaut"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Province de Hainaut"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "le Hainaut";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "90";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "90";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Province de Liège"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Province de Liège"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Liège";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "90";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "90";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Province de Luxembourg"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Province de Luxembourg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "le Luxembourg";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "90";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "90";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Province de Namur"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Province de Namur"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Namur";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "90";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "90";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Province du Brabant wallon"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Province du Brabant wallon"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "le Brabant wallon";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "90";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "90";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Antwerpen"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Provincie Antwerpen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Antwerpen";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "70";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "70";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["operator"="Provincie Drenthe"][prop("opennwb-operator-country")="🇳🇱"],
 way[is_prop_set("opennwb-info")]["operator"="Provincie Drenthe"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
@@ -425,12 +563,10 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Groningen"][prop("opennwb
 	opennwb-maxspeed-backward-livingstreet: "15";
 	opennwb-maxspeed-backward-urbanlivingstreet: "15";
 }
-way[is_prop_set("opennwb-info")]["operator"="Provincie Limburg"][prop("opennwb-operator-country")="🇳🇱"],
-way[is_prop_set("opennwb-info")]["operator"="Provincie Limburg"][prop("opennwb-operator-country")=""] {
+way[is_prop_set("opennwb-info")]["operator"="Provincie Limburg"][prop("opennwb-operator-country")="🇳🇱"] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
 	opennwb-operator-text: "Limburg";
-	opennwb-operator-country: "🇳🇱";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "100";
@@ -447,6 +583,48 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Limburg"][prop("opennwb-o
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "15";
 	opennwb-maxspeed-backward-urbanlivingstreet: "15";
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Limburg"][prop("opennwb-operator-country")="🇧🇪"] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Limburg";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "70";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "70";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Limburg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Limburg";
+	opennwb-maxspeed-forward-motorway: "";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
 way[is_prop_set("opennwb-info")]["operator"="Provincie Noord-Brabant"][prop("opennwb-operator-country")="🇳🇱"],
 way[is_prop_set("opennwb-info")]["operator"="Provincie Noord-Brabant"][prop("opennwb-operator-country")=""] {
@@ -494,6 +672,29 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Noord-Holland"][prop("ope
 	opennwb-maxspeed-backward-livingstreet: "15";
 	opennwb-maxspeed-backward-urbanlivingstreet: "15";
 }
+way[is_prop_set("opennwb-info")]["operator"="Provincie Oost-Vlaanderen"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Provincie Oost-Vlaanderen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Oost-Vlaanderen";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "70";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "70";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["operator"="Provincie Overijssel"][prop("opennwb-operator-country")="🇳🇱"],
 way[is_prop_set("opennwb-info")]["operator"="Provincie Overijssel"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
@@ -539,6 +740,52 @@ way[is_prop_set("opennwb-info")]["operator"="Provincie Utrecht"][prop("opennwb-o
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "15";
 	opennwb-maxspeed-backward-urbanlivingstreet: "15";
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie Vlaams-Brabant"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Provincie Vlaams-Brabant"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "Vlaams-Brabant";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "70";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "70";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Provincie West-Vlaanderen"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Provincie West-Vlaanderen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe8419;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-text: "West-Vlaanderen";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "70";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "70";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
 way[is_prop_set("opennwb-info")]["operator"="Provincie Zeeland"][prop("opennwb-operator-country")="🇳🇱"],
 way[is_prop_set("opennwb-info")]["operator"="Provincie Zeeland"][prop("opennwb-operator-country")=""] {
