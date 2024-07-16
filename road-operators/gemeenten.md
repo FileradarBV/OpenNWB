@@ -1,7 +1,7 @@
 Lijst van gemeenten
 ===================
 
-[OpenNWB](../README.md) herkent de volgende 645 gemeenten als wegbeheerders, indien de betreffende `operator`-tag uit de laatste kolom op het weggedeelte aanwezig is.
+[OpenNWB](../README.md) herkent de volgende 664 gemeenten als wegbeheerders, indien de betreffende `operator`-tag uit de laatste kolom op het weggedeelte aanwezig is.
 In zeldzame gevallen waarin een gemeente een weggedeelte op of buiten de eigen landsgrens beheert, is ook een `operator:addr:country`-tag noodzakelijk.
 Al deze tags zijn [opgenomen in Taginfo](https://taginfo.openstreetmap.org/projects/opennwb#tags).
 
@@ -33,6 +33,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇳🇱 gm0307 | <sub>Nederlandse gemeente</sub> | [Amersfoort](https://www.openstreetmap.org/relation/419152) | `Gemeente Amersfoort` |
 | 🇳🇱 gm0362 | <sub>Nederlandse gemeente</sub> | [Amstelveen](https://www.openstreetmap.org/relation/157955) | `Gemeente Amstelveen` |
 | 🇳🇱 gm0363 | <sub>Nederlandse gemeente</sub> | [Amsterdam](https://www.openstreetmap.org/relation/47811) | `Gemeente Amsterdam` |
+| 🇧🇪 21001 | <sub>Brusselse gemeente</sub> | [Anderlecht](https://www.openstreetmap.org/relation/58254) | `Commune d'Anderlecht - Gemeente Anderlecht` |
 | 🇧🇪 11002 | <sub>Vlaamse gemeente</sub> | [Antwerpen](https://www.openstreetmap.org/relation/59518) | `Stad Antwerpen` |
 | 🇧🇪 34002 | <sub>Vlaamse gemeente</sub> | [Anzegem](https://www.openstreetmap.org/relation/960944) | `Gemeente Anzegem` |
 | 🇳🇱 gm0200 | <sub>Nederlandse gemeente</sub> | [Apeldoorn](https://www.openstreetmap.org/relation/417457) | `Gemeente Apeldoorn` |
@@ -107,6 +108,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇧🇪 31005 | <sub>Vlaamse gemeente</sub> | [Brugge](https://www.openstreetmap.org/relation/562654) | `Stad Brugge` |
 | 🇳🇱 gm0213 | <sub>Nederlandse gemeente</sub> | [Brummen](https://www.openstreetmap.org/relation/416858) | `Gemeente Brummen` |
 | 🇳🇱 gm0899 | <sub>Nederlandse gemeente</sub> | [Brunssum](https://www.openstreetmap.org/relation/406068) | `Gemeente Brunssum` |
+| 🇧🇪 21004 | <sub>Brusselse gemeente</sub> | [Brussel](https://www.openstreetmap.org/relation/58274) | `Ville de Bruxelles - Stad Brussel` |
 | 🇧🇪 42004 | <sub>Vlaamse gemeente</sub> | [Buggenhout](https://www.openstreetmap.org/relation/391146) | `Gemeente Buggenhout` |
 | 🇳🇱 gm0312 | <sub>Nederlandse gemeente</sub> | [Bunnik](https://www.openstreetmap.org/relation/419208) | `Gemeente Bunnik` |
 | 🇳🇱 gm0313 | <sub>Nederlandse gemeente</sub> | [Bunschoten](https://www.openstreetmap.org/relation/163548) | `Gemeente Bunschoten` |
@@ -167,6 +169,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇳🇱 gm1903 | <sub>Nederlandse gemeente</sub> | [Eijsden-Margraten](https://www.openstreetmap.org/relation/305282) | `Gemeente Eijsden-Margraten` |
 | 🇳🇱 gm0772 | <sub>Nederlandse gemeente</sub> | [Eindhoven](https://www.openstreetmap.org/relation/47504) | `Gemeente Eindhoven` |
 | 🇳🇱 gm0230 | <sub>Nederlandse gemeente</sub> | [Elburg](https://www.openstreetmap.org/relation/409681) | `Gemeente Elburg` |
+| 🇧🇪 21009 | <sub>Brusselse gemeente</sub> | [Elsene](https://www.openstreetmap.org/relation/58250) | `Commune d'Ixelles - Gemeente Elsene` |
 | 🇳🇱 gm0114 | <sub>Nederlandse gemeente</sub> | [Emmen](https://www.openstreetmap.org/relation/413536) | `Gemeente Emmen` |
 | 🇳🇱 gm0388 | <sub>Nederlandse gemeente</sub> | [Enkhuizen](https://www.openstreetmap.org/relation/296469) | `Gemeente Enkhuizen` |
 | 🇳🇱 gm0153 | <sub>Nederlandse gemeente</sub> | [Enschede](https://www.openstreetmap.org/relation/415473) | `Gemeente Enschede` |
@@ -175,8 +178,11 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇧🇪 41082 | <sub>Vlaamse gemeente</sub> | [Erpe-Mere](https://www.openstreetmap.org/relation/1197961) | `Gemeente Erpe-Mere` |
 | 🇧🇪 11016 | <sub>Vlaamse gemeente</sub> | [Essen](https://www.openstreetmap.org/relation/964003) | `Gemeente Essen` |
 | 🇳🇱 gm0777 | <sub>Nederlandse gemeente</sub> | [Etten-Leur](https://www.openstreetmap.org/relation/297048) | `Gemeente Etten-Leur` |
+| 🇧🇪 21005 | <sub>Brusselse gemeente</sub> | [Etterbeek](https://www.openstreetmap.org/relation/58252) | `Commune d'Etterbeek - Gemeente Etterbeek` |
+| 🇧🇪 21006 | <sub>Brusselse gemeente</sub> | [Evere](https://www.openstreetmap.org/relation/60144) | `Commune d'Evere - Gemeente Evere` |
 | 🇧🇪 44019 | <sub>Vlaamse gemeente</sub> | [Evergem](https://www.openstreetmap.org/relation/1373256) | `Gemeente Evergem` |
 | 🇧🇪 23023 | <sub>Vlaamse gemeente</sub> | [Galmaarden](https://www.openstreetmap.org/relation/1069858) | `Gemeente Galmaarden` |
+| 🇧🇪 21008 | <sub>Brusselse gemeente</sub> | [Ganshoren](https://www.openstreetmap.org/relation/58257) | `Commune de Ganshoren - Gemeente Ganshoren` |
 | 🇧🇪 44020 | <sub>Vlaamse gemeente</sub> | [Gavere](https://www.openstreetmap.org/relation/812701) | `Gemeente Gavere` |
 | 🇧🇪 13008 | <sub>Vlaamse gemeente</sub> | [Geel](https://www.openstreetmap.org/relation/1263541) | `Stad Geel` |
 | 🇳🇱 gm0779 | <sub>Nederlandse gemeente</sub> | [Geertruidenberg](https://www.openstreetmap.org/relation/299091) | `Gemeente Geertruidenberg` |
@@ -280,6 +286,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇧🇪 36007 | <sub>Vlaamse gemeente</sub> | [Ingelmunster](https://www.openstreetmap.org/relation/1151389) | `Gemeente Ingelmunster` |
 | 🇧🇪 36008 | <sub>Vlaamse gemeente</sub> | [Izegem](https://www.openstreetmap.org/relation/1335369) | `Stad Izegem` |
 | 🇧🇪 31012 | <sub>Vlaamse gemeente</sub> | [Jabbeke](https://www.openstreetmap.org/relation/1398840) | `Gemeente Jabbeke` |
+| 🇧🇪 21010 | <sub>Brusselse gemeente</sub> | [Jette](https://www.openstreetmap.org/relation/58258) | `Commune de Jette - Gemeente Jette` |
 | 🇳🇱 gm1884 | <sub>Nederlandse gemeente</sub> | [Kaag en Braassem](https://www.openstreetmap.org/relation/444054) | `Gemeente Kaag en Braassem` |
 | 🇧🇪 11022 | <sub>Vlaamse gemeente</sub> | [Kalmthout](https://www.openstreetmap.org/relation/1284337) | `Gemeente Kalmthout` |
 | 🇳🇱 gm0166 | <sub>Nederlandse gemeente</sub> | [Kampen](https://www.openstreetmap.org/relation/408101) | `Gemeente Kampen` |
@@ -296,6 +303,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇧🇪 45060 | <sub>Vlaamse gemeente</sub> | [Kluisbergen](https://www.openstreetmap.org/relation/416454) | `Gemeente Kluisbergen` |
 | 🇧🇪 31043 | <sub>Vlaamse gemeente</sub> | [Knokke-Heist](https://www.openstreetmap.org/relation/4569) | `Gemeente Knokke-Heist` |
 | 🇧🇪 32010 | <sub>Vlaamse gemeente</sub> | [Koekelare](https://www.openstreetmap.org/relation/1269847) | `Gemeente Koekelare` |
+| 🇧🇪 21011 | <sub>Brusselse gemeente</sub> | [Koekelberg](https://www.openstreetmap.org/relation/58256) | `Commune de Koekelberg - Gemeente Koekelberg` |
 | 🇳🇱 gm1598 | <sub>Nederlandse gemeente</sub> | [Koggenland](https://www.openstreetmap.org/relation/161930) | `Gemeente Koggenland` |
 | 🇧🇪 38014 | <sub>Vlaamse gemeente</sub> | [Koksijde](https://www.openstreetmap.org/relation/1487782) | `Gemeente Koksijde` |
 | 🇧🇪 11024 | <sub>Vlaamse gemeente</sub> | [Kontich](https://www.openstreetmap.org/relation/58564) | `Gemeente Kontich` |
@@ -443,6 +451,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇧🇪 45035 | <sub>Vlaamse gemeente</sub> | [Oudenaarde](https://www.openstreetmap.org/relation/416207) | `Stad Oudenaarde` |
 | 🇧🇪 35014 | <sub>Vlaamse gemeente</sub> | [Oudenburg](https://www.openstreetmap.org/relation/1398489) | `Stad Oudenburg` |
 | 🇳🇱 gm0437 | <sub>Nederlandse gemeente</sub> | [Ouder-Amstel](https://www.openstreetmap.org/relation/291718) | `Gemeente Ouder-Amstel` |
+| 🇧🇪 21002 | <sub>Brusselse gemeente</sub> | [Oudergem](https://www.openstreetmap.org/relation/58263) | `Commune d'Auderghem - Gemeente Oudergem` |
 | 🇳🇱 gm0589 | <sub>Nederlandse gemeente</sub> | [Oudewater](https://www.openstreetmap.org/relation/158942) | `Gemeente Oudewater` |
 | 🇧🇪 72042 | <sub>Vlaamse gemeente</sub> | [Oudsbergen](https://www.openstreetmap.org/relation/1246374) | `Gemeente Oudsbergen` |
 | 🇳🇱 gm1734 | <sub>Nederlandse gemeente</sub> | [Overbetuwe](https://www.openstreetmap.org/relation/418687) | `Gemeente Overbetuwe` |
@@ -488,6 +497,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇧🇪 37012 | <sub>Vlaamse gemeente</sub> | [Ruiselede](https://www.openstreetmap.org/relation/1516433) | `Gemeente Ruiselede` |
 | 🇧🇪 11037 | <sub>Vlaamse gemeente</sub> | [Rumst](https://www.openstreetmap.org/relation/58824) | `Gemeente Rumst` |
 | 🇳🇱 col03 | <sub>bijzondere Nederlandse gemeente</sub> | [Saba](https://www.openstreetmap.org/relation/2324451) | `Openbaar Lichaam Saba` |
+| 🇧🇪 21015 | <sub>Brusselse gemeente</sub> | [Schaarbeek](https://www.openstreetmap.org/relation/58260) | `Commune de Schaerbeek - Gemeente Schaarbeek` |
 | 🇳🇱 gm0441 | <sub>Nederlandse gemeente</sub> | [Schagen](https://www.openstreetmap.org/relation/2672878) | `Gemeente Schagen` |
 | 🇧🇪 11038 | <sub>Vlaamse gemeente</sub> | [Schelle](https://www.openstreetmap.org/relation/58364) | `Gemeente Schelle` |
 | 🇧🇪 24134 | <sub>Vlaamse gemeente</sub> | [Scherpenheuvel-Zichem](https://www.openstreetmap.org/relation/1161890) | `Stad Scherpenheuvel-Zichem` |
@@ -499,15 +509,21 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇳🇱 gm1676 | <sub>Nederlandse gemeente</sub> | [Schouwen-Duiveland](https://www.openstreetmap.org/relation/296493) | `Gemeente Schouwen-Duiveland` |
 | 🇳🇱 gm0965 | <sub>Nederlandse gemeente</sub> | [Simpelveld](https://www.openstreetmap.org/relation/406428) | `Gemeente Simpelveld` |
 | 🇳🇱 col02 | <sub>bijzondere Nederlandse gemeente</sub> | [Sint Eustatius](https://www.openstreetmap.org/relation/2324452) | `Openbaar Lichaam Sint Eustatius` |
+| 🇧🇪 21003 | <sub>Brusselse gemeente</sub> | [Sint-Agatha-Berchem](https://www.openstreetmap.org/relation/60140) | `Commune de Berchem-Sainte-Agathe - Gemeente Sint-Agatha-Berchem` |
 | 🇧🇪 23101 | <sub>Vlaamse gemeente</sub> | [Sint-Genesius-Rode](https://www.openstreetmap.org/relation/78796) | `Gemeente Sint-Genesius-Rode` |
+| 🇧🇪 21013 | <sub>Brusselse gemeente</sub> | [Sint-Gillis](https://www.openstreetmap.org/relation/58248) | `Commune de Saint-Gilles - Gemeente Sint-Gillis` |
 | 🇧🇪 46020 | <sub>Vlaamse gemeente</sub> | [Sint-Gillis-Waas](https://www.openstreetmap.org/relation/913873) | `Gemeente Sint-Gillis-Waas` |
+| 🇧🇪 21012 | <sub>Brusselse gemeente</sub> | [Sint-Jans-Molenbeek](https://www.openstreetmap.org/relation/58255) | `Commune de Molenbeek-Saint-Jean - Gemeente Sint-Jans-Molenbeek` |
+| 🇧🇪 21014 | <sub>Brusselse gemeente</sub> | [Sint-Joost-ten-Node](https://www.openstreetmap.org/relation/58262) | `Commune de Saint-Josse-ten-Noode - Gemeente Sint-Joost-ten-Node` |
 | 🇧🇪 12035 | <sub>Vlaamse gemeente</sub> | [Sint-Katelijne-Waver](https://www.openstreetmap.org/relation/414402) | `Gemeente Sint-Katelijne-Waver` |
+| 🇧🇪 21018 | <sub>Brusselse gemeente</sub> | [Sint-Lambrechts-Woluwe](https://www.openstreetmap.org/relation/60167) | `Commune de Woluwe-Saint-Lambert - Gemeente Sint-Lambrechts-Woluwe` |
 | 🇧🇪 43014 | <sub>Vlaamse gemeente</sub> | [Sint-Laureins](https://www.openstreetmap.org/relation/1367403) | `Gemeente Sint-Laureins` |
 | 🇧🇪 41063 | <sub>Vlaamse gemeente</sub> | [Sint-Lievens-Houtem](https://www.openstreetmap.org/relation/1184308) | `Gemeente Sint-Lievens-Houtem` |
 | 🇧🇪 44064 | <sub>Vlaamse gemeente</sub> | [Sint-Martens-Latem](https://www.openstreetmap.org/relation/571850) | `Gemeente Sint-Martens-Latem` |
 | 🇳🇱 gm0845 | <sub>Nederlandse gemeente</sub> | [Sint-Michielsgestel](https://www.openstreetmap.org/relation/299991) | `Gemeente Sint-Michielsgestel` |
 | 🇧🇪 46021 | <sub>Vlaamse gemeente</sub> | [Sint-Niklaas](https://www.openstreetmap.org/relation/913866) | `Stad Sint-Niklaas` |
 | 🇧🇪 23077 | <sub>Vlaamse gemeente</sub> | [Sint-Pieters-Leeuw](https://www.openstreetmap.org/relation/199135) | `Gemeente Sint-Pieters-Leeuw` |
+| 🇧🇪 21019 | <sub>Brusselse gemeente</sub> | [Sint-Pieters-Woluwe](https://www.openstreetmap.org/relation/60168) | `Commune de Woluwe-Saint-Pierre - Gemeente Sint-Pieters-Woluwe` |
 | 🇧🇪 71053 | <sub>Vlaamse gemeente</sub> | [Sint-Truiden](https://www.openstreetmap.org/relation/1245886) | `Stad Sint-Truiden` |
 | 🇳🇱 gm1883 | <sub>Nederlandse gemeente</sub> | [Sittard-Geleen](https://www.openstreetmap.org/relation/405681) | `Gemeente Sittard-Geleen` |
 | 🇳🇱 gm0610 | <sub>Nederlandse gemeente</sub> | [Sliedrecht](https://www.openstreetmap.org/relation/309444) | `Gemeente Sliedrecht` |
@@ -553,6 +569,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇳🇱 gm0737 | <sub>Nederlandse gemeente</sub> | [Tytsjerksteradiel](https://www.openstreetmap.org/relation/385149) | `Gemeente Tytsjerksteradiel` |
 | 🇳🇱 gm0450 | <sub>Nederlandse gemeente</sub> | [Uitgeest](https://www.openstreetmap.org/relation/290108) | `Gemeente Uitgeest` |
 | 🇳🇱 gm0451 | <sub>Nederlandse gemeente</sub> | [Uithoorn](https://www.openstreetmap.org/relation/376289) | `Gemeente Uithoorn` |
+| 🇧🇪 21016 | <sub>Brusselse gemeente</sub> | [Ukkel](https://www.openstreetmap.org/relation/58253) | `Commune d'Uccle - Gemeente Ukkel` |
 | 🇳🇱 gm0184 | <sub>Nederlandse gemeente</sub> | [Urk](https://www.openstreetmap.org/relation/408115) | `Gemeente Urk` |
 | 🇳🇱 gm0344 | <sub>Nederlandse gemeente</sub> | [Utrecht](https://www.openstreetmap.org/relation/419203) | `Gemeente Utrecht` |
 | 🇳🇱 gm1581 | <sub>Nederlandse gemeente</sub> | [Utrechtse Heuvelrug](https://www.openstreetmap.org/relation/419184) | `Gemeente Utrechtse Heuvelrug` |
@@ -579,6 +596,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇳🇱 gm0626 | <sub>Nederlandse gemeente</sub> | [Voorschoten](https://www.openstreetmap.org/relation/444433) | `Gemeente Voorschoten` |
 | 🇳🇱 gm0285 | <sub>Nederlandse gemeente</sub> | [Voorst](https://www.openstreetmap.org/relation/416844) | `Gemeente Voorst` |
 | 🇧🇪 13044 | <sub>Vlaamse gemeente</sub> | [Vorselaar](https://www.openstreetmap.org/relation/1283231) | `Gemeente Vorselaar` |
+| 🇧🇪 21007 | <sub>Brusselse gemeente</sub> | [Vorst](https://www.openstreetmap.org/relation/58249) | `Commune de Forest - Gemeente Vorst` |
 | 🇧🇪 13046 | <sub>Vlaamse gemeente</sub> | [Vosselaar](https://www.openstreetmap.org/relation/1283041) | `Gemeente Vosselaar` |
 | 🇳🇱 gm0865 | <sub>Nederlandse gemeente</sub> | [Vught](https://www.openstreetmap.org/relation/299554) | `Gemeente Vught` |
 | 🇳🇱 gm1949 | <sub>Nederlandse gemeente</sub> | [Waadhoeke](https://www.openstreetmap.org/relation/7857977) | `Gemeente Waadhoeke` |
@@ -591,6 +609,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇧🇪 34040 | <sub>Vlaamse gemeente</sub> | [Waregem](https://www.openstreetmap.org/relation/898562) | `Stad Waregem` |
 | 🇳🇱 gm0629 | <sub>Nederlandse gemeente</sub> | [Wassenaar](https://www.openstreetmap.org/relation/444432) | `Gemeente Wassenaar` |
 | 🇳🇱 gm0852 | <sub>Nederlandse gemeente</sub> | [Waterland](https://www.openstreetmap.org/relation/289288) | `Gemeente Waterland` |
+| 🇧🇪 21017 | <sub>Brusselse gemeente</sub> | [Watermaal-Bosvoorde](https://www.openstreetmap.org/relation/58264) | `Commune de Watermael-Boitsfort - Gemeente Watermaal-Bosvoorde` |
 | 🇳🇱 gm0988 | <sub>Nederlandse gemeente</sub> | [Weert](https://www.openstreetmap.org/relation/2078294) | `Gemeente Weert` |
 | 🇧🇪 73098 | <sub>Vlaamse gemeente</sub> | [Wellen](https://www.openstreetmap.org/relation/1243514) | `Gemeente Wellen` |
 | 🇧🇪 23102 | <sub>Vlaamse gemeente</sub> | [Wemmel](https://www.openstreetmap.org/relation/77186) | `Gemeente Wemmel` |
