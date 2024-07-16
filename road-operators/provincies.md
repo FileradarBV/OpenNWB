@@ -18,9 +18,9 @@ In dat geval blijkt uit de geografische context welke provincie er wordt bedoeld
 | 🇳🇱 pv25 | <sub>Nederlandse prov.</sub> | [Gelderland](https://www.openstreetmap.org/relation/47554) | `Provincie Gelderland` |
 | 🇳🇱 pv20 | <sub>Nederlandse prov.</sub> | [Groningen](https://www.openstreetmap.org/relation/47826) | `Provincie Groningen` |
 | 🇧🇪 50000 | <sub>Waalse prov.</sub> | [le Hainaut](https://www.openstreetmap.org/relation/157559) | `Province de Hainaut` |
+| 🇧🇪 60000 | <sub>Waalse prov.</sub> | [Liège](https://www.openstreetmap.org/relation/1407192) | `Province de Liège` |
 | 🇳🇱 pv31 | <sub>Nederlandse prov.</sub> | [Limburg](https://www.openstreetmap.org/relation/47793) | `Provincie Limburg` |
 | 🇧🇪 70000 | <sub>Vlaamse prov.</sub> | [Limburg](https://www.openstreetmap.org/relation/53142) | `Provincie Limburg` |
-| 🇧🇪 60000 | <sub>Waalse prov.</sub> | [Liège](https://www.openstreetmap.org/relation/1407192) | `Province de Liège` |
 | 🇧🇪 80000 | <sub>Waalse prov.</sub> | [le Luxembourg](https://www.openstreetmap.org/relation/1412581) | `Province de Luxembourg` |
 | 🇧🇪 90000 | <sub>Waalse prov.</sub> | [Namur](https://www.openstreetmap.org/relation/1311816) | `Province de Namur` |
 | 🇳🇱 pv30 | <sub>Nederlandse prov.</sub> | [Noord-Brabant](https://www.openstreetmap.org/relation/47696) | `Provincie Noord-Brabant` |

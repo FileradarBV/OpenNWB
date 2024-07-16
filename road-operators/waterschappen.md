@@ -11,12 +11,12 @@ Al deze tags zijn [opgenomen in Taginfo](https://taginfo.openstreetmap.org/proje
 | 🇳🇱 ws0155 | <sub>Nederlands waterschap</sub> | [Amstel, Gooi en Vecht](https://www.openstreetmap.org/relation/11938319) | `Waterschap Amstel, Gooi en Vecht` |
 | 🇳🇱 ws0652 | <sub>Nederlands waterschap</sub> | [Brabantse Delta](https://www.openstreetmap.org/relation/11932376) | `Waterschap Brabantse Delta` |
 | 🇳🇱 ws0539 | <sub>Nederlands waterschap</sub> | [De Dommel](https://www.openstreetmap.org/relation/11932295) | `Waterschap De Dommel` |
-| 🇳🇱 ws0636 | <sub>Nederlands waterschap</sub> | [De Stichtse Rijnlanden](https://www.openstreetmap.org/relation/11938270) | `Hoogheemraadschap De Stichtse Rijnlanden` |
 | 🇳🇱 ws0372 | <sub>Nederlands waterschap</sub> | [Delfland](https://www.openstreetmap.org/relation/11931566) | `Hoogheemraadschap van Delfland` |
+| 🇳🇱 ws0636 | <sub>Nederlands waterschap</sub> | [De Stichtse Rijnlanden](https://www.openstreetmap.org/relation/11938270) | `Hoogheemraadschap De Stichtse Rijnlanden` |
 | 🇳🇱 ws0664 | <sub>Nederlands waterschap</sub> | [Drents Overijsselse Delta](https://www.openstreetmap.org/relation/11970218) | `Waterschap Drents Overijsselse Delta` |
 | 🇳🇱 ws0653 | <sub>Nederlands waterschap</sub> | [Fryslân](https://www.openstreetmap.org/relation/11937050) | `Wetterskip Fryslân` |
-| 🇳🇱 ws0651 | <sub>Nederlands waterschap</sub> | [Hollands Noorderkwartier](https://www.openstreetmap.org/relation/11936464) | `Hoogheemraadschap Hollands Noorderkwartier` |
 | 🇳🇱 ws0655 | <sub>Nederlands waterschap</sub> | [Hollandse Delta](https://www.openstreetmap.org/relation/11931705) | `Waterschap Hollandse Delta` |
+| 🇳🇱 ws0651 | <sub>Nederlands waterschap</sub> | [Hollands Noorderkwartier](https://www.openstreetmap.org/relation/11936464) | `Hoogheemraadschap Hollands Noorderkwartier` |
 | 🇳🇱 ws0646 | <sub>Nederlands waterschap</sub> | [Hunze en Aa's](https://www.openstreetmap.org/relation/11974174) | `Waterschap Hunze en Aa's` |
 | 🇳🇱 ws0665 | <sub>Nederlands waterschap</sub> | [Limburg](https://www.openstreetmap.org/relation/11932175) | `Waterschap Limburg` |
 | 🇳🇱 ws0647 | <sub>Nederlands waterschap</sub> | [Noorderzijlvest](https://www.openstreetmap.org/relation/11973621) | `Waterschap Noorderzijlvest` |
