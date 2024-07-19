@@ -11,24 +11,24 @@ In dat geval blijkt uit de geografische context welke provincie er wordt bedoeld
 | Code | Soort | Naam | `operator`-tag |
 | :--- | ---: | :--- | :--- |
 | 🇧🇪 10000 | <sub>Vlaamse prov.</sub> | [Antwerpen](https://www.openstreetmap.org/relation/53114) | `Provincie Antwerpen` |
-| 🇧🇪 20002 | <sub>Waalse prov.</sub> | [le Brabant wallon](https://www.openstreetmap.org/relation/78748) | `Province du Brabant wallon` |
 | 🇳🇱 pv22 | <sub>Nederlandse prov.</sub> | [Drenthe](https://www.openstreetmap.org/relation/47540) | `Provincie Drenthe` |
 | 🇳🇱 pv24 | <sub>Nederlandse prov.</sub> | [Flevoland](https://www.openstreetmap.org/relation/47407) | `Provincie Flevoland` |
 | 🇳🇱 pv21 | <sub>Nederlandse prov.</sub> | [Fryslân](https://www.openstreetmap.org/relation/47381) | `Provincie Fryslân` |
 | 🇳🇱 pv25 | <sub>Nederlandse prov.</sub> | [Gelderland](https://www.openstreetmap.org/relation/47554) | `Provincie Gelderland` |
 | 🇳🇱 pv20 | <sub>Nederlandse prov.</sub> | [Groningen](https://www.openstreetmap.org/relation/47826) | `Provincie Groningen` |
-| 🇧🇪 50000 | <sub>Waalse prov.</sub> | [le Hainaut](https://www.openstreetmap.org/relation/157559) | `Province de Hainaut` |
-| 🇧🇪 60000 | <sub>Waalse prov.</sub> | [Liège](https://www.openstreetmap.org/relation/1407192) | `Province de Liège` |
+| 🇧🇪 50000 | <sub>Waalse prov.</sub> | [Henegouwen](https://www.openstreetmap.org/relation/157559) | `Province de Hainaut` |
 | 🇳🇱 pv31 | <sub>Nederlandse prov.</sub> | [Limburg](https://www.openstreetmap.org/relation/47793) | `Provincie Limburg` |
 | 🇧🇪 70000 | <sub>Vlaamse prov.</sub> | [Limburg](https://www.openstreetmap.org/relation/53142) | `Provincie Limburg` |
-| 🇧🇪 80000 | <sub>Waalse prov.</sub> | [le Luxembourg](https://www.openstreetmap.org/relation/1412581) | `Province de Luxembourg` |
-| 🇧🇪 90000 | <sub>Waalse prov.</sub> | [Namur](https://www.openstreetmap.org/relation/1311816) | `Province de Namur` |
+| 🇧🇪 60000 | <sub>Waalse prov.</sub> | [Luik](https://www.openstreetmap.org/relation/1407192) | `Province de Liège` |
+| 🇧🇪 80000 | <sub>Waalse prov.</sub> | [Luxemburg](https://www.openstreetmap.org/relation/1412581) | `Province de Luxembourg` |
+| 🇧🇪 90000 | <sub>Waalse prov.</sub> | [Namen](https://www.openstreetmap.org/relation/1311816) | `Province de Namur` |
 | 🇳🇱 pv30 | <sub>Nederlandse prov.</sub> | [Noord-Brabant](https://www.openstreetmap.org/relation/47696) | `Provincie Noord-Brabant` |
 | 🇳🇱 pv27 | <sub>Nederlandse prov.</sub> | [Noord-Holland](https://www.openstreetmap.org/relation/47654) | `Provincie Noord-Holland` |
 | 🇧🇪 40000 | <sub>Vlaamse prov.</sub> | [Oost-Vlaanderen](https://www.openstreetmap.org/relation/53135) | `Provincie Oost-Vlaanderen` |
 | 🇳🇱 pv23 | <sub>Nederlandse prov.</sub> | [Overijssel](https://www.openstreetmap.org/relation/47608) | `Provincie Overijssel` |
 | 🇳🇱 pv26 | <sub>Nederlandse prov.</sub> | [Utrecht](https://www.openstreetmap.org/relation/47667) | `Provincie Utrecht` |
 | 🇧🇪 20001 | <sub>Vlaamse prov.</sub> | [Vlaams-Brabant](https://www.openstreetmap.org/relation/58004) | `Provincie Vlaams-Brabant` |
+| 🇧🇪 20002 | <sub>Waalse prov.</sub> | [Waals-Brabant](https://www.openstreetmap.org/relation/78748) | `Province du Brabant wallon` |
 | 🇧🇪 30000 | <sub>Vlaamse prov.</sub> | [West-Vlaanderen](https://www.openstreetmap.org/relation/416271) | `Provincie West-Vlaanderen` |
 | 🇳🇱 pv29 | <sub>Nederlandse prov.</sub> | [Zeeland](https://www.openstreetmap.org/relation/47806) | `Provincie Zeeland` |
 | 🇳🇱 pv28 | <sub>Nederlandse prov.</sub> | [Zuid-Holland](https://www.openstreetmap.org/relation/47772) | `Provincie Zuid-Holland` |

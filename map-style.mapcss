@@ -314,7 +314,7 @@ way[is_prop_set("opennwb-info")]["operator"="Province de Hainaut"][prop("opennwb
 way[is_prop_set("opennwb-info")]["operator"="Province de Hainaut"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-text: "le Hainaut";
+	opennwb-operator-text: "Henegouwen";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -337,7 +337,7 @@ way[is_prop_set("opennwb-info")]["operator"="Province de Liège"][prop("opennwb-
 way[is_prop_set("opennwb-info")]["operator"="Province de Liège"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-text: "Liège";
+	opennwb-operator-text: "Luik";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -360,7 +360,7 @@ way[is_prop_set("opennwb-info")]["operator"="Province de Luxembourg"][prop("open
 way[is_prop_set("opennwb-info")]["operator"="Province de Luxembourg"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-text: "le Luxembourg";
+	opennwb-operator-text: "Luxemburg";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -383,7 +383,7 @@ way[is_prop_set("opennwb-info")]["operator"="Province de Namur"][prop("opennwb-o
 way[is_prop_set("opennwb-info")]["operator"="Province de Namur"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-text: "Namur";
+	opennwb-operator-text: "Namen";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -406,7 +406,7 @@ way[is_prop_set("opennwb-info")]["operator"="Province du Brabant wallon"][prop("
 way[is_prop_set("opennwb-info")]["operator"="Province du Brabant wallon"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
 	opennwb-operator-text-color: #000000;
-	opennwb-operator-text: "le Brabant wallon";
+	opennwb-operator-text: "Waals-Brabant";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
