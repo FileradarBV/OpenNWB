@@ -177,7 +177,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇧🇪 62026 | <sub>Waalse gem.</sub> | [Comblain-au-Pont](https://www.openstreetmap.org/relation/2426391) | `Commune de Comblain-au-Pont` |
 | 🇧🇪 57097 | <sub>Waalse gem.</sub> | [Comines-Warneton](https://www.openstreetmap.org/relation/405621) | `Ville de Comines-Warneton` |
 | 🇧🇪 52015 | <sub>Waalse gem.</sub> | [Courcelles](https://www.openstreetmap.org/relation/2153672) | `Commune de Courcelles` |
-| 🇧🇪 25023 | <sub>Waalse gem.</sub> | [Court-Saint-Étienne](https://www.openstreetmap.org/relation/1150064) | `Commune de Court-Saint-Étienne` |
+| 🇧🇪 25023 | <sub>Waalse gem.</sub> | [Court-Saint-Etienne](https://www.openstreetmap.org/relation/1150064) | `Commune de Court-Saint-Etienne` |
 | 🇧🇪 93014 | <sub>Waalse gem.</sub> | [Couvin](https://www.openstreetmap.org/relation/1502008) | `Ville de Couvin` |
 | 🇳🇱 gm1706 | <sub>Nederlandse gem.</sub> | [Cranendonck](https://www.openstreetmap.org/relation/2078295) | `Gemeente Cranendonck` |
 | 🇧🇪 64021 | <sub>Waalse gem.</sub> | [Crisnée](https://www.openstreetmap.org/relation/2369339) | `Commune de Crisnée` |
@@ -230,7 +230,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇧🇪 12009 | <sub>Vlaamse gem.</sub> | [Duffel](https://www.openstreetmap.org/relation/964195) | `Gemeente Duffel` |
 | 🇳🇱 gm0226 | <sub>Nederlandse gem.</sub> | [Duiven](https://www.openstreetmap.org/relation/418389) | `Gemeente Duiven` |
 | 🇧🇪 83012 | <sub>Waalse gem.</sub> | [Durbuy](https://www.openstreetmap.org/relation/2450567) | `Ville de Durbuy` |
-| 🇧🇪 55050 | <sub>Waalse gem.</sub> | [Écaussinnes](https://www.openstreetmap.org/relation/2160539) | `Commune d'Écaussinnes` |
+| 🇧🇪 55050 | <sub>Waalse gem.</sub> | [Ecaussinnes](https://www.openstreetmap.org/relation/2160539) | `Commune d'Écaussinnes` |
 | 🇳🇱 gm1711 | <sub>Nederlandse gem.</sub> | [Echt-Susteren](https://www.openstreetmap.org/relation/2078286) | `Gemeente Echt-Susteren` |
 | 🇳🇱 gm0385 | <sub>Nederlandse gem.</sub> | [Edam-Volendam](https://www.openstreetmap.org/relation/289463) | `Gemeente Edam-Volendam` |
 | 🇳🇱 gm0228 | <sub>Nederlandse gem.</sub> | [Ede](https://www.openstreetmap.org/relation/418760) | `Gemeente Ede` |
@@ -239,7 +239,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇳🇱 gm0317 | <sub>Nederlandse gem.</sub> | [Eemnes](https://www.openstreetmap.org/relation/419185) | `Gemeente Eemnes` |
 | 🇳🇱 gm1979 | <sub>Nederlandse gem.</sub> | [Eemsdelta](https://www.openstreetmap.org/relation/12118634) | `Gemeente Eemsdelta` |
 | 🇳🇱 gm0770 | <sub>Nederlandse gem.</sub> | [Eersel](https://www.openstreetmap.org/relation/192511) | `Gemeente Eersel` |
-| 🇧🇪 92035 | <sub>Waalse gem.</sub> | [Éghezée](https://www.openstreetmap.org/relation/2304128) | `Commune d'Éghezée` |
+| 🇧🇪 92035 | <sub>Waalse gem.</sub> | [Eghezée](https://www.openstreetmap.org/relation/2304128) | `Commune d'Eghezée` |
 | 🇳🇱 gm1903 | <sub>Nederlandse gem.</sub> | [Eijsden-Margraten](https://www.openstreetmap.org/relation/305282) | `Gemeente Eijsden-Margraten` |
 | 🇳🇱 gm0772 | <sub>Nederlandse gem.</sub> | [Eindhoven](https://www.openstreetmap.org/relation/47504) | `Gemeente Eindhoven` |
 | 🇳🇱 gm0230 | <sub>Nederlandse gem.</sub> | [Elburg](https://www.openstreetmap.org/relation/409681) | `Gemeente Elburg` |
@@ -251,7 +251,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇳🇱 gm0388 | <sub>Nederlandse gem.</sub> | [Enkhuizen](https://www.openstreetmap.org/relation/296469) | `Gemeente Enkhuizen` |
 | 🇳🇱 gm0153 | <sub>Nederlandse gem.</sub> | [Enschede](https://www.openstreetmap.org/relation/415473) | `Gemeente Enschede` |
 | 🇳🇱 gm0232 | <sub>Nederlandse gem.</sub> | [Epe](https://www.openstreetmap.org/relation/416711) | `Gemeente Epe` |
-| 🇧🇪 83013 | <sub>Waalse gem.</sub> | [Érezée](https://www.openstreetmap.org/relation/2452846) | `Commune d'Érezée` |
+| 🇧🇪 83013 | <sub>Waalse gem.</sub> | [Erezée](https://www.openstreetmap.org/relation/2452846) | `Commune d'Érezée` |
 | 🇳🇱 gm0233 | <sub>Nederlandse gem.</sub> | [Ermelo](https://www.openstreetmap.org/relation/409719) | `Gemeente Ermelo` |
 | 🇧🇪 41082 | <sub>Vlaamse gem.</sub> | [Erpe-Mere](https://www.openstreetmap.org/relation/1197961) | `Gemeente Erpe-Mere` |
 | 🇧🇪 56022 | <sub>Waalse gem.</sub> | [Erquelinnes](https://www.openstreetmap.org/relation/1881784) | `Commune d'Erquelinnes` |
@@ -259,7 +259,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇧🇪 11016 | <sub>Vlaamse gem.</sub> | [Essen](https://www.openstreetmap.org/relation/964003) | `Gemeente Essen` |
 | 🇧🇪 57027 | <sub>Waalse gem.</sub> | [Estaimpuis](https://www.openstreetmap.org/relation/2163688) | `Commune d'Estaimpuis` |
 | 🇧🇪 58003 | <sub>Waalse gem.</sub> | [Estinnes](https://www.openstreetmap.org/relation/1917247) | `Commune d'Estinnes` |
-| 🇧🇪 85009 | <sub>Waalse gem.</sub> | [Étalle](https://www.openstreetmap.org/relation/2424516) | `Commune d'Étalle` |
+| 🇧🇪 85009 | <sub>Waalse gem.</sub> | [Etalle](https://www.openstreetmap.org/relation/2424516) | `Commune d'Etalle` |
 | 🇳🇱 gm0777 | <sub>Nederlandse gem.</sub> | [Etten-Leur](https://www.openstreetmap.org/relation/297048) | `Gemeente Etten-Leur` |
 | 🇧🇪 21005 | <sub>Brusselse gem.</sub> | [Etterbeek](https://www.openstreetmap.org/relation/58252) | `Commune d'Etterbeek - Gemeente Etterbeek` |
 | 🇧🇪 63023 | <sub>Waalse gem.</sub> | [Eupen](https://www.openstreetmap.org/relation/2400207) | `Stadt Eupen` |
@@ -278,7 +278,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇧🇪 92045 | <sub>Waalse gem.</sub> | [Floreffe](https://www.openstreetmap.org/relation/2282987) | `Commune de Floreffe` |
 | 🇧🇪 93022 | <sub>Waalse gem.</sub> | [Florennes](https://www.openstreetmap.org/relation/2048709) | `Commune de Florennes` |
 | 🇧🇪 85011 | <sub>Waalse gem.</sub> | [Florenville](https://www.openstreetmap.org/relation/2437642) | `Ville de Florenville` |
-| 🇧🇪 52022 | <sub>Waalse gem.</sub> | [Fontaine-l'Évêque](https://www.openstreetmap.org/relation/2036429) | `Ville de Fontaine-l'Évêque` |
+| 🇧🇪 52022 | <sub>Waalse gem.</sub> | [Fontaine-l'Evêque](https://www.openstreetmap.org/relation/2036429) | `Ville de Fontaine-L'Évêque` |
 | 🇧🇪 92048 | <sub>Waalse gem.</sub> | [Fosses-la-Ville](https://www.openstreetmap.org/relation/2282988) | `Ville de Fosses-la-Ville` |
 | 🇧🇪 53028 | <sub>Waalse gem.</sub> | [Frameries](https://www.openstreetmap.org/relation/1903480) | `Commune de Frameries` |
 | 🇧🇪 51065 | <sub>Waalse gem.</sub> | [Frasnes-lez-Anvaing](https://www.openstreetmap.org/relation/2002464) | `Commune de Frasnes-lez-Anvaing` |
@@ -603,7 +603,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇳🇱 gm1699 | <sub>Nederlandse gem.</sub> | [Noordenveld](https://www.openstreetmap.org/relation/410552) | `Gemeente Noordenveld` |
 | 🇳🇱 gm0171 | <sub>Nederlandse gem.</sub> | [Noordoostpolder](https://www.openstreetmap.org/relation/47436) | `Gemeente Noordoostpolder` |
 | 🇳🇱 gm0575 | <sub>Nederlandse gem.</sub> | [Noordwijk](https://www.openstreetmap.org/relation/443912) | `Gemeente Noordwijk` |
-| 🇳🇱 gm0820 | <sub>Nederlandse gem.</sub> | [Nuenen, Gerwen en Nederwetten](https://www.openstreetmap.org/relation/192879) | `Gemeente Nuenen c.a.` |
+| 🇳🇱 gm0820 | <sub>Nederlandse gem.</sub> | [Nuenen, Gerwen en Nederwetten](https://www.openstreetmap.org/relation/192879) | `Gemeente Nuenen` |
 | 🇳🇱 gm0302 | <sub>Nederlandse gem.</sub> | [Nunspeet](https://www.openstreetmap.org/relation/409694) | `Gemeente Nunspeet` |
 | 🇳🇱 gm0579 | <sub>Nederlandse gem.</sub> | [Oegstgeest](https://www.openstreetmap.org/relation/444068) | `Gemeente Oegstgeest` |
 | 🇧🇪 92097 | <sub>Waalse gem.</sub> | [Ohey](https://www.openstreetmap.org/relation/2330165) | `Commune d'Ohey` |

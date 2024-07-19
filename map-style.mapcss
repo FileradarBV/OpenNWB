@@ -1580,6 +1580,28 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Aywaille"][prop("opennwb-
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
+way[is_prop_set("opennwb-info")]["operator"="Commune d'Eghezée"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Commune d'Eghezée"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Eghezée";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "90";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "90";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["operator"="Commune d'Ellezelles"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune d'Ellezelles"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
@@ -1694,6 +1716,28 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Estinnes"][prop("opennwb-
 way[is_prop_set("opennwb-info")]["operator"="Commune d'Estinnes"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Estinnes";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "90";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "90";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Commune d'Etalle"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Commune d'Etalle"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Etalle";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -2023,29 +2067,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Yvoir"][prop("opennwb-ope
 way[is_prop_set("opennwb-info")]["operator"="Commune d'Écaussinnes"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune d'Écaussinnes"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Écaussinnes";
-	opennwb-operator-country: "🇧🇪";
-	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "90";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "90";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "90";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "90";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="Commune d'Éghezée"][prop("opennwb-operator-country")="🇧🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Commune d'Éghezée"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Éghezée";
+	opennwb-operator-text: "Ecaussinnes";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -2067,29 +2089,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Éghezée"][prop("opennwb
 way[is_prop_set("opennwb-info")]["operator"="Commune d'Érezée"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune d'Érezée"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Érezée";
-	opennwb-operator-country: "🇧🇪";
-	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "90";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "90";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "90";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "90";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="Commune d'Étalle"][prop("opennwb-operator-country")="🇧🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Commune d'Étalle"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Étalle";
+	opennwb-operator-text: "Erezée";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -2746,10 +2746,10 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Courcelles"][prop("openn
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
-way[is_prop_set("opennwb-info")]["operator"="Commune de Court-Saint-Étienne"][prop("opennwb-operator-country")="🇧🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Commune de Court-Saint-Étienne"][prop("opennwb-operator-country")=""] {
+way[is_prop_set("opennwb-info")]["operator"="Commune de Court-Saint-Etienne"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Commune de Court-Saint-Etienne"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Court-Saint-Étienne";
+	opennwb-operator-text: "Court-Saint-Etienne";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -13636,8 +13636,8 @@ way[is_prop_set("opennwb-info")]["operator"="Gemeente Noordwijk"][prop("opennwb-
 	opennwb-maxspeed-backward-livingstreet: "15";
 	opennwb-maxspeed-backward-urbanlivingstreet: "15";
 }
-way[is_prop_set("opennwb-info")]["operator"="Gemeente Nuenen c.a."][prop("opennwb-operator-country")="🇳🇱"],
-way[is_prop_set("opennwb-info")]["operator"="Gemeente Nuenen c.a."][prop("opennwb-operator-country")=""] {
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Nuenen"][prop("opennwb-operator-country")="🇳🇱"],
+way[is_prop_set("opennwb-info")]["operator"="Gemeente Nuenen"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Nuenen, Gerwen en Nederwetten";
 	opennwb-operator-country: "🇳🇱";
@@ -20736,10 +20736,10 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Florenville"][prop("opennw
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
-way[is_prop_set("opennwb-info")]["operator"="Ville de Fontaine-l'Évêque"][prop("opennwb-operator-country")="🇧🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Ville de Fontaine-l'Évêque"][prop("opennwb-operator-country")=""] {
+way[is_prop_set("opennwb-info")]["operator"="Ville de Fontaine-L'Évêque"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Ville de Fontaine-L'Évêque"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Fontaine-l'Évêque";
+	opennwb-operator-text: "Fontaine-l'Evêque";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
