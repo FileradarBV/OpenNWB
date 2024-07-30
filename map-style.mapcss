@@ -1605,7 +1605,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Eghezée"][prop("opennwb-
 way[is_prop_set("opennwb-info")]["operator"="Commune d'Ellezelles"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune d'Ellezelles"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Ellezelles";
+	opennwb-operator-text: "Elzele";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -1825,7 +1825,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Incourt"][prop("opennwb-o
 way[is_prop_set("opennwb-info")]["operator"="Commune d'Ittre"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune d'Ittre"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Ittre";
+	opennwb-operator-text: "Itter";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -1935,7 +1935,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Onhaye"][prop("opennwb-op
 way[is_prop_set("opennwb-info")]["operator"="Commune d'Oreye"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune d'Oreye"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Oreye";
+	opennwb-operator-text: "Oerle";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -2133,7 +2133,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Baelen"][prop("opennwb-o
 way[is_prop_set("opennwb-info")]["operator"="Commune de Bassenge"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune de Bassenge"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Bassenge";
+	opennwb-operator-text: "Bitsingen";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -2155,7 +2155,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Bassenge"][prop("opennwb
 way[is_prop_set("opennwb-info")]["operator"="Commune de Beauvechain"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune de Beauvechain"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Beauvechain";
+	opennwb-operator-text: "Bevekom";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -2397,7 +2397,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Boussu"][prop("opennwb-o
 way[is_prop_set("opennwb-info")]["operator"="Commune de Braine-l'Alleud"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune de Braine-l'Alleud"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Braine-l'Alleud";
+	opennwb-operator-text: "Eigenbrakel";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -2419,7 +2419,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Braine-l'Alleud"][prop("
 way[is_prop_set("opennwb-info")]["operator"="Commune de Braine-le-Château"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune de Braine-le-Château"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Braine-le-Château";
+	opennwb-operator-text: "Kasteelbrakel";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -3057,7 +3057,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Fexhe-le-Haut-Clocher"][
 way[is_prop_set("opennwb-info")]["operator"="Commune de Flobecq"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune de Flobecq"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Flobecq";
+	opennwb-operator-text: "Vloesberg";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -3387,7 +3387,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Gouvy"][prop("opennwb-op
 way[is_prop_set("opennwb-info")]["operator"="Commune de Grez-Doiceau"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune de Grez-Doiceau"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Grez-Doiceau";
+	opennwb-operator-text: "Graven";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -3805,7 +3805,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Juprelle"][prop("opennwb
 way[is_prop_set("opennwb-info")]["operator"="Commune de Jurbise"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune de Jurbise"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Jurbise";
+	opennwb-operator-text: "Jurbeke";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -3871,7 +3871,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de La Bruyère"][prop("open
 way[is_prop_set("opennwb-info")]["operator"="Commune de La Hulpe"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune de La Hulpe"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "La Hulpe";
+	opennwb-operator-text: "Terhulpen";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -4003,7 +4003,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Lierneux"][prop("opennwb
 way[is_prop_set("opennwb-info")]["operator"="Commune de Lincent"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune de Lincent"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Lincent";
+	opennwb-operator-text: "Lijsem";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -4553,7 +4553,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Pepinster"][prop("opennw
 way[is_prop_set("opennwb-info")]["operator"="Commune de Perwez"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune de Perwez"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Perwez";
+	opennwb-operator-text: "Perwijs";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -5037,7 +5037,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Seneffe"][prop("opennwb-
 way[is_prop_set("opennwb-info")]["operator"="Commune de Silly"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune de Silly"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Silly";
+	opennwb-operator-text: "Opzullik";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -20211,7 +20211,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville d'Antoing"][prop("opennwb-ope
 way[is_prop_set("opennwb-info")]["operator"="Ville d'Arlon"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville d'Arlon"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Arlon";
+	opennwb-operator-text: "Aarlen";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -20233,7 +20233,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville d'Arlon"][prop("opennwb-opera
 way[is_prop_set("opennwb-info")]["operator"="Ville d'Ath"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville d'Ath"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Ath";
+	opennwb-operator-text: "Aat";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -20277,7 +20277,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville d'Aubange"][prop("opennwb-ope
 way[is_prop_set("opennwb-info")]["operator"="Ville d'Enghien"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville d'Enghien"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Enghien";
+	opennwb-operator-text: "Edingen";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -20321,7 +20321,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville d'Ottignies-Louvain-la-Neuve"
 way[is_prop_set("opennwb-info")]["operator"="Ville de Bastogne"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Bastogne"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Bastogne";
+	opennwb-operator-text: "Bastenaken";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -20431,7 +20431,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Bouillon"][prop("opennwb-o
 way[is_prop_set("opennwb-info")]["operator"="Ville de Braine-le-Comte"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Braine-le-Comte"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Braine-le-Comte";
+	opennwb-operator-text: "'s Gravenbrakel";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -20607,7 +20607,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Ciney"][prop("opennwb-oper
 way[is_prop_set("opennwb-info")]["operator"="Ville de Comines-Warneton"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Comines-Warneton"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Comines-Warneton";
+	opennwb-operator-text: "Komen-Waasten";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -20805,7 +20805,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Gembloux"][prop("opennwb-o
 way[is_prop_set("opennwb-info")]["operator"="Ville de Genappe"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Genappe"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Genappe";
+	opennwb-operator-text: "Genepiën";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -20827,7 +20827,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Genappe"][prop("opennwb-op
 way[is_prop_set("opennwb-info")]["operator"="Ville de Hannut"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Hannut"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Hannut";
+	opennwb-operator-text: "Hannuit";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -20915,7 +20915,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Houffalize"][prop("opennwb
 way[is_prop_set("opennwb-info")]["operator"="Ville de Huy"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Huy"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Huy";
+	opennwb-operator-text: "Hoei";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -20937,7 +20937,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Huy"][prop("opennwb-operat
 way[is_prop_set("opennwb-info")]["operator"="Ville de Jodoigne"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Jodoigne"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Jodoigne";
+	opennwb-operator-text: "Geldenaken";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -21003,7 +21003,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de La Roche-en-Ardenne"][prop
 way[is_prop_set("opennwb-info")]["operator"="Ville de Lessines"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Lessines"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Lessines";
+	opennwb-operator-text: "Lessen";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -21047,7 +21047,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Leuze-en-Hainaut"][prop("o
 way[is_prop_set("opennwb-info")]["operator"="Ville de Limbourg"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Limbourg"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Limbourg";
+	opennwb-operator-text: "Limburg";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -21069,7 +21069,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Limbourg"][prop("opennwb-o
 way[is_prop_set("opennwb-info")]["operator"="Ville de Liège"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Liège"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Liège";
+	opennwb-operator-text: "Luik";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -21135,7 +21135,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Marche-en-Famenne"][prop("
 way[is_prop_set("opennwb-info")]["operator"="Ville de Mons"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Mons"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Mons";
+	opennwb-operator-text: "Bergen";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -21157,7 +21157,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Mons"][prop("opennwb-opera
 way[is_prop_set("opennwb-info")]["operator"="Ville de Mouscron"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Mouscron"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Mouscron";
+	opennwb-operator-text: "Moeskroen";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -21179,7 +21179,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Mouscron"][prop("opennwb-o
 way[is_prop_set("opennwb-info")]["operator"="Ville de Namur"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Namur"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Namur";
+	opennwb-operator-text: "Namen";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -21223,7 +21223,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Neufchâteau"][prop("openn
 way[is_prop_set("opennwb-info")]["operator"="Ville de Nivelles"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Nivelles"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Nivelles";
+	opennwb-operator-text: "Nijvel";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -21399,7 +21399,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Seraing"][prop("opennwb-op
 way[is_prop_set("opennwb-info")]["operator"="Ville de Soignies"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Soignies"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Soignies";
+	opennwb-operator-text: "Zinnik";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -21487,7 +21487,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Thuin"][prop("opennwb-oper
 way[is_prop_set("opennwb-info")]["operator"="Ville de Tournai"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Tournai"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Tournai";
+	opennwb-operator-text: "Doornik";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -21509,7 +21509,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Tournai"][prop("opennwb-op
 way[is_prop_set("opennwb-info")]["operator"="Ville de Tubize"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Tubize"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Tubize";
+	opennwb-operator-text: "Tubeke";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -21575,7 +21575,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Virton"][prop("opennwb-ope
 way[is_prop_set("opennwb-info")]["operator"="Ville de Visé"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Visé"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Visé";
+	opennwb-operator-text: "Wezet";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -21619,7 +21619,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Walcourt"][prop("opennwb-o
 way[is_prop_set("opennwb-info")]["operator"="Ville de Waremme"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Waremme"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Waremme";
+	opennwb-operator-text: "Borgworm";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
@@ -21641,7 +21641,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Waremme"][prop("opennwb-op
 way[is_prop_set("opennwb-info")]["operator"="Ville de Wavre"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Wavre"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Wavre";
+	opennwb-operator-text: "Waver";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
 	opennwb-maxspeed-forward-urbanmotorway: "50";
