@@ -310,6 +310,351 @@ way[is_prop_set("opennwb-info")]["operator"="Rijkswaterstaat"][prop("opennwb-ope
 	opennwb-maxspeed-backward-livingstreet: "15";
 	opennwb-maxspeed-backward-urbanlivingstreet: "15";
 }
+way[is_prop_set("opennwb-info")]["operator"="Administration des Ponts et Chaussées"][prop("opennwb-operator-country")="🇱🇺"],
+way[is_prop_set("opennwb-info")]["operator"="Administration des Ponts et Chaussées"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "PCH";
+	opennwb-operator-country: "🇱🇺";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "130";
+	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "90";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "130";
+	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "90";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenbau und Verkehr Schleswig-Holstein"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenbau und Verkehr Schleswig-Holstein"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "LBVSH";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Niedersächsische Landesbehörde für Straßenbau und Verkehr"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Niedersächsische Landesbehörde für Straßenbau und Verkehr"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "NLSTBV";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenbau Nordrhein-Westfalen"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenbau Nordrhein-Westfalen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "SNRW";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Hessen Mobil"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Hessen Mobil"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "HM";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Mobilität Rheinland-Pfalz"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Mobilität Rheinland-Pfalz"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "LBM";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb für Straßenbau"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb für Straßenbau"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "LFS";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenwesen Brandenburg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenwesen Brandenburg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "LS";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Landesamt für Straßenbau und Verkehr Mecklenburg-Vorpommern"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Landesamt für Straßenbau und Verkehr Mecklenburg-Vorpommern"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "LSMV";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Landesamt für Straßenbau und Verkehr"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Landesamt für Straßenbau und Verkehr"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "LASUV";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Landesstraßenbaubehörde Sachsen-Anhalt"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Landesstraßenbaubehörde Sachsen-Anhalt"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "LSBB";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Thüringer Landesamt für Bau und Verkehr"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Thüringer Landesamt für Bau und Verkehr"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "TLBV";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Agentschap Wegen en Verkeer"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Agentschap Wegen en Verkeer"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe460e;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "AWV";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "70";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "70";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Service public de Wallonie"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Service public de Wallonie"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe460e;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "SPW";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "90";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "90";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "90";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "90";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Bruxelles Mobilité - Brussel Mobiliteit"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Bruxelles Mobilité - Brussel Mobiliteit"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe460e;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "BM";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urbanmotorroad: "30";
+	opennwb-maxspeed-forward-default: "70";
+	opennwb-maxspeed-forward-urban: "30";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urbanmotorroad: "30";
+	opennwb-maxspeed-backward-default: "70";
+	opennwb-maxspeed-backward-urban: "30";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["operator"="Province de Hainaut"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Province de Hainaut"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
@@ -21682,69 +22027,6 @@ way[is_prop_set("opennwb-info")]["operator"="Ville du Rœulx"][prop("opennwb-ope
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
-way[is_prop_set("opennwb-info")]["operator"="Agentschap Wegen en Verkeer"][prop("opennwb-operator-country")="🇧🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Agentschap Wegen en Verkeer"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "AWV";
-	opennwb-operator-country: "🇧🇪";
-	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "70";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "70";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "70";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "70";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="Bruxelles Mobilité - Brussel Mobiliteit"][prop("opennwb-operator-country")="🇧🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Bruxelles Mobilité - Brussel Mobiliteit"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "BM";
-	opennwb-operator-country: "🇧🇪";
-	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
-	opennwb-maxspeed-forward-motorroad: "70";
-	opennwb-maxspeed-forward-urbanmotorroad: "30";
-	opennwb-maxspeed-forward-default: "70";
-	opennwb-maxspeed-forward-urban: "30";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
-	opennwb-maxspeed-backward-motorroad: "70";
-	opennwb-maxspeed-backward-urbanmotorroad: "30";
-	opennwb-maxspeed-backward-default: "70";
-	opennwb-maxspeed-backward-urban: "30";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="Service public de Wallonie"][prop("opennwb-operator-country")="🇧🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Service public de Wallonie"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "SPW";
-	opennwb-operator-country: "🇧🇪";
-	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "90";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "90";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "90";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "90";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
 way[is_prop_set("opennwb-info")]["operator"="Société wallonne de Financement complémentaire des Infrastructures"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Société wallonne de Financement complémentaire des Infrastructures"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-code: "SOFICO";
@@ -21766,261 +22048,9 @@ way[is_prop_set("opennwb-info")]["operator"="Société wallonne de Financement c
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
-way[is_prop_set("opennwb-info")]["operator"="Administration des Ponts et Chaussées"][prop("opennwb-operator-country")="🇱🇺"],
-way[is_prop_set("opennwb-info")]["operator"="Administration des Ponts et Chaussées"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "PCH";
-	opennwb-operator-country: "🇱🇺";
-	opennwb-maxspeed-forward-motorway: "130";
-	opennwb-maxspeed-forward-urbanmotorway: "130";
-	opennwb-maxspeed-forward-motorroad: "90";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "90";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "130";
-	opennwb-maxspeed-backward-urbanmotorway: "130";
-	opennwb-maxspeed-backward-motorroad: "90";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "90";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
 way[is_prop_set("opennwb-info")]["operator"="Die Autobahn GmbH des Bundes"][prop("opennwb-operator-country")="🇩🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Die Autobahn GmbH des Bundes"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "A";
-	opennwb-operator-country: "🇩🇪";
-	opennwb-maxspeed-forward-motorway: "∞";
-	opennwb-maxspeed-forward-urbanmotorway: "∞";
-	opennwb-maxspeed-forward-motorroad: "100";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "100";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "";
-	opennwb-maxspeed-forward-urbanlivingstreet: "";
-	opennwb-maxspeed-backward-motorway: "∞";
-	opennwb-maxspeed-backward-urbanmotorway: "∞";
-	opennwb-maxspeed-backward-motorroad: "100";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "100";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "";
-	opennwb-maxspeed-backward-urbanlivingstreet: "";
-}
-way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenwesen Brandenburg"][prop("opennwb-operator-country")="🇩🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenwesen Brandenburg"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "LS";
-	opennwb-operator-country: "🇩🇪";
-	opennwb-maxspeed-forward-motorway: "∞";
-	opennwb-maxspeed-forward-urbanmotorway: "∞";
-	opennwb-maxspeed-forward-motorroad: "100";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "100";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "";
-	opennwb-maxspeed-forward-urbanlivingstreet: "";
-	opennwb-maxspeed-backward-motorway: "∞";
-	opennwb-maxspeed-backward-urbanmotorway: "∞";
-	opennwb-maxspeed-backward-motorroad: "100";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "100";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "";
-	opennwb-maxspeed-backward-urbanlivingstreet: "";
-}
-way[is_prop_set("opennwb-info")]["operator"="Hessen Mobil"][prop("opennwb-operator-country")="🇩🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Hessen Mobil"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "HM";
-	opennwb-operator-country: "🇩🇪";
-	opennwb-maxspeed-forward-motorway: "∞";
-	opennwb-maxspeed-forward-urbanmotorway: "∞";
-	opennwb-maxspeed-forward-motorroad: "100";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "100";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "";
-	opennwb-maxspeed-forward-urbanlivingstreet: "";
-	opennwb-maxspeed-backward-motorway: "∞";
-	opennwb-maxspeed-backward-urbanmotorway: "∞";
-	opennwb-maxspeed-backward-motorroad: "100";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "100";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "";
-	opennwb-maxspeed-backward-urbanlivingstreet: "";
-}
-way[is_prop_set("opennwb-info")]["operator"="Landesamt für Straßenbau und Verkehr Mecklenburg-Vorpommern"][prop("opennwb-operator-country")="🇩🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Landesamt für Straßenbau und Verkehr Mecklenburg-Vorpommern"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "LSMV";
-	opennwb-operator-country: "🇩🇪";
-	opennwb-maxspeed-forward-motorway: "∞";
-	opennwb-maxspeed-forward-urbanmotorway: "∞";
-	opennwb-maxspeed-forward-motorroad: "100";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "100";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "";
-	opennwb-maxspeed-forward-urbanlivingstreet: "";
-	opennwb-maxspeed-backward-motorway: "∞";
-	opennwb-maxspeed-backward-urbanmotorway: "∞";
-	opennwb-maxspeed-backward-motorroad: "100";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "100";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "";
-	opennwb-maxspeed-backward-urbanlivingstreet: "";
-}
-way[is_prop_set("opennwb-info")]["operator"="Niedersächsische Landesbehörde für Straßenbau und Verkehr"][prop("opennwb-operator-country")="🇩🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Niedersächsische Landesbehörde für Straßenbau und Verkehr"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "NLSTBV";
-	opennwb-operator-country: "🇩🇪";
-	opennwb-maxspeed-forward-motorway: "∞";
-	opennwb-maxspeed-forward-urbanmotorway: "∞";
-	opennwb-maxspeed-forward-motorroad: "100";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "100";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "";
-	opennwb-maxspeed-forward-urbanlivingstreet: "";
-	opennwb-maxspeed-backward-motorway: "∞";
-	opennwb-maxspeed-backward-urbanmotorway: "∞";
-	opennwb-maxspeed-backward-motorroad: "100";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "100";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "";
-	opennwb-maxspeed-backward-urbanlivingstreet: "";
-}
-way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenbau Nordrhein-Westfalen"][prop("opennwb-operator-country")="🇩🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenbau Nordrhein-Westfalen"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "SNRW";
-	opennwb-operator-country: "🇩🇪";
-	opennwb-maxspeed-forward-motorway: "∞";
-	opennwb-maxspeed-forward-urbanmotorway: "∞";
-	opennwb-maxspeed-forward-motorroad: "100";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "100";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "";
-	opennwb-maxspeed-forward-urbanlivingstreet: "";
-	opennwb-maxspeed-backward-motorway: "∞";
-	opennwb-maxspeed-backward-urbanmotorway: "∞";
-	opennwb-maxspeed-backward-motorroad: "100";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "100";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "";
-	opennwb-maxspeed-backward-urbanlivingstreet: "";
-}
-way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Mobilität Rheinland-Pfalz"][prop("opennwb-operator-country")="🇩🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Mobilität Rheinland-Pfalz"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "LBM";
-	opennwb-operator-country: "🇩🇪";
-	opennwb-maxspeed-forward-motorway: "∞";
-	opennwb-maxspeed-forward-urbanmotorway: "∞";
-	opennwb-maxspeed-forward-motorroad: "100";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "100";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "";
-	opennwb-maxspeed-forward-urbanlivingstreet: "";
-	opennwb-maxspeed-backward-motorway: "∞";
-	opennwb-maxspeed-backward-urbanmotorway: "∞";
-	opennwb-maxspeed-backward-motorroad: "100";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "100";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "";
-	opennwb-maxspeed-backward-urbanlivingstreet: "";
-}
-way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb für Straßenbau"][prop("opennwb-operator-country")="🇩🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb für Straßenbau"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "LFS";
-	opennwb-operator-country: "🇩🇪";
-	opennwb-maxspeed-forward-motorway: "∞";
-	opennwb-maxspeed-forward-urbanmotorway: "∞";
-	opennwb-maxspeed-forward-motorroad: "100";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "100";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "";
-	opennwb-maxspeed-forward-urbanlivingstreet: "";
-	opennwb-maxspeed-backward-motorway: "∞";
-	opennwb-maxspeed-backward-urbanmotorway: "∞";
-	opennwb-maxspeed-backward-motorroad: "100";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "100";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "";
-	opennwb-maxspeed-backward-urbanlivingstreet: "";
-}
-way[is_prop_set("opennwb-info")]["operator"="Landesamt für Straßenbau und Verkehr"][prop("opennwb-operator-country")="🇩🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Landesamt für Straßenbau und Verkehr"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "LASUV";
-	opennwb-operator-country: "🇩🇪";
-	opennwb-maxspeed-forward-motorway: "∞";
-	opennwb-maxspeed-forward-urbanmotorway: "∞";
-	opennwb-maxspeed-forward-motorroad: "100";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "100";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "";
-	opennwb-maxspeed-forward-urbanlivingstreet: "";
-	opennwb-maxspeed-backward-motorway: "∞";
-	opennwb-maxspeed-backward-urbanmotorway: "∞";
-	opennwb-maxspeed-backward-motorroad: "100";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "100";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "";
-	opennwb-maxspeed-backward-urbanlivingstreet: "";
-}
-way[is_prop_set("opennwb-info")]["operator"="Landesstraßenbaubehörde Sachsen-Anhalt"][prop("opennwb-operator-country")="🇩🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Landesstraßenbaubehörde Sachsen-Anhalt"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "LSBB";
-	opennwb-operator-country: "🇩🇪";
-	opennwb-maxspeed-forward-motorway: "∞";
-	opennwb-maxspeed-forward-urbanmotorway: "∞";
-	opennwb-maxspeed-forward-motorroad: "100";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "100";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "";
-	opennwb-maxspeed-forward-urbanlivingstreet: "";
-	opennwb-maxspeed-backward-motorway: "∞";
-	opennwb-maxspeed-backward-urbanmotorway: "∞";
-	opennwb-maxspeed-backward-motorroad: "100";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "100";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "";
-	opennwb-maxspeed-backward-urbanlivingstreet: "";
-}
-way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenbau und Verkehr Schleswig-Holstein"][prop("opennwb-operator-country")="🇩🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Landesbetrieb Straßenbau und Verkehr Schleswig-Holstein"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "LBVSH";
-	opennwb-operator-country: "🇩🇪";
-	opennwb-maxspeed-forward-motorway: "∞";
-	opennwb-maxspeed-forward-urbanmotorway: "∞";
-	opennwb-maxspeed-forward-motorroad: "100";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "100";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-livingstreet: "";
-	opennwb-maxspeed-forward-urbanlivingstreet: "";
-	opennwb-maxspeed-backward-motorway: "∞";
-	opennwb-maxspeed-backward-urbanmotorway: "∞";
-	opennwb-maxspeed-backward-motorroad: "100";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "100";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-livingstreet: "";
-	opennwb-maxspeed-backward-urbanlivingstreet: "";
-}
-way[is_prop_set("opennwb-info")]["operator"="Thüringer Landesamt für Bau und Verkehr"][prop("opennwb-operator-country")="🇩🇪"],
-way[is_prop_set("opennwb-info")]["operator"="Thüringer Landesamt für Bau und Verkehr"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-code: "TLBV";
+	opennwb-operator-code: "BAB";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
