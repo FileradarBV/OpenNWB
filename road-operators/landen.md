@@ -1,13 +1,16 @@
 Lijst van landen
 ================
 
-[OpenNWB](../README.md) herkent de volgende 13 landen als wegbeheerders, indien de betreffende `operator`-tag uit de laatste kolom op het weggedeelte aanwezig is.
+[OpenNWB](../README.md) herkent de volgende 16 landen als wegbeheerders, indien de betreffende `operator`-tag uit de laatste kolom op het weggedeelte aanwezig is.
 In zeldzame gevallen waarin een land een weggedeelte op of buiten de eigen landsgrens beheert, is ook een `operator:addr:country`-tag noodzakelijk.
 Al deze tags zijn [opgenomen in Taginfo](https://taginfo.openstreetmap.org/projects/opennwb#tags).
 
 | Code | Rechtspersoon | Wegbeherende dienst | `operator`-tag |
 | :--- | :--- | :--- | :--- |
 | 🇳🇱 | Staat der Nederlanden | Rijkswaterstaat (**RWS**) | `Rijkswaterstaat` |
+| 🇦🇼 | Land Aruba | Dienst Openbare Werken (**DOW**) | `Dienst Openbare Werken` |
+| 🇨🇼 | Land Curaçao | Openbare Werken (**OW**) | `Servisio pa Obra Públiko` |
+| 🇸🇽 | Land Sint Maarten | Infrastructuurbeheer (**IM**) | `Infrastructure Management` |
 | 🇱🇺 | Staat van het Groothertogdom Luxemburg | Administratie Bruggen en Wegen (**PCH**) | `Administration des Ponts et Chaussées` |
 | 🇩🇪 01 | Land Sleeswijk-Holstein | Landesbetrieb Straßenbau und Verkehr Schleswig-Holstein (**LBVSH**) | `Landesbetrieb Straßenbau und Verkehr Schleswig-Holstein` |
 | 🇩🇪 03 | Land Nedersaksen | Niedersächsische Landesbehörde für Straßenbau und Verkehr (**NLSTBV**) | `Niedersächsische Landesbehörde für Straßenbau und Verkehr` |

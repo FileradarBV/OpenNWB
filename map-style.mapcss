@@ -310,6 +310,75 @@ way[is_prop_set("opennwb-info")]["operator"="Rijkswaterstaat"][prop("opennwb-ope
 	opennwb-maxspeed-backward-livingstreet: "15";
 	opennwb-maxspeed-backward-urbanlivingstreet: "15";
 }
+way[is_prop_set("opennwb-info")]["operator"="Dienst Openbare Werken"][prop("opennwb-operator-country")="🇦🇼"],
+way[is_prop_set("opennwb-info")]["operator"="Dienst Openbare Werken"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DOW";
+	opennwb-operator-country: "🇦🇼";
+	opennwb-maxspeed-forward-motorway: "80";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "80";
+	opennwb-maxspeed-forward-urbanlivingstreet: "50";
+	opennwb-maxspeed-backward-motorway: "80";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "80";
+	opennwb-maxspeed-backward-urbanlivingstreet: "50";
+}
+way[is_prop_set("opennwb-info")]["operator"="Servisio pa Obra Públiko"][prop("opennwb-operator-country")="🇨🇼"],
+way[is_prop_set("opennwb-info")]["operator"="Servisio pa Obra Públiko"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "OW";
+	opennwb-operator-country: "🇨🇼";
+	opennwb-maxspeed-forward-motorway: "80";
+	opennwb-maxspeed-forward-urbanmotorway: "80";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "80";
+	opennwb-maxspeed-forward-default: "60";
+	opennwb-maxspeed-forward-urban: "40";
+	opennwb-maxspeed-forward-livingstreet: "60";
+	opennwb-maxspeed-forward-urbanlivingstreet: "40";
+	opennwb-maxspeed-backward-motorway: "80";
+	opennwb-maxspeed-backward-urbanmotorway: "80";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "80";
+	opennwb-maxspeed-backward-default: "60";
+	opennwb-maxspeed-backward-urban: "40";
+	opennwb-maxspeed-backward-livingstreet: "60";
+	opennwb-maxspeed-backward-urbanlivingstreet: "40";
+}
+way[is_prop_set("opennwb-info")]["operator"="Infrastructure Management"][prop("opennwb-operator-country")="🇸🇽"],
+way[is_prop_set("opennwb-info")]["operator"="Infrastructure Management"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "IM";
+	opennwb-operator-country: "🇸🇽";
+	opennwb-maxspeed-forward-motorway: "50";
+	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-motorroad: "50";
+	opennwb-maxspeed-forward-urbanmotorroad: "30";
+	opennwb-maxspeed-forward-default: "50";
+	opennwb-maxspeed-forward-urban: "30";
+	opennwb-maxspeed-forward-livingstreet: "50";
+	opennwb-maxspeed-forward-urbanlivingstreet: "30";
+	opennwb-maxspeed-backward-motorway: "50";
+	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-motorroad: "50";
+	opennwb-maxspeed-backward-urbanmotorroad: "30";
+	opennwb-maxspeed-backward-default: "50";
+	opennwb-maxspeed-backward-urban: "30";
+	opennwb-maxspeed-backward-livingstreet: "50";
+	opennwb-maxspeed-backward-urbanlivingstreet: "30";
+}
 way[is_prop_set("opennwb-info")]["operator"="Administration des Ponts et Chaussées"][prop("opennwb-operator-country")="🇱🇺"],
 way[is_prop_set("opennwb-info")]["operator"="Administration des Ponts et Chaussées"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #ff0000;
