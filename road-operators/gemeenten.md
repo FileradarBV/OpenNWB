@@ -1,7 +1,7 @@
 Lijst van gemeenten
 ===================
 
-[OpenNWB](../README.md) herkent de volgende 926 gemeenten als wegbeheerders, indien de betreffende `operator`-tag uit de laatste kolom op het weggedeelte aanwezig is.
+[OpenNWB](../README.md) herkent de volgende 927 gemeenten als wegbeheerders, indien de betreffende `operator`-tag uit de laatste kolom op het weggedeelte aanwezig is.
 In zeldzame gevallen waarin een gemeente een weggedeelte op of buiten de eigen landsgrens beheert, is ook een `operator:addr:country`-tag noodzakelijk.
 Al deze tags zijn [opgenomen in Taginfo](https://taginfo.openstreetmap.org/projects/opennwb#tags).
 
@@ -648,6 +648,7 @@ In die gevallen blijkt uit de geografische context welke gemeente er wordt bedoe
 | 🇧🇪 23062 | <sub>Vlaamse gem.</sub> | [Overijse](https://www.openstreetmap.org/relation/191699) | `Gemeente Overijse` |
 | 🇧🇪 84050 | <sub>Waalse gem.</sub> | [Paliseul](https://www.openstreetmap.org/relation/2248105) | `Commune de Paliseul` |
 | 🇳🇱 gm0590 | <sub>Nederlandse gem.</sub> | [Papendrecht](https://www.openstreetmap.org/relation/309441) | `Gemeente Papendrecht` |
+| 🇫🇷 75056 | <sub>bijz. Franse gem.</sub> | [Parijs](https://www.openstreetmap.org/relation/7444) | `Ville de Paris` |
 | 🇧🇪 57062 | <sub>Waalse gem.</sub> | [Pecq](https://www.openstreetmap.org/relation/2163689) | `Commune de Pecq` |
 | 🇳🇱 gm1894 | <sub>Nederlandse gem.</sub> | [Peel en Maas](https://www.openstreetmap.org/relation/188858) | `Gemeente Peel en Maas` |
 | 🇧🇪 72030 | <sub>Vlaamse gem.</sub> | [Peer](https://www.openstreetmap.org/relation/1225919) | `Stad Peer` |
