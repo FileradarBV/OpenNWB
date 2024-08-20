@@ -35,4 +35,4 @@ In dat geval blijkt uit de geografische context welke provincie er wordt bedoeld
 
 ---
 
-[Tabelgegevens afkomstig uit OpenStreetMap](https://www.openstreetmap.org/copyright/nl)
+[Tabelgegevens afkomstig uit OpenStreetMap](https://www.openstreetmap.org/copyright/nl) ([Taginfo](https://taginfo.openstreetmap.org/projects/opennwb_operators#tags))

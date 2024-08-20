@@ -31,4 +31,4 @@ Al deze tags zijn [opgenomen in Taginfo](https://taginfo.openstreetmap.org/proje
 
 ---
 
-[Tabelgegevens afkomstig uit OpenStreetMap](https://www.openstreetmap.org/copyright/nl)
+[Tabelgegevens afkomstig uit OpenStreetMap](https://www.openstreetmap.org/copyright/nl) ([Taginfo](https://taginfo.openstreetmap.org/projects/opennwb_operators#tags))
