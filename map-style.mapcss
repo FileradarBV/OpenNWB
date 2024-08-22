@@ -20512,6 +20512,644 @@ way[is_prop_set("opennwb-info")]["operator"="Stad Zoutleeuw"][prop("opennwb-oper
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
+way[is_prop_set("opennwb-info")]["operator"="Stadt Amberg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Amberg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Amberg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Ansbach"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Ansbach"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Ansbach";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Aschaffenburg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Aschaffenburg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Aschaffenburg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Augsburg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Augsburg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Augsburg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Baden-Baden"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Baden-Baden"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Baden-Baden";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bamberg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bamberg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bamberg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bayreuth"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bayreuth"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bayreuth";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bielefeld"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bielefeld"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bielefeld";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bochum"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bochum"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bochum";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bonn"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bonn"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bonn";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bottrop"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bottrop"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bottrop";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Brandenburg an der Havel"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Brandenburg an der Havel"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Brandenburg an der Havel";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Braunschweig"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Braunschweig"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Braunschweig";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bremen"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bremen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bremen";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bremerhaven"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Bremerhaven"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Bremerhaven";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Chemnitz"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Chemnitz"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Chemnitz";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Coburg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Coburg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Coburg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Cottbus"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Cottbus"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Cottbus";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Darmstadt"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Darmstadt"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Darmstadt";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Delmenhorst"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Delmenhorst"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Delmenhorst";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Dessau-Roßlau"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Dessau-Roßlau"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Dessau-Roßlau";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Dortmund"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Dortmund"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Dortmund";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Dresden"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Dresden"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Dresden";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Duisburg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Duisburg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Duisburg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Düsseldorf"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Düsseldorf"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Düsseldorf";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Emden"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Emden"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Emden";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Erfurt"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Erfurt"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Erfurt";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Erlangen"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Erlangen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Erlangen";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Essen"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Essen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Essen";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
 way[is_prop_set("opennwb-info")]["operator"="Stadt Eupen"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Stadt Eupen"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
@@ -20534,6 +21172,1238 @@ way[is_prop_set("opennwb-info")]["operator"="Stadt Eupen"][prop("opennwb-operato
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
+way[is_prop_set("opennwb-info")]["operator"="Stadt Flensburg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Flensburg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Flensburg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Frankenthal (Pfalz)"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Frankenthal (Pfalz)"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Frankenthal (Pfalz)";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Frankfurt (Oder)"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Frankfurt (Oder)"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Frankfurt (Oder)";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Frankfurt am Main"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Frankfurt am Main"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Frankfurt am Main";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Freiburg im Breisgau"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Freiburg im Breisgau"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Freiburg im Breisgau";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Fürth"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Fürth"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Fürth";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Gelsenkirchen"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Gelsenkirchen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Gelsenkirchen";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Gera"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Gera"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Gera";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Hagen"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Hagen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hagen";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Halle (Saale)"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Halle (Saale)"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Halle (Saale)";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Hamm"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Hamm"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hamm";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Heidelberg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Heidelberg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Heidelberg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Heilbronn"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Heilbronn"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Heilbronn";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Herne"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Herne"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Herne";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Hof"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Hof"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hof";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Ingolstadt"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Ingolstadt"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Ingolstadt";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Jena"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Jena"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Jena";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Kaiserslautern"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Kaiserslautern"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Kaiserslautern";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Karlsruhe"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Karlsruhe"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Karlsruhe";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Kassel"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Kassel"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Kassel";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Kaufbeuren"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Kaufbeuren"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Kaufbeuren";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Kempten (Allgäu)"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Kempten (Allgäu)"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Kempten (Allgäu)";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Kiel"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Kiel"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Kiel";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Koblenz"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Koblenz"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Koblenz";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Krefeld"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Krefeld"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Krefeld";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Köln"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Köln"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Köln";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Landau in der Pfalz"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Landau in der Pfalz"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Landau in der Pfalz";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Landshut"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Landshut"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Landshut";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Leipzig"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Leipzig"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Leipzig";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Leverkusen"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Leverkusen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Leverkusen";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Ludwigshafen am Rhein"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Ludwigshafen am Rhein"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Ludwigshafen am Rhein";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Lübeck"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Lübeck"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Lübeck";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Magdeburg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Magdeburg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Magdeburg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Mainz"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Mainz"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Mainz";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Mannheim"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Mannheim"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Mannheim";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Memmingen"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Memmingen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Memmingen";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Mönchengladbach"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Mönchengladbach"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Mönchengladbach";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Mülheim an der Ruhr"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Mülheim an der Ruhr"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Mülheim an der Ruhr";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt München"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt München"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "München";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Münster"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Münster"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Münster";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Neumünster"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Neumünster"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Neumünster";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Neustadt an der Weinstraße"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Neustadt an der Weinstraße"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Neustadt an der Weinstraße";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Nürnberg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Nürnberg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Nürnberg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Oberhausen"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Oberhausen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oberhausen";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Offenbach am Main"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Offenbach am Main"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Offenbach am Main";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Oldenburg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Oldenburg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Oldenburg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Osnabrück"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Osnabrück"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Osnabrück";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Passau"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Passau"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Passau";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Pforzheim"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Pforzheim"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Pforzheim";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Pirmasens"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Pirmasens"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Pirmasens";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Potsdam"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Potsdam"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Potsdam";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Regensburg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Regensburg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Regensburg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Remscheid"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Remscheid"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Remscheid";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Rosenheim"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Rosenheim"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Rosenheim";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Rostock"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Rostock"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Rostock";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Salzgitter"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Salzgitter"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Salzgitter";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
 way[is_prop_set("opennwb-info")]["operator"="Stadt Sankt Vith"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Stadt Sankt Vith"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
@@ -20555,6 +22425,424 @@ way[is_prop_set("opennwb-info")]["operator"="Stadt Sankt Vith"][prop("opennwb-op
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Schwabach"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Schwabach"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Schwabach";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Schweinfurt"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Schweinfurt"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Schweinfurt";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Schwerin"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Schwerin"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Schwerin";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Solingen"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Solingen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Solingen";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Speyer"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Speyer"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Speyer";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Straubing"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Straubing"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Straubing";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Stuttgart"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Stuttgart"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Stuttgart";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Suhl"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Suhl"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Suhl";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Trier"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Trier"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Trier";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Ulm"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Ulm"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Ulm";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Weiden in der Oberpfalz"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Weiden in der Oberpfalz"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Weiden in der Oberpfalz";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Weimar"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Weimar"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Weimar";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Wiesbaden"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Wiesbaden"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Wiesbaden";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Wilhelmshaven"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Wilhelmshaven"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Wilhelmshaven";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Wolfsburg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Wolfsburg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Wolfsburg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Worms"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Worms"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Worms";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Wuppertal"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Wuppertal"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Wuppertal";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Würzburg"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Würzburg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Würzburg";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Zweibrücken"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Zweibrücken"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Zweibrücken";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-livingstreet: "";
+	opennwb-maxspeed-forward-urbanlivingstreet: "";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-livingstreet: "";
+	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
 way[is_prop_set("opennwb-info")]["operator"="Ville d'Andenne"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville d'Andenne"][prop("opennwb-operator-country")=""] {
