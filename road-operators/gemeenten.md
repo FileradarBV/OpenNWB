@@ -1,7 +1,7 @@
 Lijst van gemeenten
 ===================
 
-[OpenNWB](../README.md) herkent de volgende 1031 gemeenten als wegbeheerders, indien de betreffende `operator`-tag uit de laatste kolom op het weggedeelte aanwezig is.
+[OpenNWB](../README.md) herkent de volgende gemeenten als wegbeheerders, indien de betreffende `operator`-tag uit de laatste kolom op het weggedeelte aanwezig is.
 In zeldzame gevallen waarin een gemeente een weggedeelte op of buiten de eigen landsgrens beheert, is ook een `operator:addr:country`-tag noodzakelijk.
 Al deze tags zijn [opgenomen in Taginfo](https://taginfo.openstreetmap.org/projects/opennwb#tags).
 
