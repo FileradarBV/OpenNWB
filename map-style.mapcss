@@ -25490,7 +25490,7 @@ way[is_prop_set("opennwb-info")]["official_ref:forward"] {
 way[is_prop_set("opennwb-info")]["official_ref:backward"] {
 	opennwb-ref-backward: tag("official_ref:backward");
 }
-way[regexp_test("(A|B|K |L |R|S)[1-9].*|AST|R0|RING", prop("opennwb-ref-code"))] {
+way[regexp_test("(A|B|C |K |L |R|S)[1-9].*|AST|R0|RING", prop("opennwb-ref-code"))] {
 	opennwb-ref-color: #f7fbf5;
 	opennwb-ref-code-color: #2a2d2f;
 }
