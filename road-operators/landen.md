@@ -17,7 +17,7 @@ Al deze tags zijn [opgenomen in Taginfo](https://taginfo.openstreetmap.org/proje
 | 🇩🇪 05 | Land Noordrijn-Westfalen | Landesbetrieb Straßenbau Nordrhein-Westfalen (**SNRW**) | `Landesbetrieb Straßenbau Nordrhein-Westfalen` |
 | 🇩🇪 06 | Land Hessen | Hessen Mobil (**HM**) | `Hessen Mobil` |
 | 🇩🇪 07 | Land Rijnland-Palts | Landesbetrieb Mobilität Rheinland-Pfalz (**LBM**) | `Landesbetrieb Mobilität Rheinland-Pfalz` |
-| 🇩🇪 10 | Saarland | Landesbetrieb für Straßenbau (**LFS**) | `Landesbetrieb für Straßenbau` |
+| 🇩🇪 10 | Land Saarland | Landesbetrieb für Straßenbau (**LFS**) | `Landesbetrieb für Straßenbau` |
 | 🇩🇪 12 | Land Brandenburg | Landesbetrieb Straßenwesen Brandenburg (**LS**) | `Landesbetrieb Straßenwesen Brandenburg` |
 | 🇩🇪 13 | Land Mecklenburg-Voor-Pommeren | Landesamt für Straßenbau und Verkehr Mecklenburg-Vorpommern (**LSMV**) | `Landesamt für Straßenbau und Verkehr Mecklenburg-Vorpommern` |
 | 🇩🇪 14 | Vrijstaat Saksen | Landesamt für Straßenbau und Verkehr (**LASUV**) | `Landesamt für Straßenbau und Verkehr` |
