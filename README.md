@@ -33,6 +33,15 @@ OpenNWB is bruikbaar in de volgende landen:
 * 🇫🇷 Frankrijk
 * 🇩🇪 Duitsland
 
+Screenshots
+-----------
+
+![Wegbeheerder](screenshots/operator.png)
+![Plaatsaanduiding](screenshots/place.png)
+![Verkeersregels](screenshots/traffic.png)
+
+Achtergrond: [Beeldmateriaal Nederland](https://www.beeldmateriaal.nl/bekijk-luchtfotos)
+
 Installatie
 -----------
 
