@@ -572,6 +572,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇩🇪 07314000 | <sub>Duitse gem.</sub> | [Ludwigshafen am Rhein](https://www.openstreetmap.org/relation/62347) | `Stadt Ludwigshafen am Rhein` |
 | 🇧🇪 62063 | <sub>Waalse gem.</sub> | [Luik](https://www.openstreetmap.org/relation/1681788) | `Ville de Liège` |
 | 🇧🇪 71037 | <sub>Vlaamse gem.</sub> | [Lummen](https://www.openstreetmap.org/relation/1245870) | `Gemeente Lummen` |
+| 🇱🇺 0304 | <sub>Luxemburgse gem.</sub> | [Luxemburg](https://www.openstreetmap.org/relation/407489) | `Ville de Luxembourg` |
 | 🇧🇪 45064 | <sub>Vlaamse gem.</sub> | [Maarkedal](https://www.openstreetmap.org/relation/398189) | `Gemeente Maarkedal` |
 | 🇳🇱 gm0263 | <sub>Nederlandse gem.</sub> | [Maasdriel](https://www.openstreetmap.org/relation/407353) | `Gemeente Maasdriel` |
 | 🇧🇪 72021 | <sub>Vlaamse gem.</sub> | [Maaseik](https://www.openstreetmap.org/relation/965575) | `Stad Maaseik` |
