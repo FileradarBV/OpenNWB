@@ -25210,6 +25210,10 @@ way[prop("opennwb-operator-country")="🇧🇪"][is_prop_set("opennwb-carriagewa
 	opennwb-carriageway-color: #008754;
 	opennwb-carriageway-code-color: #f7fbf5;
 }
+way[regexp_test("\\d+", prop("opennwb-carriageway-code"))] {
+	opennwb-carriageway-color: #c1121c;
+	opennwb-carriageway-code-color: #f7fbf5;
+}
 way[is_prop_set("opennwb-street-text")][!setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_urban")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
 	opennwb-info: concat(prop("opennwb-street-text"), " ");
 }
