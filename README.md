@@ -18,7 +18,7 @@ OpenNWB kan de volgende informatie uit OpenStreetMap weergeven:
   - Rijbaanaanduiding (hoofdrijbaan of hectometerletter)
 * Internationaal E-wegnummer
 * Verkeersregels
-  - Wegcategorie (autosnelweg, autoweg of erf)
+  - Wegcategorie (autosnelweg, autoweg, fietsstraat of erf)
   - Bebouwde kom
   - Maximumsnelheid (indien niet standaard)
 * Verharding
