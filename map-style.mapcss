@@ -30819,7 +30819,7 @@ way|z18-[is_prop_set("opennwb-wide")] {
 	font-size: 12;
 	text-halo-radius: 2;
 }
-relation["type"="boundary"]["ref:landcode"="6030"] way[!is_prop_set("opennwb-info")] {
+relation["type"="boundary"]["ref:landcode"="6030"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")] {
 	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Nederland");
 }
@@ -30867,9 +30867,121 @@ relation["type"="boundary"]["ISO3166-1:alpha3"="FRA"] way[!is_prop_set("opennwb-
 	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Frankrijk");
 }
-relation["type"="boundary"]["ISO3166-1:alpha3"="DEU"] way[!is_prop_set("opennwb-info")] {
+relation["type"="boundary"]["ISO3166-1:alpha3"="DEU"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")] {
 	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bondsrepubliek Duitsland");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="01"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Sleeswijk-Holstein");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="02000000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Hamburg");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="03"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Nedersaksen");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="04"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bremen");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Noordrijn-Westfalen");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="06"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Hessen");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Rijnland-Palts");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="08"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Baden-Württemberg");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Beieren");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="10"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Saarland");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="11000000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Berlijn");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="12"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Brandenburg");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="13"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Mecklenburg-Voor-Pommeren");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="14"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Saksen");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="15"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Saksen-Anhalt");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="16"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Thüringen");
+}
+relation["type"="boundary"]["ref:provinciecode"="22"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Drenthe");
+}
+relation["type"="boundary"]["ref:provinciecode"="24"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Flevoland");
+}
+relation["type"="boundary"]["ref:provinciecode"="21"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Fryslân");
+}
+relation["type"="boundary"]["ref:provinciecode"="25"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Gelderland");
+}
+relation["type"="boundary"]["ref:provinciecode"="20"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Groningen");
+}
+relation["type"="boundary"]["ref:provinciecode"="31"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Limburg");
+}
+relation["type"="boundary"]["ref:provinciecode"="30"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Noord-Brabant");
+}
+relation["type"="boundary"]["ref:provinciecode"="27"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Noord-Holland");
+}
+relation["type"="boundary"]["ref:provinciecode"="23"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Overijssel");
+}
+relation["type"="boundary"]["ref:provinciecode"="26"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Utrecht");
+}
+relation["type"="boundary"]["ref:provinciecode"="29"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Zeeland");
+}
+relation["type"="boundary"]["ref:provinciecode"="28"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Zuid-Holland");
 }
 way[prop("opennwb-boundary-count")=2][setting("opennwb_boundary")] {
 	major-z-index: -1;
