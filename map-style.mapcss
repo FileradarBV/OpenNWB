@@ -62,6 +62,11 @@ setting::opennwb_int {
 	label: "Internationaal E-wegnummer";
 	default: false;
 }
+setting::opennwb_boundary {
+	type: boolean;
+	label: "Grenzen";
+	default: true;
+}
 way {
 	width: 1;
 	opacity: 0.25;
@@ -30813,4 +30818,82 @@ way|z18-[is_prop_set("opennwb-wide")] {
 	width: 16;
 	font-size: 12;
 	text-halo-radius: 2;
+}
+relation["type"="boundary"]["ref:landcode"="6030"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Nederland");
+}
+relation["type"="boundary"]["ref:landcode"="5106"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bonaire");
+}
+relation["type"="boundary"]["ref:landcode"="5109"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Sint Eustatius");
+}
+relation["type"="boundary"]["ref:landcode"="5108"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Saba");
+}
+relation["type"="boundary"]["ref:landcode"="5095"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Aruba");
+}
+relation["type"="boundary"]["ref:landcode"="5107"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Curaçao");
+}
+relation["type"="boundary"]["ref:landcode"="5110"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Sint Maarten");
+}
+relation["type"="boundary"]["ref:INS"="02000"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Vlaanderen");
+}
+relation["type"="boundary"]["ref:INS"="04000"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Brussel");
+}
+relation["type"="boundary"]["ref:INS"="03000"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Wallonië");
+}
+relation["type"="boundary"]["ISO3166-1:alpha3"="LUX"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Luxemburg");
+}
+relation["type"="boundary"]["ISO3166-1:alpha3"="FRA"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Frankrijk");
+}
+relation["type"="boundary"]["ISO3166-1:alpha3"="DEU"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bondsrepubliek Duitsland");
+}
+way[prop("opennwb-boundary-count")=2][setting("opennwb_boundary")] {
+	major-z-index: -1;
+	opacity: 1;
+	color: #ffffff;
+	width: 2;
+	dashes: 6,6;
+	dashes-background-opacity: 0.25;
+	dashes-background-color: #000000;
+	casing-opacity: 1;
+	casing-color: #ffffff;
+	casing-width: 2;
+	casing-dashes: 0,2,2,8;
+	left-casing-opacity: 0.25;
+	left-casing-color: #000000;
+	left-casing-width: 4;
+	right-casing-opacity: 0.25;
+	right-casing-color: #000000;
+	right-casing-width: 4;
+	font-size: 12;
+	text-halo-radius: 2;
+	text-color: #ffffff;
+	text-halo-color: #000000;
+}
+way|z14-[prop("opennwb-boundary-count")=2][setting("opennwb_boundary")] {
+	text: substring(prop("opennwb-boundary-text"), 7);
 }
