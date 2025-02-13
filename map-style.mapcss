@@ -30851,13 +30851,13 @@ relation["type"="boundary"]["ref:INS"="02000"] way[!is_prop_set("opennwb-info")]
 	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Vlaanderen");
 }
-relation["type"="boundary"]["ref:INS"="04000"] way[!is_prop_set("opennwb-info")] {
-	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Brussel");
-}
 relation["type"="boundary"]["ref:INS"="03000"] way[!is_prop_set("opennwb-info")] {
 	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Wallonië");
+}
+relation["type"="boundary"]["ref:INS"="04000"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Brussel");
 }
 relation["type"="boundary"]["ISO3166-1:alpha3"="LUX"] way[!is_prop_set("opennwb-info")] {
 	opennwb-boundary-count: eval(prop("opennwb-boundary-count") + 1);
