@@ -210,16 +210,6 @@ way[is_prop_set("opennwb-street-left")] {
 way[prop("opennwb-street-left")=prop("opennwb-street-right")] {
 	opennwb-street-text: prop("opennwb-street-right");
 }
-way[is_prop_set("opennwb-info")]["zone:traffic"="NL:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"] {
-	opennwb-operator-country: "🇳🇱";
-}
 way[is_prop_set("opennwb-info")]["zone:traffic"="AW:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="AW:urban"] {
 	opennwb-operator-country: "🇦🇼";
@@ -231,6 +221,16 @@ way[is_prop_set("opennwb-info")]["zone:traffic"="CW:urban"] {
 way[is_prop_set("opennwb-info")]["zone:traffic"="SX:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="SX:urban"] {
 	opennwb-operator-country: "🇸🇽";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="NL:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="NL:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-BO:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SE:urban"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="BQ-SA:urban"] {
+	opennwb-operator-country: "🇳🇱";
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE:motorway"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:rural"],
@@ -255,10 +255,6 @@ way[is_prop_set("opennwb-info")]["zone:traffic"="DE:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"] {
 	opennwb-operator-country: "🇩🇪";
 }
-way[is_prop_set("opennwb-info")]["operator:addr:country"="NL"],
-way[is_prop_set("opennwb-info")]["operator:addr:country"="BQ"] {
-	opennwb-operator-country: "🇳🇱";
-}
 way[is_prop_set("opennwb-info")]["operator:addr:country"="AW"] {
 	opennwb-operator-country: "🇦🇼";
 }
@@ -268,13 +264,16 @@ way[is_prop_set("opennwb-info")]["operator:addr:country"="CW"] {
 way[is_prop_set("opennwb-info")]["operator:addr:country"="SX"] {
 	opennwb-operator-country: "🇸🇽";
 }
+way[is_prop_set("opennwb-info")]["operator:addr:country"="BQ"],
+way[is_prop_set("opennwb-info")]["operator:addr:country"="NL"] {
+	opennwb-operator-country: "🇳🇱";
+}
 way[is_prop_set("opennwb-info")]["operator:addr:country"="BE"] {
 	opennwb-operator-country: "🇧🇪";
 }
 way[is_prop_set("opennwb-info")]["operator:addr:country"="LU"] {
 	opennwb-operator-country: "🇱🇺";
 }
-way[is_prop_set("opennwb-info")]["operator:addr:country"="FR"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="BL"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="GF"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="GP"],
@@ -286,7 +285,8 @@ way[is_prop_set("opennwb-info")]["operator:addr:country"="PM"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="RE"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="TF"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="WF"],
-way[is_prop_set("opennwb-info")]["operator:addr:country"="YT"] {
+way[is_prop_set("opennwb-info")]["operator:addr:country"="YT"],
+way[is_prop_set("opennwb-info")]["operator:addr:country"="FR"] {
 	opennwb-operator-country: "🇫🇷";
 }
 way[is_prop_set("opennwb-info")]["operator:addr:country"="DE"] {
@@ -301,13 +301,13 @@ way[is_prop_set("opennwb-info")]["operator:addr:country"="VE"] {
 way[is_prop_set("opennwb-info")]["operator:addr:country"="AI"] {
 	opennwb-operator-country: "🇦🇮";
 }
-way[is_prop_set("opennwb-info")]["operator:addr:country"="US"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="AS"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="GU"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="MP"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="PR"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="UM"],
-way[is_prop_set("opennwb-info")]["operator:addr:country"="VI"] {
+way[is_prop_set("opennwb-info")]["operator:addr:country"="VI"],
+way[is_prop_set("opennwb-info")]["operator:addr:country"="US"] {
 	opennwb-operator-country: "🇺🇸";
 }
 way[is_prop_set("opennwb-info")]["operator:addr:country"="KN"] {
@@ -30844,100 +30844,302 @@ way|z18-[is_prop_set("opennwb-wide")] {
 	font-size: 12;
 	text-halo-radius: 2;
 }
-relation["type"="boundary"]["ref:landcode"="6030"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Nederland");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Nederland");
-}
-relation["type"="boundary"]["ref:landcode"="5106"] way[!is_prop_set("opennwb-info")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bonaire");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Bonaire (Nederland)");
-}
-relation["type"="boundary"]["ref:landcode"="5109"] way[!is_prop_set("opennwb-info")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Sint Eustatius");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Sint Eustatius (Nederland)");
-}
-relation["type"="boundary"]["ref:landcode"="5108"] way[!is_prop_set("opennwb-info")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Saba");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Saba (Nederland)");
-}
-relation["type"="boundary"]["ref:landcode"="5095"] way[!is_prop_set("opennwb-info")] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AW"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AW"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="AW"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AW"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AW"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="AW"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AW"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AW"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="AW"] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "AW");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Aruba");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Aruba");
 }
-relation["type"="boundary"]["ref:landcode"="5107"] way[!is_prop_set("opennwb-info")] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="CW"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="CW"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="CW"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="CW"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="CW"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="CW"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="CW"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="CW"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="CW"] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "CW");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Curaçao");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Curaçao");
 }
-relation["type"="boundary"]["ref:landcode"="5110"] way[!is_prop_set("opennwb-info")] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="SX"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="SX"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="SX"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="SX"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="SX"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="SX"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="SX"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="SX"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="SX"] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "SX");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Sint Maarten");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Sint Maarten");
 }
-relation["type"="boundary"]["ref:INS"="02000"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")] {
+relation["type"="boundary"]["ref:provinciecode"="22"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Drenthe");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Drenthe (Nederland)");
+}
+relation["type"="boundary"]["ref:provinciecode"="24"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Flevoland");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Flevoland (Nederland)");
+}
+relation["type"="boundary"]["ref:provinciecode"="21"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Fryslân");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Fryslân (Nederland)");
+}
+relation["type"="boundary"]["ref:provinciecode"="25"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Gelderland");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Gelderland (Nederland)");
+}
+relation["type"="boundary"]["ref:provinciecode"="20"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Groningen");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Groningen (Nederland)");
+}
+relation["type"="boundary"]["ref:provinciecode"="31"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Limburg");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Limburg (Nederland)");
+}
+relation["type"="boundary"]["ref:provinciecode"="30"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Noord-Brabant");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Noord-Brabant (Nederland)");
+}
+relation["type"="boundary"]["ref:provinciecode"="27"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Noord-Holland");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Noord-Holland (Nederland)");
+}
+relation["type"="boundary"]["ref:provinciecode"="23"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Overijssel");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Overijssel (Nederland)");
+}
+relation["type"="boundary"]["ref:provinciecode"="26"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Utrecht");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Utrecht (Nederland)");
+}
+relation["type"="boundary"]["ref:provinciecode"="29"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Zeeland");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Zeeland (Nederland)");
+}
+relation["type"="boundary"]["ref:provinciecode"="28"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Zuid-Holland");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Zuid-Holland (Nederland)");
+}
+relation["type"="boundary"]["ref:caribischopenbaarlichaamcode"="01"] way[!is_prop_set("opennwb-info")][setting("opennwb_highway")],
+relation["type"="boundary"]["ref:caribischopenbaarlichaamcode"="01"] way[!is_prop_set("opennwb-info")][setting("opennwb_urban")],
+relation["type"="boundary"]["ref:caribischopenbaarlichaamcode"="01"] way[!is_prop_set("opennwb-info")][setting("opennwb_maxspeed")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bonaire");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Bonaire (Nederland)");
+}
+relation["type"="boundary"]["ref:caribischopenbaarlichaamcode"="02"] way[!is_prop_set("opennwb-info")][setting("opennwb_highway")],
+relation["type"="boundary"]["ref:caribischopenbaarlichaamcode"="02"] way[!is_prop_set("opennwb-info")][setting("opennwb_urban")],
+relation["type"="boundary"]["ref:caribischopenbaarlichaamcode"="02"] way[!is_prop_set("opennwb-info")][setting("opennwb_maxspeed")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Sint Eustatius");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Sint Eustatius (Nederland)");
+}
+relation["type"="boundary"]["ref:caribischopenbaarlichaamcode"="03"] way[!is_prop_set("opennwb-info")][setting("opennwb_highway")],
+relation["type"="boundary"]["ref:caribischopenbaarlichaamcode"="03"] way[!is_prop_set("opennwb-info")][setting("opennwb_urban")],
+relation["type"="boundary"]["ref:caribischopenbaarlichaamcode"="03"] way[!is_prop_set("opennwb-info")][setting("opennwb_maxspeed")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Saba");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Saba (Nederland)");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BQ"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BQ"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="NL"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="BQ"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="BQ"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="NL"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="BQ"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="BQ"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="NL"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="NL"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="NL"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="NL"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Nederland");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Nederland");
+}
+relation["type"="boundary"]["ref:INS"="10000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Antwerpen");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Antwerpen (België)");
+}
+relation["type"="boundary"]["ref:INS"="50000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Henegouwen");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Henegouwen (België)");
+}
+relation["type"="boundary"]["ref:INS"="70000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Limburg");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Limburg (België)");
+}
+relation["type"="boundary"]["ref:INS"="60000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Luik");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Luik (België)");
+}
+relation["type"="boundary"]["ref:INS"="80000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Luxemburg");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Luxemburg (België)");
+}
+relation["type"="boundary"]["ref:INS"="90000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Namen");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Namen (België)");
+}
+relation["type"="boundary"]["ref:INS"="40000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Oost-Vlaanderen");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Oost-Vlaanderen (België)");
+}
+relation["type"="boundary"]["ref:INS"="20001"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Vlaams-Brabant");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Vlaams-Brabant (België)");
+}
+relation["type"="boundary"]["ref:INS"="20002"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Waals-Brabant");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Waals-Brabant (België)");
+}
+relation["type"="boundary"]["ref:INS"="30000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + West-Vlaanderen");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + West-Vlaanderen (België)");
+}
+relation["type"="boundary"]["ref:INS"="02000"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")][setting("opennwb_highway")],
+relation["type"="boundary"]["ref:INS"="02000"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")][setting("opennwb_urban")],
+relation["type"="boundary"]["ref:INS"="02000"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")][setting("opennwb_maxspeed")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Vlaanderen");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Vlaanderen (België)");
 }
-relation["type"="boundary"]["ref:INS"="03000"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")] {
+relation["type"="boundary"]["ref:INS"="03000"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")][setting("opennwb_highway")],
+relation["type"="boundary"]["ref:INS"="03000"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")][setting("opennwb_urban")],
+relation["type"="boundary"]["ref:INS"="03000"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")][setting("opennwb_maxspeed")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Wallonië");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Wallonië (België)");
 }
-relation["type"="boundary"]["ref:INS"="04000"] way[!is_prop_set("opennwb-info")] {
+relation["type"="boundary"]["ref:INS"="04000"] way[!is_prop_set("opennwb-info")][setting("opennwb_highway")],
+relation["type"="boundary"]["ref:INS"="04000"] way[!is_prop_set("opennwb-info")][setting("opennwb_urban")],
+relation["type"="boundary"]["ref:INS"="04000"] way[!is_prop_set("opennwb-info")][setting("opennwb_maxspeed")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Brussel");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Brussel (België)");
 }
-relation["type"="boundary"]["ISO3166-1:alpha2"="LU"] way[!is_prop_set("opennwb-info")] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="BE"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="BE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="BE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="BE"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="BE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="BE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="BE"] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + België");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + België");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="LU"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="LU"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="LU"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="LU"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="LU"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="LU"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="LU"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="LU"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="LU"] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "LU");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Luxemburg");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Luxemburg");
 }
-relation["type"="boundary"]["ISO3166-1:alpha2"="FR"] way[!is_prop_set("opennwb-info")] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BL"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BL"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="BL"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="BL"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="BL"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="BL"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GP"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GP"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GP"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GP"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GP"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GP"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MQ"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MQ"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MQ"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MQ"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MQ"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MQ"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="NC"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="NC"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="NC"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="NC"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="NC"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="NC"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="RE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="RE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="RE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="RE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="RE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="RE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="TF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="TF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="TF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="TF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="TF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="TF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="WF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="WF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="WF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="WF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="WF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="WF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="YT"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="YT"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="YT"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="YT"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="YT"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="YT"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="FR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="FR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="FR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="FR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="FR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="FR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "FR");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Frankrijk");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Frankrijk");
-}
-relation["type"="boundary"]["ISO3166-1:alpha2"="DE"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "DE");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bondsrepubliek Duitsland");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Bondsrepubliek Duitsland");
-}
-relation["type"="boundary"]["ISO3166-1:alpha2"="GB"] way[!is_prop_set("opennwb-info")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "GB");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Verenigd Koninkrijk");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Verenigd Koninkrijk");
-}
-relation["type"="boundary"]["ISO3166-1:alpha2"="VE"] way[!is_prop_set("opennwb-info")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "VE");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Venezuela");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Venezuela");
-}
-relation["type"="boundary"]["ISO3166-1:alpha2"="AI"] way[!is_prop_set("opennwb-info")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "AI");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Anguilla");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Anguilla");
-}
-relation["type"="boundary"]["ISO3166-1:alpha2"="US"] way[!is_prop_set("opennwb-info")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "US");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Verenigde Staten van Amerika");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Verenigde Staten van Amerika");
-}
-relation["type"="boundary"]["ISO3166-1:alpha2"="KN"] way[!is_prop_set("opennwb-info")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "KN");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Saint Kitts en Nevis");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Saint Kitts en Nevis");
-}
-relation["type"="boundary"]["ISO3166-1:alpha2"="DO"] way[!is_prop_set("opennwb-info")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "DO");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Dominicaanse Republiek");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Dominicaanse Republiek");
 }
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="01"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "DE");
@@ -31019,115 +31221,111 @@ relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="16"] way[!is_prop
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Thüringen");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Thüringen (Bondsrepubliek Duitsland)");
 }
-relation["type"="boundary"]["ref:INS"="10000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Antwerpen");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Antwerpen (België)");
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="DE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="DE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="DE"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="DE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="DE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="DE"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="DE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="DE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="DE"] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "DE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bondsrepubliek Duitsland");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Bondsrepubliek Duitsland");
 }
-relation["type"="boundary"]["ref:provinciecode"="22"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Drenthe");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Drenthe (Nederland)");
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GB"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GB"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="GB"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GB"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GB"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="GB"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GB"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GB"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="GB"] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "GB");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Verenigd Koninkrijk");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Verenigd Koninkrijk");
 }
-relation["type"="boundary"]["ref:provinciecode"="24"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Flevoland");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Flevoland (Nederland)");
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="VE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="VE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="VE"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="VE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="VE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="VE"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="VE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="VE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="VE"] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "VE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Venezuela");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Venezuela");
 }
-relation["type"="boundary"]["ref:provinciecode"="21"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Fryslân");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Fryslân (Nederland)");
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AI"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AI"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="AI"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AI"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AI"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="AI"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AI"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AI"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="AI"] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "AI");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Anguilla");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Anguilla");
 }
-relation["type"="boundary"]["ref:provinciecode"="25"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Gelderland");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Gelderland (Nederland)");
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AS"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AS"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AS"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AS"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AS"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AS"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GU"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GU"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GU"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GU"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GU"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GU"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MP"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MP"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MP"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MP"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MP"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MP"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="UM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="UM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="UM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="UM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="UM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="UM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="VI"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="VI"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="VI"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="VI"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="VI"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="VI"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="US"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="US"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="US"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="US"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="US"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="US"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "US");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Verenigde Staten van Amerika");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Verenigde Staten van Amerika");
 }
-relation["type"="boundary"]["ref:provinciecode"="20"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Groningen");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Groningen (Nederland)");
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="KN"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="KN"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="KN"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="KN"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="KN"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="KN"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="KN"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="KN"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="KN"] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "KN");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Saint Kitts en Nevis");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Saint Kitts en Nevis");
 }
-relation["type"="boundary"]["ref:INS"="50000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Henegouwen");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Henegouwen (België)");
-}
-relation["type"="boundary"]["ref:provinciecode"="31"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Limburg");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Limburg (Nederland)");
-}
-relation["type"="boundary"]["ref:INS"="70000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Limburg");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Limburg (België)");
-}
-relation["type"="boundary"]["ref:INS"="60000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Luik");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Luik (België)");
-}
-relation["type"="boundary"]["ref:INS"="80000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Luxemburg");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Luxemburg (België)");
-}
-relation["type"="boundary"]["ref:INS"="90000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Namen");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Namen (België)");
-}
-relation["type"="boundary"]["ref:provinciecode"="30"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Noord-Brabant");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Noord-Brabant (Nederland)");
-}
-relation["type"="boundary"]["ref:provinciecode"="27"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Noord-Holland");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Noord-Holland (Nederland)");
-}
-relation["type"="boundary"]["ref:INS"="40000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Oost-Vlaanderen");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Oost-Vlaanderen (België)");
-}
-relation["type"="boundary"]["ref:provinciecode"="23"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Overijssel");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Overijssel (Nederland)");
-}
-relation["type"="boundary"]["ref:provinciecode"="26"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Utrecht");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Utrecht (Nederland)");
-}
-relation["type"="boundary"]["ref:INS"="20001"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Vlaams-Brabant");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Vlaams-Brabant (België)");
-}
-relation["type"="boundary"]["ref:INS"="20002"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Waals-Brabant");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Waals-Brabant (België)");
-}
-relation["type"="boundary"]["ref:INS"="30000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "BE");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + West-Vlaanderen");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + West-Vlaanderen (België)");
-}
-relation["type"="boundary"]["ref:provinciecode"="29"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Zeeland");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Zeeland (Nederland)");
-}
-relation["type"="boundary"]["ref:provinciecode"="28"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "NL");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Zuid-Holland");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Zuid-Holland (Nederland)");
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="DO"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="DO"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="DO"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="DO"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="DO"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="DO"],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="DO"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="DO"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="DO"] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "DO");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Dominicaanse Republiek");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Dominicaanse Republiek");
 }
 way[length(prop("opennwb-boundary-countries"))=4][substring(prop("opennwb-boundary-countries"), 0, 2)!=substring(prop("opennwb-boundary-countries"), 2)][setting("opennwb_boundary")] {
 	opennwb-boundary-text: prop("opennwb-boundary-text-int");
