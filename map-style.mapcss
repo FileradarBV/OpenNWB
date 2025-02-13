@@ -292,6 +292,30 @@ way[is_prop_set("opennwb-info")]["operator:addr:country"="YT"] {
 way[is_prop_set("opennwb-info")]["operator:addr:country"="DE"] {
 	opennwb-operator-country: "🇩🇪";
 }
+way[is_prop_set("opennwb-info")]["operator:addr:country"="GB"] {
+	opennwb-operator-country: "🇬🇧";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="VE"] {
+	opennwb-operator-country: "🇻🇪";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="AI"] {
+	opennwb-operator-country: "🇦🇮";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="US"],
+way[is_prop_set("opennwb-info")]["operator:addr:country"="AS"],
+way[is_prop_set("opennwb-info")]["operator:addr:country"="GU"],
+way[is_prop_set("opennwb-info")]["operator:addr:country"="MP"],
+way[is_prop_set("opennwb-info")]["operator:addr:country"="PR"],
+way[is_prop_set("opennwb-info")]["operator:addr:country"="UM"],
+way[is_prop_set("opennwb-info")]["operator:addr:country"="VI"] {
+	opennwb-operator-country: "🇺🇸";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="KN"] {
+	opennwb-operator-country: "🇰🇳";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="DO"] {
+	opennwb-operator-country: "🇩🇴";
+}
 way[is_prop_set("opennwb-info")]["operator"] {
 	opennwb-operator-color: #b30ffe;
 	opennwb-operator-text-color: #ffffff;
@@ -30870,20 +30894,50 @@ relation["type"="boundary"]["ref:INS"="04000"] way[!is_prop_set("opennwb-info")]
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Brussel");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Brussel (België)");
 }
-relation["type"="boundary"]["ISO3166-1:alpha3"="LUX"] way[!is_prop_set("opennwb-info")] {
+relation["type"="boundary"]["ISO3166-1:alpha2"="LU"] way[!is_prop_set("opennwb-info")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "LU");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Luxemburg");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Luxemburg");
 }
-relation["type"="boundary"]["ISO3166-1:alpha3"="FRA"] way[!is_prop_set("opennwb-info")] {
+relation["type"="boundary"]["ISO3166-1:alpha2"="FR"] way[!is_prop_set("opennwb-info")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "FR");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Frankrijk");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Frankrijk");
 }
-relation["type"="boundary"]["ISO3166-1:alpha3"="DEU"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")] {
+relation["type"="boundary"]["ISO3166-1:alpha2"="DE"] way[!is_prop_set("opennwb-info")][!setting("opennwb_operator")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "DE");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bondsrepubliek Duitsland");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Bondsrepubliek Duitsland");
+}
+relation["type"="boundary"]["ISO3166-1:alpha2"="GB"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "GB");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Verenigd Koninkrijk");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Verenigd Koninkrijk");
+}
+relation["type"="boundary"]["ISO3166-1:alpha2"="VE"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "VE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Venezuela");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Venezuela");
+}
+relation["type"="boundary"]["ISO3166-1:alpha2"="AI"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "AI");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Anguilla");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Anguilla");
+}
+relation["type"="boundary"]["ISO3166-1:alpha2"="US"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "US");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Verenigde Staten van Amerika");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Verenigde Staten van Amerika");
+}
+relation["type"="boundary"]["ISO3166-1:alpha2"="KN"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "KN");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Saint Kitts en Nevis");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Saint Kitts en Nevis");
+}
+relation["type"="boundary"]["ISO3166-1:alpha2"="DO"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "DO");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Dominicaanse Republiek");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Dominicaanse Republiek");
 }
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="01"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "DE");
