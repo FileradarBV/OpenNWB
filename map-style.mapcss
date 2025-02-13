@@ -31001,6 +31001,7 @@ way[prop("opennwb-boundary-count")=2][setting("opennwb_boundary")] {
 	right-casing-opacity: 0.25;
 	right-casing-color: #000000;
 	right-casing-width: 4;
+	font-weight: bold;
 	font-size: 12;
 	text-halo-radius: 2;
 	text-color: #ffffff;
