@@ -31,7 +31,7 @@ OpenNWB is bruikbaar in de volgende landen:
 * 🇧🇪 België
 * 🇱🇺 Luxemburg
 * 🇫🇷 Frankrijk
-* 🇩🇪 Duitsland
+* 🇩🇪 Bondsrepubliek Duitsland
 
 Screenshots
 -----------
