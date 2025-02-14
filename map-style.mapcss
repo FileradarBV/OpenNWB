@@ -246,14 +246,14 @@ way[is_prop_set("opennwb-info")]["zone:traffic"="LU:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="LU:urban"] {
 	opennwb-operator-country: "🇱🇺";
 }
-way[is_prop_set("opennwb-info")]["zone:traffic"="FR:rural"],
-way[is_prop_set("opennwb-info")]["zone:traffic"="FR:urban"] {
-	opennwb-operator-country: "🇫🇷";
-}
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:motorway"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="DE:urban"] {
 	opennwb-operator-country: "🇩🇪";
+}
+way[is_prop_set("opennwb-info")]["zone:traffic"="FR:rural"],
+way[is_prop_set("opennwb-info")]["zone:traffic"="FR:urban"] {
+	opennwb-operator-country: "🇫🇷";
 }
 way[is_prop_set("opennwb-info")]["operator:addr:country"="AW"] {
 	opennwb-operator-country: "🇦🇼";
@@ -274,6 +274,9 @@ way[is_prop_set("opennwb-info")]["operator:addr:country"="BE"] {
 way[is_prop_set("opennwb-info")]["operator:addr:country"="LU"] {
 	opennwb-operator-country: "🇱🇺";
 }
+way[is_prop_set("opennwb-info")]["operator:addr:country"="DE"] {
+	opennwb-operator-country: "🇩🇪";
+}
 way[is_prop_set("opennwb-info")]["operator:addr:country"="BL"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="GF"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="GP"],
@@ -288,9 +291,6 @@ way[is_prop_set("opennwb-info")]["operator:addr:country"="WF"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="YT"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="FR"] {
 	opennwb-operator-country: "🇫🇷";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="DE"] {
-	opennwb-operator-country: "🇩🇪";
 }
 way[is_prop_set("opennwb-info")]["operator:addr:country"="GB"] {
 	opennwb-operator-country: "🇬🇧";
@@ -492,303 +492,6 @@ way[is_prop_set("opennwb-info")]["operator"="Administration des Ponts et Chauss�
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-cyclestreet: "30";
 	opennwb-maxspeed-backward-urbancyclestreet: "30";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="DIR Atlantique"][prop("opennwb-operator-country")="🇫🇷"],
-way[is_prop_set("opennwb-info")]["operator"="DIR Atlantique"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #ff0000;
-	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "DIRA";
-	opennwb-operator-country: "🇫🇷";
-	opennwb-maxspeed-forward-motorway: "130";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "80";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "80";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-cyclestreet: "80";
-	opennwb-maxspeed-forward-urbancyclestreet: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "130";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "80";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "80";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-cyclestreet: "80";
-	opennwb-maxspeed-backward-urbancyclestreet: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="DIR Centre-Est"][prop("opennwb-operator-country")="🇫🇷"],
-way[is_prop_set("opennwb-info")]["operator"="DIR Centre-Est"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #ff0000;
-	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "DIRCE";
-	opennwb-operator-country: "🇫🇷";
-	opennwb-maxspeed-forward-motorway: "130";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "80";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "80";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-cyclestreet: "80";
-	opennwb-maxspeed-forward-urbancyclestreet: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "130";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "80";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "80";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-cyclestreet: "80";
-	opennwb-maxspeed-backward-urbancyclestreet: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="DIR Centre-Ouest"][prop("opennwb-operator-country")="🇫🇷"],
-way[is_prop_set("opennwb-info")]["operator"="DIR Centre-Ouest"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #ff0000;
-	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "DIRCO";
-	opennwb-operator-country: "🇫🇷";
-	opennwb-maxspeed-forward-motorway: "130";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "80";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "80";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-cyclestreet: "80";
-	opennwb-maxspeed-forward-urbancyclestreet: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "130";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "80";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "80";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-cyclestreet: "80";
-	opennwb-maxspeed-backward-urbancyclestreet: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="DIR Est"][prop("opennwb-operator-country")="🇫🇷"],
-way[is_prop_set("opennwb-info")]["operator"="DIR Est"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #ff0000;
-	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "DIRE";
-	opennwb-operator-country: "🇫🇷";
-	opennwb-maxspeed-forward-motorway: "130";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "80";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "80";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-cyclestreet: "80";
-	opennwb-maxspeed-forward-urbancyclestreet: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "130";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "80";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "80";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-cyclestreet: "80";
-	opennwb-maxspeed-backward-urbancyclestreet: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="DIRIF"][prop("opennwb-operator-country")="🇫🇷"],
-way[is_prop_set("opennwb-info")]["operator"="DIRIF"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #ff0000;
-	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "DIRIF";
-	opennwb-operator-country: "🇫🇷";
-	opennwb-maxspeed-forward-motorway: "130";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "80";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "80";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-cyclestreet: "80";
-	opennwb-maxspeed-forward-urbancyclestreet: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "130";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "80";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "80";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-cyclestreet: "80";
-	opennwb-maxspeed-backward-urbancyclestreet: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="DIR Massif Central"][prop("opennwb-operator-country")="🇫🇷"],
-way[is_prop_set("opennwb-info")]["operator"="DIR Massif Central"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #ff0000;
-	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "DIRMC";
-	opennwb-operator-country: "🇫🇷";
-	opennwb-maxspeed-forward-motorway: "130";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "80";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "80";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-cyclestreet: "80";
-	opennwb-maxspeed-forward-urbancyclestreet: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "130";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "80";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "80";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-cyclestreet: "80";
-	opennwb-maxspeed-backward-urbancyclestreet: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="DIR Méditerranée"][prop("opennwb-operator-country")="🇫🇷"],
-way[is_prop_set("opennwb-info")]["operator"="DIR Méditerranée"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #ff0000;
-	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "DIRMED";
-	opennwb-operator-country: "🇫🇷";
-	opennwb-maxspeed-forward-motorway: "130";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "80";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "80";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-cyclestreet: "80";
-	opennwb-maxspeed-forward-urbancyclestreet: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "130";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "80";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "80";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-cyclestreet: "80";
-	opennwb-maxspeed-backward-urbancyclestreet: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="DIR Nord"][prop("opennwb-operator-country")="🇫🇷"],
-way[is_prop_set("opennwb-info")]["operator"="DIR Nord"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #ff0000;
-	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "DIRN";
-	opennwb-operator-country: "🇫🇷";
-	opennwb-maxspeed-forward-motorway: "130";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "80";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "80";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-cyclestreet: "80";
-	opennwb-maxspeed-forward-urbancyclestreet: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "130";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "80";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "80";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-cyclestreet: "80";
-	opennwb-maxspeed-backward-urbancyclestreet: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="DIR Nord-Ouest"][prop("opennwb-operator-country")="🇫🇷"],
-way[is_prop_set("opennwb-info")]["operator"="DIR Nord-Ouest"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #ff0000;
-	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "DIRNO";
-	opennwb-operator-country: "🇫🇷";
-	opennwb-maxspeed-forward-motorway: "130";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "80";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "80";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-cyclestreet: "80";
-	opennwb-maxspeed-forward-urbancyclestreet: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "130";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "80";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "80";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-cyclestreet: "80";
-	opennwb-maxspeed-backward-urbancyclestreet: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="DIR Ouest"][prop("opennwb-operator-country")="🇫🇷"],
-way[is_prop_set("opennwb-info")]["operator"="DIR Ouest"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #ff0000;
-	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "DIRO";
-	opennwb-operator-country: "🇫🇷";
-	opennwb-maxspeed-forward-motorway: "130";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "80";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "80";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-cyclestreet: "80";
-	opennwb-maxspeed-forward-urbancyclestreet: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "130";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "80";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "80";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-cyclestreet: "80";
-	opennwb-maxspeed-backward-urbancyclestreet: "50";
-	opennwb-maxspeed-backward-livingstreet: "20";
-	opennwb-maxspeed-backward-urbanlivingstreet: "20";
-}
-way[is_prop_set("opennwb-info")]["operator"="DIR Sud-Ouest"][prop("opennwb-operator-country")="🇫🇷"],
-way[is_prop_set("opennwb-info")]["operator"="DIR Sud-Ouest"][prop("opennwb-operator-country")=""] {
-	opennwb-operator-color: #ff0000;
-	opennwb-operator-text-color: #000000;
-	opennwb-operator-code: "DIRSO";
-	opennwb-operator-country: "🇫🇷";
-	opennwb-maxspeed-forward-motorway: "130";
-	opennwb-maxspeed-forward-urbanmotorway: "50";
-	opennwb-maxspeed-forward-motorroad: "80";
-	opennwb-maxspeed-forward-urbanmotorroad: "50";
-	opennwb-maxspeed-forward-default: "80";
-	opennwb-maxspeed-forward-urban: "50";
-	opennwb-maxspeed-forward-cyclestreet: "80";
-	opennwb-maxspeed-forward-urbancyclestreet: "50";
-	opennwb-maxspeed-forward-livingstreet: "20";
-	opennwb-maxspeed-forward-urbanlivingstreet: "20";
-	opennwb-maxspeed-backward-motorway: "130";
-	opennwb-maxspeed-backward-urbanmotorway: "50";
-	opennwb-maxspeed-backward-motorroad: "80";
-	opennwb-maxspeed-backward-urbanmotorroad: "50";
-	opennwb-maxspeed-backward-default: "80";
-	opennwb-maxspeed-backward-urban: "50";
-	opennwb-maxspeed-backward-cyclestreet: "80";
-	opennwb-maxspeed-backward-urbancyclestreet: "50";
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
@@ -1088,6 +791,303 @@ way[is_prop_set("opennwb-info")]["operator"="Thüringer Landesamt für Bau und V
 	opennwb-maxspeed-backward-urbancyclestreet: "30";
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
+}
+way[is_prop_set("opennwb-info")]["operator"="DIR Atlantique"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="DIR Atlantique"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DIRA";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="DIR Centre-Est"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="DIR Centre-Est"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DIRCE";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="DIR Centre-Ouest"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="DIR Centre-Ouest"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DIRCO";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="DIR Est"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="DIR Est"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DIRE";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="DIRIF"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="DIRIF"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DIRIF";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="DIR Massif Central"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="DIR Massif Central"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DIRMC";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="DIR Méditerranée"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="DIR Méditerranée"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DIRMED";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="DIR Nord"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="DIR Nord"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DIRN";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="DIR Nord-Ouest"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="DIR Nord-Ouest"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DIRNO";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="DIR Ouest"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="DIR Ouest"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DIRO";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="DIR Sud-Ouest"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="DIR Sud-Ouest"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DIRSO";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
 way[is_prop_set("opennwb-info")]["operator"="Agentschap Wegen en Verkeer"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Agentschap Wegen en Verkeer"][prop("opennwb-operator-country")=""] {
@@ -31086,49 +31086,6 @@ relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Luxemburg");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Luxemburg");
 }
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BL"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="BL"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="BL"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GP"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GP"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GP"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MQ"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MQ"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MQ"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="NC"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="NC"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="NC"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PM"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PM"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PM"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="RE"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="RE"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="RE"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="TF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="TF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="TF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="WF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="WF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="WF"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="YT"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="YT"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="YT"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="FR"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="FR"] way[!is_prop_set("opennwb-info")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="FR"] way[!is_prop_set("opennwb-info")] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "FR");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Frankrijk");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Frankrijk");
-}
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="01"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "DE");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Sleeswijk-Holstein");
@@ -31218,6 +31175,49 @@ relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "DE");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bondsrepubliek Duitsland");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Bondsrepubliek Duitsland");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BL"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="BL"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="BL"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GP"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GP"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GP"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MQ"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MQ"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MQ"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="NC"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="NC"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="NC"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PM"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PM"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PM"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="RE"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="RE"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="RE"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="TF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="TF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="TF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="WF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="WF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="WF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="YT"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="YT"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="YT"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="FR"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="FR"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="FR"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "FR");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Frankrijk");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Frankrijk");
 }
 relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GB"] way[!is_prop_set("opennwb-info")],
 relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GB"] way[!is_prop_set("opennwb-info")],
@@ -31372,6 +31372,10 @@ relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country
 }
 way[length(prop("opennwb-boundary-countries"))=4][substring(prop("opennwb-boundary-countries"), 0, 2)!=substring(prop("opennwb-boundary-countries"), 2)][setting("opennwb_boundary")] {
 	opennwb-boundary-text: prop("opennwb-boundary-text-int");
+}
+relation["type"="boundary"]["wikidata"="Q1500976"] way[!is_prop_set("opennwb-info")][is_prop_set("opennwb-boundary-countries")][length(prop("opennwb-boundary-countries"))!=4] {
+	opennwb-boundary-countries: "    ";
+	opennwb-boundary-text: concat(" + + + gemeenschappelijk grondgebied", prop("opennwb-boundary-text-int"));
 }
 way[length(prop("opennwb-boundary-countries"))=4][setting("opennwb_boundary")] {
 	major-z-index: 10;
