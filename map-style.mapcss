@@ -295,11 +295,56 @@ way[is_prop_set("opennwb-info")]["operator:addr:country"="DE"] {
 way[is_prop_set("opennwb-info")]["operator:addr:country"="GB"] {
 	opennwb-operator-country: "🇬🇧";
 }
+way[is_prop_set("opennwb-info")]["operator:addr:country"="GG"] {
+	opennwb-operator-country: "🇬🇬";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="JE"] {
+	opennwb-operator-country: "🇯🇪";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="ES"] {
+	opennwb-operator-country: "🇪🇸";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="AD"] {
+	opennwb-operator-country: "🇦🇩";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="MC"] {
+	opennwb-operator-country: "🇲🇨";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="IT"] {
+	opennwb-operator-country: "🇮🇹";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="CH"] {
+	opennwb-operator-country: "🇨🇭";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="AT"] {
+	opennwb-operator-country: "🇦🇹";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="CZ"] {
+	opennwb-operator-country: "🇨🇿";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="PL"] {
+	opennwb-operator-country: "🇵🇱";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="SE"] {
+	opennwb-operator-country: "🇸🇪";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="DK"] {
+	opennwb-operator-country: "🇩🇰";
+}
 way[is_prop_set("opennwb-info")]["operator:addr:country"="VE"] {
 	opennwb-operator-country: "🇻🇪";
 }
+way[is_prop_set("opennwb-info")]["operator:addr:country"="KN"] {
+	opennwb-operator-country: "🇰🇳";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="AG"] {
+	opennwb-operator-country: "🇦🇬";
+}
 way[is_prop_set("opennwb-info")]["operator:addr:country"="AI"] {
 	opennwb-operator-country: "🇦🇮";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="DO"] {
+	opennwb-operator-country: "🇩🇴";
 }
 way[is_prop_set("opennwb-info")]["operator:addr:country"="AS"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="GU"],
@@ -309,12 +354,6 @@ way[is_prop_set("opennwb-info")]["operator:addr:country"="UM"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="VI"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="US"] {
 	opennwb-operator-country: "🇺🇸";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="KN"] {
-	opennwb-operator-country: "🇰🇳";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="DO"] {
-	opennwb-operator-country: "🇩🇴";
 }
 way[is_prop_set("opennwb-info")]["operator"] {
 	opennwb-operator-color: #b30ffe;
@@ -30844,32 +30883,23 @@ way|z18-[is_prop_set("opennwb-wide")] {
 	font-size: 12;
 	text-halo-radius: 2;
 }
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AW"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AW"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="AW"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AW"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AW"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="AW"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AW"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AW"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="AW"] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AW"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AW"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AW"] way[!is_prop_set("opennwb-info")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "AW");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Aruba");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Aruba");
 }
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="CW"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="CW"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="CW"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="CW"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="CW"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="CW"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="CW"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="CW"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="CW"] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="CW"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="CW"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="CW"] way[!is_prop_set("opennwb-info")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "CW");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Curaçao");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Curaçao");
 }
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="SX"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="SX"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="SX"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="SX"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="SX"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="SX"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="SX"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="SX"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="SX"] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="SX"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="SX"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="SX"] way[!is_prop_set("opennwb-info")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "SX");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Sint Maarten");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Sint Maarten");
@@ -31049,94 +31079,52 @@ relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + België");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + België");
 }
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="LU"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="LU"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="LU"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="LU"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="LU"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="LU"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="LU"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="LU"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="LU"] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="LU"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="LU"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="LU"] way[!is_prop_set("opennwb-info")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "LU");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Luxemburg");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Luxemburg");
 }
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BL"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BL"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="BL"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="BL"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="BL"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="BL"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GP"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GP"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GP"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GP"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GP"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GP"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MQ"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MQ"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MQ"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MQ"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MQ"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MQ"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="NC"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="NC"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="NC"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="NC"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="NC"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="NC"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="RE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="RE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="RE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="RE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="RE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="RE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="TF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="TF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="TF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="TF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="TF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="TF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="WF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="WF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="WF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="WF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="WF"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="WF"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="YT"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="YT"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="YT"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="YT"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="YT"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="YT"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="FR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="FR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="FR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="FR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="FR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="FR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="FR"] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BL"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="BL"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="BL"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GP"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GP"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GP"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MQ"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MQ"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MQ"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="NC"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="NC"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="NC"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PM"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PM"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PM"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="RE"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="RE"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="RE"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="TF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="TF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="TF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="WF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="WF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="WF"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="YT"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="YT"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="YT"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="FR"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="FR"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="FR"] way[!is_prop_set("opennwb-info")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "FR");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Frankrijk");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Frankrijk");
@@ -31231,101 +31219,156 @@ relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bondsrepubliek Duitsland");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Bondsrepubliek Duitsland");
 }
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GB"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GB"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="GB"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GB"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GB"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="GB"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GB"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GB"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="GB"] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GB"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GB"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GB"] way[!is_prop_set("opennwb-info")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "GB");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Verenigd Koninkrijk");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Verenigd Koninkrijk");
 }
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="VE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="VE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="VE"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="VE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="VE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="VE"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="VE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="VE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="VE"] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GG"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GG"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GG"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "GG");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Guernsey");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Guernsey");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="JE"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="JE"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="JE"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "JE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Jersey");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Jersey");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="ES"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="ES"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="ES"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "ES");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Spanje");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Spanje");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AD"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AD"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AD"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "AD");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Andorra");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Andorra");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MC"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MC"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MC"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "MC");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Monaco");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Monaco");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="IT"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="IT"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="IT"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "IT");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Italië");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Italië");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="CH"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="CH"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="CH"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "CH");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Zwitserland");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Zwitserland");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AT"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AT"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AT"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "AT");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Oostenrijk");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Oostenrijk");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="CZ"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="CZ"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="CZ"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "CZ");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Tsjechië");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Tsjechië");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PL"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PL"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PL"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "PL");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Polen");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Polen");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="SE"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="SE"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="SE"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "SE");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Zweden");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Zweden");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="DK"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="DK"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="DK"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "DK");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Denemarken");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Denemarken");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="VE"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="VE"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="VE"] way[!is_prop_set("opennwb-info")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "VE");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Venezuela");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Venezuela");
 }
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AI"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AI"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="AI"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AI"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AI"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="AI"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AI"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AI"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="AI"] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "AI");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Anguilla");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Anguilla");
-}
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AS"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AS"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AS"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AS"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AS"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AS"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GU"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GU"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GU"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GU"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GU"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GU"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MP"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MP"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MP"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MP"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MP"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MP"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="UM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="UM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="UM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="UM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="UM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="UM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="VI"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="VI"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="VI"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="VI"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="VI"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="VI"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="US"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="US"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="US"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="US"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="US"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="US"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="US"] {
-	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "US");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Verenigde Staten van Amerika");
-	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Verenigde Staten van Amerika");
-}
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="KN"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="KN"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="KN"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="KN"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="KN"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="KN"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="KN"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="KN"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="KN"] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="KN"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="KN"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="KN"] way[!is_prop_set("opennwb-info")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "KN");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Saint Kitts en Nevis");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Saint Kitts en Nevis");
 }
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="DO"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="DO"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="DO"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="DO"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="DO"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="DO"],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="DO"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-countries")],
-relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="DO"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-countries"), length(prop("opennwb-boundary-countries")) - 2)!="DO"] {
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AG"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AG"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AG"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "AG");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Antigua en Barbuda");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Antigua en Barbuda");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AI"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AI"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AI"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "AI");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Anguilla");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Anguilla");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="DO"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="DO"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="DO"] way[!is_prop_set("opennwb-info")] {
 	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "DO");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Dominicaanse Republiek");
 	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Dominicaanse Republiek");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="AS"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="AS"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="AS"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="GU"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="GU"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="GU"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MP"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="MP"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="MP"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PR"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="PR"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="PR"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="UM"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="UM"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="UM"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="VI"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="VI"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="VI"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="US"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="contiguous"]["country"="US"] way[!is_prop_set("opennwb-info")],
+relation["type"="boundary"]["boundary"="maritime"]["border_type"="eez"]["country"="US"] way[!is_prop_set("opennwb-info")] {
+	opennwb-boundary-countries: concat(prop("opennwb-boundary-countries"), "US");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Verenigde Staten van Amerika");
+	opennwb-boundary-text-int: concat(prop("opennwb-boundary-text-int"), " + + + Verenigde Staten van Amerika");
 }
 way[length(prop("opennwb-boundary-countries"))=4][substring(prop("opennwb-boundary-countries"), 0, 2)!=substring(prop("opennwb-boundary-countries"), 2)][setting("opennwb_boundary")] {
 	opennwb-boundary-text: prop("opennwb-boundary-text-int");
