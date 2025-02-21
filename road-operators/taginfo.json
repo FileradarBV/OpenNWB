@@ -25,6 +25,7 @@
 	{"object_types": ["relation"], "key": "designation", "value": "ville", "description": "🇧🇪 Waalse gemeente (stad) in het Franse taalgebied"},
 	{"object_types": ["relation"], "key": "designation", "value": "Gemeinde", "description": "🇧🇪 Waalse gemeente in het Duitse taalgebied"},
 	{"object_types": ["relation"], "key": "designation", "value": "Stadt", "description": "🇧🇪 Waalse gemeente (stad) in het Duitse taalgebied"},
+	{"object_types": ["relation"], "key": "designation", "value": "ville", "description": "🇱🇺 Luxemburgse gemeente (stad)"},
 	{"object_types": ["relation"], "key": "admin_level", "value": "6", "description": "🇩🇪 Duitse gemeente (stad)"},
 	{"object_types": ["relation"], "key": "operator", "description": "operator-tag van een provincie, waterschap of gemeente"},
 	{"object_types": ["relation"], "key": "name", "description": "Naam van een provincie, waterschap of gemeente"},
@@ -41,5 +42,6 @@
 	{"object_types": ["relation"], "key": "official_name:fr", "description": "🇧🇪 Naam van een Waalse provincie of gemeente in het Franse taalgebied"},
 	{"object_types": ["relation"], "key": "official_name:de", "description": "🇧🇪 Naam van een Waalse gemeente in het Duitse taalgebied"},
 	{"object_types": ["relation"], "key": "ref:INS", "description": "🇧🇪 Code van een Belgische provincie of gemeente"},
+	{"object_types": ["relation"], "key": "ref:lau2", "description": "🇱🇺 Code van een Luxemburgse gemeente"},
 	{"object_types": ["relation"], "key": "name:de", "description": "🇩🇪 Naam van een Duitse gemeente (stad)"},
 	{"object_types": ["relation"], "key": "de:amtlicher_gemeindeschluessel", "description": "🇩🇪 Code van een Duitse gemeente (stad)"}]}

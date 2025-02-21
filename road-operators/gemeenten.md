@@ -78,8 +78,11 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm0203 | <sub>Nederlandse gem.</sub> | [Barneveld](https://www.openstreetmap.org/relation/47671) | `Gemeente Barneveld` |
 | 🇧🇪 82039 | <sub>Waalse gem.</sub> | [Bastenaken](https://www.openstreetmap.org/relation/2426390) | `Ville de Bastogne` |
 | 🇩🇪 09462000 | <sub>Duitse gem.</sub> | [Bayreuth](https://www.openstreetmap.org/relation/62640) | `Stadt Bayreuth` |
+| 🇱🇺 1001 | <sub>Luxemburgse gem.</sub> | [Beaufort](https://www.openstreetmap.org/relation/569734) | `Commune de Beaufort` |
 | 🇧🇪 56005 | <sub>Waalse gem.</sub> | [Beaumont](https://www.openstreetmap.org/relation/1877567) | `Ville de Beaumont` |
 | 🇧🇪 91013 | <sub>Waalse gem.</sub> | [Beauraing](https://www.openstreetmap.org/relation/2251076) | `Ville de Beauraing` |
+| 🇱🇺 1002 | <sub>Luxemburgse gem.</sub> | [Bech](https://www.openstreetmap.org/relation/569736) | `Commune de Bech` |
+| 🇱🇺 0701 | <sub>Luxemburgse gem.</sub> | [Beckerich](https://www.openstreetmap.org/relation/1355924) | `Commune de Beckerich` |
 | 🇳🇱 gm0888 | <sub>Nederlandse gem.</sub> | [Beek](https://www.openstreetmap.org/relation/305751) | `Gemeente Beek` |
 | 🇳🇱 gm1954 | <sub>Nederlandse gem.</sub> | [Beekdaelen](https://www.openstreetmap.org/relation/9172180) | `Gemeente Beekdaelen` |
 | 🇧🇪 31003 | <sub>Vlaamse gem.</sub> | [Beernem](https://www.openstreetmap.org/relation/1412080) | `Gemeente Beernem` |
@@ -89,6 +92,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 24007 | <sub>Vlaamse gem.</sub> | [Begijnendijk](https://www.openstreetmap.org/relation/958941) | `Gemeente Begijnendijk` |
 | 🇧🇪 24008 | <sub>Vlaamse gem.</sub> | [Bekkevoort](https://www.openstreetmap.org/relation/1164871) | `Gemeente Bekkevoort` |
 | 🇧🇪 51008 | <sub>Waalse gem.</sub> | [Belœil](https://www.openstreetmap.org/relation/2166829) | `Commune de Belœil` |
+| 🇱🇺 1003 | <sub>Luxemburgse gem.</sub> | [Berdorf](https://www.openstreetmap.org/relation/569737) | `Commune de Berdorf` |
 | 🇳🇱 gm1724 | <sub>Nederlandse gem.</sub> | [Bergeijk](https://www.openstreetmap.org/relation/299577) | `Gemeente Bergeijk` |
 | 🇳🇱 gm0373 | <sub>Nederlandse gem.</sub> | [Bergen](https://www.openstreetmap.org/relation/297089) | `Gemeente Bergen` |
 | 🇳🇱 gm0893 | <sub>Nederlandse gem.</sub> | [Bergen](https://www.openstreetmap.org/relation/405107) | `Gemeente Bergen` |
@@ -103,8 +107,12 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm1721 | <sub>Nederlandse gem.</sub> | [Bernheze](https://www.openstreetmap.org/relation/2728416) | `Gemeente Bernheze` |
 | 🇧🇪 51009 | <sub>Waalse gem.</sub> | [Bernissart](https://www.openstreetmap.org/relation/2166830) | `Commune de Bernissart` |
 | 🇧🇪 24009 | <sub>Vlaamse gem.</sub> | [Bertem](https://www.openstreetmap.org/relation/415817) | `Gemeente Bertem` |
+| 🇱🇺 0301 | <sub>Luxemburgse gem.</sub> | [Bertrange](https://www.openstreetmap.org/relation/407950) | `Commune de Bertrange` |
 | 🇧🇪 84009 | <sub>Waalse gem.</sub> | [Bertrix](https://www.openstreetmap.org/relation/2440914) | `Commune de Bertrix` |
 | 🇳🇱 gm0753 | <sub>Nederlandse gem.</sub> | [Best](https://www.openstreetmap.org/relation/164225) | `Gemeente Best` |
+| 🇱🇺 0201 | <sub>Luxemburgse gem.</sub> | [Bettembourg](https://www.openstreetmap.org/relation/407896) | `Commune de Bettembourg` |
+| 🇱🇺 0601 | <sub>Luxemburgse gem.</sub> | [Bettendorf](https://www.openstreetmap.org/relation/1113664) | `Commune de Bettendorf` |
+| 🇱🇺 1101 | <sub>Luxemburgse gem.</sub> | [Betzdorf](https://www.openstreetmap.org/relation/532142) | `Commune de Betzdorf` |
 | 🇳🇱 gm0209 | <sub>Nederlandse gem.</sub> | [Beuningen](https://www.openstreetmap.org/relation/418421) | `Gemeente Beuningen` |
 | 🇧🇪 25005 | <sub>Waalse gem.</sub> | [Bevekom](https://www.openstreetmap.org/relation/1384087) | `Commune de Beauvechain` |
 | 🇧🇪 23009 | <sub>Vlaamse gem.</sub> | [Bever](https://www.openstreetmap.org/relation/1204549) | `Gemeente Bever` |
@@ -116,7 +124,9 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 91015 | <sub>Waalse gem.</sub> | [Bièvre](https://www.openstreetmap.org/relation/2234387) | `Commune de Bièvre` |
 | 🇧🇪 73110 | <sub>Vlaamse gem.</sub> | [Bilzen-Hoeselt](https://www.openstreetmap.org/relation/1246112) | `Stad Bilzen-Hoeselt` |
 | 🇧🇪 58002 | <sub>Waalse gem.</sub> | [Binche](https://www.openstreetmap.org/relation/2077347) | `Ville de Binche` |
+| 🇱🇺 0402 | <sub>Luxemburgse gem.</sub> | [Bissen](https://www.openstreetmap.org/relation/1333114) | `Commune de Bissen` |
 | 🇧🇪 62011 | <sub>Waalse gem.</sub> | [Bitsingen](https://www.openstreetmap.org/relation/2387623) | `Commune de Bassenge` |
+| 🇱🇺 1102 | <sub>Luxemburgse gem.</sub> | [Biwer](https://www.openstreetmap.org/relation/532144) | `Commune de Biwer` |
 | 🇳🇱 gm1728 | <sub>Nederlandse gem.</sub> | [Bladel](https://www.openstreetmap.org/relation/299565) | `Gemeente Bladel` |
 | 🇧🇪 31004 | <sub>Vlaamse gem.</sub> | [Blankenberge](https://www.openstreetmap.org/relation/557875) | `Stad Blankenberge` |
 | 🇳🇱 gm0376 | <sub>Nederlandse gem.</sub> | [Blaricum](https://www.openstreetmap.org/relation/419186) | `Gemeente Blaricum` |
@@ -139,7 +149,10 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm0654 | <sub>Nederlandse gem.</sub> | [Borsele](https://www.openstreetmap.org/relation/296229) | `Gemeente Borsele` |
 | 🇩🇪 05512000 | <sub>Duitse gem.</sub> | [Bottrop](https://www.openstreetmap.org/relation/62634) | `Stadt Bottrop` |
 | 🇧🇪 84010 | <sub>Waalse gem.</sub> | [Bouillon](https://www.openstreetmap.org/relation/2440951) | `Ville de Bouillon` |
+| 🇱🇺 0801 | <sub>Luxemburgse gem.</sub> | [Boulaide](https://www.openstreetmap.org/relation/1356792) | `Commune de Boulaide` |
+| 🇱🇺 0602 | <sub>Luxemburgse gem.</sub> | [Bourscheid](https://www.openstreetmap.org/relation/1113661) | `Commune de Bourscheid` |
 | 🇧🇪 53014 | <sub>Waalse gem.</sub> | [Boussu](https://www.openstreetmap.org/relation/2175522) | `Commune de Boussu` |
+| 🇱🇺 1209 | <sub>Luxemburgse gem.</sub> | [Bous-Waldbredimus](https://www.openstreetmap.org/relation/407500) | `Commune de Bous-Waldbredimus` |
 | 🇧🇪 24016 | <sub>Vlaamse gem.</sub> | [Boutersem](https://www.openstreetmap.org/relation/416478) | `Gemeente Boutersem` |
 | 🇳🇱 gm0757 | <sub>Nederlandse gem.</sub> | [Boxtel](https://www.openstreetmap.org/relation/299989) | `Gemeente Boxtel` |
 | 🇧🇪 64015 | <sub>Waalse gem.</sub> | [Braives](https://www.openstreetmap.org/relation/2363375) | `Commune de Braives` |
@@ -184,10 +197,14 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 85007 | <sub>Waalse gem.</sub> | [Chiny](https://www.openstreetmap.org/relation/2437641) | `Ville de Chiny` |
 | 🇧🇪 91030 | <sub>Waalse gem.</sub> | [Ciney](https://www.openstreetmap.org/relation/2255292) | `Ville de Ciney` |
 | 🇧🇪 61012 | <sub>Waalse gem.</sub> | [Clavier](https://www.openstreetmap.org/relation/2377748) | `Commune de Clavier` |
+| 🇱🇺 0501 | <sub>Luxemburgse gem.</sub> | [Clervaux](https://www.openstreetmap.org/relation/1353121) | `Commune de Clervaux` |
 | 🇩🇪 09463000 | <sub>Duitse gem.</sub> | [Coburg](https://www.openstreetmap.org/relation/62717) | `Stadt Coburg` |
 | 🇳🇱 gm0109 | <sub>Nederlandse gem.</sub> | [Coevorden](https://www.openstreetmap.org/relation/413775) | `Gemeente Coevorden` |
 | 🇧🇪 53082 | <sub>Waalse gem.</sub> | [Colfontaine](https://www.openstreetmap.org/relation/2175521) | `Commune de Colfontaine` |
+| 🇱🇺 0401 | <sub>Luxemburgse gem.</sub> | [Colmar-Berg](https://www.openstreetmap.org/relation/1333116) | `Commune de Colmar-Berg` |
 | 🇧🇪 62026 | <sub>Waalse gem.</sub> | [Comblain-au-Pont](https://www.openstreetmap.org/relation/2426391) | `Commune de Comblain-au-Pont` |
+| 🇱🇺 1004 | <sub>Luxemburgse gem.</sub> | [Consdorf](https://www.openstreetmap.org/relation/569735) | `Commune de Consdorf` |
+| 🇱🇺 0302 | <sub>Luxemburgse gem.</sub> | [Contern](https://www.openstreetmap.org/relation/411354) | `Commune de Contern` |
 | 🇩🇪 12052000 | <sub>Duitse gem.</sub> | [Cottbus](https://www.openstreetmap.org/relation/62430) | `Stadt Cottbus` |
 | 🇧🇪 52015 | <sub>Waalse gem.</sub> | [Courcelles](https://www.openstreetmap.org/relation/2153672) | `Commune de Courcelles` |
 | 🇧🇪 25023 | <sub>Waalse gem.</sub> | [Court-Saint-Etienne](https://www.openstreetmap.org/relation/1150064) | `Commune de Court-Saint-Etienne` |
@@ -196,6 +213,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 64021 | <sub>Waalse gem.</sub> | [Crisnée](https://www.openstreetmap.org/relation/2369339) | `Commune de Crisnée` |
 | 🇳🇱 gm0216 | <sub>Nederlandse gem.</sub> | [Culemborg](https://www.openstreetmap.org/relation/407308) | `Gemeente Culemborg` |
 | 🇳🇱 gm0148 | <sub>Nederlandse gem.</sub> | [Dalfsen](https://www.openstreetmap.org/relation/414684) | `Gemeente Dalfsen` |
+| 🇱🇺 1202 | <sub>Luxemburgse gem.</sub> | [Dalheim](https://www.openstreetmap.org/relation/407499) | `Commune de Dalheim` |
 | 🇧🇪 62027 | <sub>Waalse gem.</sub> | [Dalhem](https://www.openstreetmap.org/relation/2431869) | `Commune de Dalhem` |
 | 🇧🇪 31006 | <sub>Vlaamse gem.</sub> | [Damme](https://www.openstreetmap.org/relation/1310003) | `Stad Damme` |
 | 🇳🇱 gm1891 | <sub>Nederlandse gem.</sub> | [Dantumadiel](https://www.openstreetmap.org/relation/384840) | `Gemeente Dantumadiel` |
@@ -220,15 +238,18 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm0762 | <sub>Nederlandse gem.</sub> | [Deurne](https://www.openstreetmap.org/relation/303143) | `Gemeente Deurne` |
 | 🇳🇱 gm0150 | <sub>Nederlandse gem.</sub> | [Deventer](https://www.openstreetmap.org/relation/1002142) | `Gemeente Deventer` |
 | 🇳🇱 gm1690 | <sub>Nederlandse gem.</sub> | [De Wolden](https://www.openstreetmap.org/relation/414136) | `Gemeente De Wolden` |
+| 🇱🇺 0603 | <sub>Luxemburgse gem.</sub> | [Diekirch](https://www.openstreetmap.org/relation/1113658) | `Ville de Diekirch` |
 | 🇳🇱 gm0384 | <sub>Nederlandse gem.</sub> | [Diemen](https://www.openstreetmap.org/relation/158839) | `Gemeente Diemen` |
 | 🇧🇪 71011 | <sub>Vlaamse gem.</sub> | [Diepenbeek](https://www.openstreetmap.org/relation/1243777) | `Gemeente Diepenbeek` |
 | 🇧🇪 24020 | <sub>Vlaamse gem.</sub> | [Diest](https://www.openstreetmap.org/relation/1172633) | `Stad Diest` |
+| 🇱🇺 0202 | <sub>Luxemburgse gem.</sub> | [Differdange](https://www.openstreetmap.org/relation/407474) | `Ville de Differdange` |
 | 🇳🇱 gm1980 | <sub>Nederlandse gem.</sub> | [Dijk en Waard](https://www.openstreetmap.org/relation/13621788) | `Gemeente Dijk en Waard` |
 | 🇧🇪 32003 | <sub>Vlaamse gem.</sub> | [Diksmuide](https://www.openstreetmap.org/relation/1292925) | `Stad Diksmuide` |
 | 🇧🇪 23016 | <sub>Vlaamse gem.</sub> | [Dilbeek](https://www.openstreetmap.org/relation/225045) | `Gemeente Dilbeek` |
 | 🇧🇪 72041 | <sub>Vlaamse gem.</sub> | [Dilsen-Stokkem](https://www.openstreetmap.org/relation/965583) | `Stad Dilsen-Stokkem` |
 | 🇧🇪 91034 | <sub>Waalse gem.</sub> | [Dinant](https://www.openstreetmap.org/relation/2268360) | `Ville de Dinant` |
 | 🇳🇱 gm1774 | <sub>Nederlandse gem.</sub> | [Dinkelland](https://www.openstreetmap.org/relation/414748) | `Gemeente Dinkelland` |
+| 🇱🇺 0101 | <sub>Luxemburgse gem.</sub> | [Dippach](https://www.openstreetmap.org/relation/407895) | `Commune de Dippach` |
 | 🇧🇪 63020 | <sub>Waalse gem.</sub> | [Dison](https://www.openstreetmap.org/relation/2396838) | `Commune de Dison` |
 | 🇳🇱 gm0221 | <sub>Nederlandse gem.</sub> | [Doesburg](https://www.openstreetmap.org/relation/417595) | `Gemeente Doesburg` |
 | 🇳🇱 gm0222 | <sub>Nederlandse gem.</sub> | [Doetinchem](https://www.openstreetmap.org/relation/417679) | `Gemeente Doetinchem` |
@@ -245,12 +266,14 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 23098 | <sub>Vlaamse gem.</sub> | [Drogenbos](https://www.openstreetmap.org/relation/78953) | `Gemeente Drogenbos` |
 | 🇳🇱 gm0303 | <sub>Nederlandse gem.</sub> | [Dronten](https://www.openstreetmap.org/relation/408114) | `Gemeente Dronten` |
 | 🇳🇱 gm0225 | <sub>Nederlandse gem.</sub> | [Druten](https://www.openstreetmap.org/relation/418690) | `Gemeente Druten` |
+| 🇱🇺 0203 | <sub>Luxemburgse gem.</sub> | [Dudelange](https://www.openstreetmap.org/relation/407453) | `Ville de Dudelange` |
 | 🇧🇪 12009 | <sub>Vlaamse gem.</sub> | [Duffel](https://www.openstreetmap.org/relation/964195) | `Gemeente Duffel` |
 | 🇩🇪 05112000 | <sub>Duitse gem.</sub> | [Duisburg](https://www.openstreetmap.org/relation/62456) | `Stadt Duisburg` |
 | 🇳🇱 gm0226 | <sub>Nederlandse gem.</sub> | [Duiven](https://www.openstreetmap.org/relation/418389) | `Gemeente Duiven` |
 | 🇧🇪 83012 | <sub>Waalse gem.</sub> | [Durbuy](https://www.openstreetmap.org/relation/2450567) | `Ville de Durbuy` |
 | 🇩🇪 05111000 | <sub>Duitse gem.</sub> | [Düsseldorf](https://www.openstreetmap.org/relation/62539) | `Stadt Düsseldorf` |
 | 🇧🇪 55050 | <sub>Waalse gem.</sub> | [Ecaussinnes](https://www.openstreetmap.org/relation/2160539) | `Commune d'Écaussinnes` |
+| 🇱🇺 1005 | <sub>Luxemburgse gem.</sub> | [Echternach](https://www.openstreetmap.org/relation/569741) | `Ville d'Echternach` |
 | 🇳🇱 gm1711 | <sub>Nederlandse gem.</sub> | [Echt-Susteren](https://www.openstreetmap.org/relation/2078286) | `Gemeente Echt-Susteren` |
 | 🇳🇱 gm0385 | <sub>Nederlandse gem.</sub> | [Edam-Volendam](https://www.openstreetmap.org/relation/289463) | `Gemeente Edam-Volendam` |
 | 🇳🇱 gm0228 | <sub>Nederlandse gem.</sub> | [Ede](https://www.openstreetmap.org/relation/418760) | `Gemeente Ede` |
@@ -265,6 +288,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm1903 | <sub>Nederlandse gem.</sub> | [Eijsden-Margraten](https://www.openstreetmap.org/relation/305282) | `Gemeente Eijsden-Margraten` |
 | 🇳🇱 gm0772 | <sub>Nederlandse gem.</sub> | [Eindhoven](https://www.openstreetmap.org/relation/47504) | `Gemeente Eindhoven` |
 | 🇳🇱 gm0230 | <sub>Nederlandse gem.</sub> | [Elburg](https://www.openstreetmap.org/relation/409681) | `Gemeente Elburg` |
+| 🇱🇺 0703 | <sub>Luxemburgse gem.</sub> | [Ell](https://www.openstreetmap.org/relation/1355975) | `Commune d'Ell` |
 | 🇧🇪 21009 | <sub>Brusselse gem.</sub> | [Elsene](https://www.openstreetmap.org/relation/58250) | `Commune d'Ixelles - Gemeente Elsene` |
 | 🇧🇪 51017 | <sub>Waalse gem.</sub> | [Elzele](https://www.openstreetmap.org/relation/1942908) | `Commune d'Ellezelles` |
 | 🇩🇪 03402000 | <sub>Duitse gem.</sub> | [Emden](https://www.openstreetmap.org/relation/62562) | `Stadt Emden` |
@@ -277,14 +301,18 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇩🇪 16051000 | <sub>Duitse gem.</sub> | [Erfurt](https://www.openstreetmap.org/relation/62745) | `Stadt Erfurt` |
 | 🇩🇪 09562000 | <sub>Duitse gem.</sub> | [Erlangen](https://www.openstreetmap.org/relation/62403) | `Stadt Erlangen` |
 | 🇳🇱 gm0233 | <sub>Nederlandse gem.</sub> | [Ermelo](https://www.openstreetmap.org/relation/409719) | `Gemeente Ermelo` |
+| 🇱🇺 0604 | <sub>Luxemburgse gem.</sub> | [Erpeldange-sur-Sûre](https://www.openstreetmap.org/relation/1113657) | `Commune d'Erpeldange-sur-Sûre` |
 | 🇧🇪 41082 | <sub>Vlaamse gem.</sub> | [Erpe-Mere](https://www.openstreetmap.org/relation/1197961) | `Gemeente Erpe-Mere` |
 | 🇧🇪 56022 | <sub>Waalse gem.</sub> | [Erquelinnes](https://www.openstreetmap.org/relation/1881784) | `Commune d'Erquelinnes` |
+| 🇱🇺 0204 | <sub>Luxemburgse gem.</sub> | [Esch-sur-Alzette](https://www.openstreetmap.org/relation/407419) | `Ville d'Esch-sur-Alzette` |
+| 🇱🇺 0802 | <sub>Luxemburgse gem.</sub> | [Esch-sur-Sûre](https://www.openstreetmap.org/relation/1356772) | `Commune d'Esch-sur-Sûre` |
 | 🇧🇪 62032 | <sub>Waalse gem.</sub> | [Esneux](https://www.openstreetmap.org/relation/2417895) | `Commune d'Esneux` |
 | 🇧🇪 11016 | <sub>Vlaamse gem.</sub> | [Essen](https://www.openstreetmap.org/relation/964003) | `Gemeente Essen` |
 | 🇩🇪 05113000 | <sub>Duitse gem.</sub> | [Essen](https://www.openstreetmap.org/relation/62713) | `Stadt Essen` |
 | 🇧🇪 57027 | <sub>Waalse gem.</sub> | [Estaimpuis](https://www.openstreetmap.org/relation/2163688) | `Commune d'Estaimpuis` |
 | 🇧🇪 58003 | <sub>Waalse gem.</sub> | [Estinnes](https://www.openstreetmap.org/relation/1917247) | `Commune d'Estinnes` |
 | 🇧🇪 85009 | <sub>Waalse gem.</sub> | [Etalle](https://www.openstreetmap.org/relation/2424516) | `Commune d'Etalle` |
+| 🇱🇺 0605 | <sub>Luxemburgse gem.</sub> | [Ettelbruck](https://www.openstreetmap.org/relation/1113662) | `Ville d'Ettelbruck` |
 | 🇳🇱 gm0777 | <sub>Nederlandse gem.</sub> | [Etten-Leur](https://www.openstreetmap.org/relation/297048) | `Gemeente Etten-Leur` |
 | 🇧🇪 21005 | <sub>Brusselse gem.</sub> | [Etterbeek](https://www.openstreetmap.org/relation/58252) | `Commune d'Etterbeek - Gemeente Etterbeek` |
 | 🇧🇪 63023 | <sub>Waalse gem.</sub> | [Eupen](https://www.openstreetmap.org/relation/2400207) | `Stadt Eupen` |
@@ -295,7 +323,10 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 82009 | <sub>Waalse gem.</sub> | [Fauvillers](https://www.openstreetmap.org/relation/2429932) | `Commune de Fauvillers` |
 | 🇧🇪 92138 | <sub>Waalse gem.</sub> | [Fernelmont](https://www.openstreetmap.org/relation/2305699) | `Commune de Fernelmont` |
 | 🇧🇪 61019 | <sub>Waalse gem.</sub> | [Ferrières](https://www.openstreetmap.org/relation/2377779) | `Commune de Ferrières` |
+| 🇱🇺 0606 | <sub>Luxemburgse gem.</sub> | [Feulen](https://www.openstreetmap.org/relation/1113660) | `Commune de Feulen` |
 | 🇧🇪 64025 | <sub>Waalse gem.</sub> | [Fexhe-le-Haut-Clocher](https://www.openstreetmap.org/relation/2369379) | `Commune de Fexhe-le-Haut-Clocher` |
+| 🇱🇺 0404 | <sub>Luxemburgse gem.</sub> | [Fischbach](https://www.openstreetmap.org/relation/1333121) | `Commune de Fischbach` |
+| 🇱🇺 1103 | <sub>Luxemburgse gem.</sub> | [Flaxweiler](https://www.openstreetmap.org/relation/532140) | `Commune de Flaxweiler` |
 | 🇧🇪 62120 | <sub>Waalse gem.</sub> | [Flémalle](https://www.openstreetmap.org/relation/2372449) | `Commune de Flémalle` |
 | 🇩🇪 01001000 | <sub>Duitse gem.</sub> | [Flensburg](https://www.openstreetmap.org/relation/27020) | `Stadt Flensburg` |
 | 🇧🇪 62038 | <sub>Waalse gem.</sub> | [Fléron](https://www.openstreetmap.org/relation/2437275) | `Commune de Fléron` |
@@ -311,9 +342,11 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇩🇪 06412000 | <sub>Duitse gem.</sub> | [Frankfurt am Main](https://www.openstreetmap.org/relation/62400) | `Stadt Frankfurt am Main` |
 | 🇧🇪 51065 | <sub>Waalse gem.</sub> | [Frasnes-lez-Anvaing](https://www.openstreetmap.org/relation/2002464) | `Commune de Frasnes-lez-Anvaing` |
 | 🇩🇪 08311000 | <sub>Duitse gem.</sub> | [Freiburg im Breisgau](https://www.openstreetmap.org/relation/62768) | `Stadt Freiburg im Breisgau` |
+| 🇱🇺 0205 | <sub>Luxemburgse gem.</sub> | [Frisange](https://www.openstreetmap.org/relation/407465) | `Commune de Frisange` |
 | 🇧🇪 56029 | <sub>Waalse gem.</sub> | [Froidchapelle](https://www.openstreetmap.org/relation/1878349) | `Commune de Froidchapelle` |
 | 🇩🇪 09563000 | <sub>Duitse gem.</sub> | [Fürth](https://www.openstreetmap.org/relation/62374) | `Stadt Fürth` |
 | 🇧🇪 21008 | <sub>Brusselse gem.</sub> | [Ganshoren](https://www.openstreetmap.org/relation/58257) | `Commune de Ganshoren - Gemeente Ganshoren` |
+| 🇱🇺 0102 | <sub>Luxemburgse gem.</sub> | [Garnich](https://www.openstreetmap.org/relation/407865) | `Commune de Garnich` |
 | 🇧🇪 44020 | <sub>Vlaamse gem.</sub> | [Gavere](https://www.openstreetmap.org/relation/812701) | `Gemeente Gavere` |
 | 🇧🇪 91054 | <sub>Waalse gem.</sub> | [Gedinne](https://www.openstreetmap.org/relation/2245275) | `Commune de Gedinne` |
 | 🇧🇪 13008 | <sub>Vlaamse gem.</sub> | [Geel](https://www.openstreetmap.org/relation/1263541) | `Stad Geel` |
@@ -339,6 +372,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 24137 | <sub>Vlaamse gem.</sub> | [Glabbeek](https://www.openstreetmap.org/relation/966718) | `Gemeente Glabbeek` |
 | 🇳🇱 gm1924 | <sub>Nederlandse gem.</sub> | [Goeree-Overflakkee](https://www.openstreetmap.org/relation/2672880) | `Gemeente Goeree-Overflakkee` |
 | 🇳🇱 gm0664 | <sub>Nederlandse gem.</sub> | [Goes](https://www.openstreetmap.org/relation/296413) | `Gemeente Goes` |
+| 🇱🇺 0804 | <sub>Luxemburgse gem.</sub> | [Goesdorf](https://www.openstreetmap.org/relation/1356822) | `Commune de Goesdorf` |
 | 🇳🇱 gm0785 | <sub>Nederlandse gem.</sub> | [Goirle](https://www.openstreetmap.org/relation/299322) | `Gemeente Goirle` |
 | 🇳🇱 gm1942 | <sub>Nederlandse gem.</sub> | [Gooise Meren](https://www.openstreetmap.org/relation/5816820) | `Gemeente Gooise Meren` |
 | 🇳🇱 gm0512 | <sub>Nederlandse gem.</sub> | [Gorinchem](https://www.openstreetmap.org/relation/309613) | `Gemeente Gorinchem` |
@@ -348,9 +382,11 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 25037 | <sub>Waalse gem.</sub> | [Graven](https://www.openstreetmap.org/relation/1940440) | `Commune de Grez-Doiceau` |
 | 🇧🇪 55004 | <sub>Waalse gem.</sub> | ['s Gravenbrakel](https://www.openstreetmap.org/relation/2160319) | `Ville de Braine-le-Comte` |
 | 🇳🇱 gm0518 | <sub>Nederlandse gem.</sub> | ['s-Gravenhage](https://www.openstreetmap.org/relation/192736) | `Gemeente Den Haag` |
+| 🇱🇺 1104 | <sub>Luxemburgse gem.</sub> | [Grevenmacher](https://www.openstreetmap.org/relation/532141) | `Ville de Grevenmacher` |
 | 🇧🇪 23025 | <sub>Vlaamse gem.</sub> | [Grimbergen](https://www.openstreetmap.org/relation/112011) | `Gemeente Grimbergen` |
 | 🇧🇪 13010 | <sub>Vlaamse gem.</sub> | [Grobbendonk](https://www.openstreetmap.org/relation/1283235) | `Gemeente Grobbendonk` |
 | 🇳🇱 gm0014 | <sub>Nederlandse gem.</sub> | [Groningen](https://www.openstreetmap.org/relation/409862) | `Gemeente Groningen` |
+| 🇱🇺 0711 | <sub>Luxemburgse gem.</sub> | [Grosbous-Wahl](https://www.openstreetmap.org/relation/1354531) | `Commune de Grosbous-Wahl` |
 | 🇳🇱 gm1729 | <sub>Nederlandse gem.</sub> | [Gulpen-Wittem](https://www.openstreetmap.org/relation/2078283) | `Gemeente Gulpen-Wittem` |
 | 🇧🇪 24033 | <sub>Vlaamse gem.</sub> | [Haacht](https://www.openstreetmap.org/relation/120261) | `Gemeente Haacht` |
 | 🇳🇱 gm0158 | <sub>Nederlandse gem.</sub> | [Haaksbergen](https://www.openstreetmap.org/relation/415533) | `Gemeente Haaksbergen` |
@@ -358,6 +394,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm0392 | <sub>Nederlandse gem.</sub> | [Haarlem](https://www.openstreetmap.org/relation/47534) | `Gemeente Haarlem` |
 | 🇳🇱 gm0394 | <sub>Nederlandse gem.</sub> | [Haarlemmermeer](https://www.openstreetmap.org/relation/443890) | `Gemeente Haarlemmermeer` |
 | 🇧🇪 85046 | <sub>Waalse gem.</sub> | [Habay](https://www.openstreetmap.org/relation/2429931) | `Commune de Habay` |
+| 🇱🇺 0103 | <sub>Luxemburgse gem.</sub> | [Habscht](https://www.openstreetmap.org/relation/407841) | `Commune de Habscht` |
 | 🇩🇪 05914000 | <sub>Duitse gem.</sub> | [Hagen](https://www.openstreetmap.org/relation/1800297) | `Stadt Hagen` |
 | 🇳🇱 gm1655 | <sub>Nederlandse gem.</sub> | [Halderberge](https://www.openstreetmap.org/relation/296956) | `Gemeente Halderberge` |
 | 🇧🇪 71020 | <sub>Vlaamse gem.</sub> | [Halen](https://www.openstreetmap.org/relation/1204552) | `Stad Halen` |
@@ -387,6 +424,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm0917 | <sub>Nederlandse gem.</sub> | [Heerlen](https://www.openstreetmap.org/relation/406105) | `Gemeente Heerlen` |
 | 🇧🇪 73022 | <sub>Vlaamse gem.</sub> | [Heers](https://www.openstreetmap.org/relation/1244997) | `Gemeente Heers` |
 | 🇳🇱 gm1658 | <sub>Nederlandse gem.</sub> | [Heeze-Leende](https://www.openstreetmap.org/relation/2078296) | `Gemeente Heeze-Leende` |
+| 🇱🇺 0405 | <sub>Luxemburgse gem.</sub> | [Heffingen](https://www.openstreetmap.org/relation/1333119) | `Commune de Heffingen` |
 | 🇩🇪 08221000 | <sub>Duitse gem.</sub> | [Heidelberg](https://www.openstreetmap.org/relation/285864) | `Stadt Heidelberg` |
 | 🇩🇪 08121000 | <sub>Duitse gem.</sub> | [Heilbronn](https://www.openstreetmap.org/relation/62751) | `Stadt Heilbronn` |
 | 🇳🇱 gm0399 | <sub>Nederlandse gem.</sub> | [Heiloo](https://www.openstreetmap.org/relation/47479) | `Gemeente Heiloo` |
@@ -394,6 +432,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 25118 | <sub>Waalse gem.</sub> | [Hélécine](https://www.openstreetmap.org/relation/2102788) | `Commune de Hélécine` |
 | 🇳🇱 gm0163 | <sub>Nederlandse gem.</sub> | [Hellendoorn](https://www.openstreetmap.org/relation/160999) | `Gemeente Hellendoorn` |
 | 🇳🇱 gm0794 | <sub>Nederlandse gem.</sub> | [Helmond](https://www.openstreetmap.org/relation/299983) | `Gemeente Helmond` |
+| 🇱🇺 0403 | <sub>Luxemburgse gem.</sub> | [Helperknapp](https://www.openstreetmap.org/relation/1333122) | `Commune de Helperknapp` |
 | 🇧🇪 11018 | <sub>Vlaamse gem.</sub> | [Hemiksem](https://www.openstreetmap.org/relation/58376) | `Gemeente Hemiksem` |
 | 🇳🇱 gm0531 | <sub>Nederlandse gem.</sub> | [Hendrik-Ido-Ambacht](https://www.openstreetmap.org/relation/308728) | `Gemeente Hendrik-Ido-Ambacht` |
 | 🇳🇱 gm0164 | <sub>Nederlandse gem.</sub> | [Hengelo](https://www.openstreetmap.org/relation/404388) | `Gemeente Hengelo` |
@@ -411,6 +450,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm0796 | <sub>Nederlandse gem.</sub> | ['s-Hertogenbosch](https://www.openstreetmap.org/relation/162800) | `Gemeente 's-Hertogenbosch` |
 | 🇧🇪 63035 | <sub>Waalse gem.</sub> | [Herve](https://www.openstreetmap.org/relation/2396840) | `Ville de Herve` |
 | 🇧🇪 41027 | <sub>Vlaamse gem.</sub> | [Herzele](https://www.openstreetmap.org/relation/408555) | `Gemeente Herzele` |
+| 🇱🇺 0303 | <sub>Luxemburgse gem.</sub> | [Hesperange](https://www.openstreetmap.org/relation/410953) | `Commune de Hesperange` |
 | 🇳🇱 gm1966 | <sub>Nederlandse gem.</sub> | [Het Hogeland](https://www.openstreetmap.org/relation/9172188) | `Gemeente Het Hogeland` |
 | 🇳🇱 gm0252 | <sub>Nederlandse gem.</sub> | [Heumen](https://www.openstreetmap.org/relation/409476) | `Gemeente Heumen` |
 | 🇳🇱 gm0797 | <sub>Nederlandse gem.</sub> | [Heusden](https://www.openstreetmap.org/relation/299218) | `Gemeente Heusden` |
@@ -458,9 +498,11 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 92140 | <sub>Waalse gem.</sub> | [Jemeppe-sur-Sambre](https://www.openstreetmap.org/relation/2282985) | `Commune de Jemeppe-sur-Sambre` |
 | 🇩🇪 16053000 | <sub>Duitse gem.</sub> | [Jena](https://www.openstreetmap.org/relation/62693) | `Stadt Jena` |
 | 🇧🇪 21010 | <sub>Brusselse gem.</sub> | [Jette](https://www.openstreetmap.org/relation/58258) | `Commune de Jette - Gemeente Jette` |
+| 🇱🇺 1105 | <sub>Luxemburgse gem.</sub> | [Junglinster](https://www.openstreetmap.org/relation/532143) | `Commune de Junglinster` |
 | 🇧🇪 62060 | <sub>Waalse gem.</sub> | [Juprelle](https://www.openstreetmap.org/relation/2387591) | `Commune de Juprelle` |
 | 🇧🇪 53044 | <sub>Waalse gem.</sub> | [Jurbeke](https://www.openstreetmap.org/relation/2178169) | `Commune de Jurbise` |
 | 🇳🇱 gm1884 | <sub>Nederlandse gem.</sub> | [Kaag en Braassem](https://www.openstreetmap.org/relation/444054) | `Gemeente Kaag en Braassem` |
+| 🇱🇺 0104 | <sub>Luxemburgse gem.</sub> | [Käerjeng](https://www.openstreetmap.org/relation/407885) | `Commune de Käerjeng` |
 | 🇩🇪 07312000 | <sub>Duitse gem.</sub> | [Kaiserslautern](https://www.openstreetmap.org/relation/62652) | `Stadt Kaiserslautern` |
 | 🇧🇪 11022 | <sub>Vlaamse gem.</sub> | [Kalmthout](https://www.openstreetmap.org/relation/1284337) | `Gemeente Kalmthout` |
 | 🇳🇱 gm0166 | <sub>Nederlandse gem.</sub> | [Kampen](https://www.openstreetmap.org/relation/408101) | `Gemeente Kampen` |
@@ -475,22 +517,27 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 13017 | <sub>Vlaamse gem.</sub> | [Kasterlee](https://www.openstreetmap.org/relation/1282971) | `Gemeente Kasterlee` |
 | 🇳🇱 gm0537 | <sub>Nederlandse gem.</sub> | [Katwijk](https://www.openstreetmap.org/relation/161624) | `Gemeente Katwijk` |
 | 🇩🇪 09762000 | <sub>Duitse gem.</sub> | [Kaufbeuren](https://www.openstreetmap.org/relation/62349) | `Stadt Kaufbeuren` |
+| 🇱🇺 0206 | <sub>Luxemburgse gem.</sub> | [Kayl](https://www.openstreetmap.org/relation/407452) | `Commune de Kayl` |
 | 🇧🇪 24048 | <sub>Vlaamse gem.</sub> | [Keerbergen](https://www.openstreetmap.org/relation/214464) | `Gemeente Keerbergen` |
+| 🇱🇺 0105 | <sub>Luxemburgse gem.</sub> | [Kehlen](https://www.openstreetmap.org/relation/407924) | `Commune de Kehlen` |
 | 🇧🇪 63040 | <sub>Waalse gem.</sub> | [Kelmis](https://www.openstreetmap.org/relation/2400116) | `Gemeinde Kelmis` |
 | 🇩🇪 09763000 | <sub>Duitse gem.</sub> | [Kempten (Allgäu)](https://www.openstreetmap.org/relation/62701) | `Stadt Kempten (Allgäu)` |
 | 🇳🇱 gm0928 | <sub>Nederlandse gem.</sub> | [Kerkrade](https://www.openstreetmap.org/relation/406420) | `Gemeente Kerkrade` |
 | 🇩🇪 01002000 | <sub>Duitse gem.</sub> | [Kiel](https://www.openstreetmap.org/relation/27021) | `Stadt Kiel` |
+| 🇱🇺 0805 | <sub>Luxemburgse gem.</sub> | [Kiischpelt](https://www.openstreetmap.org/relation/1357619) | `Commune de Kiischpelt` |
 | 🇧🇪 72018 | <sub>Vlaamse gem.</sub> | [Kinrooi](https://www.openstreetmap.org/relation/1246290) | `Gemeente Kinrooi` |
 | 🇧🇪 45060 | <sub>Vlaamse gem.</sub> | [Kluisbergen](https://www.openstreetmap.org/relation/416454) | `Gemeente Kluisbergen` |
 | 🇧🇪 31043 | <sub>Vlaamse gem.</sub> | [Knokke-Heist](https://www.openstreetmap.org/relation/4569) | `Gemeente Knokke-Heist` |
 | 🇩🇪 07111000 | <sub>Duitse gem.</sub> | [Koblenz](https://www.openstreetmap.org/relation/62512) | `Stadt Koblenz` |
 | 🇧🇪 32010 | <sub>Vlaamse gem.</sub> | [Koekelare](https://www.openstreetmap.org/relation/1269847) | `Gemeente Koekelare` |
 | 🇧🇪 21011 | <sub>Brusselse gem.</sub> | [Koekelberg](https://www.openstreetmap.org/relation/58256) | `Commune de Koekelberg - Gemeente Koekelberg` |
+| 🇱🇺 0106 | <sub>Luxemburgse gem.</sub> | [Koerich](https://www.openstreetmap.org/relation/407858) | `Commune de Koerich` |
 | 🇳🇱 gm1598 | <sub>Nederlandse gem.</sub> | [Koggenland](https://www.openstreetmap.org/relation/161930) | `Gemeente Koggenland` |
 | 🇧🇪 38014 | <sub>Vlaamse gem.</sub> | [Koksijde](https://www.openstreetmap.org/relation/1487782) | `Gemeente Koksijde` |
 | 🇩🇪 05315000 | <sub>Duitse gem.</sub> | [Köln](https://www.openstreetmap.org/relation/62578) | `Stadt Köln` |
 | 🇧🇪 57097 | <sub>Waalse gem.</sub> | [Komen-Waasten](https://www.openstreetmap.org/relation/405621) | `Ville de Comines-Warneton` |
 | 🇧🇪 11024 | <sub>Vlaamse gem.</sub> | [Kontich](https://www.openstreetmap.org/relation/58564) | `Gemeente Kontich` |
+| 🇱🇺 0107 | <sub>Luxemburgse gem.</sub> | [Kopstal](https://www.openstreetmap.org/relation/407931) | `Commune de Kopstal` |
 | 🇧🇪 32011 | <sub>Vlaamse gem.</sub> | [Kortemark](https://www.openstreetmap.org/relation/1376932) | `Gemeente Kortemark` |
 | 🇧🇪 24054 | <sub>Vlaamse gem.</sub> | [Kortenaken](https://www.openstreetmap.org/relation/966721) | `Gemeente Kortenaken` |
 | 🇧🇪 24055 | <sub>Vlaamse gem.</sub> | [Kortenberg](https://www.openstreetmap.org/relation/414919) | `Gemeente Kortenberg` |
@@ -505,6 +552,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm1659 | <sub>Nederlandse gem.</sub> | [Laarbeek](https://www.openstreetmap.org/relation/300673) | `Gemeente Laarbeek` |
 | 🇧🇪 42010 | <sub>Vlaamse gem.</sub> | [Laarne](https://www.openstreetmap.org/relation/1341874) | `Gemeente Laarne` |
 | 🇧🇪 92141 | <sub>Waalse gem.</sub> | [La Bruyère](https://www.openstreetmap.org/relation/2327768) | `Commune de La Bruyère` |
+| 🇱🇺 0806 | <sub>Luxemburgse gem.</sub> | [Lac de la Haute-Sûre](https://www.openstreetmap.org/relation/1357248) | `Commune du Lac de la Haute-Sûre` |
 | 🇧🇪 58001 | <sub>Waalse gem.</sub> | [La Louvière](https://www.openstreetmap.org/relation/2083031) | `Ville de La Louvière` |
 | 🇧🇪 73042 | <sub>Vlaamse gem.</sub> | [Lanaken](https://www.openstreetmap.org/relation/1246116) | `Gemeente Lanaken` |
 | 🇩🇪 07313000 | <sub>Duitse gem.</sub> | [Landau in der Pfalz](https://www.openstreetmap.org/relation/62391) | `Stadt Landau in der Pfalz` |
@@ -517,6 +565,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm1621 | <sub>Nederlandse gem.</sub> | [Lansingerland](https://www.openstreetmap.org/relation/311913) | `Gemeente Lansingerland` |
 | 🇳🇱 gm0417 | <sub>Nederlandse gem.</sub> | [Laren](https://www.openstreetmap.org/relation/419187) | `Gemeente Laren` |
 | 🇧🇪 83031 | <sub>Waalse gem.</sub> | [La Roche-en-Ardenne](https://www.openstreetmap.org/relation/2566321) | `Ville de La Roche-en-Ardenne` |
+| 🇱🇺 0406 | <sub>Luxemburgse gem.</sub> | [Larochette](https://www.openstreetmap.org/relation/1333115) | `Commune de Larochette` |
 | 🇧🇪 25119 | <sub>Waalse gem.</sub> | [Lasne](https://www.openstreetmap.org/relation/193156) | `Commune de Lasne` |
 | 🇧🇪 42011 | <sub>Vlaamse gem.</sub> | [Lebbeke](https://www.openstreetmap.org/relation/913767) | `Gemeente Lebbeke` |
 | 🇧🇪 41034 | <sub>Vlaamse gem.</sub> | [Lede](https://www.openstreetmap.org/relation/1266491) | `Gemeente Lede` |
@@ -530,12 +579,14 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm0995 | <sub>Nederlandse gem.</sub> | [Lelystad](https://www.openstreetmap.org/relation/409806) | `Gemeente Lelystad` |
 | 🇧🇪 34025 | <sub>Vlaamse gem.</sub> | [Lendelede](https://www.openstreetmap.org/relation/1336018) | `Gemeente Lendelede` |
 | 🇧🇪 23104 | <sub>Vlaamse gem.</sub> | [Lennik](https://www.openstreetmap.org/relation/1145697) | `Gemeente Lennik` |
+| 🇱🇺 1203 | <sub>Luxemburgse gem.</sub> | [Lenningen](https://www.openstreetmap.org/relation/407778) | `Commune de Lenningen` |
 | 🇧🇪 53046 | <sub>Waalse gem.</sub> | [Lens](https://www.openstreetmap.org/relation/2180490) | `Commune de Lens` |
 | 🇧🇪 71034 | <sub>Vlaamse gem.</sub> | [Leopoldsburg](https://www.openstreetmap.org/relation/1229781) | `Gemeente Leopoldsburg` |
 | 🇧🇪 55035 | <sub>Waalse gem.</sub> | [Le Rœulx](https://www.openstreetmap.org/relation/2160648) | `Ville du Rœulx` |
 | 🇧🇪 52075 | <sub>Waalse gem.</sub> | [Les Bons Villers](https://www.openstreetmap.org/relation/2132103) | `Commune des Bons Villers` |
 | 🇧🇪 51069 | <sub>Waalse gem.</sub> | [Lessen](https://www.openstreetmap.org/relation/1924183) | `Ville de Lessines` |
 | 🇳🇱 gm1640 | <sub>Nederlandse gem.</sub> | [Leudal](https://www.openstreetmap.org/relation/304007) | `Gemeente Leudal` |
+| 🇱🇺 0207 | <sub>Luxemburgse gem.</sub> | [Leudelange](https://www.openstreetmap.org/relation/407467) | `Commune de Leudelange` |
 | 🇳🇱 gm0327 | <sub>Nederlandse gem.</sub> | [Leusden](https://www.openstreetmap.org/relation/310005) | `Gemeente Leusden` |
 | 🇧🇪 24062 | <sub>Vlaamse gem.</sub> | [Leuven](https://www.openstreetmap.org/relation/196311) | `Stad Leuven` |
 | 🇧🇪 57094 | <sub>Waalse gem.</sub> | [Leuze-en-Hainaut](https://www.openstreetmap.org/relation/2163682) | `Ville de Leuze-en-Hainaut` |
@@ -555,6 +606,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 23100 | <sub>Vlaamse gem.</sub> | [Linkebeek](https://www.openstreetmap.org/relation/78808) | `Gemeente Linkebeek` |
 | 🇧🇪 11025 | <sub>Vlaamse gem.</sub> | [Lint](https://www.openstreetmap.org/relation/58656) | `Gemeente Lint` |
 | 🇧🇪 24133 | <sub>Vlaamse gem.</sub> | [Linter](https://www.openstreetmap.org/relation/966731) | `Gemeente Linter` |
+| 🇱🇺 0407 | <sub>Luxemburgse gem.</sub> | [Lintgen](https://www.openstreetmap.org/relation/1333120) | `Commune de Lintgen` |
 | 🇳🇱 gm0553 | <sub>Nederlandse gem.</sub> | [Lisse](https://www.openstreetmap.org/relation/443915) | `Gemeente Lisse` |
 | 🇧🇪 56044 | <sub>Waalse gem.</sub> | [Lobbes](https://www.openstreetmap.org/relation/2075681) | `Commune de Lobbes` |
 | 🇳🇱 gm0262 | <sub>Nederlandse gem.</sub> | [Lochem](https://www.openstreetmap.org/relation/416833) | `Gemeente Lochem` |
@@ -566,6 +618,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm0809 | <sub>Nederlandse gem.</sub> | [Loon op Zand](https://www.openstreetmap.org/relation/299224) | `Gemeente Loon op Zand` |
 | 🇳🇱 gm0331 | <sub>Nederlandse gem.</sub> | [Lopik](https://www.openstreetmap.org/relation/158945) | `Gemeente Lopik` |
 | 🇧🇪 32030 | <sub>Vlaamse gem.</sub> | [Lo-Reninge](https://www.openstreetmap.org/relation/1603706) | `Stad Lo-Reninge` |
+| 🇱🇺 0408 | <sub>Luxemburgse gem.</sub> | [Lorentzweiler](https://www.openstreetmap.org/relation/1333118) | `Commune de Lorentzweiler` |
 | 🇳🇱 gm0168 | <sub>Nederlandse gem.</sub> | [Losser](https://www.openstreetmap.org/relation/377702) | `Gemeente Losser` |
 | 🇧🇪 24066 | <sub>Vlaamse gem.</sub> | [Lubbeek](https://www.openstreetmap.org/relation/415955) | `Gemeente Lubbeek` |
 | 🇩🇪 01003000 | <sub>Duitse gem.</sub> | [Lübeck](https://www.openstreetmap.org/relation/27027) | `Stadt Lübeck` |
@@ -587,9 +640,11 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 43010 | <sub>Vlaamse gem.</sub> | [Maldegem](https://www.openstreetmap.org/relation/1318948) | `Gemeente Maldegem` |
 | 🇧🇪 11057 | <sub>Vlaamse gem.</sub> | [Malle](https://www.openstreetmap.org/relation/1277900) | `Gemeente Malle` |
 | 🇧🇪 63049 | <sub>Waalse gem.</sub> | [Malmedy](https://www.openstreetmap.org/relation/2409000) | `Ville de Malmedy` |
+| 🇱🇺 0108 | <sub>Luxemburgse gem.</sub> | [Mamer](https://www.openstreetmap.org/relation/407937) | `Commune de Mamer` |
 | 🇧🇪 55086 | <sub>Waalse gem.</sub> | [Manage](https://www.openstreetmap.org/relation/2153703) | `Commune de Manage` |
 | 🇧🇪 83055 | <sub>Waalse gem.</sub> | [Manhay](https://www.openstreetmap.org/relation/2450509) | `Commune de Manhay` |
 | 🇩🇪 08222000 | <sub>Duitse gem.</sub> | [Mannheim](https://www.openstreetmap.org/relation/62691) | `Stadt Mannheim` |
+| 🇱🇺 1106 | <sub>Luxemburgse gem.</sub> | [Manternach](https://www.openstreetmap.org/relation/532177) | `Commune de Manternach` |
 | 🇧🇪 83034 | <sub>Waalse gem.</sub> | [Marche-en-Famenne](https://www.openstreetmap.org/relation/2437396) | `Ville de Marche-en-Famenne` |
 | 🇧🇪 61039 | <sub>Waalse gem.</sub> | [Marchin](https://www.openstreetmap.org/relation/2411680) | `Commune de Marchin` |
 | 🇧🇪 81013 | <sub>Waalse gem.</sub> | [Martelange](https://www.openstreetmap.org/relation/2429916) | `Commune de Martelange` |
@@ -607,6 +662,9 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 23052 | <sub>Vlaamse gem.</sub> | [Merchtem](https://www.openstreetmap.org/relation/912314) | `Gemeente Merchtem` |
 | 🇧🇪 44088 | <sub>Vlaamse gem.</sub> | [Merelbeke-Melle](https://www.openstreetmap.org/relation/18493670) | `Gemeente Merelbeke-Melle` |
 | 🇧🇪 13023 | <sub>Vlaamse gem.</sub> | [Merksplas](https://www.openstreetmap.org/relation/1284051) | `Gemeente Merksplas` |
+| 🇱🇺 0409 | <sub>Luxemburgse gem.</sub> | [Mersch](https://www.openstreetmap.org/relation/1333112) | `Commune de Mersch` |
+| 🇱🇺 1107 | <sub>Luxemburgse gem.</sub> | [Mertert](https://www.openstreetmap.org/relation/532178) | `Commune de Mertert` |
+| 🇱🇺 0607 | <sub>Luxemburgse gem.</sub> | [Mertzig](https://www.openstreetmap.org/relation/1113659) | `Commune de Mertzig` |
 | 🇧🇪 33016 | <sub>Vlaamse gem.</sub> | [Mesen](https://www.openstreetmap.org/relation/405618) | `Stad Mesen` |
 | 🇧🇪 81015 | <sub>Waalse gem.</sub> | [Messancy](https://www.openstreetmap.org/relation/2347279) | `Commune de Messancy` |
 | 🇧🇪 92087 | <sub>Waalse gem.</sub> | [Mettet](https://www.openstreetmap.org/relation/2219471) | `Commune de Mettet` |
@@ -622,6 +680,8 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm1978 | <sub>Nederlandse gem.</sub> | [Molenlanden](https://www.openstreetmap.org/relation/9172182) | `Gemeente Molenlanden` |
 | 🇧🇪 56051 | <sub>Waalse gem.</sub> | [Momignies](https://www.openstreetmap.org/relation/1604416) | `Commune de Momignies` |
 | 🇩🇪 05116000 | <sub>Duitse gem.</sub> | [Mönchengladbach](https://www.openstreetmap.org/relation/62410) | `Stadt Mönchengladbach` |
+| 🇱🇺 0208 | <sub>Luxemburgse gem.</sub> | [Mondercange](https://www.openstreetmap.org/relation/407433) | `Commune de Mondercange` |
+| 🇱🇺 1204 | <sub>Luxemburgse gem.</sub> | [Mondorf-les-Bains](https://www.openstreetmap.org/relation/407732) | `Commune de Mondorf-les-Bains` |
 | 🇧🇪 57095 | <sub>Waalse gem.</sub> | [Mont-de-l'Enclus](https://www.openstreetmap.org/relation/2164171) | `Commune de Mont-de-l'Enclus` |
 | 🇳🇱 gm1955 | <sub>Nederlandse gem.</sub> | [Montferland](https://www.openstreetmap.org/relation/417701) | `Gemeente Montferland` |
 | 🇳🇱 gm0335 | <sub>Nederlandse gem.</sub> | [Montfoort](https://www.openstreetmap.org/relation/158935) | `Gemeente Montfoort` |
@@ -645,6 +705,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇩🇪 01004000 | <sub>Duitse gem.</sub> | [Neumünster](https://www.openstreetmap.org/relation/62528) | `Stadt Neumünster` |
 | 🇧🇪 62121 | <sub>Waalse gem.</sub> | [Neupré](https://www.openstreetmap.org/relation/2437276) | `Commune de Neupré` |
 | 🇩🇪 07316000 | <sub>Duitse gem.</sub> | [Neustadt an der Weinstraße](https://www.openstreetmap.org/relation/62724) | `Stadt Neustadt an der Weinstraße` |
+| 🇱🇺 0305 | <sub>Luxemburgse gem.</sub> | [Niederanven](https://www.openstreetmap.org/relation/411375) | `Commune de Niederanven` |
 | 🇧🇪 11030 | <sub>Vlaamse gem.</sub> | [Niel](https://www.openstreetmap.org/relation/58333) | `Gemeente Niel` |
 | 🇳🇱 gm0356 | <sub>Nederlandse gem.</sub> | [Nieuwegein](https://www.openstreetmap.org/relation/419212) | `Gemeente Nieuwegein` |
 | 🇧🇪 71045 | <sub>Vlaamse gem.</sub> | [Nieuwerkerken](https://www.openstreetmap.org/relation/1245883) | `Gemeente Nieuwerkerken` |
@@ -657,6 +718,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 41048 | <sub>Vlaamse gem.</sub> | [Ninove](https://www.openstreetmap.org/relation/912035) | `Stad Ninove` |
 | 🇳🇱 gm1930 | <sub>Nederlandse gem.</sub> | [Nissewaard](https://www.openstreetmap.org/relation/4446174) | `Gemeente Nissewaard` |
 | 🇳🇱 gm1970 | <sub>Nederlandse gem.</sub> | [Noardeast-Fryslân](https://www.openstreetmap.org/relation/9172186) | `Gemeente Noardeast-Fryslân` |
+| 🇱🇺 0410 | <sub>Luxemburgse gem.</sub> | [Nommern](https://www.openstreetmap.org/relation/1333113) | `Commune de Nommern` |
 | 🇳🇱 gm1695 | <sub>Nederlandse gem.</sub> | [Noord-Beveland](https://www.openstreetmap.org/relation/296359) | `Gemeente Noord-Beveland` |
 | 🇳🇱 gm1699 | <sub>Nederlandse gem.</sub> | [Noordenveld](https://www.openstreetmap.org/relation/410552) | `Gemeente Noordenveld` |
 | 🇳🇱 gm0171 | <sub>Nederlandse gem.</sub> | [Noordoostpolder](https://www.openstreetmap.org/relation/47436) | `Gemeente Noordoostpolder` |
@@ -712,6 +774,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 23106 | <sub>Vlaamse gem.</sub> | [Pajottegem](https://www.openstreetmap.org/relation/18491515) | `Gemeente Pajottegem` |
 | 🇧🇪 84050 | <sub>Waalse gem.</sub> | [Paliseul](https://www.openstreetmap.org/relation/2248105) | `Commune de Paliseul` |
 | 🇳🇱 gm0590 | <sub>Nederlandse gem.</sub> | [Papendrecht](https://www.openstreetmap.org/relation/309441) | `Gemeente Papendrecht` |
+| 🇱🇺 0503 | <sub>Luxemburgse gem.</sub> | [Parc Hosingen](https://www.openstreetmap.org/relation/1342841) | `Commune du Parc Hosingen` |
 | 🇫🇷 75056 | <sub>bijz. Franse gem.</sub> | [Parijs](https://www.openstreetmap.org/relation/7444) | `Ville de Paris` |
 | 🇩🇪 09262000 | <sub>Duitse gem.</sub> | [Passau](https://www.openstreetmap.org/relation/62629) | `Stadt Passau` |
 | 🇧🇪 57062 | <sub>Waalse gem.</sub> | [Pecq](https://www.openstreetmap.org/relation/2163689) | `Commune de Pecq` |
@@ -723,6 +786,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 63058 | <sub>Waalse gem.</sub> | [Pepinster](https://www.openstreetmap.org/relation/2436184) | `Commune de Pepinster` |
 | 🇧🇪 57064 | <sub>Waalse gem.</sub> | [Péruwelz](https://www.openstreetmap.org/relation/2163651) | `Ville de Péruwelz` |
 | 🇧🇪 25084 | <sub>Waalse gem.</sub> | [Perwijs](https://www.openstreetmap.org/relation/2105643) | `Commune de Perwez` |
+| 🇱🇺 0209 | <sub>Luxemburgse gem.</sub> | [Pétange](https://www.openstreetmap.org/relation/407475) | `Commune de Pétange` |
 | 🇩🇪 08231000 | <sub>Duitse gem.</sub> | [Pforzheim](https://www.openstreetmap.org/relation/62471) | `Stadt Pforzheim` |
 | 🇧🇪 93056 | <sub>Waalse gem.</sub> | [Philippeville](https://www.openstreetmap.org/relation/1260359) | `Ville de Philippeville` |
 | 🇳🇱 gm1926 | <sub>Nederlandse gem.</sub> | [Pijnacker-Nootdorp](https://www.openstreetmap.org/relation/162257) | `Gemeente Pijnacker-Nootdorp` |
@@ -732,8 +796,10 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 52055 | <sub>Waalse gem.</sub> | [Pont-à-Celles](https://www.openstreetmap.org/relation/2125248) | `Commune de Pont-à-Celles` |
 | 🇧🇪 33021 | <sub>Vlaamse gem.</sub> | [Poperinge](https://www.openstreetmap.org/relation/1561101) | `Stad Poperinge` |
 | 🇩🇪 12054000 | <sub>Duitse gem.</sub> | [Potsdam](https://www.openstreetmap.org/relation/62369) | `Stadt Potsdam` |
+| 🇱🇺 0702 | <sub>Luxemburgse gem.</sub> | [Préizerdaul](https://www.openstreetmap.org/relation/1355222) | `Commune de Préizerdaul` |
 | 🇧🇪 92101 | <sub>Waalse gem.</sub> | [Profondeville](https://www.openstreetmap.org/relation/2223089) | `Commune de Profondeville` |
 | 🇳🇱 gm0439 | <sub>Nederlandse gem.</sub> | [Purmerend](https://www.openstreetmap.org/relation/289103) | `Gemeente Purmerend` |
+| 🇱🇺 0902 | <sub>Luxemburgse gem.</sub> | [Putscheid](https://www.openstreetmap.org/relation/1337085) | `Commune de Putscheid` |
 | 🇧🇪 12029 | <sub>Vlaamse gem.</sub> | [Putte](https://www.openstreetmap.org/relation/398058) | `Gemeente Putte` |
 | 🇳🇱 gm0273 | <sub>Nederlandse gem.</sub> | [Putten](https://www.openstreetmap.org/relation/419136) | `Gemeente Putten` |
 | 🇧🇪 12041 | <sub>Vlaamse gem.</sub> | [Puurs-Sint-Amands](https://www.openstreetmap.org/relation/391117) | `Gemeente Puurs-Sint-Amands` |
@@ -742,12 +808,17 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 53068 | <sub>Waalse gem.</sub> | [Quiévrain](https://www.openstreetmap.org/relation/2175156) | `Commune de Quiévrain` |
 | 🇳🇱 gm0177 | <sub>Nederlandse gem.</sub> | [Raalte](https://www.openstreetmap.org/relation/416053) | `Gemeente Raalte` |
 | 🇧🇪 63061 | <sub>Waalse gem.</sub> | [Raeren](https://www.openstreetmap.org/relation/2400181) | `Gemeinde Raeren` |
+| 🇱🇺 0704 | <sub>Luxemburgse gem.</sub> | [Rambrouch](https://www.openstreetmap.org/relation/1356679) | `Commune de Rambrouch` |
 | 🇧🇪 25122 | <sub>Waalse gem.</sub> | [Ramillies](https://www.openstreetmap.org/relation/2102840) | `Commune de Ramillies` |
 | 🇧🇪 11035 | <sub>Vlaamse gem.</sub> | [Ranst](https://www.openstreetmap.org/relation/1283355) | `Gemeente Ranst` |
 | 🇧🇪 13035 | <sub>Vlaamse gem.</sub> | [Ravels](https://www.openstreetmap.org/relation/1274221) | `Gemeente Ravels` |
 | 🇧🇪 25123 | <sub>Waalse gem.</sub> | [Rebecq](https://www.openstreetmap.org/relation/1157669) | `Commune de Rebecq` |
+| 🇱🇺 0210 | <sub>Luxemburgse gem.</sub> | [Reckange-sur-Mess](https://www.openstreetmap.org/relation/407468) | `Commune de Reckange-sur-Mess` |
+| 🇱🇺 0706 | <sub>Luxemburgse gem.</sub> | [Redange/Attert](https://www.openstreetmap.org/relation/1356683) | `Commune de Redange/Attert` |
 | 🇩🇪 09362000 | <sub>Duitse gem.</sub> | [Regensburg](https://www.openstreetmap.org/relation/62411) | `Stadt Regensburg` |
 | 🇳🇱 gm0703 | <sub>Nederlandse gem.</sub> | [Reimerswaal](https://www.openstreetmap.org/relation/296471) | `Gemeente Reimerswaal` |
+| 🇱🇺 0608 | <sub>Luxemburgse gem.</sub> | [Reisdorf](https://www.openstreetmap.org/relation/569738) | `Commune de Reisdorf` |
+| 🇱🇺 1205 | <sub>Luxemburgse gem.</sub> | [Remich](https://www.openstreetmap.org/relation/407503) | `Ville de Remich` |
 | 🇧🇪 64063 | <sub>Waalse gem.</sub> | [Remicourt](https://www.openstreetmap.org/relation/2369347) | `Commune de Remicourt` |
 | 🇩🇪 05120000 | <sub>Duitse gem.</sub> | [Remscheid](https://www.openstreetmap.org/relation/62455) | `Stadt Remscheid` |
 | 🇧🇪 83044 | <sub>Waalse gem.</sub> | [Rendeux](https://www.openstreetmap.org/relation/2566322) | `Commune de Rendeux` |
@@ -767,19 +838,23 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm1669 | <sub>Nederlandse gem.</sub> | [Roerdalen](https://www.openstreetmap.org/relation/405207) | `Gemeente Roerdalen` |
 | 🇳🇱 gm0957 | <sub>Nederlandse gem.</sub> | [Roermond](https://www.openstreetmap.org/relation/405146) | `Gemeente Roermond` |
 | 🇧🇪 36015 | <sub>Vlaamse gem.</sub> | [Roeselare](https://www.openstreetmap.org/relation/901849) | `Stad Roeselare` |
+| 🇱🇺 0211 | <sub>Luxemburgse gem.</sub> | [Roeser](https://www.openstreetmap.org/relation/407913) | `Commune de Roeser` |
 | 🇧🇪 45041 | <sub>Vlaamse gem.</sub> | [Ronse](https://www.openstreetmap.org/relation/398192) | `Stad Ronse` |
 | 🇧🇪 23097 | <sub>Vlaamse gem.</sub> | [Roosdaal](https://www.openstreetmap.org/relation/1069845) | `Gemeente Roosdaal` |
 | 🇳🇱 gm1674 | <sub>Nederlandse gem.</sub> | [Roosendaal](https://www.openstreetmap.org/relation/2078302) | `Gemeente Roosendaal` |
 | 🇩🇪 09163000 | <sub>Duitse gem.</sub> | [Rosenheim](https://www.openstreetmap.org/relation/2168233) | `Stadt Rosenheim` |
+| 🇱🇺 1006 | <sub>Luxemburgse gem.</sub> | [Rosport-Mompach](https://www.openstreetmap.org/relation/569739) | `Commune de Rosport-Mompach` |
 | 🇩🇪 13003000 | <sub>Duitse gem.</sub> | [Rostock](https://www.openstreetmap.org/relation/62405) | `Stadt Rostock` |
 | 🇧🇪 24094 | <sub>Vlaamse gem.</sub> | [Rotselaar](https://www.openstreetmap.org/relation/214462) | `Gemeente Rotselaar` |
 | 🇳🇱 gm0599 | <sub>Nederlandse gem.</sub> | [Rotterdam](https://www.openstreetmap.org/relation/324431) | `Gemeente Rotterdam` |
 | 🇧🇪 85047 | <sub>Waalse gem.</sub> | [Rouvroy](https://www.openstreetmap.org/relation/2345341) | `Commune de Rouvroy` |
 | 🇳🇱 gm0277 | <sub>Nederlandse gem.</sub> | [Rozendaal](https://www.openstreetmap.org/relation/418417) | `Gemeente Rozendaal` |
 | 🇳🇱 gm0840 | <sub>Nederlandse gem.</sub> | [Rucphen](https://www.openstreetmap.org/relation/2078299) | `Gemeente Rucphen` |
+| 🇱🇺 0212 | <sub>Luxemburgse gem.</sub> | [Rumelange](https://www.openstreetmap.org/relation/407448) | `Ville de Rumelange` |
 | 🇧🇪 57072 | <sub>Waalse gem.</sub> | [Rumes](https://www.openstreetmap.org/relation/2162968) | `Commune de Rumes` |
 | 🇧🇪 11037 | <sub>Vlaamse gem.</sub> | [Rumst](https://www.openstreetmap.org/relation/58824) | `Gemeente Rumst` |
 | 🇳🇱 col03 | <sub>bijz. Nederlandse gem.</sub> | [Saba](https://www.openstreetmap.org/relation/2324451) | `Openbaar Lichaam Saba` |
+| 🇱🇺 0707 | <sub>Luxemburgse gem.</sub> | [Saeul](https://www.openstreetmap.org/relation/1355855) | `Commune de Saeul` |
 | 🇧🇪 82038 | <sub>Waalse gem.</sub> | [Sainte-Ode](https://www.openstreetmap.org/relation/2453837) | `Commune de Sainte-Ode` |
 | 🇧🇪 64065 | <sub>Waalse gem.</sub> | [Saint-Georges-sur-Meuse](https://www.openstreetmap.org/relation/2002544) | `Commune de Saint-Georges-sur-Meuse` |
 | 🇧🇪 53070 | <sub>Waalse gem.</sub> | [Saint-Ghislain](https://www.openstreetmap.org/relation/2170568) | `Ville de Saint-Ghislain` |
@@ -788,17 +863,23 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 62093 | <sub>Waalse gem.</sub> | [Saint-Nicolas](https://www.openstreetmap.org/relation/2389229) | `Commune de Saint-Nicolas` |
 | 🇩🇪 03102000 | <sub>Duitse gem.</sub> | [Salzgitter](https://www.openstreetmap.org/relation/62659) | `Stadt Salzgitter` |
 | 🇧🇪 92137 | <sub>Waalse gem.</sub> | [Sambreville](https://www.openstreetmap.org/relation/2282984) | `Ville de Sambreville` |
+| 🇱🇺 0306 | <sub>Luxemburgse gem.</sub> | [Sandweiler](https://www.openstreetmap.org/relation/411344) | `Commune de Sandweiler` |
+| 🇱🇺 0213 | <sub>Luxemburgse gem.</sub> | [Sanem](https://www.openstreetmap.org/relation/407473) | `Commune de Sanem` |
 | 🇧🇪 63067 | <sub>Waalse gem.</sub> | [Sankt Vith](https://www.openstreetmap.org/relation/2433430) | `Stadt Sankt Vith` |
 | 🇧🇪 21015 | <sub>Brusselse gem.</sub> | [Schaarbeek](https://www.openstreetmap.org/relation/58260) | `Commune de Schaerbeek - Gemeente Schaarbeek` |
 | 🇳🇱 gm0441 | <sub>Nederlandse gem.</sub> | [Schagen](https://www.openstreetmap.org/relation/2672878) | `Gemeente Schagen` |
 | 🇧🇪 11038 | <sub>Vlaamse gem.</sub> | [Schelle](https://www.openstreetmap.org/relation/58364) | `Gemeente Schelle` |
+| 🇱🇺 1206 | <sub>Luxemburgse gem.</sub> | [Schengen](https://www.openstreetmap.org/relation/407741) | `Commune de Schengen` |
 | 🇧🇪 24134 | <sub>Vlaamse gem.</sub> | [Scherpenheuvel-Zichem](https://www.openstreetmap.org/relation/1161890) | `Stad Scherpenheuvel-Zichem` |
 | 🇳🇱 gm0279 | <sub>Nederlandse gem.</sub> | [Scherpenzeel](https://www.openstreetmap.org/relation/419028) | `Gemeente Scherpenzeel` |
 | 🇳🇱 gm0606 | <sub>Nederlandse gem.</sub> | [Schiedam](https://www.openstreetmap.org/relation/324296) | `Gemeente Schiedam` |
+| 🇱🇺 0609 | <sub>Luxemburgse gem.</sub> | [Schieren](https://www.openstreetmap.org/relation/1113665) | `Commune de Schieren` |
 | 🇳🇱 gm0088 | <sub>Nederlandse gem.</sub> | [Schiermonnikoog](https://www.openstreetmap.org/relation/384538) | `Gemeente Schiermonnikoog` |
+| 🇱🇺 0214 | <sub>Luxemburgse gem.</sub> | [Schifflange](https://www.openstreetmap.org/relation/407434) | `Commune de Schifflange` |
 | 🇧🇪 11039 | <sub>Vlaamse gem.</sub> | [Schilde](https://www.openstreetmap.org/relation/1283358) | `Gemeente Schilde` |
 | 🇧🇪 11040 | <sub>Vlaamse gem.</sub> | [Schoten](https://www.openstreetmap.org/relation/408297) | `Gemeente Schoten` |
 | 🇳🇱 gm1676 | <sub>Nederlandse gem.</sub> | [Schouwen-Duiveland](https://www.openstreetmap.org/relation/296493) | `Gemeente Schouwen-Duiveland` |
+| 🇱🇺 0307 | <sub>Luxemburgse gem.</sub> | [Schuttrange](https://www.openstreetmap.org/relation/411374) | `Commune de Schuttrange` |
 | 🇩🇪 09565000 | <sub>Duitse gem.</sub> | [Schwabach](https://www.openstreetmap.org/relation/62720) | `Stadt Schwabach` |
 | 🇩🇪 09662000 | <sub>Duitse gem.</sub> | [Schweinfurt](https://www.openstreetmap.org/relation/62534) | `Stadt Schweinfurt` |
 | 🇩🇪 13004000 | <sub>Duitse gem.</sub> | [Schwerin](https://www.openstreetmap.org/relation/62685) | `Stadt Schwerin` |
@@ -841,6 +922,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 11044 | <sub>Vlaamse gem.</sub> | [Stabroek](https://www.openstreetmap.org/relation/60973) | `Gemeente Stabroek` |
 | 🇧🇪 36019 | <sub>Vlaamse gem.</sub> | [Staden](https://www.openstreetmap.org/relation/901843) | `Gemeente Staden` |
 | 🇳🇱 gm0037 | <sub>Nederlandse gem.</sub> | [Stadskanaal](https://www.openstreetmap.org/relation/413261) | `Gemeente Stadskanaal` |
+| 🇱🇺 1207 | <sub>Luxemburgse gem.</sub> | [Stadtbredimus](https://www.openstreetmap.org/relation/407502) | `Commune de Stadtbredimus` |
 | 🇳🇱 gm0180 | <sub>Nederlandse gem.</sub> | [Staphorst](https://www.openstreetmap.org/relation/414674) | `Gemeente Staphorst` |
 | 🇧🇪 63073 | <sub>Waalse gem.</sub> | [Stavelot](https://www.openstreetmap.org/relation/2409290) | `Ville de Stavelot` |
 | 🇳🇱 gm0532 | <sub>Nederlandse gem.</sub> | [Stede Broec](https://www.openstreetmap.org/relation/296473) | `Gemeente Stede Broec` |
@@ -848,13 +930,17 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 23081 | <sub>Vlaamse gem.</sub> | [Steenokkerzeel](https://www.openstreetmap.org/relation/414918) | `Gemeente Steenokkerzeel` |
 | 🇳🇱 gm1708 | <sub>Nederlandse gem.</sub> | [Steenwijkerland](https://www.openstreetmap.org/relation/414654) | `Gemeente Steenwijkerland` |
 | 🇳🇱 gm0971 | <sub>Nederlandse gem.</sub> | [Stein](https://www.openstreetmap.org/relation/2078288) | `Gemeente Stein` |
+| 🇱🇺 0110 | <sub>Luxemburgse gem.</sub> | [Steinfort](https://www.openstreetmap.org/relation/407857) | `Commune de Steinfort` |
+| 🇱🇺 0308 | <sub>Luxemburgse gem.</sub> | [Steinsel](https://www.openstreetmap.org/relation/411391) | `Commune de Steinsel` |
 | 🇧🇪 46024 | <sub>Vlaamse gem.</sub> | [Stekene](https://www.openstreetmap.org/relation/913874) | `Gemeente Stekene` |
 | 🇳🇱 gm1904 | <sub>Nederlandse gem.</sub> | [Stichtse Vecht](https://www.openstreetmap.org/relation/1357924) | `Gemeente Stichtse Vecht` |
 | 🇧🇪 63075 | <sub>Waalse gem.</sub> | [Stoumont](https://www.openstreetmap.org/relation/2422527) | `Commune de Stoumont` |
+| 🇱🇺 0309 | <sub>Luxemburgse gem.</sub> | [Strassen](https://www.openstreetmap.org/relation/407944) | `Commune de Strassen` |
 | 🇩🇪 09263000 | <sub>Duitse gem.</sub> | [Straubing](https://www.openstreetmap.org/relation/62636) | `Stadt Straubing` |
 | 🇩🇪 08111000 | <sub>Duitse gem.</sub> | [Stuttgart](https://www.openstreetmap.org/relation/2793104) | `Stadt Stuttgart` |
 | 🇳🇱 gm1900 | <sub>Nederlandse gem.</sub> | [Súdwest-Fryslân](https://www.openstreetmap.org/relation/1357943) | `Gemeente Súdwest-Fryslân` |
 | 🇩🇪 16054000 | <sub>Duitse gem.</sub> | [Suhl](https://www.openstreetmap.org/relation/62450) | `Stadt Suhl` |
+| 🇱🇺 0901 | <sub>Luxemburgse gem.</sub> | [Tandel](https://www.openstreetmap.org/relation/1337083) | `Commune de Tandel` |
 | 🇧🇪 84068 | <sub>Waalse gem.</sub> | [Tellin](https://www.openstreetmap.org/relation/2450770) | `Commune de Tellin` |
 | 🇧🇪 46025 | <sub>Vlaamse gem.</sub> | [Temse](https://www.openstreetmap.org/relation/391217) | `Gemeente Temse` |
 | 🇧🇪 83049 | <sub>Waalse gem.</sub> | [Tenneville](https://www.openstreetmap.org/relation/2566323) | `Commune de Tenneville` |
@@ -882,6 +968,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 24109 | <sub>Vlaamse gem.</sub> | [Tremelo](https://www.openstreetmap.org/relation/408312) | `Gemeente Tremelo` |
 | 🇩🇪 07211000 | <sub>Duitse gem.</sub> | [Trier](https://www.openstreetmap.org/relation/172679) | `Stadt Trier` |
 | 🇧🇪 63086 | <sub>Waalse gem.</sub> | [Trois-Ponts](https://www.openstreetmap.org/relation/2436185) | `Commune de Trois-Ponts` |
+| 🇱🇺 0504 | <sub>Luxemburgse gem.</sub> | [Troisvierges](https://www.openstreetmap.org/relation/1353102) | `Commune de Troisvierges` |
 | 🇧🇪 62122 | <sub>Waalse gem.</sub> | [Trooz](https://www.openstreetmap.org/relation/2435520) | `Commune de Trooz` |
 | 🇳🇱 gm0183 | <sub>Nederlandse gem.</sub> | [Tubbergen](https://www.openstreetmap.org/relation/414738) | `Gemeente Tubbergen` |
 | 🇧🇪 25105 | <sub>Waalse gem.</sub> | [Tubeke](https://www.openstreetmap.org/relation/386970) | `Ville de Tubize` |
@@ -894,11 +981,13 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 21016 | <sub>Brusselse gem.</sub> | [Ukkel](https://www.openstreetmap.org/relation/58253) | `Commune d'Uccle - Gemeente Ukkel` |
 | 🇩🇪 08421000 | <sub>Duitse gem.</sub> | [Ulm](https://www.openstreetmap.org/relation/62495) | `Stadt Ulm` |
 | 🇳🇱 gm0184 | <sub>Nederlandse gem.</sub> | [Urk](https://www.openstreetmap.org/relation/408115) | `Gemeente Urk` |
+| 🇱🇺 0708 | <sub>Luxemburgse gem.</sub> | [Useldange](https://www.openstreetmap.org/relation/1355531) | `Commune d'Useldange` |
 | 🇳🇱 gm0344 | <sub>Nederlandse gem.</sub> | [Utrecht](https://www.openstreetmap.org/relation/419203) | `Gemeente Utrecht` |
 | 🇳🇱 gm1581 | <sub>Nederlandse gem.</sub> | [Utrechtse Heuvelrug](https://www.openstreetmap.org/relation/419184) | `Gemeente Utrechtse Heuvelrug` |
 | 🇳🇱 gm0981 | <sub>Nederlandse gem.</sub> | [Vaals](https://www.openstreetmap.org/relation/406607) | `Gemeente Vaals` |
 | 🇳🇱 gm0994 | <sub>Nederlandse gem.</sub> | [Valkenburg aan de Geul](https://www.openstreetmap.org/relation/305364) | `Gemeente Valkenburg aan de Geul` |
 | 🇳🇱 gm0858 | <sub>Nederlandse gem.</sub> | [Valkenswaard](https://www.openstreetmap.org/relation/2078313) | `Gemeente Valkenswaard` |
+| 🇱🇺 0610 | <sub>Luxemburgse gem.</sub> | [Vallée de l'Ernz](https://www.openstreetmap.org/relation/1113599) | `Commune de la Vallée de l'Ernz` |
 | 🇧🇪 82036 | <sub>Waalse gem.</sub> | [Vaux-sur-Sûre](https://www.openstreetmap.org/relation/2453951) | `Commune de Vaux-sur-Sûre` |
 | 🇳🇱 gm0047 | <sub>Nederlandse gem.</sub> | [Veendam](https://www.openstreetmap.org/relation/412404) | `Gemeente Veendam` |
 | 🇳🇱 gm0345 | <sub>Nederlandse gem.</sub> | [Veenendaal](https://www.openstreetmap.org/relation/418793) | `Gemeente Veenendaal` |
@@ -910,6 +999,8 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 61063 | <sub>Waalse gem.</sub> | [Verlaine](https://www.openstreetmap.org/relation/1997464) | `Commune de Verlaine` |
 | 🇧🇪 63079 | <sub>Waalse gem.</sub> | [Verviers](https://www.openstreetmap.org/relation/2396836) | `Ville de Verviers` |
 | 🇧🇪 38025 | <sub>Vlaamse gem.</sub> | [Veurne](https://www.openstreetmap.org/relation/1516302) | `Stad Veurne` |
+| 🇱🇺 0903 | <sub>Luxemburgse gem.</sub> | [Vianden](https://www.openstreetmap.org/relation/1337084) | `Ville de Vianden` |
+| 🇱🇺 0709 | <sub>Luxemburgse gem.</sub> | [Vichten](https://www.openstreetmap.org/relation/1355348) | `Commune de Vichten` |
 | 🇧🇪 82032 | <sub>Waalse gem.</sub> | [Vielsalm](https://www.openstreetmap.org/relation/2449235) | `Commune de Vielsalm` |
 | 🇳🇱 gm1961 | <sub>Nederlandse gem.</sub> | [Vijfheerenlanden](https://www.openstreetmap.org/relation/9172184) | `Gemeente Vijfheerenlanden` |
 | 🇧🇪 25107 | <sub>Waalse gem.</sub> | [Villers-la-Ville](https://www.openstreetmap.org/relation/1150063) | `Commune de Villers-la-Ville` |
@@ -940,6 +1031,8 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇳🇱 gm0289 | <sub>Nederlandse gem.</sub> | [Wageningen](https://www.openstreetmap.org/relation/418758) | `Gemeente Wageningen` |
 | 🇧🇪 63080 | <sub>Waalse gem.</sub> | [Waimes](https://www.openstreetmap.org/relation/2402391) | `Commune de Waimes` |
 | 🇧🇪 93088 | <sub>Waalse gem.</sub> | [Walcourt](https://www.openstreetmap.org/relation/1894438) | `Ville de Walcourt` |
+| 🇱🇺 1008 | <sub>Luxemburgse gem.</sub> | [Waldbillig](https://www.openstreetmap.org/relation/569742) | `Commune de Waldbillig` |
+| 🇱🇺 0310 | <sub>Luxemburgse gem.</sub> | [Walferdange](https://www.openstreetmap.org/relation/411392) | `Commune de Walferdange` |
 | 🇧🇪 25124 | <sub>Waalse gem.</sub> | [Walhain](https://www.openstreetmap.org/relation/2105648) | `Commune de Walhain` |
 | 🇧🇪 61072 | <sub>Waalse gem.</sub> | [Wanze](https://www.openstreetmap.org/relation/2002636) | `Commune de Wanze` |
 | 🇧🇪 34040 | <sub>Vlaamse gem.</sub> | [Waregem](https://www.openstreetmap.org/relation/898562) | `Stad Waregem` |
@@ -951,7 +1044,9 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 25112 | <sub>Waalse gem.</sub> | [Waver](https://www.openstreetmap.org/relation/224757) | `Ville de Wavre` |
 | 🇳🇱 gm0988 | <sub>Nederlandse gem.</sub> | [Weert](https://www.openstreetmap.org/relation/2078294) | `Gemeente Weert` |
 | 🇩🇪 09363000 | <sub>Duitse gem.</sub> | [Weiden in der Oberpfalz](https://www.openstreetmap.org/relation/62554) | `Stadt Weiden in der Oberpfalz` |
+| 🇱🇺 0311 | <sub>Luxemburgse gem.</sub> | [Weiler-la-Tour](https://www.openstreetmap.org/relation/410954) | `Commune de Weiler-la-Tour` |
 | 🇩🇪 16055000 | <sub>Duitse gem.</sub> | [Weimar](https://www.openstreetmap.org/relation/62493) | `Stadt Weimar` |
+| 🇱🇺 0505 | <sub>Luxemburgse gem.</sub> | [Weiswampach](https://www.openstreetmap.org/relation/1353113) | `Commune de Weiswampach` |
 | 🇧🇪 63084 | <sub>Waalse gem.</sub> | [Welkenraedt](https://www.openstreetmap.org/relation/2396837) | `Commune de Welkenraedt` |
 | 🇧🇪 73098 | <sub>Vlaamse gem.</sub> | [Wellen](https://www.openstreetmap.org/relation/1243514) | `Gemeente Wellen` |
 | 🇧🇪 84075 | <sub>Waalse gem.</sub> | [Wellin](https://www.openstreetmap.org/relation/2448802) | `Commune de Wellin` |
@@ -980,12 +1075,16 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 11050 | <sub>Vlaamse gem.</sub> | [Wijnegem](https://www.openstreetmap.org/relation/310363) | `Gemeente Wijnegem` |
 | 🇩🇪 03405000 | <sub>Duitse gem.</sub> | [Wilhelmshaven](https://www.openstreetmap.org/relation/62444) | `Stadt Wilhelmshaven` |
 | 🇧🇪 12040 | <sub>Vlaamse gem.</sub> | [Willebroek](https://www.openstreetmap.org/relation/414233) | `Gemeente Willebroek` |
+| 🇱🇺 0807 | <sub>Luxemburgse gem.</sub> | [Wiltz](https://www.openstreetmap.org/relation/1357531) | `Ville de Wiltz` |
+| 🇱🇺 0502 | <sub>Luxemburgse gem.</sub> | [Wincrange](https://www.openstreetmap.org/relation/1353118) | `Commune de Wincrange` |
 | 🇧🇪 37021 | <sub>Vlaamse gem.</sub> | [Wingene](https://www.openstreetmap.org/relation/1387970) | `Gemeente Wingene` |
+| 🇱🇺 0808 | <sub>Luxemburgse gem.</sub> | [Winseler](https://www.openstreetmap.org/relation/1357539) | `Commune de Winseler` |
 | 🇳🇱 gm0294 | <sub>Nederlandse gem.</sub> | [Winterswijk](https://www.openstreetmap.org/relation/416742) | `Gemeente Winterswijk` |
 | 🇳🇱 gm0873 | <sub>Nederlandse gem.</sub> | [Woensdrecht](https://www.openstreetmap.org/relation/2078304) | `Gemeente Woensdrecht` |
 | 🇳🇱 gm0632 | <sub>Nederlandse gem.</sub> | [Woerden](https://www.openstreetmap.org/relation/158549) | `Gemeente Woerden` |
 | 🇩🇪 03103000 | <sub>Duitse gem.</sub> | [Wolfsburg](https://www.openstreetmap.org/relation/62418) | `Stadt Wolfsburg` |
 | 🇧🇪 11052 | <sub>Vlaamse gem.</sub> | [Wommelgem](https://www.openstreetmap.org/relation/310381) | `Gemeente Wommelgem` |
+| 🇱🇺 1108 | <sub>Luxemburgse gem.</sub> | [Wormeldange](https://www.openstreetmap.org/relation/532139) | `Commune de Wormeldange` |
 | 🇳🇱 gm0880 | <sub>Nederlandse gem.</sub> | [Wormerland](https://www.openstreetmap.org/relation/47812) | `Gemeente Wormerland` |
 | 🇩🇪 07319000 | <sub>Duitse gem.</sub> | [Worms](https://www.openstreetmap.org/relation/62453) | `Stadt Worms` |
 | 🇧🇪 45061 | <sub>Vlaamse gem.</sub> | [Wortegem-Petegem](https://www.openstreetmap.org/relation/912036) | `Gemeente Wortegem-Petegem` |
