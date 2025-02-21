@@ -543,7 +543,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 84035 | <sub>Waalse gem.</sub> | [Libin](https://www.openstreetmap.org/relation/2440902) | `Commune de Libin` |
 | 🇧🇪 84077 | <sub>Waalse gem.</sub> | [Libramont-Chevigny](https://www.openstreetmap.org/relation/2571205) | `Commune de Libramont-Chevigny` |
 | 🇧🇪 36011 | <sub>Vlaamse gem.</sub> | [Lichtervelde](https://www.openstreetmap.org/relation/1387976) | `Gemeente Lichtervelde` |
-| 🇧🇪 23044 | <sub>Vlaamse gem.</sub> | [Liedekerke](https://www.openstreetmap.org/relation/962589) | `Gemeente Liedekerke` |
+| 🇧🇪 23044 | <sub>Vlaamse gem.</sub> | [Liedekerke](https://www.openstreetmap.org/relation/18690655) | `Gemeente Liedekerke` |
 | 🇧🇪 12021 | <sub>Vlaamse gem.</sub> | [Lier](https://www.openstreetmap.org/relation/964259) | `Stad Lier` |
 | 🇧🇪 45063 | <sub>Vlaamse gem.</sub> | [Lierde](https://www.openstreetmap.org/relation/398193) | `Gemeente Lierde` |
 | 🇧🇪 63045 | <sub>Waalse gem.</sub> | [Lierneux](https://www.openstreetmap.org/relation/2436183) | `Commune de Lierneux` |
