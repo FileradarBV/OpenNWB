@@ -386,7 +386,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 23025 | <sub>Vlaamse gem.</sub> | [Grimbergen](https://www.openstreetmap.org/relation/112011) | `Gemeente Grimbergen` |
 | 🇧🇪 13010 | <sub>Vlaamse gem.</sub> | [Grobbendonk](https://www.openstreetmap.org/relation/1283235) | `Gemeente Grobbendonk` |
 | 🇳🇱 gm0014 | <sub>Nederlandse gem.</sub> | [Groningen](https://www.openstreetmap.org/relation/409862) | `Gemeente Groningen` |
-| 🇱🇺 0711 | <sub>Luxemburgse gem.</sub> | [Grosbous-Wahl](https://www.openstreetmap.org/relation/1354531) | `Commune de Grosbous-Wahl` |
+| 🇱🇺 0711 | <sub>Luxemburgse gem.</sub> | [Groussbus-Wal](https://www.openstreetmap.org/relation/1354531) | `Commune de Groussbus-Wal` |
 | 🇳🇱 gm1729 | <sub>Nederlandse gem.</sub> | [Gulpen-Wittem](https://www.openstreetmap.org/relation/2078283) | `Gemeente Gulpen-Wittem` |
 | 🇧🇪 24033 | <sub>Vlaamse gem.</sub> | [Haacht](https://www.openstreetmap.org/relation/120261) | `Gemeente Haacht` |
 | 🇳🇱 gm0158 | <sub>Nederlandse gem.</sub> | [Haaksbergen](https://www.openstreetmap.org/relation/415533) | `Gemeente Haaksbergen` |
@@ -814,7 +814,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 13035 | <sub>Vlaamse gem.</sub> | [Ravels](https://www.openstreetmap.org/relation/1274221) | `Gemeente Ravels` |
 | 🇧🇪 25123 | <sub>Waalse gem.</sub> | [Rebecq](https://www.openstreetmap.org/relation/1157669) | `Commune de Rebecq` |
 | 🇱🇺 0210 | <sub>Luxemburgse gem.</sub> | [Reckange-sur-Mess](https://www.openstreetmap.org/relation/407468) | `Commune de Reckange-sur-Mess` |
-| 🇱🇺 0706 | <sub>Luxemburgse gem.</sub> | [Redange/Attert](https://www.openstreetmap.org/relation/1356683) | `Commune de Redange/Attert` |
+| 🇱🇺 0706 | <sub>Luxemburgse gem.</sub> | [Redange-sur-Attert](https://www.openstreetmap.org/relation/1356683) | `Commune de Redange-sur-Attert` |
 | 🇩🇪 09362000 | <sub>Duitse gem.</sub> | [Regensburg](https://www.openstreetmap.org/relation/62411) | `Stadt Regensburg` |
 | 🇳🇱 gm0703 | <sub>Nederlandse gem.</sub> | [Reimerswaal](https://www.openstreetmap.org/relation/296471) | `Gemeente Reimerswaal` |
 | 🇱🇺 0608 | <sub>Luxemburgse gem.</sub> | [Reisdorf](https://www.openstreetmap.org/relation/569738) | `Commune de Reisdorf` |

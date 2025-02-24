@@ -5531,10 +5531,10 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Grez-Doiceau"][prop("ope
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
-way[is_prop_set("opennwb-info")]["operator"="Commune de Grosbous-Wahl"][prop("opennwb-operator-country")="🇱🇺"],
-way[is_prop_set("opennwb-info")]["operator"="Commune de Grosbous-Wahl"][prop("opennwb-operator-country")=""] {
+way[is_prop_set("opennwb-info")]["operator"="Commune de Groussbus-Wal"][prop("opennwb-operator-country")="🇱🇺"],
+way[is_prop_set("opennwb-info")]["operator"="Commune de Groussbus-Wal"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Grosbous-Wahl";
+	opennwb-operator-text: "Groussbus-Wal";
 	opennwb-operator-country: "🇱🇺";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "130";
@@ -7923,10 +7923,10 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Reckange-sur-Mess"][prop
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
-way[is_prop_set("opennwb-info")]["operator"="Commune de Redange/Attert"][prop("opennwb-operator-country")="🇱🇺"],
-way[is_prop_set("opennwb-info")]["operator"="Commune de Redange/Attert"][prop("opennwb-operator-country")=""] {
+way[is_prop_set("opennwb-info")]["operator"="Commune de Redange-sur-Attert"][prop("opennwb-operator-country")="🇱🇺"],
+way[is_prop_set("opennwb-info")]["operator"="Commune de Redange-sur-Attert"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Redange/Attert";
+	opennwb-operator-text: "Redange-sur-Attert";
 	opennwb-operator-country: "🇱🇺";
 	opennwb-maxspeed-forward-motorway: "130";
 	opennwb-maxspeed-forward-urbanmotorway: "130";
@@ -39720,7 +39720,7 @@ relation["type"="boundary"]["ref:lau2"="0711"] way[!is_prop_set("opennwb-info")]
 relation["type"="boundary"]["ref:lau2"="0711"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="LU0"],
 relation["type"="boundary"]["ref:lau2"="0711"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="LU"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "LU0");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Grosbous-Wahl");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Groussbus-Wal");
 }
 relation["type"="boundary"]["ref:lau2"="0103"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["ref:lau2"="0103"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="LU0"],
@@ -39924,7 +39924,7 @@ relation["type"="boundary"]["ref:lau2"="0706"] way[!is_prop_set("opennwb-info")]
 relation["type"="boundary"]["ref:lau2"="0706"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="LU0"],
 relation["type"="boundary"]["ref:lau2"="0706"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="LU"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "LU0");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Redange/Attert");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Redange-sur-Attert");
 }
 relation["type"="boundary"]["ref:lau2"="0608"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["ref:lau2"="0608"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="LU0"],
