@@ -40983,7 +40983,7 @@ relation["type"="boundary"]["boundary"="maritime"]["country"="MC"]["border_type"
 relation["type"="boundary"]["boundary"="maritime"]["country"="MC"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["boundary"="maritime"]["country"="MC"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="MC"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "MC5");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Monaco");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Vorstendom Monaco");
 }
 relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="IT"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="IT"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="IT"],
@@ -41010,7 +41010,7 @@ relation["type"="boundary"]["boundary"="maritime"]["country"="AT"]["border_type"
 relation["type"="boundary"]["boundary"="maritime"]["country"="AT"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["boundary"="maritime"]["country"="AT"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="AT"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "AT5");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Oostenrijk");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Republiek Oostenrijk");
 }
 relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="CZ"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="CZ"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="CZ"],
@@ -41019,7 +41019,7 @@ relation["type"="boundary"]["boundary"="maritime"]["country"="CZ"]["border_type"
 relation["type"="boundary"]["boundary"="maritime"]["country"="CZ"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["boundary"="maritime"]["country"="CZ"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="CZ"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "CZ5");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Tsjechië");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Tsjechische Republiek");
 }
 relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PL"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="PL"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="PL"],
@@ -41028,7 +41028,7 @@ relation["type"="boundary"]["boundary"="maritime"]["country"="PL"]["border_type"
 relation["type"="boundary"]["boundary"="maritime"]["country"="PL"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["boundary"="maritime"]["country"="PL"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="PL"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "PL5");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Polen");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Republiek Polen");
 }
 relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="SE"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="SE"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="SE"],
