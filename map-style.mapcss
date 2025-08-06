@@ -1145,7 +1145,7 @@ way[is_prop_set("opennwb-info")]["operator"="Bruxelles Mobilité - Brussel Mobil
 	opennwb-operator-code: "BM";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -1155,7 +1155,7 @@ way[is_prop_set("opennwb-info")]["operator"="Bruxelles Mobilité - Brussel Mobil
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -2391,7 +2391,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Anderlecht - Gemeente And
 	opennwb-operator-text: "Anderlecht";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -2401,7 +2401,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Anderlecht - Gemeente And
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -2573,7 +2573,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Auderghem - Gemeente Oude
 	opennwb-operator-text: "Oudergem";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -2583,7 +2583,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Auderghem - Gemeente Oude
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -2937,7 +2937,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Etterbeek - Gemeente Ette
 	opennwb-operator-text: "Etterbeek";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -2947,7 +2947,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Etterbeek - Gemeente Ette
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -2963,7 +2963,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Evere - Gemeente Evere"][
 	opennwb-operator-text: "Evere";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -2973,7 +2973,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Evere - Gemeente Evere"][
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -3041,7 +3041,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Ixelles - Gemeente Elsene
 	opennwb-operator-text: "Elsene";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -3051,7 +3051,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Ixelles - Gemeente Elsene
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -3249,7 +3249,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Uccle - Gemeente Ukkel"][
 	opennwb-operator-text: "Ukkel";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -3259,7 +3259,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune d'Uccle - Gemeente Ukkel"][
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -3561,7 +3561,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Berchem-Sainte-Agathe - 
 	opennwb-operator-text: "Sint-Agatha-Berchem";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -3571,7 +3571,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Berchem-Sainte-Agathe - 
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -5173,7 +5173,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Forest - Gemeente Vorst"
 	opennwb-operator-text: "Vorst";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -5183,7 +5183,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Forest - Gemeente Vorst"
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -5303,7 +5303,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Ganshoren - Gemeente Gan
 	opennwb-operator-text: "Ganshoren";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -5313,7 +5313,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Ganshoren - Gemeente Gan
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -6083,7 +6083,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Jette - Gemeente Jette"]
 	opennwb-operator-text: "Jette";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -6093,7 +6093,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Jette - Gemeente Jette"]
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -6265,7 +6265,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Koekelberg - Gemeente Ko
 	opennwb-operator-text: "Koekelberg";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -6275,7 +6275,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Koekelberg - Gemeente Ko
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -7123,7 +7123,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Molenbeek-Saint-Jean - G
 	opennwb-operator-text: "Sint-Jans-Molenbeek";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -7133,7 +7133,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Molenbeek-Saint-Jean - G
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -8215,7 +8215,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Saint-Gilles - Gemeente 
 	opennwb-operator-text: "Sint-Gillis";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -8225,7 +8225,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Saint-Gilles - Gemeente 
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -8241,7 +8241,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Saint-Josse-ten-Noode - 
 	opennwb-operator-text: "Sint-Joost-ten-Node";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -8251,7 +8251,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Saint-Josse-ten-Noode - 
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -8397,7 +8397,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Schaerbeek - Gemeente Sc
 	opennwb-operator-text: "Schaarbeek";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -8407,7 +8407,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Schaerbeek - Gemeente Sc
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -9489,7 +9489,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Watermael-Boitsfort - Ge
 	opennwb-operator-text: "Watermaal-Bosvoorde";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -9499,7 +9499,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Watermael-Boitsfort - Ge
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -9671,7 +9671,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Woluwe-Saint-Lambert - G
 	opennwb-operator-text: "Sint-Lambrechts-Woluwe";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -9681,7 +9681,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Woluwe-Saint-Lambert - G
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -9697,7 +9697,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Woluwe-Saint-Pierre - Ge
 	opennwb-operator-text: "Sint-Pieters-Woluwe";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -9707,7 +9707,7 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Woluwe-Saint-Pierre - Ge
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -29587,7 +29587,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Bruxelles - Stad Brussel"]
 	opennwb-operator-text: "Brussel";
 	opennwb-operator-country: "🇧🇪";
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -29597,7 +29597,7 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Bruxelles - Stad Brussel"]
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -31695,11 +31695,13 @@ way[is_prop_set("opennwb-info")]["zone:traffic"="SX:urban"] {
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE:motorway"] {
 	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-cyclestreet: "30";
 	opennwb-maxspeed-forward-urbancyclestreet: "30";
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-cyclestreet: "30";
 	opennwb-maxspeed-backward-urbancyclestreet: "30";
 	opennwb-maxspeed-backward-livingstreet: "20";
@@ -31761,7 +31763,7 @@ way[is_prop_set("opennwb-info")]["zone:traffic"="BE-VLG:urban"] {
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:rural"] {
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -31771,7 +31773,7 @@ way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:rural"] {
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -31787,7 +31789,7 @@ way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:rural"] {
 }
 way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"] {
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -31797,7 +31799,7 @@ way[is_prop_set("opennwb-info")]["zone:traffic"="BE-BRU:urban"] {
 	opennwb-maxspeed-forward-livingstreet: "20";
 	opennwb-maxspeed-forward-urbanlivingstreet: "20";
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -32429,6 +32431,7 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="SX:urban"] {
 }
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE:motorway"] {
 	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-cyclestreet: "30";
 	opennwb-maxspeed-forward-urbancyclestreet: "30";
 	opennwb-maxspeed-forward-livingstreet: "20";
@@ -32437,6 +32440,7 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE:motorway"] {
 }
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE:motorway"] {
 	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-cyclestreet: "30";
 	opennwb-maxspeed-backward-urbancyclestreet: "30";
 	opennwb-maxspeed-backward-livingstreet: "20";
@@ -32501,7 +32505,7 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-VLG:urban"] {
 }
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:rural"] {
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -32515,7 +32519,7 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:rural"] {
 }
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:rural"] {
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
@@ -32529,7 +32533,7 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:rural"] {
 }
 way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:urban"] {
 	opennwb-maxspeed-forward-motorway: "120";
-	opennwb-maxspeed-forward-urbanmotorway: "30";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
 	opennwb-maxspeed-forward-motorroad: "70";
 	opennwb-maxspeed-forward-urbanmotorroad: "30";
 	opennwb-maxspeed-forward-default: "70";
@@ -32543,7 +32547,7 @@ way[is_prop_set("opennwb-info")]["zone:traffic:right"="BE-BRU:urban"] {
 }
 way[is_prop_set("opennwb-info")]["zone:traffic:left"="BE-BRU:urban"] {
 	opennwb-maxspeed-backward-motorway: "120";
-	opennwb-maxspeed-backward-urbanmotorway: "30";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
 	opennwb-maxspeed-backward-motorroad: "70";
 	opennwb-maxspeed-backward-urbanmotorroad: "30";
 	opennwb-maxspeed-backward-default: "70";
