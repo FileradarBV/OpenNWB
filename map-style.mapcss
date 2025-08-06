@@ -1165,6 +1165,33 @@ way[is_prop_set("opennwb-info")]["operator"="Bruxelles Mobilité - Brussel Mobil
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
+way[is_prop_set("opennwb-info")]["operator"="Collectivité de Corse"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="Collectivité de Corse"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe460e;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "CDC";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["operator"="Province de Hainaut"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Province de Hainaut"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe8419;
