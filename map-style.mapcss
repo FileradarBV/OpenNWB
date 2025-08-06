@@ -33255,7 +33255,7 @@ way[regexp_test("(A|B|C |K |L |R|S)[1-9].*|AST|R0|RING", prop("opennwb-ref-code"
 	opennwb-ref-color: #f7fbf5;
 	opennwb-ref-code-color: #2a2d2f;
 }
-way[regexp_test("(A |B |M |N)[1-9].*", prop("opennwb-ref-code"))] {
+way[regexp_test("(A |B |M |N|T )[1-9].*", prop("opennwb-ref-code"))] {
 	opennwb-ref-color: #0e518d;
 	opennwb-ref-code-color: #f7fbf5;
 }
