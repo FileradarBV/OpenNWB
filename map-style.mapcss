@@ -40881,6 +40881,114 @@ relation["type"="boundary"]["ref:INSEE"="75056"] way[!is_prop_set("opennwb-info"
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR0");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Parijs");
 }
+relation["type"="boundary"]["ISO3166-2"="FR-971"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-971"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-971"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Guadeloupe");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-972"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-972"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-972"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Martinique");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-973"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-973"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-973"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Frans-Guyana");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-974"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-974"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-974"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Réunion");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-976"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-976"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-976"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Mayotte");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-IDF"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-IDF"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-IDF"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Île-de-France");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-CVL"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-CVL"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-CVL"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Centre-Val de Loire");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-BFC"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-BFC"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-BFC"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bourgondië-Franche-Comté");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-NOR"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-NOR"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-NOR"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Normandië");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-HDF"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-HDF"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-HDF"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Hauts-de-France");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-GES"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-GES"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-GES"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Grand Est");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-PDL"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-PDL"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-PDL"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Pays de la Loire");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-BRE"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-BRE"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-BRE"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bretagne");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-NAQ"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-NAQ"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-NAQ"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Nieuw-Aquitanië");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-OCC"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-OCC"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-OCC"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Occitanië");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-ARA"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-ARA"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-ARA"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Auvergne-Rhône-Alpen");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-PAC"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-PAC"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-PAC"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Provence-Alpen-Azurenkust");
+}
+relation["type"="boundary"]["ISO3166-2"="FR-20R"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ISO3166-2"="FR-20R"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
+relation["type"="boundary"]["ISO3166-2"="FR-20R"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Corsica");
+}
 relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BL"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BL"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"],
 relation["type"="boundary"]["boundary"="maritime"]["country"="BL"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
@@ -42372,7 +42480,25 @@ relation[setting("opennwb_operator")]["type"="boundary"]["ref:INS"="30000"] way[
 }
 relation[setting("opennwb_operator")]["type"="boundary"]["ref:INS"="02000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["ref:INS"="03000"] way[length(prop("opennwb-boundary-territories"))=6],
-relation[setting("opennwb_operator")]["type"="boundary"]["ref:INS"="04000"] way[length(prop("opennwb-boundary-territories"))=6] {
+relation[setting("opennwb_operator")]["type"="boundary"]["ref:INS"="04000"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-971"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-972"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-973"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-974"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-976"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-IDF"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-CVL"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-BFC"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-NOR"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-HDF"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-GES"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-PDL"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-BRE"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-NAQ"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-OCC"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-ARA"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-PAC"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ISO3166-2"="FR-20R"] way[length(prop("opennwb-boundary-territories"))=6] {
 	color: #fe460e;
 	casing-color: #fe460e;
 	text-color: #fe460e;
