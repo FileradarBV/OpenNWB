@@ -11,4 +11,4 @@ Al deze tags zijn [opgenomen in Taginfo](https://taginfo.openstreetmap.org/proje
 | 🇩🇪 | Die Autobahn GmbH des Bundes (**BAB**) | `Die Autobahn GmbH des Bundes` |
 | 🇫🇷 | Routes de Guadeloupe (**RDG**) | `Routes de Guadeloupe` |
 
-Het is ook mogelijk om een andere `operator`-tag te gebruiken om een overige wegbeheerder aan te geven die niet in deze lijst is opgenomen.
+Het is ook mogelijk om een andere `operator`-tag te gebruiken om een andere wegbeheerder aan te geven die niet in deze lijst is opgenomen.

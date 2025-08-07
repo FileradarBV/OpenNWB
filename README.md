@@ -27,11 +27,11 @@ De gewenste informatie kan worden gekozen in de kaartstijlinstellingen. Straatna
 
 OpenNWB is bruikbaar in de volgende landen:
 
-* 🇳🇱 Nederland, 🇦🇼 Aruba, 🇨🇼 Curaçao en 🇸🇽 Sint Maarten
-* 🇧🇪 België
-* 🇱🇺 Luxemburg
-* 🇩🇪 Bondsrepubliek Duitsland
-* 🇫🇷 Frankrijk
+* [🇳🇱 Nederland](countries/NL.md), [🇦🇼 Aruba](countries/AW.md), [🇨🇼 Curaçao](countries/CW.md) en [🇸🇽 Sint Maarten](countries/SX.md)
+* [🇧🇪 België](countries/BE.md)
+* [🇱🇺 Luxemburg](countries/LU.md)
+* [🇩🇪 Bondsrepubliek Duitsland](countries/DE.md)
+* [🇫🇷 Frankrijk](countries/FR.md)
 
 Screenshots
 -----------

@@ -9,7 +9,7 @@ NB Het komt 1 keer voor dat verschillende gemeenten dezelfde `operator`-tag hebb
 In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 
 | Code | Soort | Naam | `operator`-tag |
-| :--- | ---: | :--- | :--- |
+| :--- | ----: | :--- | :------------- |
 | 🇳🇱 gm1680 | <sub>Nederlandse gem.</sub> | [Aa en Hunze](https://www.openstreetmap.org/relation/413319) | `Gemeente Aa en Hunze` |
 | 🇳🇱 gm0358 | <sub>Nederlandse gem.</sub> | [Aalsmeer](https://www.openstreetmap.org/relation/443905) | `Gemeente Aalsmeer` |
 | 🇧🇪 41002 | <sub>Vlaamse gem.</sub> | [Aalst](https://www.openstreetmap.org/relation/912312) | `Stad Aalst` |

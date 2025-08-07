@@ -6,7 +6,7 @@ In zeldzame gevallen waarin een land een weggedeelte op of buiten de eigen lands
 Al deze tags zijn [opgenomen in Taginfo](https://taginfo.openstreetmap.org/projects/opennwb#tags).
 
 | Code | Rechtspersoon | Wegbeherende dienst | `operator`-tag |
-| :--- | :--- | :--- | :--- |
+| :--- | :------------ | :------------------ | :------------- |
 | 🇳🇱 | Staat der Nederlanden | Rijkswaterstaat (**RWS**) | `Rijkswaterstaat` |
 | 🇦🇼 | Land Aruba | Dienst Openbare Werken (**DOW**) | `Dienst Openbare Werken` |
 | 🇨🇼 | Land Curaçao | Openbare Werken (**OW**) | `Servisio pa Obra Públiko` |

@@ -6,7 +6,7 @@ In zeldzame gevallen waarin een waterschap een weggedeelte op of buiten de eigen
 Al deze tags zijn [opgenomen in Taginfo](https://taginfo.openstreetmap.org/projects/opennwb#tags).
 
 | Code | Soort | Naam | `operator`-tag |
-| :--- | ---: | :--- | :--- |
+| :--- | ----: | :--- | :------------- |
 | 🇳🇱 ws0654 | <sub>Nederlands waterschap</sub> | [Aa en Maas](https://www.openstreetmap.org/relation/11932046) | `Waterschap Aa en Maas` |
 | 🇳🇱 ws0155 | <sub>Nederlands waterschap</sub> | [Amstel, Gooi en Vecht](https://www.openstreetmap.org/relation/11938319) | `Waterschap Amstel, Gooi en Vecht` |
 | 🇳🇱 ws0652 | <sub>Nederlands waterschap</sub> | [Brabantse Delta](https://www.openstreetmap.org/relation/11932376) | `Waterschap Brabantse Delta` |

@@ -9,7 +9,7 @@ NB Het komt 1 keer voor dat verschillende provincies dezelfde `operator`-tag heb
 In dat geval blijkt uit de geografische context welke provincie er wordt bedoeld.
 
 | Code | Soort | Naam | `operator`-tag |
-| :--- | ---: | :--- | :--- |
+| :--- | ----: | :--- | :------------- |
 | 🇧🇪 10000 | <sub>Vlaamse prov.</sub> | [Antwerpen](https://www.openstreetmap.org/relation/53114) | `Provincie Antwerpen` |
 | 🇳🇱 pv22 | <sub>Nederlandse prov.</sub> | [Drenthe](https://www.openstreetmap.org/relation/47540) | `Provincie Drenthe` |
 | 🇳🇱 pv24 | <sub>Nederlandse prov.</sub> | [Flevoland](https://www.openstreetmap.org/relation/47407) | `Provincie Flevoland` |
