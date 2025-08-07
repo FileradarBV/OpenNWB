@@ -9,5 +9,6 @@ Al deze tags zijn [opgenomen in Taginfo](https://taginfo.openstreetmap.org/proje
 | :--- | :--- | :--- |
 | 🇧🇪 | Waalse Maatschappij voor de Aanvullende Financiering van de Infrastructuren (**SOFICO**) | `Société wallonne de Financement complémentaire des Infrastructures` |
 | 🇩🇪 | Die Autobahn GmbH des Bundes (**BAB**) | `Die Autobahn GmbH des Bundes` |
+| 🇫🇷 | Routes de Guadeloupe (**RDG**) | `Routes de Guadeloupe` |
 
 Het is ook mogelijk om een andere `operator`-tag te gebruiken om een overige wegbeheerder aan te geven die niet in deze lijst is opgenomen.

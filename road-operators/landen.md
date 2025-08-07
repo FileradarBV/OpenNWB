@@ -23,6 +23,7 @@ Al deze tags zijn [opgenomen in Taginfo](https://taginfo.openstreetmap.org/proje
 | 🇩🇪 14 | Vrijstaat Saksen | Landesamt für Straßenbau und Verkehr (**LASUV**) | `Landesamt für Straßenbau und Verkehr` |
 | 🇩🇪 15 | Land Saksen-Anhalt | Landesstraßenbaubehörde Sachsen-Anhalt (**LSBB**) | `Landesstraßenbaubehörde Sachsen-Anhalt` |
 | 🇩🇪 16 | Vrijstaat Thüringen | Thüringer Landesamt für Bau und Verkehr (**TLBV**) | `Thüringer Landesamt für Bau und Verkehr` |
+| 🇫🇷 | Franse Staat | Direction de l'Environnement, de l'Aménagement, du Logement et de la Mer de Mayotte (**DEALM**) | `DEALM` |
 | 🇫🇷 | Franse Staat | Direction interdépartementale des routes Atlantique (**DIRA**) | `DIR Atlantique` |
 | 🇫🇷 | Franse Staat | Direction interdépartementale des routes Centre-Est (**DIRCE**) | `DIR Centre-Est` |
 | 🇫🇷 | Franse Staat | Direction interdépartementale des routes Centre-Ouest (**DIRCO**) | `DIR Centre-Ouest` |

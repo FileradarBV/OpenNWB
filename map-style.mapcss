@@ -350,6 +350,33 @@ way[is_prop_set("opennwb-info")]["operator:addr:country"="VI"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="US"] {
 	opennwb-operator-country: "🇺🇸";
 }
+way[is_prop_set("opennwb-info")]["operator:addr:country"="MS"] {
+	opennwb-operator-country: "🇲🇸";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="DM"] {
+	opennwb-operator-country: "🇩🇲";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="LC"] {
+	opennwb-operator-country: "🇱🇨";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="BB"] {
+	opennwb-operator-country: "🇧🇧";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="SR"] {
+	opennwb-operator-country: "🇸🇷";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="BR"] {
+	opennwb-operator-country: "🇧🇷";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="MU"] {
+	opennwb-operator-country: "🇲🇺";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="MG"] {
+	opennwb-operator-country: "🇲🇬";
+}
+way[is_prop_set("opennwb-info")]["operator:addr:country"="KM"] {
+	opennwb-operator-country: "🇰🇲";
+}
 way[is_prop_set("opennwb-info")]["operator"] {
 	opennwb-operator-color: #b30ffe;
 	opennwb-operator-text-color: #ffffff;
@@ -787,6 +814,33 @@ way[is_prop_set("opennwb-info")]["operator"="Thüringer Landesamt für Bau und V
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
+way[is_prop_set("opennwb-info")]["operator"="DEALM"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="DEALM"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #ff0000;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "DEALM";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["operator"="DIR Atlantique"][prop("opennwb-operator-country")="🇫🇷"],
 way[is_prop_set("opennwb-info")]["operator"="DIR Atlantique"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #ff0000;
@@ -1162,6 +1216,87 @@ way[is_prop_set("opennwb-info")]["operator"="Bruxelles Mobilité - Brussel Mobil
 	opennwb-maxspeed-backward-urban: "30";
 	opennwb-maxspeed-backward-cyclestreet: "30";
 	opennwb-maxspeed-backward-urbancyclestreet: "30";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Collectivité Territoriale de Martinique"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="Collectivité Territoriale de Martinique"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe460e;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "CTM";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Collectivité Territoriale de Guyane"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="Collectivité Territoriale de Guyane"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe460e;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "CTG";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Région Réunion"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="Région Réunion"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe460e;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "RR";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
@@ -31374,6 +31509,31 @@ way[is_prop_set("opennwb-info")]["operator"="Die Autobahn GmbH des Bundes"][prop
 	opennwb-maxspeed-backward-livingstreet: "";
 	opennwb-maxspeed-backward-urbanlivingstreet: "";
 }
+way[is_prop_set("opennwb-info")]["operator"="Routes de Guadeloupe"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="Routes de Guadeloupe"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-code: "RDG";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["motorroad"="no"] {
 	opennwb-motorway-forward: false;
 	opennwb-motorway-backward: false;
@@ -40897,7 +41057,7 @@ relation["type"="boundary"]["ISO3166-2"="FR-973"] way[!is_prop_set("opennwb-info
 relation["type"="boundary"]["ISO3166-2"="FR-973"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
 relation["type"="boundary"]["ISO3166-2"="FR-973"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR3");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Frans-Guyana");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Guyana");
 }
 relation["type"="boundary"]["ISO3166-2"="FR-974"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["ISO3166-2"="FR-974"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
@@ -41276,6 +41436,87 @@ relation["type"="boundary"]["boundary"="maritime"]["country"="US"]["border_type"
 relation["type"="boundary"]["boundary"="maritime"]["country"="US"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="US"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "US5");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Verenigde Staten van Amerika");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MS"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MS"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="MS"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="MS"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="MS"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="MS"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="MS"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="MS"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="MS"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "MS5");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Montserrat");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="DM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="DM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DM"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="DM"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="DM"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DM"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="DM"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="DM"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DM"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DM5");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Dominica");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="LC"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="LC"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="LC"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="LC"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="LC"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="LC"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="LC"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="LC"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="LC"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "LC5");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Saint Lucia");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BB"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BB"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="BB"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="BB"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="BB"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="BB"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="BB"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="BB"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="BB"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "BB5");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Barbados");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="SR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="SR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="SR"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="SR"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="SR"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="SR"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="SR"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="SR"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="SR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "SR5");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Suriname");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BR"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="BR"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="BR"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="BR"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="BR"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="BR"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="BR"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="BR"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="BR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "BR5");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Brazilië");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MU"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MU"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="MU"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="MU"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="MU"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="MU"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="MU"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="MU"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="MU"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "MU5");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Mauritius");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MG"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="MG"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="MG"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="MG"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="MG"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="MG"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="MG"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="MG"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="MG"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "MG5");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Madagascar");
+}
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="KM"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"!="maritime"]["ISO3166-1:alpha2"="KM"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="KM"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="KM"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="KM"]["border_type"="contiguous"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="KM"],
+relation["type"="boundary"]["boundary"="maritime"]["country"="KM"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["boundary"="maritime"]["country"="KM"]["border_type"="eez"] way[!is_prop_set("opennwb-info")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="KM"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "KM5");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Comoren");
 }
 relation["type"="boundary"]["wikidata"="Q1500976"] way[!is_prop_set("opennwb-info")][is_prop_set("opennwb-boundary-territories")][length(prop("opennwb-boundary-territories"))!=6] {
 	opennwb-boundary-territories: "      ";
