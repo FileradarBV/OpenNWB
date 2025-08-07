@@ -8,8 +8,8 @@ Maximumsnelheden uit `maxspeed`-tags worden in Curaçao alleen weergegeven als z
 
 | Wegcategorie | Binnen de bebouwde kom (bibeko) | Buiten de bebouwde kom |
 | :----------- | ------------------------------: | ---------------------: |
-| Andere wegen | 40 | 60 |
-| Autoweg (AW) | 80 | 80 |
+| Andere wegen | ![40](maxspeed/40.svg) | ![60](maxspeed/60.svg) |
+| Autoweg (AW) | ![80](maxspeed/80.svg) | ![80](maxspeed/80.svg) |
 
 Wegbeheerders
 -------------

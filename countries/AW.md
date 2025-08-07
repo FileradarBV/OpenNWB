@@ -8,7 +8,7 @@ Maximumsnelheden uit `maxspeed`-tags worden in Aruba alleen weergegeven als ze v
 
 | Wegcategorie | Binnen de bebouwde kom (bibeko) | Buiten de bebouwde kom |
 | :----------- | ------------------------------: | ---------------------: |
-| Alle wegen | 50 | 80 |
+| Alle wegen | ![50](maxspeed/50.svg) | ![80](maxspeed/80.svg) |
 
 Wegbeheerders
 -------------

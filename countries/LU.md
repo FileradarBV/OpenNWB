@@ -8,10 +8,10 @@ Maximumsnelheden uit `maxspeed`-tags worden in Luxemburg alleen weergegeven als 
 
 | Wegcategorie | Binnen de bebouwde kom (bibeko) | Buiten de bebouwde kom |
 | :----------- | ------------------------------: | ---------------------: |
-| Woongebied (erf) | 20 | 20 |
-| Fietsstraat (FS) | 30 | 30 |
-| Andere wegen | 50 | 90 |
-| Autosnelweg (ASW) | 130 | 130 |
+| Woongebied (erf) | ![20](maxspeed/20.svg) | ![20](maxspeed/20.svg) |
+| Fietsstraat (FS) | ![30](maxspeed/30.svg) | ![30](maxspeed/30.svg) |
+| Andere wegen | ![50](maxspeed/50.svg) | ![90](maxspeed/90.svg) |
+| Autosnelweg (ASW) | ![130](maxspeed/130.svg) | ![130](maxspeed/130.svg) |
 
 Wegbeheerders
 -------------
