@@ -8,7 +8,7 @@ Maximumsnelheden uit `maxspeed`-tags worden in Bondsrepubliek Duitsland alleen w
 
 | Wegcategorie | Binnen de bebouwde kom (bibeko) | Buiten de bebouwde kom |
 | :----------- | :-----------------------------: | :--------------------: |
-| Woongebied (erf) | stapvoets | stapvoets |
+| Woongebied (erf) | ![stapvoets](maxspeed/walk.svg) | ![stapvoets](maxspeed/walk.svg) |
 | Fietsstraat (FS) | ![30](maxspeed/30.svg) | ![30](maxspeed/30.svg) |
 | Andere wegen | ![50](maxspeed/50.svg) | ![100](maxspeed/100.svg) |
 | Autosnelweg (ASW) | ![∞](maxspeed/none.svg) | ![∞](maxspeed/none.svg) |
