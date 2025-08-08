@@ -6,8 +6,8 @@ Maximumsnelheden
 [OpenNWB](../README.md) kent de volgende Duitse standaardmaximumsnelheden (in km/h).
 Maximumsnelheden uit `maxspeed`-tags worden in Bondsrepubliek Duitsland alleen weergegeven als ze verschillen van deze standaardmaximumsnelheden.
 
-| Wegcategorie | Binnen de bebouwde kom (bibeko) | Buiten de bebouwde kom |
-| :----------- | :-----------------------------: | :--------------------: |
+| Wegcategorie | ![Binnen de bebouwde kom (bibeko)](urban/yes.svg) | ![Buiten de bebouwde kom](urban/no.svg) |
+| :----------- | :-----------------------------------------------: | :-------------------------------------: |
 | Woongebied (erf) | ![stapvoets](maxspeed/walk.svg) | ![stapvoets](maxspeed/walk.svg) |
 | Fietsstraat (FS) | ![30](maxspeed/30.svg) | ![30](maxspeed/30.svg) |
 | Andere wegen | ![50](maxspeed/50.svg) | ![100](maxspeed/100.svg) |
