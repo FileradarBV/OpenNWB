@@ -18,7 +18,7 @@ Wegbeheerders
 
 Met de juiste tagging kunnen de volgende Duitse wegbeheerders worden onderscheiden:
 
-* 11 [landen](../road-operators/landen.md);
+* 11 wegbeherende diensten van de [landen](../road-operators/landen.md);
 * [Die Autobahn GmbH des Bundes](../road-operators/other.md);
 * 104 [gemeenten](../road-operators/gemeenten.md);
 * [andere wegbeheerders](../road-operators/other.md).

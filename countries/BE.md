@@ -38,7 +38,7 @@ Wegbeheerders
 
 Met de juiste tagging kunnen de volgende Belgische wegbeheerders worden onderscheiden:
 
-* 3 [gewesten](../road-operators/gewesten.md);
+* 3 wegbeherende diensten van de [gewesten](../road-operators/gewesten.md);
 * [Waalse Maatschappij voor de Aanvullende Financiering van de Infrastructuren](../road-operators/other.md);
 * 10 [provincies](../road-operators/provincies.md);
 * 565 [gemeenten](../road-operators/gemeenten.md);
