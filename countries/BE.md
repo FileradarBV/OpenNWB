@@ -9,29 +9,29 @@ Maximumsnelheden uit `maxspeed`-tags worden in België alleen weergegeven als ze
 ### Vlaanderen
 
 | Wegcategorie | ![Binnen de bebouwde kom (bibeko)](urban/yes.svg) | ![Buiten de bebouwde kom](urban/no.svg) |
-| :----------- | :-----------------------------------------------: | :-------------------------------------: |
-| Woongebied (erf) | ![20](maxspeed/20.svg) | ![20](maxspeed/20.svg) |
-| Fietsstraat (FS) | ![30](maxspeed/30.svg) | ![30](maxspeed/30.svg) |
-| Andere wegen | ![50](maxspeed/50.svg) | ![70](maxspeed/70.svg) |
-| Autosnelweg (ASW) | ![50](maxspeed/50.svg) | ![120](maxspeed/120.svg) |
+| :----------: | :-----------------------------------------------: | :-------------------------------------: |
+| ![Woongebied (erf)](highway/erf.svg) | ![20](maxspeed/20.svg) | ![20](maxspeed/20.svg) |
+| ![Fietsstraat (FS)](highway/FS.svg) | ![30](maxspeed/30.svg) | ![30](maxspeed/30.svg) |
+| Andere | ![50](maxspeed/50.svg) | ![70](maxspeed/70.svg) |
+| ![Autosnelweg (ASW)](highway/ASW.svg) | ![50](maxspeed/50.svg) | ![120](maxspeed/120.svg) |
 
 ### Wallonië
 
 | Wegcategorie | ![Binnen de bebouwde kom (bibeko)](urban/yes.svg) | ![Buiten de bebouwde kom](urban/no.svg) |
-| :----------- | :-----------------------------------------------: | :-------------------------------------: |
-| Woongebied (erf) | ![20](maxspeed/20.svg) | ![20](maxspeed/20.svg) |
-| Fietsstraat (FS) | ![30](maxspeed/30.svg) | ![30](maxspeed/30.svg) |
-| Andere wegen | ![50](maxspeed/50.svg) | ![90](maxspeed/90.svg) |
-| Autosnelweg (ASW) | ![50](maxspeed/50.svg) | ![120](maxspeed/120.svg) |
+| :----------: | :-----------------------------------------------: | :-------------------------------------: |
+| ![Woongebied (erf)](highway/erf.svg) | ![20](maxspeed/20.svg) | ![20](maxspeed/20.svg) |
+| ![Fietsstraat (FS)](highway/FS.svg) | ![30](maxspeed/30.svg) | ![30](maxspeed/30.svg) |
+| Andere | ![50](maxspeed/50.svg) | ![90](maxspeed/90.svg) |
+| ![Autosnelweg (ASW)](highway/ASW.svg) | ![50](maxspeed/50.svg) | ![120](maxspeed/120.svg) |
 
 ### Brussel
 
 | Wegcategorie | ![Binnen de bebouwde kom (bibeko)](urban/yes.svg) | ![Buiten de bebouwde kom](urban/no.svg) |
-| :----------- | :-----------------------------------------------: | :-------------------------------------: |
-| Woongebied (erf) | ![20](maxspeed/20.svg) | ![20](maxspeed/20.svg) |
-| Fietsstraat (FS) | ![30](maxspeed/30.svg) | ![30](maxspeed/30.svg) |
-| Andere wegen | ![30](maxspeed/30.svg) | ![70](maxspeed/70.svg) |
-| Autosnelweg (ASW) | ![50](maxspeed/50.svg) | ![120](maxspeed/120.svg) |
+| :----------: | :-----------------------------------------------: | :-------------------------------------: |
+| ![Woongebied (erf)](highway/erf.svg) | ![20](maxspeed/20.svg) | ![20](maxspeed/20.svg) |
+| ![Fietsstraat (FS)](highway/FS.svg) | ![30](maxspeed/30.svg) | ![30](maxspeed/30.svg) |
+| Andere | ![30](maxspeed/30.svg) | ![70](maxspeed/70.svg) |
+| ![Autosnelweg (ASW)](highway/ASW.svg) | ![50](maxspeed/50.svg) | ![120](maxspeed/120.svg) |
 
 Wegbeheerders
 -------------

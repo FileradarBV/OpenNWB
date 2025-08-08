@@ -7,29 +7,29 @@ Maximumsnelheden
 Maximumsnelheden uit `maxspeed`-tags worden in Nederland alleen weergegeven als ze verschillen van deze standaardmaximumsnelheden.
 
 | Wegcategorie | ![Binnen de bebouwde kom (bibeko)](urban/yes.svg) | ![Buiten de bebouwde kom](urban/no.svg) |
-| :----------- | :-----------------------------------------------: | :-------------------------------------: |
-| Woongebied (erf) | ![15](maxspeed/15.svg) | ![15](maxspeed/15.svg) |
-| Andere wegen | ![50](maxspeed/50.svg) | ![80](maxspeed/80.svg) |
-| Autoweg (AW) | ![50](maxspeed/50.svg) | ![100](maxspeed/100.svg) |
-| Autosnelweg (ASW) | ![50](maxspeed/50.svg) | ![130](maxspeed/130.svg) |
+| :----------: | :-----------------------------------------------: | :-------------------------------------: |
+| ![Woongebied (erf)](highway/erf.svg) | ![15](maxspeed/15.svg) | ![15](maxspeed/15.svg) |
+| Andere | ![50](maxspeed/50.svg) | ![80](maxspeed/80.svg) |
+| ![Autoweg (AW)](highway/AW.svg) | ![50](maxspeed/50.svg) | ![100](maxspeed/100.svg) |
+| ![Autosnelweg (ASW)](highway/ASW.svg) | ![50](maxspeed/50.svg) | ![130](maxspeed/130.svg) |
 
 ### Bonaire
 
 | Wegcategorie | ![Binnen de bebouwde kom (bibeko)](urban/yes.svg) | ![Buiten de bebouwde kom](urban/no.svg) |
-| :----------- | :-----------------------------------------------: | :-------------------------------------: |
-| Alle wegen | ![40](maxspeed/40.svg) | ![60](maxspeed/60.svg) |
+| :----------: | :-----------------------------------------------: | :-------------------------------------: |
+| Alle | ![40](maxspeed/40.svg) | ![60](maxspeed/60.svg) |
 
 ### Sint Eustatius
 
 | Wegcategorie | ![Binnen de bebouwde kom (bibeko)](urban/yes.svg) | ![Buiten de bebouwde kom](urban/no.svg) |
-| :----------- | :-----------------------------------------------: | :-------------------------------------: |
-| Alle wegen | ![40](maxspeed/40.svg) | ![60](maxspeed/60.svg) |
+| :----------: | :-----------------------------------------------: | :-------------------------------------: |
+| Alle | ![40](maxspeed/40.svg) | ![60](maxspeed/60.svg) |
 
 ### Saba
 
 | Wegcategorie | ![Binnen de bebouwde kom (bibeko)](urban/yes.svg) | ![Buiten de bebouwde kom](urban/no.svg) |
-| :----------- | :-----------------------------------------------: | :-------------------------------------: |
-| Alle wegen | ![30](maxspeed/30.svg) | ![60](maxspeed/60.svg) |
+| :----------: | :-----------------------------------------------: | :-------------------------------------: |
+| Alle | ![30](maxspeed/30.svg) | ![60](maxspeed/60.svg) |
 
 Wegbeheerders
 -------------
