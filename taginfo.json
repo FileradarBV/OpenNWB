@@ -1453,7 +1453,7 @@
 	{"object_types": ["way"], "key": "surface", "value": "paving_stones", "description": "Verharding: bestrating (klinkers)"},
 	{"object_types": ["way"], "key": "surface:forward", "value": "paving_stones", "description": "Verharding: bestrating (klinkers)"},
 	{"object_types": ["way"], "key": "surface:backward", "value": "paving_stones", "description": "Verharding: bestrating (klinkers)"},
-	{"object_types": ["way"], "key": "int_ref", "description": "Internationaal E-wegnummer"},
+	{"object_types": ["way"], "key": "int_ref", "description": "🇺🇳 Internationaal E-wegnummer"},
 	{"object_types": ["way"], "key": "ref", "description": "Plaatsaanduiding: wegnummer"},
 	{"object_types": ["way"], "key": "ref:forward", "description": "Plaatsaanduiding: wegnummer"},
 	{"object_types": ["way"], "key": "ref:backward", "description": "Plaatsaanduiding: wegnummer"},
