@@ -1165,6 +1165,33 @@ way[is_prop_set("opennwb-info")]["operator"="Agentschap Wegen en Verkeer"][prop(
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
+way[is_prop_set("opennwb-info")]["operator"="Departement Mobiliteit en Openbare Werken"][prop("opennwb-operator-country")="🇧🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Departement Mobiliteit en Openbare Werken"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #fe460e;
+	opennwb-operator-text-color: #000000;
+	opennwb-operator-code: "MOW";
+	opennwb-operator-country: "🇧🇪";
+	opennwb-maxspeed-forward-motorway: "120";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "70";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "70";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "30";
+	opennwb-maxspeed-forward-urbancyclestreet: "30";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "120";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "70";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "70";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "30";
+	opennwb-maxspeed-backward-urbancyclestreet: "30";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["operator"="Service public de Wallonie"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Service public de Wallonie"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #fe460e;
