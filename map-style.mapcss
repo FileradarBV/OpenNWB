@@ -26572,6 +26572,32 @@ way[is_prop_set("opennwb-info")]["operator"="Stad Zoutleeuw"][prop("opennwb-oper
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
+way[is_prop_set("opennwb-info")]["operator"="Stadt Aachen"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Aachen"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Aken";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "30";
+	opennwb-maxspeed-forward-urbancyclestreet: "30";
+	opennwb-maxspeed-forward-livingstreet: "stapvoets";
+	opennwb-maxspeed-forward-urbanlivingstreet: "stapvoets";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "30";
+	opennwb-maxspeed-backward-urbancyclestreet: "30";
+	opennwb-maxspeed-backward-livingstreet: "stapvoets";
+	opennwb-maxspeed-backward-urbanlivingstreet: "stapvoets";
+}
 way[is_prop_set("opennwb-info")]["operator"="Stadt Amberg"][prop("opennwb-operator-country")="🇩🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Stadt Amberg"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
@@ -27248,6 +27274,32 @@ way[is_prop_set("opennwb-info")]["operator"="Stadt Emden"][prop("opennwb-operato
 	opennwb-maxspeed-backward-livingstreet: "stapvoets";
 	opennwb-maxspeed-backward-urbanlivingstreet: "stapvoets";
 }
+way[is_prop_set("opennwb-info")]["operator"="Stadt Emmerich am Rhein"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Emmerich am Rhein"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Emmerik aan de Rijn";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "30";
+	opennwb-maxspeed-forward-urbancyclestreet: "30";
+	opennwb-maxspeed-forward-livingstreet: "stapvoets";
+	opennwb-maxspeed-forward-urbanlivingstreet: "stapvoets";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "30";
+	opennwb-maxspeed-backward-urbancyclestreet: "30";
+	opennwb-maxspeed-backward-livingstreet: "stapvoets";
+	opennwb-maxspeed-backward-urbanlivingstreet: "stapvoets";
+}
 way[is_prop_set("opennwb-info")]["operator"="Stadt Erfurt"][prop("opennwb-operator-country")="🇩🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Stadt Erfurt"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
@@ -27381,7 +27433,7 @@ way[is_prop_set("opennwb-info")]["operator"="Stadt Flensburg"][prop("opennwb-ope
 way[is_prop_set("opennwb-info")]["operator"="Stadt Frankenthal (Pfalz)"][prop("opennwb-operator-country")="🇩🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Stadt Frankenthal (Pfalz)"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Frankenthal (Pfalz)";
+	opennwb-operator-text: "Frankenthal (Palts)";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -27590,6 +27642,32 @@ way[is_prop_set("opennwb-info")]["operator"="Stadt Halle (Saale)"][prop("opennwb
 way[is_prop_set("opennwb-info")]["operator"="Stadt Halle (Saale)"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Halle (Saale)";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "30";
+	opennwb-maxspeed-forward-urbancyclestreet: "30";
+	opennwb-maxspeed-forward-livingstreet: "stapvoets";
+	opennwb-maxspeed-forward-urbanlivingstreet: "stapvoets";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "30";
+	opennwb-maxspeed-backward-urbancyclestreet: "30";
+	opennwb-maxspeed-backward-livingstreet: "stapvoets";
+	opennwb-maxspeed-backward-urbanlivingstreet: "stapvoets";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Hameln"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Hameln"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hamelen";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -27950,6 +28028,32 @@ way[is_prop_set("opennwb-info")]["operator"="Stadt Kiel"][prop("opennwb-operator
 	opennwb-maxspeed-backward-livingstreet: "stapvoets";
 	opennwb-maxspeed-backward-urbanlivingstreet: "stapvoets";
 }
+way[is_prop_set("opennwb-info")]["operator"="Stadt Kleve"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Kleve"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Kleef";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "30";
+	opennwb-maxspeed-forward-urbancyclestreet: "30";
+	opennwb-maxspeed-forward-livingstreet: "stapvoets";
+	opennwb-maxspeed-forward-urbanlivingstreet: "stapvoets";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "30";
+	opennwb-maxspeed-backward-urbancyclestreet: "30";
+	opennwb-maxspeed-backward-livingstreet: "stapvoets";
+	opennwb-maxspeed-backward-urbanlivingstreet: "stapvoets";
+}
 way[is_prop_set("opennwb-info")]["operator"="Stadt Koblenz"][prop("opennwb-operator-country")="🇩🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Stadt Koblenz"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
@@ -28005,7 +28109,7 @@ way[is_prop_set("opennwb-info")]["operator"="Stadt Krefeld"][prop("opennwb-opera
 way[is_prop_set("opennwb-info")]["operator"="Stadt Köln"][prop("opennwb-operator-country")="🇩🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Stadt Köln"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Köln";
+	opennwb-operator-text: "Keulen";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -28187,7 +28291,7 @@ way[is_prop_set("opennwb-info")]["operator"="Stadt Lübeck"][prop("opennwb-opera
 way[is_prop_set("opennwb-info")]["operator"="Stadt Magdeburg"][prop("opennwb-operator-country")="🇩🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Stadt Magdeburg"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Magdeburg";
+	opennwb-operator-text: "Maagdenburg";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -28447,7 +28551,7 @@ way[is_prop_set("opennwb-info")]["operator"="Stadt Neustadt an der Weinstraße"]
 way[is_prop_set("opennwb-info")]["operator"="Stadt Nürnberg"][prop("opennwb-operator-country")="🇩🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Stadt Nürnberg"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
-	opennwb-operator-text: "Nürnberg";
+	opennwb-operator-text: "Neurenberg";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -29124,6 +29228,32 @@ way[is_prop_set("opennwb-info")]["operator"="Stadt Weimar"][prop("opennwb-operat
 way[is_prop_set("opennwb-info")]["operator"="Stadt Weimar"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
 	opennwb-operator-text: "Weimar";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "30";
+	opennwb-maxspeed-forward-urbancyclestreet: "30";
+	opennwb-maxspeed-forward-livingstreet: "stapvoets";
+	opennwb-maxspeed-forward-urbanlivingstreet: "stapvoets";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "30";
+	opennwb-maxspeed-backward-urbancyclestreet: "30";
+	opennwb-maxspeed-backward-livingstreet: "stapvoets";
+	opennwb-maxspeed-backward-urbanlivingstreet: "stapvoets";
+}
+way[is_prop_set("opennwb-info")]["operator"="Stadt Wesel"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Wesel"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Wezel";
 	opennwb-operator-country: "🇩🇪";
 	opennwb-maxspeed-forward-motorway: "∞";
 	opennwb-maxspeed-forward-urbanmotorway: "∞";
@@ -40343,6 +40473,12 @@ relation["type"="boundary"]["boundary"="maritime"]["country"="LU"]["border_type"
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "LU4");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Luxemburg");
 }
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05334002"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05334002"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05334002"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Aken");
+}
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09361000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09361000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09361000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
@@ -40499,6 +40635,12 @@ relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="03402000"] way[!i
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Emden");
 }
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05154008"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05154008"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05154008"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Emmerik aan de Rijn");
+}
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="16051000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="16051000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="16051000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
@@ -40527,7 +40669,7 @@ relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07311000"] way[!i
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07311000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07311000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Frankenthal (Pfalz)");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Frankenthal (Palts)");
 }
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="12053000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="12053000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
@@ -40576,6 +40718,12 @@ relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="15002000"] way[!i
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="15002000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Halle (Saale)");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="03252006"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="03252006"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="03252006"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Hamelen");
 }
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05915000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05915000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
@@ -40649,23 +40797,29 @@ relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09763000"] way[!i
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Kempten (Allgäu)");
 }
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05315000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05315000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05315000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Keulen");
+}
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="01002000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="01002000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="01002000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Kiel");
 }
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05154036"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05154036"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05154036"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Kleef");
+}
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07111000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07111000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07111000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Koblenz");
-}
-relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05315000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
-relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05315000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
-relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05315000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
-	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Köln");
 }
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05114000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05114000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
@@ -40713,7 +40867,7 @@ relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="15003000"] way[!i
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="15003000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="15003000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Magdeburg");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Maagdenburg");
 }
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07315000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07315000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
@@ -40763,17 +40917,17 @@ relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="01004000"] way[!i
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Neumünster");
 }
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09564000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09564000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09564000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Neurenberg");
+}
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07316000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07316000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07316000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Neustadt an der Weinstraße");
-}
-relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09564000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
-relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09564000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
-relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09564000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
-	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
-	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Nürnberg");
 }
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05119000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05119000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
@@ -40924,6 +41078,12 @@ relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="16055000"] way[!i
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="16055000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Weimar");
+}
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05170048"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05170048"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05170048"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Wezel");
 }
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="06414000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="06414000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
@@ -42596,6 +42756,7 @@ relation[setting("opennwb_operator")]["type"="boundary"]["ref:lau2"="0807"] way[
 relation[setting("opennwb_operator")]["type"="boundary"]["ref:lau2"="0502"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["ref:lau2"="0808"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["ref:lau2"="1108"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05334002"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09361000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09561000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09661000"] way[length(prop("opennwb-boundary-territories"))=6],
@@ -42622,6 +42783,7 @@ relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindes
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05112000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05111000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="03402000"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05154008"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="16051000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09562000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05113000"] way[length(prop("opennwb-boundary-territories"))=6],
@@ -42635,6 +42797,7 @@ relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindes
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="16052000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05914000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="15002000"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="03252006"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05915000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="08221000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="08121000"] way[length(prop("opennwb-boundary-territories"))=6],
@@ -42647,9 +42810,10 @@ relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindes
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="06611000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09762000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09763000"] way[length(prop("opennwb-boundary-territories"))=6],
-relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="01002000"] way[length(prop("opennwb-boundary-territories"))=6],
-relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07111000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05315000"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="01002000"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05154036"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07111000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05114000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07313000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09261000"] way[length(prop("opennwb-boundary-territories"))=6],
@@ -42666,8 +42830,8 @@ relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindes
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09162000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05515000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="01004000"] way[length(prop("opennwb-boundary-territories"))=6],
-relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07316000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09564000"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07316000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05119000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="06413000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="03403000"] way[length(prop("opennwb-boundary-territories"))=6],
@@ -42693,6 +42857,7 @@ relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindes
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="08421000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09363000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="16055000"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05170048"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="06414000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="03405000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="03103000"] way[length(prop("opennwb-boundary-territories"))=6],
