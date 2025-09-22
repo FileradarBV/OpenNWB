@@ -20,5 +20,5 @@ Met de juiste tagging kunnen de volgende Franse wegbeheerders worden onderscheid
 * 12 wegbeherende diensten van de [Franse Staat](../road-operators/landen.md);
 * 4 wegbeherende diensten van de [gewesten](../road-operators/gewesten.md);
 * [Routes de Guadeloupe](../road-operators/other.md);
-* [bijzondere Franse gemeente Parijs](../road-operators/gemeenten.md);
+* 7 [gemeenten](../road-operators/gemeenten.md);
 * [andere wegbeheerders](../road-operators/other.md).

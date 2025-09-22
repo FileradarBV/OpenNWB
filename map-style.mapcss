@@ -9620,6 +9620,32 @@ way[is_prop_set("opennwb-info")]["operator"="Commune de Wanze"][prop("opennwb-op
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
+way[is_prop_set("opennwb-info")]["operator"="Commune de Warneton"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="Commune de Warneton"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Waasten";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["operator"="Commune de Wasseiges"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Commune de Wasseiges"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
@@ -30082,6 +30108,32 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Ciney"][prop("opennwb-oper
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
+way[is_prop_set("opennwb-info")]["operator"="Ville de Comines"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="Ville de Comines"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Komen";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["operator"="Ville de Comines-Warneton"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Comines-Warneton"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
@@ -30235,6 +30287,32 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Dudelange"][prop("opennwb-
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-cyclestreet: "30";
 	opennwb-maxspeed-backward-urbancyclestreet: "30";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Ville de Dunkerque"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="Ville de Dunkerque"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Duinkerke";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
@@ -30706,6 +30784,32 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Leuze-en-Hainaut"][prop("o
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
+way[is_prop_set("opennwb-info")]["operator"="Ville de Lille"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="Ville de Lille"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Rijsel";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["operator"="Ville de Limbourg"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Limbourg"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
@@ -31174,6 +31278,32 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Saint-Hubert"][prop("openn
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
+way[is_prop_set("opennwb-info")]["operator"="Ville de Saint-Omer"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="Ville de Saint-Omer"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Sint-Omaars";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
 way[is_prop_set("opennwb-info")]["operator"="Ville de Sambreville"][prop("opennwb-operator-country")="🇧🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Ville de Sambreville"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
@@ -31301,6 +31431,32 @@ way[is_prop_set("opennwb-info")]["operator"="Ville de Stavelot"][prop("opennwb-o
 	opennwb-maxspeed-backward-urban: "50";
 	opennwb-maxspeed-backward-cyclestreet: "30";
 	opennwb-maxspeed-backward-urbancyclestreet: "30";
+	opennwb-maxspeed-backward-livingstreet: "20";
+	opennwb-maxspeed-backward-urbanlivingstreet: "20";
+}
+way[is_prop_set("opennwb-info")]["operator"="Ville de Strasbourg"][prop("opennwb-operator-country")="🇫🇷"],
+way[is_prop_set("opennwb-info")]["operator"="Ville de Strasbourg"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Straatsburg";
+	opennwb-operator-country: "🇫🇷";
+	opennwb-maxspeed-forward-motorway: "130";
+	opennwb-maxspeed-forward-urbanmotorway: "50";
+	opennwb-maxspeed-forward-motorroad: "80";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "80";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "80";
+	opennwb-maxspeed-forward-urbancyclestreet: "50";
+	opennwb-maxspeed-forward-livingstreet: "20";
+	opennwb-maxspeed-forward-urbanlivingstreet: "20";
+	opennwb-maxspeed-backward-motorway: "130";
+	opennwb-maxspeed-backward-urbanmotorway: "50";
+	opennwb-maxspeed-backward-motorroad: "80";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "80";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "80";
+	opennwb-maxspeed-backward-urbancyclestreet: "50";
 	opennwb-maxspeed-backward-livingstreet: "20";
 	opennwb-maxspeed-backward-urbanlivingstreet: "20";
 }
@@ -41232,11 +41388,47 @@ relation["type"="boundary"]["boundary"="maritime"]["country"="DE"]["border_type"
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE5");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Bondsrepubliek Duitsland");
 }
+relation["type"="boundary"]["ref:INSEE"="59183"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ref:INSEE"="59183"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR0"],
+relation["type"="boundary"]["ref:INSEE"="59183"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Duinkerke");
+}
+relation["type"="boundary"]["ref:INSEE"="59152"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ref:INSEE"="59152"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR0"],
+relation["type"="boundary"]["ref:INSEE"="59152"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Komen");
+}
 relation["type"="boundary"]["ref:INSEE"="75056"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["ref:INSEE"="75056"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR0"],
 relation["type"="boundary"]["ref:INSEE"="75056"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR0");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Parijs");
+}
+relation["type"="boundary"]["ref:INSEE"="59350"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ref:INSEE"="59350"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR0"],
+relation["type"="boundary"]["ref:INSEE"="59350"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Rijsel");
+}
+relation["type"="boundary"]["ref:INSEE"="62765"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ref:INSEE"="62765"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR0"],
+relation["type"="boundary"]["ref:INSEE"="62765"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Sint-Omaars");
+}
+relation["type"="boundary"]["ref:INSEE"="67482"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ref:INSEE"="67482"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR0"],
+relation["type"="boundary"]["ref:INSEE"="67482"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Straatsburg");
+}
+relation["type"="boundary"]["ref:INSEE"="59643"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["ref:INSEE"="59643"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR0"],
+relation["type"="boundary"]["ref:INSEE"="59643"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="FR"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "FR0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Waasten");
 }
 relation["type"="boundary"]["ISO3166-2"="FR-971"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["ISO3166-2"="FR-971"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="FR3"],
@@ -42865,7 +43057,13 @@ relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindes
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05124000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="09663000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="07320000"] way[length(prop("opennwb-boundary-territories"))=6],
-relation[setting("opennwb_operator")]["type"="boundary"]["ref:INSEE"="75056"] way[length(prop("opennwb-boundary-territories"))=6] {
+relation[setting("opennwb_operator")]["type"="boundary"]["ref:INSEE"="59183"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ref:INSEE"="59152"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ref:INSEE"="75056"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ref:INSEE"="59350"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ref:INSEE"="62765"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ref:INSEE"="67482"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["ref:INSEE"="59643"] way[length(prop("opennwb-boundary-territories"))=6] {
 	color: #005ce6;
 	casing-color: #005ce6;
 	text-color: #005ce6;
