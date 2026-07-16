@@ -18,6 +18,7 @@ OpenNWB kan de volgende informatie uit OpenStreetMap weergeven:
   - Rijbaanaanduiding (hoofdrijbaan of hectometerletter)
 * Internationaal E-wegnummer
 * Verkeersregels
+  - ![](countries/highway/WIU.svg) Wegwerkzaamheden
   - Wegcategorie
     - ![](countries/highway/ASW.svg) Autosnelweg
     - ![](countries/highway/AW.svg) Autoweg

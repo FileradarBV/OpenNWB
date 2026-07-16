@@ -13,6 +13,12 @@ setting::opennwb_operator {
 settings::opennwb_traffic {
 	label: "Verkeersregels";
 }
+setting::opennwb_roadworks {
+	type: boolean;
+	label: "Wegwerkzaamheden";
+	default: false;
+	group: "opennwb_traffic";
+}
 setting::opennwb_highway {
 	type: boolean;
 	label: "Wegcategorie";
@@ -132,6 +138,8 @@ way[is_prop_set("opennwb-info")] {
 	opennwb-operator-country: "";
 	opennwb-operator-color: #8f9695;
 	opennwb-operator-text-color: #4e5451;
+	opennwb-roadworks-color: #8f9695;
+	opennwb-roadworks-code-color: #4e5451;
 	opennwb-highway-color: #8f9695;
 	opennwb-highway-code-color: #4e5451;
 	opennwb-urban-color: #8f9695;
@@ -33357,6 +33365,25 @@ way[is_prop_set("opennwb-info")]["zone:traffic:left"="DE:urban"] {
 	opennwb-motorway-backward: false;
 	opennwb-urban-left: true;
 }
+way[is_prop_set("opennwb-info")]["hazard"~="roadworks"] {
+	opennwb-roadworks-forward: "WIU";
+	opennwb-roadworks-backward: "WIU";
+}
+way[is_prop_set("opennwb-info")]["hazard:forward"~="roadworks"] {
+	opennwb-roadworks-forward: "WIU";
+}
+way[is_prop_set("opennwb-info")]["hazard:backward"~="roadworks"] {
+	opennwb-roadworks-backward: "WIU";
+}
+way[is_prop_set("opennwb-roadworks-forward")],
+way[is_prop_set("opennwb-roadworks-backward")] {
+	opennwb-roadworks-code: concat(prop("opennwb-roadworks-backward"), "|", prop("opennwb-roadworks-forward"));
+	opennwb-roadworks-color: #fad20a;
+	opennwb-roadworks-code-color: #000000;
+}
+way[is_prop_set("opennwb-roadworks-forward")][prop("opennwb-roadworks-backward")=prop("opennwb-roadworks-forward")] {
+	opennwb-roadworks-code: prop("opennwb-roadworks-forward");
+}
 way[is_prop_set("opennwb-info")]["motorway"="yes"] {
 	opennwb-motorway-forward: true;
 	opennwb-motorway-backward: true;
@@ -33519,7 +33546,7 @@ way[prop("opennwb-highway-code")="FS"] {
 	opennwb-highway-code-color: #ffffff;
 }
 way[prop("opennwb-highway-code")="erf"] {
-	opennwb-highway-color: #fad20a;
+	opennwb-highway-color: #e15500;
 	opennwb-highway-code-color: #000000;
 }
 way[is_prop_set("opennwb-info")]["urban"="yes"] {
@@ -33879,18 +33906,22 @@ way[regexp_test("\\d+", prop("opennwb-carriageway-code"))] {
 	opennwb-carriageway-color: #c1121c;
 	opennwb-carriageway-code-color: #f7fbf5;
 }
-way[is_prop_set("opennwb-street-text")][!setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_urban")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
+way[is_prop_set("opennwb-street-text")][!setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_roadworks")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_urban")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
 	opennwb-info: concat(prop("opennwb-street-text"), " ");
 }
-way[is_prop_set("opennwb-operator-text")][setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_urban")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
+way[is_prop_set("opennwb-operator-text")][setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_roadworks")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_urban")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
 	opennwb-info: concat(prop("opennwb-operator-text"), " ");
 }
-way[is_prop_set("opennwb-operator-code")][setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_urban")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
+way[is_prop_set("opennwb-operator-code")][setting("opennwb_operator")][!setting("opennwb_surface")][!setting("opennwb_roadworks")][!setting("opennwb_highway")][!setting("opennwb_maxspeed")][!setting("opennwb_urban")][!setting("opennwb_int")][!setting("opennwb_authority")][!setting("opennwb_ref")][!setting("opennwb_carriageway")] {
 	opennwb-info: concat(prop("opennwb-operator-code"), " ");
 	font-weight: bold;
 }
 way[is_prop_set("opennwb-surface-code")][setting("opennwb_surface")] {
 	opennwb-info: concat(prop("opennwb-surface-code"), " ");
+	font-weight: bold;
+}
+way[is_prop_set("opennwb-roadworks-code")][setting("opennwb_roadworks")] {
+	opennwb-info: concat(prop("opennwb-info"), prop("opennwb-roadworks-code"), " ");
 	font-weight: bold;
 }
 way[is_prop_set("opennwb-highway-code")][setting("opennwb_highway")] {
@@ -33923,11 +33954,15 @@ way[is_prop_set("opennwb-carriageway-code")][setting("opennwb_carriageway")] {
 	opennwb-info: concat(prop("opennwb-info"), prop("opennwb-carriageway-code"), " ");
 	font-weight: bold;
 }
+way[is_prop_set("opennwb-info")][setting("opennwb_roadworks")] {
+	color: prop("opennwb-roadworks-color");
+	text-color: prop("opennwb-roadworks-code-color");
+}
 way[is_prop_set("opennwb-info")][setting("opennwb_maxspeed")] {
 	color: prop("opennwb-maxspeed-any-color");
 	text-color: prop("opennwb-maxspeed-code-color");
 }
-way[is_prop_set("opennwb-info")][setting("opennwb_maxspeed")][!setting("opennwb_highway")][!setting("opennwb_urban")] {
+way[is_prop_set("opennwb-info")][setting("opennwb_maxspeed")][!setting("opennwb_roadworks")][!setting("opennwb_highway")][!setting("opennwb_urban")] {
 	color: prop("opennwb-maxspeed-color");
 }
 way[is_prop_set("opennwb-info")][setting("opennwb_highway")][!setting("opennwb_maxspeed")],
@@ -33947,6 +33982,10 @@ way[is_prop_set("opennwb-info")][setting("opennwb_highway")][prop("opennwb-highw
 way[is_prop_set("opennwb-info")][setting("opennwb_highway")][prop("opennwb-highway-code")="erf"] {
 	color: prop("opennwb-highway-color");
 	text-color: prop("opennwb-highway-code-color");
+}
+way[is_prop_set("opennwb-roadworks-code")][setting("opennwb_roadworks")] {
+	color: prop("opennwb-roadworks-color");
+	text-color: prop("opennwb-roadworks-code-color");
 }
 way[is_prop_set("opennwb-info")][setting("opennwb_surface")] {
 	color: prop("opennwb-surface-color");
