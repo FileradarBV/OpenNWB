@@ -27742,6 +27742,32 @@ way[is_prop_set("opennwb-info")]["operator"="Stadt Hamm"][prop("opennwb-operator
 	opennwb-maxspeed-backward-livingstreet: "stapvoets";
 	opennwb-maxspeed-backward-urbanlivingstreet: "stapvoets";
 }
+way[is_prop_set("opennwb-info")]["operator"="Stadt Hanau"][prop("opennwb-operator-country")="🇩🇪"],
+way[is_prop_set("opennwb-info")]["operator"="Stadt Hanau"][prop("opennwb-operator-country")=""] {
+	opennwb-operator-color: #005ce6;
+	opennwb-operator-text: "Hanau";
+	opennwb-operator-country: "🇩🇪";
+	opennwb-maxspeed-forward-motorway: "∞";
+	opennwb-maxspeed-forward-urbanmotorway: "∞";
+	opennwb-maxspeed-forward-motorroad: "100";
+	opennwb-maxspeed-forward-urbanmotorroad: "50";
+	opennwb-maxspeed-forward-default: "100";
+	opennwb-maxspeed-forward-urban: "50";
+	opennwb-maxspeed-forward-cyclestreet: "30";
+	opennwb-maxspeed-forward-urbancyclestreet: "30";
+	opennwb-maxspeed-forward-livingstreet: "stapvoets";
+	opennwb-maxspeed-forward-urbanlivingstreet: "stapvoets";
+	opennwb-maxspeed-backward-motorway: "∞";
+	opennwb-maxspeed-backward-urbanmotorway: "∞";
+	opennwb-maxspeed-backward-motorroad: "100";
+	opennwb-maxspeed-backward-urbanmotorroad: "50";
+	opennwb-maxspeed-backward-default: "100";
+	opennwb-maxspeed-backward-urban: "50";
+	opennwb-maxspeed-backward-cyclestreet: "30";
+	opennwb-maxspeed-backward-urbancyclestreet: "30";
+	opennwb-maxspeed-backward-livingstreet: "stapvoets";
+	opennwb-maxspeed-backward-urbanlivingstreet: "stapvoets";
+}
 way[is_prop_set("opennwb-info")]["operator"="Stadt Heidelberg"][prop("opennwb-operator-country")="🇩🇪"],
 way[is_prop_set("opennwb-info")]["operator"="Stadt Heidelberg"][prop("opennwb-operator-country")=""] {
 	opennwb-operator-color: #005ce6;
@@ -40887,6 +40913,12 @@ relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05915000"] way[!i
 	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
 	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Hamm");
 }
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="06415000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="06415000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
+relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="06415000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
+	opennwb-boundary-territories: concat(prop("opennwb-boundary-territories"), "DE0");
+	opennwb-boundary-text: concat(prop("opennwb-boundary-text"), " + + + Hanau");
+}
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="08221000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][!is_prop_set("opennwb-boundary-territories")],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="08221000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3)="DE0"],
 relation["type"="boundary"]["de:amtlicher_gemeindeschluessel"="08221000"] way[!is_prop_set("opennwb-info")][setting("opennwb_operator")][substring(prop("opennwb-boundary-territories"), length(prop("opennwb-boundary-territories")) - 3, length(prop("opennwb-boundary-territories")) - 1)!="DE"] {
@@ -42991,6 +43023,7 @@ relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindes
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="15002000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="03252006"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05915000"] way[length(prop("opennwb-boundary-territories"))=6],
+relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="06415000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="08221000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="08121000"] way[length(prop("opennwb-boundary-territories"))=6],
 relation[setting("opennwb_operator")]["type"="boundary"]["de:amtlicher_gemeindeschluessel"="05916000"] way[length(prop("opennwb-boundary-territories"))=6],

@@ -410,6 +410,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 91059 | <sub>Waalse gem.</sub> | [Hamois](https://www.openstreetmap.org/relation/2320775) | `Commune de Hamois` |
 | 🇧🇪 72037 | <sub>Vlaamse gem.</sub> | [Hamont-Achel](https://www.openstreetmap.org/relation/1247306) | `Stad Hamont-Achel` |
 | 🇧🇪 56086 | <sub>Waalse gem.</sub> | [Ham-sur-Heure-Nalinnes](https://www.openstreetmap.org/relation/2018722) | `Commune de Ham-sur-Heure-Nalinnes` |
+| 🇩🇪 06415000 | <sub>Duitse gem.</sub> | [Hanau](https://www.openstreetmap.org/relation/535895) | `Stadt Hanau` |
 | 🇧🇪 64034 | <sub>Waalse gem.</sub> | [Hannuit](https://www.openstreetmap.org/relation/2362038) | `Ville de Hannut` |
 | 🇳🇱 gm0160 | <sub>Nederlandse gem.</sub> | [Hardenberg](https://www.openstreetmap.org/relation/414710) | `Gemeente Hardenberg` |
 | 🇳🇱 gm0243 | <sub>Nederlandse gem.</sub> | [Harderwijk](https://www.openstreetmap.org/relation/409727) | `Gemeente Harderwijk` |
