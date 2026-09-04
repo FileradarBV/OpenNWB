@@ -430,7 +430,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇧🇪 73022 | <sub>Vlaamse gem.</sub> | [Heers](https://www.openstreetmap.org/relation/1244997) | `Gemeente Heers` |
 | 🇳🇱 gm1658 | <sub>Nederlandse gem.</sub> | [Heeze-Leende](https://www.openstreetmap.org/relation/2078296) | `Gemeente Heeze-Leende` |
 | 🇱🇺 0405 | <sub>Luxemburgse gem.</sub> | [Heffingen](https://www.openstreetmap.org/relation/1333119) | `Commune de Heffingen` |
-| 🇩🇪 08221000 | <sub>Duitse gem.</sub> | [Heidelberg](https://www.openstreetmap.org/relation/285864) | `Stadt Heidelberg` |
+| 🇩🇪 08221000 | <sub>Duitse gem.</sub> | [Heidelberg](https://www.openstreetmap.org/relation/62487) | `Stadt Heidelberg` |
 | 🇩🇪 08121000 | <sub>Duitse gem.</sub> | [Heilbronn](https://www.openstreetmap.org/relation/62751) | `Stadt Heilbronn` |
 | 🇳🇱 gm0399 | <sub>Nederlandse gem.</sub> | [Heiloo](https://www.openstreetmap.org/relation/47479) | `Gemeente Heiloo` |
 | 🇧🇪 12014 | <sub>Vlaamse gem.</sub> | [Heist-op-den-Berg](https://www.openstreetmap.org/relation/1178384) | `Gemeente Heist-op-den-Berg` |
@@ -947,7 +947,7 @@ In dat geval blijkt uit de geografische context welke gemeente er wordt bedoeld.
 | 🇫🇷 67482 | <sub>Franse gem.</sub> | [Straatsburg](https://www.openstreetmap.org/relation/71033) | `Ville de Strasbourg` |
 | 🇱🇺 0309 | <sub>Luxemburgse gem.</sub> | [Strassen](https://www.openstreetmap.org/relation/407944) | `Commune de Strassen` |
 | 🇩🇪 09263000 | <sub>Duitse gem.</sub> | [Straubing](https://www.openstreetmap.org/relation/62636) | `Stadt Straubing` |
-| 🇩🇪 08111000 | <sub>Duitse gem.</sub> | [Stuttgart](https://www.openstreetmap.org/relation/2793104) | `Stadt Stuttgart` |
+| 🇩🇪 08111000 | <sub>Duitse gem.</sub> | [Stuttgart](https://www.openstreetmap.org/relation/62375) | `Stadt Stuttgart` |
 | 🇳🇱 gm1900 | <sub>Nederlandse gem.</sub> | [Súdwest-Fryslân](https://www.openstreetmap.org/relation/1357943) | `Gemeente Súdwest-Fryslân` |
 | 🇩🇪 16054000 | <sub>Duitse gem.</sub> | [Suhl](https://www.openstreetmap.org/relation/62450) | `Stadt Suhl` |
 | 🇱🇺 0901 | <sub>Luxemburgse gem.</sub> | [Tandel](https://www.openstreetmap.org/relation/1337083) | `Commune de Tandel` |
