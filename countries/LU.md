@@ -11,7 +11,7 @@ Maximumsnelheden uit `maxspeed`-tags worden in Luxemburg alleen weergegeven als 
 | ![Woongebied (erf)](highway/erf.svg) | ![20](maxspeed/20.svg) | ![20](maxspeed/20.svg) |
 | ![Fietsstraat (FS)](highway/FS.svg) | ![30](maxspeed/30.svg) | ![30](maxspeed/30.svg) |
 | Andere | ![50](maxspeed/50.svg) | ![90](maxspeed/90.svg) |
-| ![Autosnelweg (ASW)](highway/ASW.svg) | ![130](maxspeed/130.svg) | ![130](maxspeed/130.svg) |
+| ![Autosnelweg (ASW)](highway/ASW.svg) | ![50](maxspeed/50.svg) | ![130](maxspeed/130.svg) |
 
 Wegbeheerders
 -------------
