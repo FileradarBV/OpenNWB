@@ -18,3 +18,5 @@ Met de juiste tagging kunnen de volgende Curaçaose wegbeheerders worden ondersc
 
 * Openbare Werken ([Land Curaçao](../road-operators/landen.md));
 * [andere wegbeheerders](../road-operators/other.md).
+
+De eventueel bijbehorende `operator:addr:country`-tag is `CW`.

@@ -43,3 +43,5 @@ Met de juiste tagging kunnen de volgende Belgische wegbeheerders worden ondersch
 * 10 [provincies](../road-operators/provincies.md);
 * 565 [gemeenten](../road-operators/gemeenten.md);
 * [andere wegbeheerders](../road-operators/other.md).
+
+De eventueel bijbehorende `operator:addr:country`-tag is `BE`.

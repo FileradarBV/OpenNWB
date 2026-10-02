@@ -17,3 +17,5 @@ Met de juiste tagging kunnen de volgende Sint Maartense wegbeheerders worden ond
 
 * Infrastructuurbeheer ([Land Sint Maarten](../road-operators/landen.md));
 * [andere wegbeheerders](../road-operators/other.md).
+
+De eventueel bijbehorende `operator:addr:country`-tag is `SX`.

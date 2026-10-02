@@ -22,3 +22,5 @@ Met de juiste tagging kunnen de volgende Duitse wegbeheerders worden onderscheid
 * [Die Autobahn GmbH des Bundes](../road-operators/other.md);
 * 110 [gemeenten](../road-operators/gemeenten.md);
 * [andere wegbeheerders](../road-operators/other.md).
+
+De eventueel bijbehorende `operator:addr:country`-tag is `DE`.

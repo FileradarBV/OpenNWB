@@ -22,3 +22,5 @@ Met de juiste tagging kunnen de volgende Franse wegbeheerders worden onderscheid
 * [Routes de Guadeloupe](../road-operators/other.md);
 * 7 [gemeenten](../road-operators/gemeenten.md);
 * [andere wegbeheerders](../road-operators/other.md).
+
+De eventueel bijbehorende `operator:addr:country`-tag is `FR`, `BL`, `GF`, `GP`, `MF`, `MQ`, `NC`, `PF`, `PM`, `RE`, `TF`, `WF` of `YT`.

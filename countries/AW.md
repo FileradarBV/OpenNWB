@@ -17,3 +17,5 @@ Met de juiste tagging kunnen de volgende Arubaanse wegbeheerders worden ondersch
 
 * Dienst Openbare Werken ([Land Aruba](../road-operators/landen.md));
 * [andere wegbeheerders](../road-operators/other.md).
+
+De eventueel bijbehorende `operator:addr:country`-tag is `AW`.

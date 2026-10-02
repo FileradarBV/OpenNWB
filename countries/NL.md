@@ -41,3 +41,5 @@ Met de juiste tagging kunnen de volgende Nederlandse wegbeheerders worden onders
 * 21 [waterschappen](../road-operators/waterschappen.md);
 * 345 [gemeenten](../road-operators/gemeenten.md);
 * [andere wegbeheerders](../road-operators/other.md).
+
+De eventueel bijbehorende `operator:addr:country`-tag is `NL` of `BQ`.

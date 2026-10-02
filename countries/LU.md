@@ -21,3 +21,5 @@ Met de juiste tagging kunnen de volgende Luxemburgse wegbeheerders worden onders
 * Administratie Bruggen en Wegen ([Staat van het Groothertogdom Luxemburg](../road-operators/landen.md));
 * 100 [gemeenten](../road-operators/gemeenten.md);
 * [andere wegbeheerders](../road-operators/other.md).
+
+De eventueel bijbehorende `operator:addr:country`-tag is `LU`.
