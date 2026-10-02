@@ -258,6 +258,9 @@ way[is_prop_set("opennwb-info")]["zone:traffic"="FR:rural"],
 way[is_prop_set("opennwb-info")]["zone:traffic"="FR:urban"] {
 	opennwb-operator-country: "🇫🇷";
 }
+way[is_prop_set("opennwb-info")]["operator:addr:country"] {
+	opennwb-operator-country: "-";
+}
 way[is_prop_set("opennwb-info")]["operator:addr:country"="NL"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="BQ"] {
 	opennwb-operator-country: "🇳🇱";
@@ -294,96 +297,6 @@ way[is_prop_set("opennwb-info")]["operator:addr:country"="TF"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="WF"],
 way[is_prop_set("opennwb-info")]["operator:addr:country"="YT"] {
 	opennwb-operator-country: "🇫🇷";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="GB"] {
-	opennwb-operator-country: "🇬🇧";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="GG"] {
-	opennwb-operator-country: "🇬🇬";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="JE"] {
-	opennwb-operator-country: "🇯🇪";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="ES"] {
-	opennwb-operator-country: "🇪🇸";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="AD"] {
-	opennwb-operator-country: "🇦🇩";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="MC"] {
-	opennwb-operator-country: "🇲🇨";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="IT"] {
-	opennwb-operator-country: "🇮🇹";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="CH"] {
-	opennwb-operator-country: "🇨🇭";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="AT"] {
-	opennwb-operator-country: "🇦🇹";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="CZ"] {
-	opennwb-operator-country: "🇨🇿";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="PL"] {
-	opennwb-operator-country: "🇵🇱";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="SE"] {
-	opennwb-operator-country: "🇸🇪";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="DK"] {
-	opennwb-operator-country: "🇩🇰";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="VE"] {
-	opennwb-operator-country: "🇻🇪";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="KN"] {
-	opennwb-operator-country: "🇰🇳";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="AG"] {
-	opennwb-operator-country: "🇦🇬";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="AI"] {
-	opennwb-operator-country: "🇦🇮";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="DO"] {
-	opennwb-operator-country: "🇩🇴";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="US"],
-way[is_prop_set("opennwb-info")]["operator:addr:country"="AS"],
-way[is_prop_set("opennwb-info")]["operator:addr:country"="GU"],
-way[is_prop_set("opennwb-info")]["operator:addr:country"="MP"],
-way[is_prop_set("opennwb-info")]["operator:addr:country"="PR"],
-way[is_prop_set("opennwb-info")]["operator:addr:country"="UM"],
-way[is_prop_set("opennwb-info")]["operator:addr:country"="VI"] {
-	opennwb-operator-country: "🇺🇸";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="MS"] {
-	opennwb-operator-country: "🇲🇸";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="DM"] {
-	opennwb-operator-country: "🇩🇲";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="LC"] {
-	opennwb-operator-country: "🇱🇨";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="BB"] {
-	opennwb-operator-country: "🇧🇧";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="SR"] {
-	opennwb-operator-country: "🇸🇷";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="BR"] {
-	opennwb-operator-country: "🇧🇷";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="MU"] {
-	opennwb-operator-country: "🇲🇺";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="MG"] {
-	opennwb-operator-country: "🇲🇬";
-}
-way[is_prop_set("opennwb-info")]["operator:addr:country"="KM"] {
-	opennwb-operator-country: "🇰🇲";
 }
 way[is_prop_set("opennwb-info")]["operator"] {
 	opennwb-operator-color: #b30ffe;
